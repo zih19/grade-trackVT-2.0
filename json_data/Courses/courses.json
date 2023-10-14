@@ -1,0 +1,131 @@
+[
+  {
+    "major": "AOE",
+    "courses": ["AOE2024", "AOE2054", "AOE2074", "AOE2104", 
+                "AOE2114", "AOE2204", "AOE2664", "AOE3014",
+                "AOE3014", "AOE3034", "AOE3044", "AOE3054",
+                "AOE3094", "AOE3114", "AOE3124", "AOE3134",
+                "AOE3144", "AOE3154", "AOE3164", "AOE3214",
+                "AOE3224", "AOE3234", "AOE3264", "AOE3354",
+                "AOE3564", "AOE4004", "AOE4024", "AOE4054",
+                "AOE4064", "AOE4065", "AOE4066", "AOE4084",
+                "AOE4105", "AOE4106", "AOE4114", "AOE4124",
+                "AOE4154", "AOE4165", "AOE4166", "AOE4174",
+                "AOE4205", "AOE4206", "AOE4234", "AOE4244",
+                "AOE4254", "AOE4264", "AOE4265", "AOE4266",
+                "AOE4274", "AOE4324", "AOE4334", "AOE4344",
+                "AOE4404", "AOE4434", "AOE4454", "AOE4474",
+                "AOE4514", "AOE4604", "AOE4624", "AOE4634",
+                "AOE4654", "AOE4674", "AOE4804", "AOE4814",
+                "AOE4864"]
+  },
+  {
+    "major": "BC",
+    "courses": []
+  },
+  {
+    "major": "BMES",
+    "courses": []
+  },
+  {
+    "major": "BSE",
+    "courses": ["BSE2004", "BSE2304", "BSE3144", "BSE3154",
+                "BSE3504", "BSE3504", "BSE4125", "BSE4126",
+                "BSE4224", "BSE4304", "BSE4324", "BSE4344",
+                "BSE4524", "BSE4534", "BSE4544", "BSE4564",
+                "BSE4604"]
+  },
+  {
+    "major": "CEE",
+    "courses": []
+  },
+  {
+    "major": "CEM", 
+    "courses": []
+  },
+  {
+    "major": "CHE",
+    "courses": []
+  },
+  {
+    "major": "CS", 
+    "courses": ["CS1044", "CS1054", "CS1064", "CS1114", 
+                "CS2064", "CS2104", "CS2114", "CS2144",
+                "CS2505", "CS2506", "CS3114", "CS3214",
+                "CS3304", "CS3314", "CS3604", "CS3654",
+                "CS3704", "CS3724", "CS3744", "CS3754",
+                "CS3824", "CS4104", "CS4114", "CS4124",
+                "CS4134", "CS4134", "CS4144", "CS4164",
+                "CS4204", "CS4224", "CS4234", "CS4254",
+                "CS4264", "CS4274", "CS4284", "CS4304",
+                "CS4414", "CS4504", "CS4604", "CS4624",
+                "CS4634", "CS4644", "CS4654", "CS4664",
+                "CS4704", "CS4774", "CS4784", "CS4804",
+                "CS4824", "CS4884"]
+  },
+  {
+    "major": "ECE",
+    "courses": ["ECE1004", "ECE1574", "ECE2004", "ECE2014",
+                "ECE2024", "ECE2054", "ECE2074", "ECE2164",
+                "ECE2204", "ECE2214", "ECE2274", "ECE2500",
+                "ECE2500", "ECE2504", "ECE2514", "ECE2524",
+                "ECE2534", "ECE2544", "ECE2564", "ECE2574",
+                "ECE2704", "ECE2714", "ECE2804", "ECE3004",
+                "ECE3054", "ECE3074", "ECE3104", "ECE3105",
+                "ECE3106", "ECE3134", "ECE3154", "ECE3174",
+                "ECE3204", "ECE3214", "ECE3254", "ECE3274",
+                "ECE3304", "ECE3354", "ECE3504", "ECE3514",
+                "ECE3524", "ECE3544", "ECE3564", "ECE3574",
+                "ECE3604", "ECE3704", "ECE3714", "ECE4104",
+                "ECE4114", "ECE4124", "ECE4134", "ECE4144",
+                "ECE4154", "ECE4164", "ECE4194", "ECE4205",
+                "ECE4220", "ECE4224", "ECE4254", "ECE4284",
+                "ECE4304", "ECE4324", "ECE4334", "ECE4354",
+                "ECE4364", "ECE4414", "ECE4424", "ECE4504",
+                "ECE4514", "ECE4520", "ECE4524", "ECE4525",
+                "ECE4530", "ECE4534", "ECE4540", "ECE4550",
+                "ECE4554", "ECE4560", "ECE4564", "ECE4574",
+                "ECE4580", "ECE4584", "ECE4605", "ECE4614",
+                "ECE4624", "ECE4634", "ECE4644", "ECE4664",
+                "ECE4664", "ECE4684", "ECE4704", "ECE4805",
+                "ECE4806"]
+  },
+  {
+    "major": "ESM",
+    "courses": ["ESM2074", "ESM2104", "ESM2204", "ESM2304",
+                "ESM3024", "ESM3034", "ESM3054", "ESM3064",
+                "ESM3114", "ESM3124", "ESM3134", "ESM3154",
+                "ESM3234", "ESM3334", "ESM3444", "ESM3704",
+                "ESM4015", "ESM4016", "ESM4024", "ESM4044",
+                "ESM4105", "ESM4106", "ESM4114", "ESM4194",
+                "ESM4204", "ESM4224", "ESM4246", "ESM4304",
+                "ESM4734"]
+  },
+  {
+    "major": "ISE",
+    "courses": ["ISE2004", "ISE2014", "ISE2024", "ISE2034",
+                "ISE2204", "ISE2214", "ISE2404", "ISE3004",
+                "ISE3034", "ISE3204", "ISE3214", "ISE3414",
+                "ISE3424", "ISE3434", "ISE3614", "ISE3624",
+                "ISE4004", "ISE4005", "ISE4006", "ISE4015",
+                "ISE4204", "ISE4214", "ISE4264", "ISE4304",
+                "ISE4404", "ISE4414", "ISE4424", "ISE4434",
+                "ISE4624", "ISE4644", "ISE4654", "ISE4804"]
+  },
+  {
+    "major": "ME",
+    "courses": []
+  },
+  {
+    "major": "MINE",
+    "courses": []
+  },
+  {
+    "major": "MSE",
+    "courses": []
+  },
+  {
+    "major": "NSEG",
+    "courses":[]
+  }
+]
