@@ -34,7 +34,17 @@
   },
   {
     "major": "BMES",
-    "courses": []
+    "courses": ["BMES2004", "BMES2014", "BMES2104", "BMES2984",
+                "BMES3024", "BMES3034", "BMES3124", "BMES3134", 
+                "BMES3144", "BMES3154", "BMES3184", "BMES3984",
+                "BMES4015", "BMES4016", "BMES4064", "BMES4134",
+                "BMES4154", "BMES4974", "BMES4984", "BMES4994",
+                "BMES5024", "BMES5044", "BMES5054", "BMES5064",
+                "BMES5074", "BMES5124", "BMES5154", "BMES5164",
+                "BMES5174", "BMES5184", "BMES5214", "BMES5234",
+                "BMES5304", "BMES5305", "BMES5314", "BMES5514",
+                "BMES5574", "BMES5604", "BMES5614", "BMES5714",
+                "BMES5984", "BMES6064", "BMES6194"]
   },
   {
     "major": "BSE",
