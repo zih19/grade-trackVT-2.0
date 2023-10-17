@@ -1,62 +1,47 @@
 [
    {
-      "id": 1,
       "major": "AOE"
    },
    {
-      "id": 2,
       "major": "BC"
    },
    {
-      "id": 3,
       "major": "BMES"
    },
    {
-      "id": 4,
       "major": "CEE" 
    },
    {
-      "id": 5,
       "major": "BSE"
    },
    {
-      "id": 6,
       "major": "CEM"
    },
    {
-      "id": 7,
       "major": "CHE"
    },
    {
-      "id": 8,
       "major": "CS"
    },
    {
-      "id": 9,
       "major": "ECE"
    },
    {
-      "id": 10,
       "major": "ESM"
    },
    {
-      "id": 11,
       "major": "ISE"
    },
    {
-      "id": 12,
       "major": "ME"
    },
    {
-      "id": 13,
       "major": "MINE"
    },
    {
-      "id": 14,
       "major": "MSE"
    },
    {
-      "id": 15,
       "major": "NSEG"
    }
 ]
