@@ -1,0 +1,740 @@
+[
+    {
+        "Course":{
+            "Title" : "CS1044 Intro Prog in C",
+            "Description:" : "Fundamental concepts underlying software solutions of many problems. Structured data, statement sequencing, logic control, input/output, and functions. The course will be taught using a structured approach to programming."
+
+        },
+        "GPA": 3.19,
+        "Numbers":{
+            "Enrolled": 691,
+            "Withdrawn": 23
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["K. Stevens"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title": "CS1054 Intro to Programming in Java",
+            "Description": "This course provides an introduction to object oriented programming using the Java language. Fundamental concepts underlying programming and software solutions to many problems. Structured data, statement sequencing, logic control, classes, objects, methods, instantiation of classes, sending messages to objects."
+        },
+        "GPA": 2.87,
+        "Numbers":{
+            "Enrolled": 1032,
+            "Withdrawn": 80
+        },
+        "Credit(s)": 3,
+        "Instructors": ["N. Barnette", "H. Hillman", "L. Gusukuma", "M. Farghally", "J. Lewis"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title": "CS1064 Intro to Programming in Python",
+            "Description": "Developing computational problem solving skills and software solutions to a variety of multimedia, scientific, and engineering problems using the Python programming language. Statement sequencing, conditional program flow, iteration, functional decomposition, and recursion. Simple numeric data types, strings, lists, list comprehensions, sets, and dictionaries. Input/output of file-based data, content obtained from the web, and manipulation of digital images. Basic object-oriented concepts, classes, objects, and methods."
+        },
+        "GPA": 3.58,
+        "Numbers":{
+             "Enrolled": 5846,
+             "Withdrawn": 87
+        },
+        "Credit(s)": 3,
+        "Instructors": ["J. Davis", "E. Powell", "J. Wenskovitch", "M. Ahmadian", "J. Lewis"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None" 
+        }
+    },
+    {
+        "Course":{
+            "Title": "CS1114 Intro to Software Design",
+            "Description": "Fundamental concepts of programming from an object-oriented perspective. Basic software engineering principles and programming skills in a programming language that supports the object-oriented paradigm. Simple data types, control structures, array and string data structures, basic algorithms, testing and debugging. A basic model of the computer as an abstract machine. Modeling and problem-solving skills applicable to programming at this level."
+        },
+        "GPA": 2.59,
+        "Numbers":{
+             "Enrolled": 3641,
+             "Withdrawn": 710
+        },
+        "Credit(s)": 3,
+        "Instructors": ["A. Senger", "J. Davis", "N. Barnette", "S. Cao", "L. Kotut", 
+                        "H. Hillman", "A. Feng", "M. Irvin", "S. Edwards"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None" 
+        }
+    },
+    {
+        "Course":{
+            "Title": "CS2064 Intermediate Prog in Python",
+            "Description": "CS 2064 (Intermediate Programming in Python) is a second-level introduction to programming in Python, building on the computational problem-solving skills and Python language fundamentals introduced in the first course in the series.  Topics include advanced uses of control flow and data processing, data structures, and computational techniques, as well as introducing object-oriented programming and modern data science pipelines.  Learners will be able to create, interpret, and debug complex programs.  Problems and projects in the course will be contextualized for scientists and engineers.  By the end of the course, students should acquire the skills necessary to successfully implement Python programs in data science and production environments, produce object-oriented solutions to complex problems, and build a strong understanding of the ethical implications of technological change."
+        },
+        "GPA": 3.19,
+        "Numbers":{
+             "Enrolled": 270,
+             "Withdrawn": 9
+        },
+        "Credit(s)": 3,
+        "Instructors": ["J. Wenskovitch", "P. Sullivan"],
+        "Requirements":{
+            "Prerequisites": ["CS1064"],
+            "Corequisites": "None" 
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS2104 Intro to Problem Solving in CS",
+            "Description": "This course introduces the student to a broad range of heuristics for solving problems in a range of settings. Emphasis on problem-solving techniques that aid programmers and computer scientists. Heuristics for solving problems ''in the small'' (classical math and word problems), generating potential solutions to ''real-life'' problems encountered in the profession, and problem solving in teams."
+
+        },
+        "GPA": 3.48,
+        "Numbers":{
+            "Enrolled": 2248,
+            "Withdrawn": 28
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["O. Emebo", "E. Powell", "F. Poursardar" ,"M. Ellis", 
+                          "L. Kotut", "S. Cao", "A. Esakia", "D. Mcpherson"],
+        "Requirements":{
+            "Prerequisites": ["MATH1225", "CS1114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS2114 Software Des & Data Structures",
+            "Description": "A programming-intensive exploration of software design concepts and implementation techniques. Builds on knowledge of fundamental object-oriented programming. Advanced object-oriented software design, algorithm development and analysis, and classic data structures. Includes a team-based, semester-long software project."
+
+        },
+        "GPA": 3.14,
+        "Numbers":{
+            "Enrolled": 4374,
+            "Withdrawn": 194
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. Haqq", "M. Ellis", "P. Sullivan", "E. Abdelrahman", "M. Farghally", 
+                          "A. Esakia", "O. Emebo", "N. Barnette"],
+        "Requirements":{
+            "Prerequisites": ["CS1114"],
+            "Corequisites": "None"
+        }        
+    },
+    {
+        "Course":{
+            "Title" : "CS2144 Competitive Problem Solving I",
+            "Description": "Fundamentals of algorithms, data structures, and implementation techniques, taught in a setting that combines collaborative practice with competitive exercise. Students practice to solve problems using a computer, which are judged by automated evaluation software for correctness and efficiency. Practice with data structures including arrays, lists, maps, and trees, as well as algorithmic strategies including recursion, divide-and-conquer, dynamic programming, search and traversal algorithms, graph representations, and computational geometry. Macro- and micro optimization techniques to improve efficiency are emphasized."
+
+        },
+        "GPA": 3.81,
+        "Numbers":{
+            "Enrolled": 21,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Back"],
+        "Requirements":{
+            "Prerequisites": ["CS1114"],
+            "Corequisites": "None"
+        }
+
+    },
+    {
+        "Course":{
+            "Title" : "CS2164 Foundations Security Environ",
+            "Description": "Introduction to multiple analytical perspectives on contemporary security environments, including political, legal, ethical, technical, environmental and historical and cultural perspectives relative to the conception, design and implementation of security solutions, practices, and policies. Emphasizes applying and analyzing the effectiveness of diverse procedures, tools and policies used in security and privacy solutions, decision-making, risk management and operational policy to mitigate local, national, international and global threats."
+
+        },
+        "GPA": 3.66,
+        "Numbers":{
+            "Enrolled": 281,
+            "Withdrawn": 8
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Soung", "N. Brantly", "E.Villacis", "J.Simpson"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS2505 Introduction to Computer Organization",
+            "Description": "An introduction to the design and operation of digital computers. Works up from the logic gate level to combinational and sequential circuits, information representation, computer arithmetic, arithmetic/logic units, control unit design, basic computer organization, relationships between high level programming languages and instruction set architectures."
+
+        },
+        "GPA": 2.93,
+        "Numbers":{
+            "Enrolled": 2991,
+            "Withdrawn": 266
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Paul", "D. Mcpherson", "C. Jung", "W. McQuain", 
+                          "A. Senger", "J. Wenskovitch", "M. Tausif"],
+        "Requirements":{
+            "Prerequisites": ["CS2114"],
+            "Corequisites": ["MATH2534"]
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS2506 Introduction to Computer Organization",
+            "Description": "An introduction to the design and operation of digital computers. Instruction formats and construction, addressing modes, instruction execution, memory hierarchy operation and performance, pipelining, input/output, and the relationships between high level programming languages and machine language."
+
+        },
+        "GPA": 2.76,
+        "Numbers":{
+            "Enrolled": 2148,
+            "Withdrawn": 210
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. Nikolopoulos", "W. McQuain", "X. Jian", "D. Lee", 
+                          "W. Feng", "J. Wenskovitch"],
+        "Requirements":{
+            "Prerequisites": ["CS2505", "CS2114", "MATH2534"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS3114 Data Structures And Algorithms",
+            "Description": "Advanced data structures and analysis of data structure and algorithm performance. Sorting, searching, hashing, and advanced tree structures and algorithms. File system organization and access methods. Course projects require advanced problem-solving, design, and implementation skills."
+
+        },
+        "GPA": 3.1,
+        "Numbers":{
+            "Enrolled": 2676,
+            "Withdrawn": 210
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Chang", "M. Chen", "W. McQuain", "J. Davis", 
+                          "K. Edmison", "P. Sullivan", "W. McQuain", "Y. Cao", 
+                          "C. Shaffer", "S. Hamouda", "S. Raghvendra"],
+        "Requirements":{
+            "Prerequisites": ["CS2505", "CS2114", "MATH2534"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS3214 Computer Systems",
+            "Description": "Introduction to computer systems as they are relevant to application programmers today, with emphasis on operating system principles. Operating system design and architectures; processes; threads, synchronization techniques, deadlock; CPU scheduling; system call interfaces, system level I/O and file management; shell programming; separate compilation, loading and linking; inter-process communication (IPC); virtual and physical memory management and garbage collection; network protocols and programming; virtualization; performance analysis and optimization."
+        },
+        "GPA": 2.91,
+        "Numbers":{
+            "Enrolled": 2009,
+            "Withdrawn": 103
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Back", "W. McQuain", "A. Yazdani", "M. Hicks",
+                          "A. Butt", "L. Hu", "D. Williams", "H. Li"],
+        "Requirements":{
+            "Prerequisites": ["CS2506", "CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS3274 Software Reverse Engineering",
+            "Description": "Introduction to computer systems as they are relevant to application programmers today, with emphasis on operating system principles. Operating system design and architectures; processes; threads, synchronization techniques, deadlock; CPU scheduling; system call interfaces, system level I/O and file management; shell programming; separate compilation, loading and linking; inter-process communication (IPC); virtual and physical memory management and garbage collection; network protocols and programming; virtualization; performance analysis and optimization."
+        },
+        "GPA": 2.95,
+        "Numbers":{
+            "Enrolled": 72,
+            "Withdrawn": 17
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Howe", "I.Roessle"],
+        "Requirements":{
+            "Prerequisites": ["CS2506", "CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS3304 Comparative Languages",
+            "Description": "This course in programming language constructs emphasizes the run-time behavior of programs. The languages are studied from two points of view: (1) the fundamental elements of languages and their inclusion in commercially available systems; and (2) the differences between implementations of common elements in languages."
+        },
+        "GPA": 3.18,
+        "Numbers":{
+            "Enrolled": 1821,
+            "Withdrawn": 79
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Gracanin", "F. Poursardar", "N. Meng", "D. McPherson",
+                          "E. Tilevich", "M.Gulzar"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS3314 Prog Lang Theory & Practice",
+            "Description": "Theoretical basis of programming languages, including formal languages, computability theory, type theory, and programming language design. Standard syntax notations. Fundamental programming language features for control flow and data representation. Language implementation strategies. Unsolvable problems in the context of programming languages and computing."
+        },
+        "GPA": 2.7,
+        "Numbers":{
+            "Enrolled": 30,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["E. Tilevich"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        } 
+    },
+    {
+        "Course":{
+            "Title" : "CS3604 Professionalism in Computing",
+            "Description": "Studies the ethical, social, and professional concerns of the computer science field. Covers the social impact of the computer, implications and effects of computers on society, and the responsibilities of computer professionals in directing the emerging technology. The topics are studied through case studies of reliable, risk-free technologies, and systems that provide user friendly processes. Specific studies are augmented by an overview of the history of computing, interaction with industrial partners and computing professionals, and attention to the legal and ethical responsibilities of professionals. This is a web-supported course, incorporating writing intensive exercises, making extensive use of active learning technologies."
+        },
+        "GPA": 3.76,
+        "Numbers":{
+            "Enrolled": 2081,
+            "Withdrawn": 11
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. Dunlap", "S. McCrickard", "D. Tatar"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        } 
+    },
+    {
+        "Course":{
+            "Title" : "CS3634 Comp Sci Foundations for CMDA",
+            "Description": "Survey of computer science concepts and tools that enable computational science and data analytics. Data structure design and implementation. Analysis of data structure and algorithm performance. Introduction to high-performance computer architectures and parallel computation. Basic operating systems concepts that influence the performance of large-scale computational modeling and data analytics. Software development and software tools for computational modeling."
+        },
+        "GPA": 2.98,
+        "Numbers":{
+            "Enrolled": 12,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Warburton", "E. Martin"],
+        "Requirements":{
+            "Prerequisites": ["CS2114"],
+            "Corequisites": "None"
+        } 
+    },
+    {
+        "Course":{
+            "Title" : "CS3654 Intro Data Analytics & Visual",
+            "Description": "Basic principles and techniques in data analytics; methods for the collection of, storing, accessing, and manipulating standard-size and large datasets; data visualization; and identifying sources of bias."
+        },
+        "GPA": 3.42,
+        "Numbers":{
+            "Enrolled": 555,
+            "Withdrawn": 16
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Sengupta", "C. Lucero", "X. Xing", "M. Liu", 
+                          "P. Hauck", "C. North", "T. Mitra", "J. Jiang"],
+        "Requirements":{
+            "Prerequisites": ["CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS3704 Intermed Software Des",
+            "Description": "Explores the principles of software design in detail, with an emphasis on software engineering aspects. Includes exposure of software lifecycle activities including design, coding, testing, debugging, and maintenance, highlighting how design affects these activities. Peer reviews, designing for software reuse, CASE tools, and writing software to specifications are also covered."
+        },
+        "GPA": 3.75,
+        "Numbers":{
+            "Enrolled": 924,
+            "Withdrawn": 5
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["F. Servant", "N. Meng", "M. Hicks", "K. Edmison", 
+                          "K.Alsafwan", "M. Seyam"],
+        "Requirements":{
+            "Prerequisites": ["CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS3714 Mobile Software Development",
+            "Description": "Technologies and concepts underlying software development for mobile devices (handheld computers). Mobile computing platforms, including architecture, operating system, and programming environment. Software design patterns and structuring for mobile applications. Network-centric mobile software development. Data persistence. Programming for mobile device components such as cameras, recorders, accelerometer, gyroscope and antennas. Location-aware software development."
+        },
+        "GPA": 3.32,
+        "Numbers":{
+            "Enrolled": 791,
+            "Withdrawn": 57
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["O. Balci", "K. Edmison", "A. Esakia", "M. Seyam"],
+        "Requirements":{
+            "Prerequisites": ["CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS3724 Human-Comptr Intrctn",
+            "Description": "Survey of human-computer interaction concepts, theory, and practice. Basic components of human-computer interaction. Interdisciplinary underpinnings. Informed and critical evaluation of computer-based technology. User-oriented perspective, rather than system-oriented, with two thrusts: human (cognitive, social) and technological (input/output, interactions styles, devices). Design guidelines, evaluation methods, participatory design, communication between users and system developers."
+        },
+        "GPA": 3.47,
+        "Numbers":{
+            "Enrolled": 998,
+            "Withdrawn": 14
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Hassan", "A. Kulak", "L. Gusukuma", "S. Harrison",
+                          "D. McCrickard"],
+        "Requirements":{
+            "Prerequisites": ["CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS3744 Intro GUI Programming/Graphics",
+            "Description": "Survey of human-computer interaction concepts, theory, and practice. Basic components of human-computer interaction. Interdisciplinary underpinnings. Informed and critical evaluation of computer-based technology. User-oriented perspective, rather than system-oriented, with two thrusts: human (cognitive, social) and technological (input/output, interactions styles, devices). Design guidelines, evaluation methods, participatory design, communication between users and system developers."
+        },
+        "GPA": 3.43,
+        "Numbers":{
+            "Enrolled": 673,
+            "Withdrawn": 49
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["K. Luther", "S. Lee", "L. Gusukuma", "D. Gracanin",
+                          "R. Tasooji"],
+        "Requirements":{
+            "Prerequisites": ["MATH1114", "CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS3754 Cloud Software Development",
+            "Description": "Fundamentals of cloud software development, including design patterns, application programming interfaces, and underlying middleware technologies. Development of distributed multi-tiered enterprise software applications that run on a server computer and are accessed using a web browser over the Internet on a network-connected computer such as desktop, laptop, or handheld computer (tablet, smartphone, or mobile device."
+        },
+        "GPA": 3.31,
+        "Numbers":{
+            "Enrolled": 508,
+            "Withdrawn": 61
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["O. Balci", "A. Esakia", "G. Back"],
+        "Requirements":{
+            "Prerequisites": ["CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS3824 Intro Comp Bio Bioinformatics",
+            "Description": "Introduction to computational biology and bioinformatics (CBB) through hands-on learning experiences. Emphasis on problem solving in CBB. Breadth of topics covering structural bioinformatics; modeling and simulation of biological networks; computational sequence analysis; algorithms for reconstructing phylogenies; computational systems biology; and data mining algorithms."
+        },
+        "GPA": 3.25,
+        "Numbers":{
+            "Enrolled": 122,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Murali", "L. Heath", "L. Zhang"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4104 Data and Algorithm Analysis",
+            "Description": "Data structures and algorithms from an analytical perspective. Theoretical analysis of algorithm efficiency. Comparing algorithms with respect to space and run-time requirements. Analytical methods for describing theoretical and practical bounds on performance. Constraints affecting problem solvability"
+        },
+        "GPA": 2.97,
+        "Numbers":{
+            "Enrolled": 1195,
+            "Withdrawn": 55
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Raghvendra", "T. Murali", "L. Heath", "T. Hoang",
+                          "B. Ji", "A. Sandu", "S. Hamouda"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "MATH3134"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4114 Formal Languages",
+            "Description": "The course presents a study of formal languages and the correspondence between language classes and the automata that recognize them. Formal definitions of grammars and acceptors, deterministic and nondeterministic systems, grammar ambiguity, finite state and push-down automata, and normal forms will be discussed."
+        },
+        "GPA": 3.2,
+        "Numbers":{
+            "Enrolled": 491,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Mohammed", "L. Zhang", "C. Shaffer"],
+        "Requirements":{
+            "Prerequisites": ["MATH3134"],
+            "Corequisites": "None"
+        }   
+    },
+    {
+        "Course":{
+            "Title" : "CS4124 Theory of Computation",
+            "Description": "Theoretical analysis of the computational process; fundamental concepts such as abstract programs, classes of computational machines and their equivalence, recursive function theory, unsolvable problems, Churchs thesis, Kleenes theorem, program equivalence, and generability, acceptability, decidability will be covered"
+        },
+        "GPA": 2.36,
+        "Numbers":{
+            "Enrolled": 108,
+            "Withdrawn": 15
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["L. Watson", "L.Heath"],
+        "Requirements":{
+            "Prerequisites": ["MATH3134"],
+            "Corequisites": "None"
+        }   
+    },
+    {
+        "Course":{
+            "Title" : "CS4134 Quantum Comp & Info Proc",
+            "Description": "Quantum states and quantum phenomena. Quantum communication concepts such as superdense coding, teleportation, and complexity. Classical and quantum circuits and gate sets for computation. Quantum algorithms and comparison to classical algorithms. Quantum computational complexity theory and complexity classes. Quantum information concepts such as density operators, measurements, and quantum channels. Error correction, the stabilizer formalism, and fault-tolerance. The adiabatic theorem and adiabatic quantum computation. Entanglement and entanglement measures."
+        },
+        "GPA": 3.05,
+        "Numbers":{
+            "Enrolled": 34,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["J. Sikora"],
+        "Requirements":{
+            "Prerequisites": ["MATH2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4144 Competitive Problem Solving II",
+            "Description": "Deeper treatment of advanced algorithms, data structures, and implementation techniques, taught in a setting that combines collaborative practice with competitive exercise. Students practice to solve problems using a computer, which are judged by automated evaluation software for correctness and efficiency. Practice with advanced searching and graph algorithms, advanced dynamic programming, linear programming techniques, computational geometry, and numerical algorithms. Problems are drawn from multiple areas in computer science. Macro- and micro optimization techniques to improve efficiency are emphasized."
+        },
+        "GPA": 3.67,
+        "Numbers":{
+            "Enrolled": 6,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Back"],
+        "Requirements":{
+            "Prerequisites": ["CS2114", "CS2144"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4164 Future of Security",
+            "Description": "Identification and analysis of complex, real-world security problems and threats to people, organizations, and nations across multiple domains, roles and future scenarios. Crisis communication, decision making tools, ethical principles and problem-solving methods to respond, assess options, plan, scope, and communicate before, during and after conflicts, disasters and attacks. Use of an experiential learning facility, and participation in a reality-based team simulation of cascading security and disaster events."
+        },
+        "GPA": 3.72,
+        "Numbers":{
+            "Enrolled": 33,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["H. Zhang", "A. Brantly", "A. Vance"],
+        "Requirements":{
+            "Prerequisites": ["CS2164"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4204 Computer Graphics",
+            "Description": "Hardware and software techniques for the display of graphical information. 2D and 3D geometry and transformations, clipping and windowing, software systems. Interactive graphics, shading, hidden surface elimination, perspective depth."
+        },
+        "GPA": 3.38,
+        "Numbers":{
+            "Enrolled": 20,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. Gracanin"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "CS3744"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4224 Linux Kernel Programming",
+            "Description": "Design and internal organization of the Linux operating system kernel. Kernel subsystems, boot process, memory management, process and thread model, scheduling, interrupt and exception handling, virtual file system and the concrete file system, block I/O and I/O scheduler, network stack, and device drivers. Modification of existing kernel code. Design, implementation, test and evaluation of new kernel modules. Kernel and full software stack debugging techniques, and virtualization as an aid for operating system development and debug. Software engineering techniques to analyze, modify and run a large, complex open-source code base."
+        },
+        "GPA": 3.21,
+        "Numbers":{
+            "Enrolled": 50,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Min"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4234 Parallel Computation",
+            "Description": "Survey of parallel computer architectures, models of parallel computation, and interconnection networks. Parallel algorithm development and analysis. Programming paradigms and languages for parallel computation. Example applications. Performance measurement and evaluation."
+        },
+        "GPA": 3.43,
+        "Numbers":{
+            "Enrolled": 63,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Sandu", "K. Cameron", "W.Feng"],
+        "Requirements":{
+            "Prerequisites": ["CS3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4254 Network Arch Programming",
+            "Description": "Introduction to computer network architecture, and methods for programming network services and applications (e.g. DNS, Email and MIME, http, SNMP, multimedia). Wired, wireless, and satellite network architectures. OSI protocol model, with an emphasis on upper layers. Congestion control, quality of service, routing. Internet protocol suite (e.g. IP, TCP, ARP, RARP). Server design (e.g. connectionless, concurrent). Network programming abstractions (e.g. XDR, remote procedure calls, sockets, DCOM). Case studies (e.g. TELNET)."
+        },
+        "GPA": 3.23,
+        "Numbers":{
+            "Enrolled": 151,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["B. Viswanath","S. Hasan"],
+        "Requirements":{
+            "Prerequisites": ["CS3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4264 Principles Computer Security",
+            "Description": "Survey of computer problems and fundamental computer security design principles and models for software systems. Cryptographic models and methods. Modern cyber security techniques for robust computer operating systems, software, web applications, large-scale networks and data protection. Privacy models and techniques. Contemporary computer and network security examples."
+        },
+        "GPA": 3.61,
+        "Numbers":{
+            "Enrolled": 662,
+            "Withdrawn": 7
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Rahaman", "M. Hicks", "D. Yao", "G. Wang", 
+                          "T. Chung", "P. Gao"],
+        "Requirements":{
+            "Prerequisites": ["CS3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4274 Secure Computing Capstone",
+            "Description": "Advanced topics in cybersecurity and secure computing. Threat modeling through identification and analysis of security threats. Reasoning about the efficacy, complexity, cost, and ethical tradeoffs of computer security systems. Team-based approach to solving open-ended computer security problems. Designing, implementing, documenting, and presenting advanced computer systems."
+        },
+        "GPA": 3.6,
+        "Numbers":{
+            "Enrolled": 44,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["B. Viswanath","T. Hasan"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "CS4264"],
+            "Corequisites": "None"
+        }
+
+    },
+    {
+        "Course":{
+            "Title" : "CS4284 Systems & Networking Capstone",
+            "Description": "Advanced topics in computer systems & networking, e.g. distributed and parallel processing, emerging architectures, novel systems management & networking design, fault- tolerance, and robust and secure data management. Team- based approach to solving open-ended computer systems & networking problems. Designing, implementing and documenting advanced computer/networking systems."
+        },
+        "GPA": 3.82,
+        "Numbers":{
+            "Enrolled": 225,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Back", "A. Butt", "K. Cameron", "D. Nikolopoulos"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "CS3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4304 Compiler Design",
+            "Description": "Advanced topics in computer systems & networking, e.g. distributed and parallel processing, emerging architectures, novel systems management & networking design, fault- tolerance, and robust and secure data management. Team- based approach to solving open-ended computer systems & networking problems. Designing, implementing and documenting advanced computer/networking systems."
+        },
+        "GPA": 3.52,
+        "Numbers":{
+            "Enrolled": 9,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Jung"],
+        "Requirements":{
+            "Prerequisites": ["CS3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4414 Issues in Scientific Computing",
+            "Description": "Theory and techniques of modern computational mathematics, computing environments, computational linear algebra, optimization, approximation, parameter identification, finite difference and finite element methods and symbolic computation. Project-oriented course; modeling and analysis of physical systems using state-of-the-art software and packaged subroutines."
+        },
+        "GPA": 3.9,
+        "Numbers":{
+            "Enrolled": 10,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Onufriev", "T.Lin"],
+        "Requirements":{
+            "Prerequisites": ["MATH2214", "MATH3214", "CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    }
+]
