@@ -705,36 +705,224 @@
         }
     },
     {
-
+        "Course":{
+            "Title" : "CS4504 Computer Organization",
+            "Description": "Information representation and transfer; instructions and data access methods; the control unit and microprogramming; memories; input/output and interrupts; secondary storage; the von Neumann SISD organization; high level language machines; the RISC concept; special purpose processors including operating system, file, text, floating point, communication, etc. Multicomputers; multiprocessors; concurrent processing support; Pipeline machines, processor arrays, database machines; the data flow/data directed approach; computer networks."
+        },
+        "GPA": 2.82,
+        "Numbers":{
+            "Enrolled": 30,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["H.Zeng", "W.Feng" , "X.Jian"],
+        "Requirements":{
+            "Prerequisites": ["CS3214"],
+            "Corequisites": "None"
+        }
     },
     {
-
+        "Course":{
+            "Title" : "CS4604 Int Data Base Mgt Sys",
+            "Description": "Information representation and transfer; instructions and data access methods; the control unit and microprogramming; memories; input/output and interrupts; secondary storage; the von Neumann SISD organization; high level language machines; the RISC concept; special purpose processors including operating system, file, text, floating point, communication, etc. Multicomputers; multiprocessors; concurrent processing support; Pipeline machines, processor arrays, database machines; the data flow/data directed approach; computer networks."
+        },
+        "GPA": 3.48,
+        "Numbers":{
+            "Enrolled": 404,
+            "Withdrawn": 6
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["B.Prakash", "R.Quintin" , "S.Hamouda", "Y.Chen"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }   
     },
     {
-
+        "Course":{
+            "Title" : "CS4624 Multimedia/Hypertext",
+            "Description": "Introduces the architectures, concepts, data, hardware, methods, models, software, standards, structures, technologies, and issues involved with: networked multimedia (e.g., image, audio, video) information, access and systems; hypertext and hypermedia; electronic publishing; virtual reality. Coverage includes text processing, search, retrieval, browsing, time-based performance, synchronization, quality of service, video conferencing and authoring."
+        },
+        "GPA": 3.43,
+        "Numbers":{
+            "Enrolled": 463,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Farag", "E.Fox"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }
     },
     {
-
+        "Course":{
+            "Title" : "CS4634 Design of Information",
+            "Description": "Survey of the higher-order properties that allow data to become information, that is, to inform people.  The course focuses on the analysis of user needs, user comprehension and local semantics; the design of information organization; and the design of information display appropriate to use and setting."
+        },
+        "GPA": 3.37,
+        "Numbers":{
+            "Enrolled": 63,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S.Harrison"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "CS3724"],
+            "Corequisites": "None"
+        }
     },
     {
-
+        "Course":{
+            "Title" : "CS4644 Creative Computing Studio",
+            "Description": "Capstone computer science course at the intersection of arts and technology. Intensive immersion in different approaches to digital arts such as game design, interactive art, digital music, and immersive virtual reality. Students work in teams to conduct an end-to-end integrative design project."
+        },
+        "GPA": 3.71,
+        "Numbers":{
+            "Enrolled": 190,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A.Kelliher","S.Lee", "S.Harrison"],
+        "Requirements":{
+            "Prerequisites": ["CS3724"],
+            "Corequisites": "None"
+        }     
     },
     {
-
+        "Course":{
+            "Title" : "CS4654 Intermed Data Analytics & ML",
+            "Description": "A technical analytics course.  Covers supervised and unsupervised learning strategies, including regression, generalized linear models, regularization, dimension reduction methods, tree-based methods for classification, and clustering. Upper-level analytical methods shown in practice, e.g., advanced naive Bayes and neural networks."
+        },
+        "GPA": 3.53,
+        "Numbers":{
+            "Enrolled": 24,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Lucero", "R. Gramacy", "D. Datta"],
+        "Requirements":{
+            "Prerequisites": ["CS3654", "STAT4705 or STAT4714"],
+            "Corequisites": "None"
+        }       
     },
     {
-
+        "Course":{
+            "Title" : "CS4664 Data-Centric Computing Capstone",
+            "Description": "Advanced, project-based course on deriving valuable insights from real-world data collected from a variety of sources. Team-based end-to-end projects explore the entire data science workflow: problem statement, formulating the research questions, collecting preparing and cleaning data, alternating between analyzing data and interpreting results, and synthesizing results into a written report and an interactive executable codebase."
+        },
+        "GPA": 3.78,
+        "Numbers":{
+            "Enrolled": 61,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Karpatne", "M. Elhamod", "H. Eldardiry"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "CS3654"],
+            "Corequisites": "None"
+        } 
     },
     {
-
+        "Course":{
+            "Title" : "CS4704 Software Engineering Capstone",
+            "Description": "Senior project course integrating software engineering knowledge and skills acquired in previous courses. Team-based approach to problem formulation, requirements engineering, architecture, design, implementation, integration, documentation and delivery of a software system that solves a real-world problem."
+        },
+        "GPA": 3.81,
+        "Numbers":{
+            "Enrolled": 674,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Seyam", "F. Servant", "D. Noller", "M. Subhas", "R. Charles", "K.Edmison"],
+        "Requirements":{
+            "Prerequisites": ["CS3704 or CS3714 or CS3754"],
+            "Corequisites": "None"
+        }
     },
     {
-
+        "Course":{
+            "Title" : "CS4774 HCI Design Experience",
+            "Description": "Project-based design course in human-computer interaction. Team-based, end-to-end, integrative interface design project drawn from interdisciplinary areas of student expertise, e.g., virtual reality, augmented reality, embodied cognition, visualization, semiotic engineering, game design, personal information management, mobile computing, design tools, educational technology, and digital democracy."
+        },
+        "GPA": 4.0,
+        "Numbers":{
+            "Enrolled": 5,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. McCrickard"],
+        "Requirements":{
+            "Prerequisites": ["CS3724"],
+            "Corequisites": "None"
+        }
     },
     {
-
+        "Course":{
+            "Title" : "CS4784 Human-Computer Interact Capstone",
+            "Description": "Advanced, project-based course in Human-Computer Interaction. Team-based, end-to-end, integrative interface design project drawn from areas of expertise in the department, e.g., virtual reality, augmented reality, embodied cognition, visualization, semiotic engineering, game design, personal information management, mobile computing, design tools, educational technology, and digital democracy."
+        },
+        "GPA": 3.8,
+        "Numbers":{
+            "Enrolled": 193,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. McCrickard", "D. Tatar", "J. Ogle", "D. Bowman", "S. Harrison", "J. Wenskovitch", "N. Polys"],
+        "Requirements":{
+            "Prerequisites": ["CS3724", "CS3744"],
+            "Corequisites": "None"
+        }
     },
     {
-
+        "Course":{
+            "Title" : "CS4804 Introduction to AI",
+            "Description": "Overview of the areas of problem solving, game playing, and computer vision. Search trees and/or graphs, game trees, block world vision, syntactic pattern recognition, object matching, natural language, and robotics."
+        },
+        "GPA": 3.38,
+        "Numbers":{
+            "Enrolled": 265,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["Y. Chen", "B. Huang"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4824 Machine Learning",
+            "Description": "Algorithms and principles involved in machine learning; focus on perception problems arising in computer vision, natural language processing and robotics; fundamentals of representing uncertainty, learning from data, supervised learning, ensemble methods, unsupervised learning, structured models, learning theory and reinforcement learning; design and analysis of machine perception systems; design and implementation of a technical project applied to real-world datasets (images, text, robotics)."
+        },
+        "GPA": 2.95,
+        "Numbers":{
+            "Enrolled": 446,
+            "Withdrawn": 52
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Wyatt", "A. Hilal", "A. Karpatne", "M. Jin", "D.Bhattacharya", "L. Huang"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "Course":{
+            "Title" : "CS4884 Computer Bio & Bioinfo Capstone",
+            "Description": "Advanced topics in computational biology and bioinformatics (CBB). Team-based approach to solving open-ended problems in CBB. Projects drawn from areas of expertise in the department, e.g., algorithms for CBB, computational models for biological systems, analysis of structure-function relationships in biomolecules, genomic data analysis and data mining, computational genomics, systems biology. Design, implementation, documentation and presentation of solutions."
+        },
+        "GPA": 3.57,
+        "Numbers":{
+            "Enrolled": 57,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T.Murali"],
+        "Requirements":{
+            "Prerequisites": ["CS3824"],
+            "Corequisites": "None"
+        }
     }
 ]
