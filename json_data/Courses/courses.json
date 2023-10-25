@@ -56,15 +56,35 @@
   },
   {
     "major": "CEE",
-    "courses": []
+    "courses": ["CEE2804", "CEE2814", "CEE2824", "CEE2834",
+                "CEE3014", "CEE3104", "CEE3274", "CEE3304",
+                "CEE3314", "CEE3404(Theory)", "CEE3404", "CEE3424",
+                "CEE3434", "CEE3514", "CEE3604", "CEE3684", 
+                "CEE3804", "CEE3814", "CEE4014", "CEE4024", 
+                "CEE4034", "CEE4074", "CEE4104", "CEE4114",
+                "CEE4134", "CEE4144", "CEE4174", "CEE4254",
+                "CEE4264", "CEE4274", "CEE4284", "CEE4304",
+                "CEE4314", "CEE4324", "CEE4334", "CEE4344",
+                "CEE4384", "CEE4394", "CEE4404", "CEE4454",
+                "CEE4514", "CEE4534", "CEE4544", "CEE4564",
+                "CEE4604", "CEE4610", "CEE4614", "CEE4624",
+                "CEE4634", "CEE4654", "CEE4664", "CEE4674",
+                "CEE4684", "CEE4694", "CEE4804", "CEE4824",
+                "CE4844"]
   },
   {
     "major": "CEM", 
-    "courses": []
+    "courses": ["CEM2104", "CEM2404", "CEM3024", "CEM3064",
+                "CEM3074", "CEM3084", "CEM3134", "CEM3154",
+                "CEM3164", "CEM4024", "CEM4445", "CEM4446"]
   },
   {
     "major": "CHE",
-    "courses": []
+    "courses": ["CHE2114", "CHE2164", "CHE3015", "CHE3044",
+                "CHE3114", "CHE3124", "CHE3134", "CHE3144",
+                "CHE3184", "CHE4024", "CHE4114", "CHE4134",
+                "CHE4144", "CHE4185", "CHE4186", "CHE4214",
+                "CHE4404", "CHE4544"]
   },
   {
     "major": "CS", 
@@ -163,9 +183,5 @@
                 "MSE4334", "MSE4384", "MSE4414", "MSE4424",
                 "MSE4434", "MSE4554", "MSE4574", "MSE4584",
                 "MSE4604", "MSE4614", "MSE4644"]
-  },
-  {
-    "major": "NSEG",
-    "courses":[]
   }
 ]

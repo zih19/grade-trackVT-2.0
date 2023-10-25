@@ -11,7 +11,10 @@
     },
     {
         "subject": "CHEM",
-        "courses":["CHEM1035", "CHEM1036", "CHEM1045", "CHEM1046"]
+        "courses":["CHEM1035", "CHEM1036", "CHEM1045", "CHEM1046",
+                   "CHEM1055", "CHEM1056", "CHEM1065", "CHEM1066",
+                   "CHEM2535", "CHEM2536", "CHEM2545", "CHEM2546",
+                   "CHEM2565", "CHEM2566", "CHEM3615"]
     },
     {
         "subject": "BIOL",
@@ -19,6 +22,6 @@
     },
     {
         "subject": "STAT",
-        "courses":["STAT3704", "STAT4604"]
+        "courses":["STAT3704", "STAT4604", "STAT4705", "STAT4714"]
     }
 ]
