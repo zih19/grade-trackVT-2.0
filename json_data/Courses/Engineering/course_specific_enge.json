@@ -1,0 +1,2138 @@
+[
+    {
+        "id": "AOE2024",
+        "Course":{
+            "Title": "AOE2024 Thin-Walled Structures",
+            "Description": "Basic structural elements of stringer-stiffened thin-walled structures, forces, moments, stresses, and deformation of segmented bars/beams, flexure stress and deflection of beams principal plane, plane of bending and plane of loading for beams with asymmetric cross sections, stresses, and twist due to torsion, shear flow and shear center in open and closed stiffened thin-walled structures, stiffened multicell beams, materials properties and selection."
+        },
+        "GPA": 3.06,
+        "Numbers": {
+            "Enrolled": 1014,
+            "Withdrawn": 30
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Gilbert", "R. Canfield", "J. Miglani", "J. Song",
+                          "G. Seidel", "J. Pitt"], 
+        "Requirements": {
+            "Prerequisites": ["ESM2104", ["ESM2204", "ESM2114"], "MATH2204"],
+            "Corequisites": ["MATH2214"]
+        }
+    },
+    {
+        "id": "AOE2054",
+        "Course":{
+            "Title": "AOE2054 Electronics for AOE",
+            "Description": "Electrical circuits. Discrete passive and active electrical components. Phasors and impedence. AC power analysis. Digital electronics. Electronics for autonomous and piloted aerospace and ocean systems. Electronics for vehicle navigation, guidance, and control. Instrumentation and data acquisition systems."
+        },
+        "GPA": 3.09,
+        "Numbers": {
+            "Enrolled": 1233,
+            "Withdrawn": 19
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Philen", "M. Fowler"], 
+        "Requirements": {
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE2074",
+        "Course":{
+            "Title": "AOE2074 Computational Methods",
+            "Description": "Solving engineering problems using numerical methods and software, truncation and round-off error, root finding, linear and polynomial regression, interpolation, splines, numerical integration, numerical differentiation, solution of linear simultaneous equations."
+        },
+        "GPA": 3.39,
+        "Numbers": {
+            "Enrolled": 1164,
+            "Withdrawn": 15
+        },
+        "Credit(s)": 2,
+        "Instructor(s)": ["A. Staples", "M. Perez", "H. Xiao", "E. Atkins", 
+                          "J. Pitt"], 
+        "Requirements": {
+            "Prerequisites": [["ENGE1216, ENGE1414"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE2104",
+        "Course":{
+            "Title": "AOE2104 Intro Aerospace Engr & Perform",
+            "Description": "Overview of aerospace engineering from a design perspective; introductory aerodynamics, lift, drag, and the standard atmosphere; aircraft performance, stability, and control; propulsion; structures; rocket and spacecraft trajectories and orbits."
+        },
+        "GPA": 3.12,
+        "Numbers": {
+            "Enrolled": 1047,
+            "Withdrawn": 24
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Patil", "W. Butler", "M. Kuester", "N. Intaratep",
+                          "H. Artis", "E. Paterson"], 
+        "Requirements": {
+            "Prerequisites": ["PHYS2305"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE2114",
+        "Course":{
+            "Title": "AOE2114 Fundamentals Flight Training",
+            "Description": "Foundational course to prepare students with knowledge of basic aeronautics to take the Federal Aviation Administration Knowledge Exam, a requirement for the award of a private pilots license. Explores airplane systems and functions, flight operations, weather, aeronautical navigation, communications, human factors, and federal aviation regulations."
+        },
+        "GPA": 3.21,
+        "Numbers": {
+            "Enrolled": 158,
+            "Withdrawn": 7
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Weaver", "L. Sanders"],
+        "Requirements":{
+            "Prerequisites":"None",
+            "Corequisites":"None"
+        }
+    },
+    {
+        "id": "AOE2204",
+        "Course":{
+            "Title": "AOE2204 Intro to Ocean Engineering",
+            "Description": "Introduction to the design of ocean vehicles and offshore structures. Buoyancy. Hull geometry, body plan drawing, coefficients of form. Hydrostatic calculations. Intact and damaged stability of ocean vehicles and offshore structures. Large angle stability. Stability criteria for design and related rules and regulations. Marine economics."
+        },
+        "GPA": 2.76,
+        "Numbers": {
+            "Enrolled": 232,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["O. Coutier-Delgosha"],
+        "Requirements":{
+            "Prerequisites":["PHYS2305"],
+            "Corequisites":["MATH2204"]
+        }   
+    },
+    {
+        "id": "AOE2664",
+        "Course":{
+            "Title": "AOE2664 Exploration of Space",
+            "Description": "This introductory course covers a broad range of scientific, engineering, and societal aspects associated with the exploration and technological exploitation of space. Topics covered include: science of the space environment, space weather hazards and societal impacts, orbital mechanics and rocket propulsion, spacecraft subsystems, applications of space-based technologies."
+        },
+        "GPA": 3.29,
+        "Numbers": {
+            "Enrolled": 295,
+            "Withdrawn": 6
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Bailey", "J. Baker"],
+        "Requirements":{
+            "Prerequisites":"None",
+            "Corequisites":"None"
+        }
+    },
+    {
+        "id": "AOE3014",
+        "Course":{
+            "Title": "AOE3014 Fluid Dynamics for AOE",
+            "Description": "Fundamentals of fluids: stress, statics, viscosity, laminar and turbulent flow. Conservation of mass and momentum. Vorticity, circulation, and lift. Navier-Stokes equations. Ideal flow in two dimensions, streamlines, stream function, velocity potential, superposition. Thin airfoil theory. Physics of laminar and turbulent boundary layers and of transition. Boundary layer equations and basic tools for boundary layer calculation. Collaborative problem solving."
+        },
+        "GPA": 2.74,
+        "Numbers": {
+            "Enrolled": 1033,
+            "Withdrawn": 17
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["N. Balantrapu", "L. Massa", "D. Wall", "J. Gilbert", 
+                          "C. Adams", "C. Roy"],
+        "Requirements":{
+            "Prerequisites":[["AOE2104, AOE2204"], "MATH2214", "ESM2304"],
+            "Corequisites":"None"
+        }
+    },
+    {
+        "id": "AOE3034",
+        "Course":{
+            "Title": "AOE3034 System Dynamics and Control",
+            "Description": "Free and forced response of first, second, and higher order linear, time-invariant (LTI) systems in frequency and time domains. Modeling of low-order mechanical systems. Transmission and absorption of vibrations. Transient and steady state performance specifications. Introduction to closed-loop control using proportional-integral-derivative (PID) feedback. Closed-loop stability analysis using root locus method."
+        },
+        "GPA": 2.87,
+        "Numbers": {
+            "Enrolled": 1039,
+            "Withdrawn": 19
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Philen", "C. Woolsey", "J. Fahmi", "J. Angarita", 
+                          "M. Joerger", "R. Fitzgerald"],
+        "Requirements":{
+            "Prerequisites":["ESM2304", "MATH2214"],
+            "Corequisites":"None"
+        }
+    },
+    {
+        "id": "AOE3044",
+        "Course": {
+            "Title": "AOE3044 Boundary Layer Theory",
+            "Description": "Concepts of viscous flows and physical properties equations of laminar motion with heat and mass transfer; exact and approximate solutions; finite-difference methods; transition to turbulence; analysis in turbulent flows. Conduction and convective heat transfer."
+        },
+        "GPA": 3.38,
+        "Numbers": {
+            "Enrolled": 235,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Kuester", "L. Massa", "J. Schetz"],
+        "Requirements":{
+            "Prerequisites": ["AOE3014", ["AOE3164, AOE3264, ME2134, ME3134"], "MATH4564"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE3054",
+        "Course": {
+            "Title": "AOE3054 Experimental Methods",
+            "Description": "Fundamental terminology of experimental work and testing in aerospace and ocean engineering. Flow quantities, displacement, and strain measurements of simple structures in both static and dynamic settings. Analog and digital instrumentation. Data acquisition systems and appropriate software. Through teamwork design, prepare, and conduct an experiment, and document its results and findings. Ethics of technical reporting, through proper external source citation and honestly describing procedures and reporting data. Statistical concepts."
+        },
+        "GPA": 3.36,
+        "Numbers": {
+            "Enrolled": 912,
+            "Withdrawn": 6
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Borgoltz"],
+        "Requirements":{
+            "Prerequisites": ["AOE2024", "AOE2054", "AOE3014", "AOE3034"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE3094",
+        "Course": {
+            "Title": "AOE3094 Materials for Aero & Ocean Eng",
+            "Description": "This course introduces the student of Aerospace and/or Ocean Engineering to the fundamental properties of materials typically required for structural design. The performance characteristics of metals, ceramics, polymers, and composites are presented and contrasted. Foundation principles underlying materials manufacturing are also presented with the goal of providing an understanding of how processing affects material properties and performance."
+        },
+        "GPA": 2.94,
+        "Numbers": {
+            "Enrolled": 5,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["R. Clark"],
+        "Requirements":{
+            "Prerequisites": ["CHEM1035"],
+            "Corequisites": ["ESM2204", "PHYS2305"]
+        }
+    },
+    {
+        "id": "AOE3114",
+        "Course": {
+            "Title": "AOE3114 Aerodynamics & Compressbility",
+            "Description": "Inviscid aerodynamics. Wings and wing theory for low speed flight. How and when compressibility becomes important. Integral form of the conservation equations and thermodynamics. One-dimensional steady compressible flow, nozzle flows. Compressible flow with heat addition. Oblique shock waves and Prandtl-Meyer expansions. Supersonic airfoils. Aerodynamics at subsonic and transonic speeds."
+        },
+        "GPA": 3.05,
+        "Numbers": {
+            "Enrolled": 852,
+            "Withdrawn": 6
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["V. Vishwanathan", "W. Devenport"],
+        "Requirements":{
+            "Prerequisites": ["AOE3014"],
+            "Corequisites": ["AOE3164"]
+        }
+    },
+    {
+        "id": "AOE3124",
+        "Course": {
+            "Title": "AOE3124 Aerospace Structures",
+            "Description": "Inertia loads on aerospace structures, introduction to 3D elasticity including strain-displacement relations, stress-strain relations, stress transformation, and equations of equilibrium, plane stress and plane strain elasticity, stress concentration factors, aerospace materials and failure criteria, margins of safety analysis, plate bending, structural stability."
+        },
+        "GPA": 3.18,
+        "Numbers": {
+            "Enrolled": 900,
+            "Withdrawn": 18
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Patil", "S. Povolny", "R. Kapania", "Y. Fu"],
+        "Requirements":{
+            "Prerequisites": [["AOE2024", "AOE3024"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE3134",
+        "Course": {
+            "Title": "AOE3134 Air Vehicle Dynamics",
+            "Description": "Nonlinear kinematic and dynamic equations of aircraft motion; estimation of stability derivatives from aircraft geometry; determination of steady motions; linearization; longitudinal and lateral-directional small perturbation equations; static and dynamic stability of equilibrium flight."
+        },
+        "GPA": 3.14,
+        "Numbers": {
+            "Enrolled": 290,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Woolsey"],
+        "Requirements":{
+            "Prerequisites": ["AOE3034"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE3144",
+        "Course": {
+            "Title": "AOE3144 Space Vehicle Dynamics",
+            "Description": "Attitude representations and equations of rotational motion for rigid and multibody spacecraft; attitude determination; linearization and stability analysis of steady motions; effect of the gravity gradient; torque thrusters and momentum exchange devices."
+        },
+        "GPA": 3.36,
+        "Numbers": {
+            "Enrolled": 538,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Ross", "C. Sultan"],
+        "Requirements":{
+            "Prerequisites": ["AOE3034", "AOE3154"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE3154",
+        "Course": {
+            "Title": "AOE3154 Astromechanics",
+            "Description": "This course teaches the application of Newtons Laws to the dynamics of spaceflight. Topics include the two-body problem equations of motion, Keplers Laws, classical orbital elements, energy and time-of-flight relations, orbit specification and determination, orbital maneuvering and orbit transfers, patched conic approximations, and relative motion."
+        },
+        "GPA": 3.29,
+        "Numbers": {
+            "Enrolled": 938,
+            "Withdrawn": 6
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["K. Schroeder", "R. Fitzgerald", "S. England"],
+        "Requirements":{
+            "Prerequisites": ["ESM2304"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE3164",
+        "Course": {
+            "Title": "AOE3164 Aerothermo and Propulsion",
+            "Description": "The fundamental principles of aerothermodynamics applied to aerospace propulsion system performance analysis and design. Foundations of thermodynamics, heat transfer, compressible fluid mechanics, and combustion. Applications of principles to air-breathing and rocket engines."
+        },
+        "GPA": 3.28,
+        "Numbers": {
+            "Enrolled": 823,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["K. Lowe"],
+        "Requirements":{
+            "Prerequisites": ["AOE3014"],
+            "Corequisites": ["AOE3114"]
+        }
+    },
+    {
+        "id": "AOE3214",
+        "Course": {
+            "Title": "AOE3214 Ocean Wave Mechanics",
+            "Description": "Introduction to theory of wave in deep and shallow water, including wave generation and propagation. Description of wave statistics and spectral representation for realistic ocean conditions. Introduction to ocean acoustics."
+        },
+        "GPA": 3.07,
+        "Numbers": {
+            "Enrolled": 139,
+            "Withdrawn": 5
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["H. Xiao"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE3224",
+        "Course": {
+            "Title": "AOE3224 Ocean Structures",
+            "Description": "Overview of surface ship, submarine and offshore structural systems, materials and loadings. Application of beam and plate bending and buckling theories. Frame structural analysis. Fatigue analysis."
+        },
+        "GPA": 2.95,
+        "Numbers": {
+            "Enrolled": 119,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["K. Wang"],
+        "Requirements":{
+            "Prerequisites": ["AOE2024"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE3234",
+        "Course": {
+            "Title": "AOE3234 Ocean Vehicle Dynamics",
+            "Description": "Nonlinear kinematic and dynamic equations of rigid vessel motion in water; hydrostatic and hydrodynamic forces in calm water; motion response to regular and irregular waves; single, multiple and coupled motions degrees of freedom; spectral analysis of response of random seas; statistical analysis of extreme motion response; impact of seakeeping criteria on ocean vehicles design; principles of hydroelasticity; principles of maneuvering of surface and underwater vehicles."
+        },
+        "GPA": 3.29,
+        "Numbers": {
+            "Enrolled": 111,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Brizzolara"],
+        "Requirements":{
+            "Prerequisites": ["AOE3014", "AOE3034", "AOE3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE3264",
+        "Course": {
+            "Title": "AOE3264 Thermo and Marine Propulsion",
+            "Description": "Fundamental thermodynamics and power cycles; marine propulsion plants and transmission systems; methods of estimating resistance of ocean vehicles; propulsion devices and their efficiencies; introduction to propeller theory; cavitation."
+        },
+        "GPA": 3.19,
+        "Numbers": {
+            "Enrolled": 114,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["W. Alexander", "H. Xiao"],
+        "Requirements":{
+            "Prerequisites": ["AOE2204", "AOE3014"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE3354",
+        "Course": {
+            "Title": "AOE3354 Avionics Systems",
+            "Description": "A systems approach to avionics architecture for both civil and military aircraft. Emphasis on system architecture, accepted development processes, sensors, navigation, and certification. Evolution of communications, data models, and sensors required to support autonomous flight as well as the exposures to physical cyber security threats faced by flight management, navigation, and data interchange systems."
+        },
+        "GPA": 3.52,
+        "Numbers": {
+            "Enrolled": 115,
+            "Withdrawn": 6
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["H. Artis"],
+        "Requirements":{
+            "Prerequisites": [["AOE2054", "ECE2054"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE3564",
+        "Course": {
+            "Title": "AOE3564 Principles of Proj Design & Mgmt",
+            "Description": "Fundamental principles of model-based project design. Creation of plans for successful development of complex systems such as air, space, and ocean vehicles. Understanding of engineering project performance including emergent scope, cost, and schedule. Systems thinking and systems engineering methods applied to engineering projects as systems: stakeholders, scope, dependence and teamwork dynamics; cost and schedule tradespace; risk assessment and mitigation strategies; and choices in project architecture and organization. Basics of effective teamwork, team building, leadership, and management. Basic understanding of ethical reasoning and conflict management aspects. Oral presentations for design reviews."
+        },
+        "GPA": 3.66,
+        "Numbers": {
+            "Enrolled": 40,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["W. Grossman"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4004",
+        "Course": {
+            "Title": "AOE4004 State-Space Control",
+            "Description": "Control design and analysis for linear, state-space system models. Properties of linear, time-invariant control systems: Input/output stability, internal stability, controllability, and observability. Performance and robustness measures. State feedback control design methods: pole placement, linear-quadratic control. State observers and output feedback control. Applications to control of mechanical systems including ocean, atmospheric, and space vehicles."
+        },
+        "GPA": 3.17,
+        "Numbers": {
+            "Enrolled": 104,
+            "Withdrawn": 5
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Farhood"],
+        "Requirements":{
+            "Prerequisites": ["AOE3034"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4024",
+        "Course": {
+            "Title": "AOE4024 Intro Finite Elements",
+            "Description": "The finite element method is introduced as a numerical method of solving the ordinary and partial differential equations arising in fluid flow, heat transfer, and solid and structural mechanics. The classes of problems considered include those described by the second-order and fourth-order ordinary differential equations and second-order partial differential equations. Both theory and applications of the method to problems in various fields of engineering and applied sciences will be studied."
+        },
+        "GPA": 3.15,
+        "Numbers": {
+            "Enrolled": 37,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Ragab", "J. Wayne"],
+        "Requirements":{
+            "Prerequisites": [["CS3414", "AOE2074", "ESM2074"], "MATH2204"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4054",
+        "Course": {
+            "Title": "AOE4054 Stability of Structures",
+            "Description": "Introduction to the methods of static structural stability analysis and their applications. Buckling of columns and frames. Energy method and approximate solutions. Elastic and inelastic behavior. Torsional and lateral buckling. Use of stability as a structural design criterion."
+        },
+        "GPA": 3.16,
+        "Numbers": {
+            "Enrolled": 5,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["R. Kapania"],
+        "Requirements":{
+            "Prerequisites": [["AOE2024", "AOE3024", "CEE3404"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4064",
+        "Course": {
+            "Title": "AOE4064 Fluid Flows in Nature",
+            "Description": "Course designed to build upon and broaden a basic traditional engineering knowledge of fluid flows into areas concerning a variety of natural occurrences and phenomena that involve fluid motions in important ways. Drag of sessile systems and motile animals, gliding and soaring, flying and swimming, internal flows in organisms, low Reynolds number flows, fluid-fluid interfaces, unsteady flows in nature and wind engineering."
+        },
+        "GPA": 3.31,
+        "Numbers": {
+            "Enrolled": 297,
+            "Withdrawn": 11
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["J. Schetz"],
+        "Requirements":{
+            "Prerequisites": [["AOE3014", "CEE3304", "ESM3024", "ME3404", "ME3414"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4065",
+        "Course": {
+            "Title": "AOE4065 Air Vehicle Design",
+            "Description": "Fundamental principles of innovative air vehicle design. Qualitative and quantitative decision-making tools. Multidisciplinary design teams with emphasis on ethics and professionalism. Project risks and mitigation plans. Oral presentations for design reviews. Written engineering design report. 4065: Proven conceptual design process. Tradeoff studies. Air vehicle weight estimation. Air vehicle concepts feasibility assessment"
+        },
+        "GPA": 3.15,
+        "Numbers": {
+            "Enrolled": 315,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["P. Raj", "R. Canfield"],
+        "Requirements":{
+            "Prerequisites": ["AOE2104", "AOE3054", "AOE3114", "AOE3124", 
+                              "AOE3134", "AOE3164"],
+            "Corequisites": ["AOE4105"]
+        }
+    },
+    {
+        "id": "AOE4066",
+        "Course": {
+            "Title": "AOE4066 Air Vehicle Design",
+            "Description": "Fundamental principles of innovative air vehicle design. Qualitative and quantitative decision-making tools. Multidisciplinary design teams with emphasis on ethics and professionalism. Project risks and mitigation plans. Oral presentations for design reviews. Written engineering design report.4066: Preliminary design tools and processes. Efficient and light-weight air vehicles. Air vehicle design validation."
+        },
+        "GPA": 3.36,
+        "Numbers": {
+            "Enrolled": 285,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["P. Raj", "R. Canfield"],
+        "Requirements":{
+            "Prerequisites": ["AOE4065"],
+            "Corequisites": ["AOE4106"]
+        }
+    },
+    {
+        "id": "AOE4084",
+        "Course": {
+            "Title": "AOE4084 Engr Design Optimiz",
+            "Description": "Use of mathematical programming methods for engineering design optimization including linear programming, penalty function methods, and gradient projection methods. Applications to minimum weight design, open-loop optimum control, machine design, and appropriate design problems from other engineering disciplines."
+        },
+        "GPA": 3.18,
+        "Numbers": {
+            "Enrolled": 154,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["R. Canfield", "G. Seidel"],
+        "Requirements":{
+            "Prerequisites": ["MATH2204"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4105",
+        "Course": {
+            "Title": "AOE4105 Experiments for AE Design",
+            "Description": "Methods for the planning, implementation, assessment and use of experiments in aerospace design problems. 4105: Experiment design, advanced sensor systems, additive manufacturing, uncertainty, data analysis and reporting"
+        },
+        "GPA": 3.84,
+        "Numbers": {
+            "Enrolled": 669,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["O. Coutier-Delgosha"],
+        "Requirements":{
+            "Prerequisites": ["AOE3054"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4106",
+        "Course": {
+            "Title": "AOE4106 Experiments for AE Design",
+            "Description": "Methods for the planning, implementation, assessment and use of experiments in aerospace design problems. 4106: Application of experiments as an integral component of engineering design."
+        },
+        "GPA": 4.0,
+        "Numbers": {
+            "Enrolled": 648,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["O. Coutier-Delgosha"],
+        "Requirements":{
+            "Prerequisites": ["AOE4105"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4114",
+        "Course": {
+            "Title": "AOE4114 Appl Comput Aerodyn",
+            "Description": "Development of computational methods for application to wing aerodynamic problems. Incompressible airfoil codes. Panel methods and vortex lattice methods. Finite difference techniques. Transonic and supersonic applications."
+        },
+        "GPA": 3.69,
+        "Numbers": {
+            "Enrolled": 62,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["O. Coutier-Delgosha"],
+        "Requirements":{
+            "Prerequisites": ["AOE3044", "AOE3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4124",
+        "Course": {
+            "Title": "AOE4124 Configuration Aerodynamics",
+            "Description": "Aerodynamic design of flight vehicles, with emphasis on nonlinear flowfields and configuration concepts. Aerodynamic analysis and design for transonic, supersonic, hypersonic flows, and low speed high alpha flight. Includes case studies of classic configurations and aerodynamic design papers."
+        },
+        "GPA": 3.58,
+        "Numbers": {
+            "Enrolled": 64,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["W. Bulter", "S. Choi", "W. Mason"],
+        "Requirements":{
+            "Prerequisites": ["AOE3014", "AOE3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4154",
+        "Course": {
+            "Title": "AOE4154 Aero Engr Lab",
+            "Description": "Wind tunnel laboratory experiments related to subsonic and supersonic aerodynamics. Continuation of AOE 3054 for Aerospace Engineering students. Writing of technical laboratory reports; design of experiments."
+        },
+        "GPA": 2.97,
+        "Numbers": {
+            "Enrolled": 135,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["C. Skolar"],
+        "Requirements":{
+            "Prerequisites": ["AOE3054", "AOE3114", "AOE3124"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4165",
+        "Course": {
+            "Title": "AOE4165 Space Vehicle Design",
+            "Description": "Fundamental principles of innovative space vehicle design. Qualitative and quantitative decision-making tools. Multidisciplinary design teams with emphasis on collaboration, ethics, and professionalism. Project risks and mitigation plans. Oral presentations for design reviews. Written engineering design report. 4165: Proven conceptual design process. Parametric analyses. Space vehicle mass estimation. Space vehicle concepts feasibility assessment"
+        },
+        "GPA": 3.31,
+        "Numbers": {
+            "Enrolled": 468,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["K. Shinpaugh"],
+        "Requirements":{
+            "Prerequisites": ["AOE3054", "AOE3114", "AOE3124", "AOE4140", "AOE3144"],
+            "Corequisites": ["AOE4105"]
+        }
+    },
+    {
+        "id": "AOE4166",
+        "Course": {
+            "Title": "AOE4166 Space Vehicle Design",
+            "Description": "Fundamental principles of innovative space vehicle design. Qualitative and quantitative decision-making tools. Multidisciplinary design teams with emphasis on collaboration, ethics, and professionalism. Project risks and mitigation plans. Oral presentations for design reviews. Written engineering design report.4166: Preliminary design tools and processes. Efficient and light-weight space vehicles. Space vehicle design validation."
+        },
+        "GPA": 3.42,
+        "Numbers": {
+            "Enrolled": 455,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["K. Shinpaugh"],
+        "Requirements":{
+            "Prerequisites": ["AOE4165"],
+            "Corequisites": ["AOE4106"]
+        }
+    },
+    {
+        "id": "AOE4174",
+        "Course": {
+            "Title": "AOE4174 Spacecraft Propulsion",
+            "Description": "Spacecraft propulsion systems and their applications in orbital, interplanetary, and interstellar flight. Rocket propulsion fundamentals; advanced mission analysis; physics and engineering of chemical rockets, electrical thrusters, and propellantless systems (tethers and sails); spacecraft integration issues."
+        },
+        "GPA": 2.95,
+        "Numbers": {
+            "Enrolled": 182,
+            "Withdrawn": 11
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Young", "K. Shinpaugh"],
+        "Requirements":{
+            "Prerequisites": [["AOE3164", "AOE4234", "ME4234"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4205",
+        "Course": {
+            "Title": "AOE4205 Exper for Ocean Vehicle Design",
+            "Description": "4205: Facilities, instrumentation, and experiments pertinent to ocean engineering in the field of flow measurements and resistance and propulsion tests of surface and underwater vehicles. Analysis and communication of experimental data through technical report writing."
+        },
+        "GPA": 3.13,
+        "Numbers": {
+            "Enrolled": 70,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["W. Alexander"],
+        "Requirements":{
+            "Prerequisites": ["AOE3054"],
+            "Corequisites": ["AOE4265"]
+        }
+    },
+    {
+        "id": "AOE4206",
+        "Course": {
+            "Title": "AOE4206 Exper for Ocean Vehicle Design",
+            "Description": "4206: Assessment of ocean system design through experiments, data analysis, and technical report writing."
+        },
+        "GPA": 3.52,
+        "Numbers": {
+            "Enrolled": 69,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["W. Alexander"],
+        "Requirements":{
+            "Prerequisites": ["AOE3054"],
+            "Corequisites": ["AOE4266"]
+        }
+    },
+    {
+        "id": "AOE4234",
+        "Course": {
+            "Title": "AOE4234 Aerospace Propulsion Systems",
+            "Description": "Methods for the planning, implementation, assessment and use of experiments in aerospace design problems. 4106: Application of experiments as an integral component of engineering design."
+        },
+        "GPA": 4.0,
+        "Numbers": {
+            "Enrolled": 648,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["O. Coutier-Delgosha"],
+        "Requirements":{
+            "Prerequisites": ["AOE4105"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4244",
+        "Course": {
+            "Title": "AOE4244 Naval & Marine Engr Sys Design",
+            "Description": "Concepts, theory and methods for the design, integration, and assessment of naval and marine engineering systems considering energy conservation, ship arrangements, system deactivation diagrams, reliability, maintenance, system power, shock and weapons effects, machinery sizing, and system vulnerability. Physics-based mechanical, electrical, thermal, sensor, control, weapon systems, hullform and engine (diesel and gas turbine) models are used to predict total system performance. Linear programming methods and flow-based models are used to optimize systems architecture and size components."
+        },
+        "GPA": 3.38,
+        "Numbers": {
+            "Enrolled": 54,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Brown"],
+        "Requirements":{
+            "Prerequisites": ["AOE2054", "AOE2204", "AOE3264", "AOE4264"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4254",
+        "Course": {
+            "Title": "AOE4254 Ocean Engineering Laboratory",
+            "Description": "Continuation of AOE 3054 for Ocean Engineering students using facilities and instrumentation pertinent to ocean engineering. Writing of technical laboratory reports; design of experiments."
+        },
+        "GPA": 3.18,
+        "Numbers": {
+            "Enrolled": 20,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["W. Alexander"],
+        "Requirements":{
+            "Prerequisites": ["AOE3054", "AOE3264"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4264",
+        "Course": {
+            "Title": "AOE4264 Principles Naval Engineering",
+            "Description": "This course studies naval engineering systems and systems engineering processes with particular emphasis on: naval missions; combat system performance including radar; underwater acoustics and sonar; ballistics; weapon propulsion and architecture; weapons effects; ship survivability including underwater explosion and shock waves; surface ship and submarine balance and feasibility analysis; and total ship integration. Senior Standing required."
+        },
+        "GPA": 3.39,
+        "Numbers": {
+            "Enrolled": 76,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Brown"],
+        "Requirements":{
+            "Prerequisites": [["AOE2204", "AOE3204"], "MATH2204", "PHYS2306"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4265",
+        "Course": {
+            "Title": "AOE4265 Ocean Vehicle Design",
+            "Description": "Study and application of systems engineering process and ocean engineering principles to the concept exploration, design and development of ocean vehicles including ships, submarines, surface and subsurface autonomous vehicles, boats and yachts. 4265: Emphasis on hullform, power and propulsion, synthesis, balance, metrics and design optimization."
+        },
+        "GPA": 3.37,
+        "Numbers": {
+            "Enrolled": 91,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Brown"],
+        "Requirements":{
+            "Prerequisites": ["AOE2204", "AOE3214", "AOE3224", "AOE3234", "AOE3264"],
+            "Corequisites": ["AOE4205"]
+        }
+    },
+    {
+        "id": "AOE4266",
+        "Course": {
+            "Title": "AOE4266 Ocean Vehicle Design",
+            "Description": "Study and application of systems engineering process and ocean engineering principles to the concept exploration, design and development of ocean vehicles including ships, submarines, surface and subsurface autonomous vehicles, boats and yachts.4266: Emphasis on topside/external arrangements, internal arrangements, machinery arrangements, human systems, structural design, and final assessments of intact and damage stability, weights, space, seakeeping, cost, risk, overall balance and feasibility. Most of the work is done in teams."
+        },
+        "GPA": 3.43,
+        "Numbers": {
+            "Enrolled": 90,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Brown"],
+        "Requirements":{
+            "Prerequisites": ["AOE4265"],
+            "Corequisites": ["AOE4206"]
+        }
+    },
+    {
+        "id": "AOE4274",
+        "Course": {
+            "Title": "AOE4274 Int Ship Structural Analysis",
+            "Description": "Analysis of plate bending, buckling, and ultimate strength using computational tools and methods. Calculation of elastic buckling of stiffened panels. Eigenvalue methods for buckling and vibration. Incremental plastic collapse; other progressive collapse. Ultimate strength of large structural modules due to combined loads. Introductory level finite element analysis."
+        },
+        "GPA": 3.78,
+        "Numbers": {
+            "Enrolled": 19,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Gilbert"],
+        "Requirements":{
+            "Prerequisites": ["AOE3224"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4324",
+        "Course": {
+            "Title": "AOE4324 Energy Methods for Structures",
+            "Description": "Work and energy relationships in structures, flexibility and stiffness influence coefficients, Maxwell and Betti-Rayleigh reciprocal theorems, strain energy and complementary strain energy for thin-walled structures, Castigliano’s first and second theorems for trusses and frames, unit action and unit displacement states, direct stiffness method, principles of minimum total potential energy and total complementary energy for bars, beams, and plates, Ritz method, finite element method for bars and beams."
+        },
+        "GPA": 3.51,
+        "Numbers": {
+            "Enrolled": 70,
+            "Withdrawn": 5
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Seidel"],
+        "Requirements":{
+            "Prerequisites": ["AOE2024", ["AOE3124", "AOE3224"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4334",
+        "Course": {
+            "Title": "AOE4334 Ship Dynamics",
+            "Description": "Introduction to the dynamics of high-speed craft, including surface effect ships, hydrofoil vessels, semi-displacement monohulls and catamarans, and planing vessels"
+        },
+        "GPA": 3.88,
+        "Numbers": {
+            "Enrolled": 15,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Brizzolara"],
+        "Requirements":{
+            "Prerequisites": ["AOE3014", "AOE3034", ["AOE3214", "AOE4214"], "MATH4564"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4344",
+        "Course": {
+            "Title": "AOE4344 Dyn of High-Speed Marine Craft",
+            "Description": "Work and energy relationships in structures, flexibility and stiffness influence coefficients, Maxwell and Betti-Rayleigh reciprocal theorems, strain energy and complementary strain energy for thin-walled structures, Castigliano’s first and second theorems for trusses and frames, unit action and unit displacement states, direct stiffness method, principles of minimum total potential energy and total complementary energy for bars, beams, and plates, Ritz method, finite element method for bars and beams."
+        },
+        "GPA": 3.9,
+        "Numbers": {
+            "Enrolled": 7,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Brizzolara"],
+        "Requirements":{
+            "Prerequisites": ["AOE3264"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4404",
+        "Course": {
+            "Title": "AOE4404 Applied Numerial Methods",
+            "Description": "Interpolation and approximation, numerical integration, solution of equations, matrices and eigenvalues, systems of equations, approximate solution of ordinary and partial differential equations. Applications to physical problems."
+        },
+        "GPA": 3.56,
+        "Numbers": {
+            "Enrolled": 277,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["J. Pitt", "S. Choi", "K. Wang", "A. Phoneix", "S. Josh"],
+        "Requirements":{
+            "Prerequisites": ["MATH4564", ["ESM2074", "AOE2074"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4434",
+        "Course": {
+            "Title": "AOE4434 Intro Comp Fluid Dynamics",
+            "Description": "Euler and Navier-Stokes equations governing the flow of gases and liquids. Mathematical character of partial differential equations. Discretization approaches with a focus on the finite difference method. Explicit and implicit solution techniques and their numerical stability. Introduction to verification, validation, and uncertainty quantification for computational fluid dynamics predictions."
+        },
+        "GPA": 3.34,
+        "Numbers": {
+            "Enrolled": 46,
+            "Withdrawn": 11
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Choi", "C. Roy"],
+        "Requirements":{
+            "Prerequisites": ["MATH2214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4454",
+        "Course": {
+            "Title": "AOE4454 Spacecraft PNT & OD",
+            "Description": "Position/Navigation/Timing (PNT) measurements and optimal batch filter estimation methods for spacecraft with emphasis on orbit determination; GPS position/velocity/time point solutions; linearized state transition matrices; batch least-squares filter Orbit Determination (OD) solutions from a time series of observations; precision and accuracy assessment using covariance and overlap statistics; one-way and two-way radio range and range-rate observations; optical bearings observations; non-Keplerian orbital effects."
+        },
+        "GPA": 2.99,
+        "Numbers": {
+            "Enrolled": 167,
+            "Withdrawn": 5
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Psiaki", "D. Doyle"],
+        "Requirements":{
+            "Prerequisites": ["AOE3154"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4474",
+        "Course": {
+            "Title": "AOE4474 Propellers and Turbines",
+            "Description": "Theory, numerical methods, and experimental techniques for analysis and design of propellers and turbines. Geometry description and creation of computer models. Analysis of inflow from wakes and atmospheric boundary layers. Performance characteristics including open-water and multi-quadrant operation, scale effects, and standard series data. Theoretical analysis and selection of airfoil and hydrofoil sections. Theory and numerical methods for propellers and turbines, including computational fluid dynamics (CFD) simulation. Design of wake-adapted propellers. Design of wind-turbine rotors in steady wind. Structural analysis of propeller and turbine blades. Wind- and water-tunnel testing for thrust and torque."
+        },
+        "GPA": 3.3,
+        "Numbers": {
+            "Enrolled": 134,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Brizzolara", "M. Kuester", "E. Paterson"],
+        "Requirements":{
+            "Prerequisites": ["AOE3014"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4514",
+        "Course": {
+            "Title": "AOE4514 Nonlinear Dynamics and Chaos",
+            "Description": "Motion of systems governed by differential equations: stability, geometry, phase planes, bifurcations, Poincare sections, point attractors, limit cycles, chaos and strange attractors, Lyapunov exponents. Forced, nonlinear oscillations: jump phenomena, harmonic resonances, Hopf bifurcations, averaging and multiple-scales analysis. Systems governed by discrete maps: return maps, cobweb plots, period-multiplying bifurcations, intermittency, delay coordinates, fractal dimensions."
+        },
+        "GPA": 4.0,
+        "Numbers": {
+            "Enrolled": 10,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Ross"],
+        "Requirements":{
+            "Prerequisites": ["ESM2304", "MATH2214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4604",
+        "Course": {
+            "Title": "AOE4604 Booster Design",
+            "Description": "Theory, design, operations, and fabrication methodologies employed to manufacture boosters. The rocket equation, solid, liquid, and hybrid propellant systems, combustion chamber design, vehicle structures, telemetry, guidance and navigation, launch operations, and failure modalities."
+        },
+        "GPA": 3.78,
+        "Numbers": {
+            "Enrolled": 167,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["H. Artis"],
+        "Requirements":{
+            "Prerequisites": ["AOE2074", "AOE3124", "AOE3154", "AOE3164"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4624",
+        "Course": {
+            "Title": "AOE4624 Aero and Hydroacoustics",
+            "Description": "Fundamental background to the field of aero/hydroacoustics. Quantifying sound levels, acoustic intensity, the acoustic wave equation, and linear acoustics. Fluid dynamics, turbulence, and thermodynamics in aeroacoustics. Lighthill’s equation, and Curle’s equation. Characterization and identification of aeroacoustic sources. Leading and trailing edge noise. Basics of aeroacoustic wind tunnel testing."
+        },
+        "GPA": 2.56,
+        "Numbers": {
+            "Enrolled": 25,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["W. Alexander"],
+        "Requirements":{
+            "Prerequisites": ["AOE3014", "AOE3054"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4634",
+        "Course": {
+            "Title": "AOE4634 Wind Turbine Technology",
+            "Description": "Aerodynamics and elastic behavior of a modern wind turbine. Internal and aerodynamic loads of wind turbines. Locating wind turbines with respect to fatigue, annual power and noise productions. Aeroelastic behavior of wind turbine blades. Generators, transformers and power converters used in wind energy. Historical, economic, political, and innovation issues related to wind energy and power grid integration."
+        },
+        "GPA": 3.24,
+        "Numbers": {
+            "Enrolled": 28,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Szoke"],
+        "Requirements":{
+            "Prerequisites": ["AOE3014", ["AOE3124", "AOE3224"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4654",
+        "Course": {
+            "Title": "AOE4654 Space Weather",
+            "Description": "Solar-terrestrial interactions and space weather: the sun, solar wind, and interplanetary magnetic field; space plasma physics and magnetohydrodynamics; Earths magnetosphere and ionosphere; geomagnetic storms and auroral substorms; societal impacts of space weather; planetary magnetospheres; space science instrumentation."
+        },
+        "GPA": 3.27,
+        "Numbers": {
+            "Enrolled": 172,
+            "Withdrawn": 16
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. England", "J. Baker"],
+        "Requirements":{
+            "Prerequisites": [["ECE3105", "AOE3014"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4674",
+        "Course": {
+            "Title": "AOE4674 Upper Atmosphere Space Weather",
+            "Description": "Interaction of Earth’s upper atmosphere and space environment with spacecraft: processes that affect atmospheric density relevant to spacecraft orbit decay; basic composition and structure; radiation and radiative transfer; atmospheric energy balance; atmospheric chemistry and ion production/loss mechanisms; fundamental concepts of Solar-terrestrial physics including ionospheric Chapman theory; atmospheric energy/mass transport; ionospheric electrodynamics; ionospheric storms; planetary atmospheres/ionospheres; instrumentation."
+        },
+        "GPA": 3.36,
+        "Numbers": {
+            "Enrolled": 49,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. England"],
+        "Requirements":{
+            "Prerequisites": [["ECE3105", "AOE3014"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4804",
+        "Course": {
+            "Title": "AOE4804 Topics in Dyn, Ctrl, Estm",
+            "Description": "Interaction of Earth's upper atmosphere and space environment with spacecraft: processes that affect atmospheric density relevant to spacecraft orbit decay; basic composition and structure; radiation and radiative transfer; atmospheric energy balance; atmospheric chemistry and ion production/loss mechanisms; fundamental concepts of Solar-terrestrial physics including ionospheric Chapman theory; atmospheric energy/mass transport; ionospheric electrodynamics; ionospheric storms; planetary atmospheres/ionospheres; instrumentation."
+        },
+        "GPA": 3.79,
+        "Numbers": {
+            "Enrolled": 23,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Sultan", "C. Woolsey"],
+        "Requirements":{
+            "Prerequisites": ["AOE4004"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4814",
+        "Course": {
+            "Title": "AOE4814 Special Topics in Propulsion",
+            "Description": "Advanced undergraduate topics in propulsion for aerospace and ocean vehicles. Covers technical, environmental, and economic challenges and opportunities in contemporary and future propulsion concepts. Comparative analyses of conventional and advanced propulsion systems and propulsion/vehicle integration concepts based upon first principles. Topics include distributed propulsion, green propulsion and propulsion/airframe integration. May be repeated with different content for a maximum of 6 credits."
+        },
+        "GPA": 4.0,
+        "Numbers": {
+            "Enrolled": 6,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["K. Lowe"],
+        "Requirements":{
+            "Prerequisites": [["AOE3164", "AOE3264"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "AOE4864",
+        "Course": {
+            "Title": "AOE4864 Special Topics in Space Engr",
+            "Description": "Advanced undergraduate topics in space engineering. Covers technical, environmental, and economic challenges and opportunities in contemporary and future space systems and space missions. Comparative analyses of current and future space systems and missions, and space platform and payload concepts. Topics may include remote sensing, disaggregation, infrastructure, and mission modeling and simulation. May be repeated with different content for a maximum of 6 credits."
+        },
+        "GPA": 2.94,
+        "Numbers": {
+            "Enrolled": 74,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["L. Harding", "J. Black"],
+        "Requirements":{
+            "Prerequisites": ["AOE3154"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS1044",
+        "Course":{
+            "Title" : "CS1044 Intro Prog in C",
+            "Description:" : "Fundamental concepts underlying software solutions of many problems. Structured data, statement sequencing, logic control, input/output, and functions. The course will be taught using a structured approach to programming."
+        },
+        "GPA": 3.19,
+        "Numbers":{
+            "Enrolled": 691,
+            "Withdrawn": 23
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["K. Stevens"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS1054",
+        "Course":{
+            "Title": "CS1054 Intro to Programming in Java",
+            "Description": "This course provides an introduction to object oriented programming using the Java language. Fundamental concepts underlying programming and software solutions to many problems. Structured data, statement sequencing, logic control, classes, objects, methods, instantiation of classes, sending messages to objects."
+        },
+        "GPA": 2.87,
+        "Numbers":{
+            "Enrolled": 1032,
+            "Withdrawn": 80
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["N. Barnette", "H. Hillman", "L. Gusukuma", "M. Farghally", "J. Lewis"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS1064",
+        "Course":{
+            "Title": "CS1064 Intro to Programming in Python",
+            "Description": "Developing computational problem solving skills and software solutions to a variety of multimedia, scientific, and engineering problems using the Python programming language. Statement sequencing, conditional program flow, iteration, functional decomposition, and recursion. Simple numeric data types, strings, lists, list comprehensions, sets, and dictionaries. Input/output of file-based data, content obtained from the web, and manipulation of digital images. Basic object-oriented concepts, classes, objects, and methods."
+        },
+        "GPA": 3.58,
+        "Numbers":{
+             "Enrolled": 5846,
+             "Withdrawn": 87
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["J. Davis", "E. Powell", "J. Wenskovitch", "M. Ahmadian", "J. Lewis"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None" 
+        }
+    },
+    {
+        "id": "CS1114",
+        "Course":{
+            "Title": "CS1114 Intro to Software Design",
+            "Description": "Fundamental concepts of programming from an object-oriented perspective. Basic software engineering principles and programming skills in a programming language that supports the object-oriented paradigm. Simple data types, control structures, array and string data structures, basic algorithms, testing and debugging. A basic model of the computer as an abstract machine. Modeling and problem-solving skills applicable to programming at this level."
+        },
+        "GPA": 2.59,
+        "Numbers":{
+             "Enrolled": 3641,
+             "Withdrawn": 710
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Senger", "J. Davis", "N. Barnette", "S. Cao", "L. Kotut", 
+                        "H. Hillman", "A. Feng", "M. Irvin", "S. Edwards"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None" 
+        }
+    },
+    {
+        "id": "CS2064",
+        "Course":{
+            "Title": "CS2064 Intermediate Prog in Python",
+            "Description": "CS 2064 (Intermediate Programming in Python) is a second-level introduction to programming in Python, building on the computational problem-solving skills and Python language fundamentals introduced in the first course in the series.  Topics include advanced uses of control flow and data processing, data structures, and computational techniques, as well as introducing object-oriented programming and modern data science pipelines.  Learners will be able to create, interpret, and debug complex programs.  Problems and projects in the course will be contextualized for scientists and engineers.  By the end of the course, students should acquire the skills necessary to successfully implement Python programs in data science and production environments, produce object-oriented solutions to complex problems, and build a strong understanding of the ethical implications of technological change."
+        },
+        "GPA": 3.19,
+        "Numbers":{
+             "Enrolled": 270,
+             "Withdrawn": 9
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["J. Wenskovitch", "P. Sullivan"],
+        "Requirements":{
+            "Prerequisites": ["CS1064"],
+            "Corequisites": "None" 
+        }
+    },
+    {
+        "id": "CS2104",
+        "Course":{
+            "Title" : "CS2104 Intro to Problem Solving in CS",
+            "Description": "This course introduces the student to a broad range of heuristics for solving problems in a range of settings. Emphasis on problem-solving techniques that aid programmers and computer scientists. Heuristics for solving problems ''in the small'' (classical math and word problems), generating potential solutions to ''real-life'' problems encountered in the profession, and problem solving in teams."
+
+        },
+        "GPA": 3.48,
+        "Numbers":{
+            "Enrolled": 2248,
+            "Withdrawn": 28
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["O. Emebo", "E. Powell", "F. Poursardar" ,"M. Ellis", 
+                          "L. Kotut", "S. Cao", "A. Esakia", "D. Mcpherson"],
+        "Requirements":{
+            "Prerequisites": ["MATH1225", ["CS1114", "CS2064", "ECE2514"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS2114",
+        "Course":{
+            "Title" : "CS2114 Software Des & Data Structures",
+            "Description": "A programming-intensive exploration of software design concepts and implementation techniques. Builds on knowledge of fundamental object-oriented programming. Advanced object-oriented software design, algorithm development and analysis, and classic data structures. Includes a team-based, semester-long software project."
+
+        },
+        "GPA": 3.14,
+        "Numbers":{
+            "Enrolled": 4374,
+            "Withdrawn": 194
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. Haqq", "M. Ellis", "P. Sullivan", "E. Abdelrahman", "M. Farghally", 
+                          "A. Esakia", "O. Emebo", "N. Barnette"],
+        "Requirements":{
+            "Prerequisites": [["CS1114", "CS2064"]],
+            "Corequisites": "None"
+        }        
+    },
+    {
+        "id": "CS2144",
+        "Course":{
+            "Title" : "CS2144 Competitive Problem Solving I",
+            "Description": "Fundamentals of algorithms, data structures, and implementation techniques, taught in a setting that combines collaborative practice with competitive exercise. Students practice to solve problems using a computer, which are judged by automated evaluation software for correctness and efficiency. Practice with data structures including arrays, lists, maps, and trees, as well as algorithmic strategies including recursion, divide-and-conquer, dynamic programming, search and traversal algorithms, graph representations, and computational geometry. Macro- and micro optimization techniques to improve efficiency are emphasized."
+
+        },
+        "GPA": 3.81,
+        "Numbers":{
+            "Enrolled": 21,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Back"],
+        "Requirements":{
+            "Prerequisites": ["CS1114"],
+            "Corequisites": "None"
+        }
+
+    },
+    {
+        "id": "CS2164",
+        "Course":{
+            "Title" : "CS2164 Foundations Security Environ",
+            "Description": "Introduction to multiple analytical perspectives on contemporary security environments, including political, legal, ethical, technical, environmental and historical and cultural perspectives relative to the conception, design and implementation of security solutions, practices, and policies. Emphasizes applying and analyzing the effectiveness of diverse procedures, tools and policies used in security and privacy solutions, decision-making, risk management and operational policy to mitigate local, national, international and global threats."
+
+        },
+        "GPA": 3.66,
+        "Numbers":{
+            "Enrolled": 281,
+            "Withdrawn": 8
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Soung", "N. Brantly", "E.Villacis", "J.Simpson"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS2505",
+        "Course":{
+            "Title" : "CS2505 Introduction to Computer Organization",
+            "Description": "An introduction to the design and operation of digital computers. Works up from the logic gate level to combinational and sequential circuits, information representation, computer arithmetic, arithmetic/logic units, control unit design, basic computer organization, relationships between high level programming languages and instruction set architectures."
+
+        },
+        "GPA": 2.93,
+        "Numbers":{
+            "Enrolled": 2991,
+            "Withdrawn": 266
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Paul", "D. Mcpherson", "C. Jung", "W. McQuain", 
+                          "A. Senger", "J. Wenskovitch", "M. Tausif"],
+        "Requirements":{
+            "Prerequisites": ["CS2114"],
+            "Corequisites": ["MATH2534"]
+        }
+    },
+    {
+        "id": "CS2506",
+        "Course":{
+            "Title" : "CS2506 Introduction to Computer Organization",
+            "Description": "An introduction to the design and operation of digital computers. Instruction formats and construction, addressing modes, instruction execution, memory hierarchy operation and performance, pipelining, input/output, and the relationships between high level programming languages and machine language."
+
+        },
+        "GPA": 2.76,
+        "Numbers":{
+            "Enrolled": 2148,
+            "Withdrawn": 210
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. Nikolopoulos", "W. McQuain", "X. Jian", "D. Lee", 
+                          "W. Feng", "J. Wenskovitch"],
+        "Requirements":{
+            "Prerequisites": [["CS2505", "ECE2564"], ["CS2114", "ECE3514"], "MATH2534"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS3114",
+        "Course":{
+            "Title" : "CS3114 Data Structures And Algorithms",
+            "Description": "Advanced data structures and analysis of data structure and algorithm performance. Sorting, searching, hashing, and advanced tree structures and algorithms. File system organization and access methods. Course projects require advanced problem-solving, design, and implementation skills."
+
+        },
+        "GPA": 3.1,
+        "Numbers":{
+            "Enrolled": 2676,
+            "Withdrawn": 210
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Chang", "M. Chen", "W. McQuain", "J. Davis", 
+                          "K. Edmison", "P. Sullivan", "W. McQuain", "Y. Cao", 
+                          "C. Shaffer", "S. Hamouda", "S. Raghvendra"],
+        "Requirements":{
+            "Prerequisites": [["CS2505", "ECE2564"], ["CS2114", "ECE3514"], "MATH2534"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS3214",
+        "Course":{
+            "Title" : "CS3214 Computer Systems",
+            "Description": "Introduction to computer systems as they are relevant to application programmers today, with emphasis on operating system principles. Operating system design and architectures; processes; threads, synchronization techniques, deadlock; CPU scheduling; system call interfaces, system level I/O and file management; shell programming; separate compilation, loading and linking; inter-process communication (IPC); virtual and physical memory management and garbage collection; network protocols and programming; virtualization; performance analysis and optimization."
+        },
+        "GPA": 2.91,
+        "Numbers":{
+            "Enrolled": 2009,
+            "Withdrawn": 103
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Back", "W. McQuain", "A. Yazdani", "M. Hicks",
+                          "A. Butt", "L. Hu", "D. Williams", "H. Li"],
+        "Requirements":{
+            "Prerequisites": [["CS2506", "ECE2564"], ["CS2114", "ECE3574"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS3274",
+        "Course":{
+            "Title" : "CS3274 Software Reverse Engineering",
+            "Description": "Introduction to computer systems as they are relevant to application programmers today, with emphasis on operating system principles. Operating system design and architectures; processes; threads, synchronization techniques, deadlock; CPU scheduling; system call interfaces, system level I/O and file management; shell programming; separate compilation, loading and linking; inter-process communication (IPC); virtual and physical memory management and garbage collection; network protocols and programming; virtualization; performance analysis and optimization."
+        },
+        "GPA": 2.95,
+        "Numbers":{
+            "Enrolled": 72,
+            "Withdrawn": 17
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Howe", "I.Roessle"],
+        "Requirements":{
+            "Prerequisites": ["CS2506", "CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS3304",
+        "Course":{
+            "Title" : "CS3304 Comparative Languages",
+            "Description": "This course in programming language constructs emphasizes the run-time behavior of programs. The languages are studied from two points of view: (1) the fundamental elements of languages and their inclusion in commercially available systems; and (2) the differences between implementations of common elements in languages."
+        },
+        "GPA": 3.18,
+        "Numbers":{
+            "Enrolled": 1821,
+            "Withdrawn": 79
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Gracanin", "F. Poursardar", "N. Meng", "D. McPherson",
+                          "E. Tilevich", "M.Gulzar"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS3314",
+        "Course":{
+            "Title" : "CS3314 Prog Lang Theory & Practice",
+            "Description": "Theoretical basis of programming languages, including formal languages, computability theory, type theory, and programming language design. Standard syntax notations. Fundamental programming language features for control flow and data representation. Language implementation strategies. Unsolvable problems in the context of programming languages and computing."
+        },
+        "GPA": 2.7,
+        "Numbers":{
+            "Enrolled": 30,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["E. Tilevich"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        } 
+    },
+    {
+        "id": "CS3604",
+        "Course":{
+            "Title" : "CS3604 Professionalism in Computing",
+            "Description": "Studies the ethical, social, and professional concerns of the computer science field. Covers the social impact of the computer, implications and effects of computers on society, and the responsibilities of computer professionals in directing the emerging technology. The topics are studied through case studies of reliable, risk-free technologies, and systems that provide user friendly processes. Specific studies are augmented by an overview of the history of computing, interaction with industrial partners and computing professionals, and attention to the legal and ethical responsibilities of professionals. This is a web-supported course, incorporating writing intensive exercises, making extensive use of active learning technologies."
+        },
+        "GPA": 3.76,
+        "Numbers":{
+            "Enrolled": 2081,
+            "Withdrawn": 11
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. Dunlap", "S. McCrickard", "D. Tatar"],
+        "Requirements":{
+            "Prerequisites": ["CS2114"],
+            "Corequisites": "None"
+        } 
+    },
+    {
+        "id": "CS3634",
+        "Course":{
+            "Title" : "CS3634 Comp Sci Foundations for CMDA",
+            "Description": "Survey of computer science concepts and tools that enable computational science and data analytics. Data structure design and implementation. Analysis of data structure and algorithm performance. Introduction to high-performance computer architectures and parallel computation. Basic operating systems concepts that influence the performance of large-scale computational modeling and data analytics. Software development and software tools for computational modeling."
+        },
+        "GPA": 2.98,
+        "Numbers":{
+            "Enrolled": 12,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Warburton", "E. Martin"],
+        "Requirements":{
+            "Prerequisites": ["CS2114"],
+            "Corequisites": "None"
+        } 
+    },
+    {
+        "id": "CS3654",
+        "Course":{
+            "Title" : "CS3654 Intro Data Analytics & Visual",
+            "Description": "Basic principles and techniques in data analytics; methods for the collection of, storing, accessing, and manipulating standard-size and large datasets; data visualization; and identifying sources of bias."
+        },
+        "GPA": 3.42,
+        "Numbers":{
+            "Enrolled": 555,
+            "Withdrawn": 16
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Sengupta", "C. Lucero", "X. Xing", "M. Liu", 
+                          "P. Hauck", "C. North", "T. Mitra", "J. Jiang"],
+        "Requirements":{
+            "Prerequisites": [["CS1114", "CS1044", "CS1054", "CS1064"], "MATH2204", ["STAT4705", "STAT4714"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS3704",
+        "Course":{
+            "Title" : "CS3704 Intermed Software Des",
+            "Description": "Explores the principles of software design in detail, with an emphasis on software engineering aspects. Includes exposure of software lifecycle activities including design, coding, testing, debugging, and maintenance, highlighting how design affects these activities. Peer reviews, designing for software reuse, CASE tools, and writing software to specifications are also covered."
+        },
+        "GPA": 3.75,
+        "Numbers":{
+            "Enrolled": 924,
+            "Withdrawn": 5
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["F. Servant", "N. Meng", "M. Hicks", "K. Edmison", 
+                          "K.Alsafwan", "M. Seyam"],
+        "Requirements":{
+            "Prerequisites": ["CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS3714",
+        "Course":{
+            "Title" : "CS3714 Mobile Software Development",
+            "Description": "Technologies and concepts underlying software development for mobile devices (handheld computers). Mobile computing platforms, including architecture, operating system, and programming environment. Software design patterns and structuring for mobile applications. Network-centric mobile software development. Data persistence. Programming for mobile device components such as cameras, recorders, accelerometer, gyroscope and antennas. Location-aware software development."
+        },
+        "GPA": 3.32,
+        "Numbers":{
+            "Enrolled": 791,
+            "Withdrawn": 57
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["O. Balci", "K. Edmison", "A. Esakia", "M. Seyam"],
+        "Requirements":{
+            "Prerequisites": [["CS2114", "ECE3514"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS3724",
+        "Course":{
+            "Title" : "CS3724 Human-Comptr Intrctn",
+            "Description": "Survey of human-computer interaction concepts, theory, and practice. Basic components of human-computer interaction. Interdisciplinary underpinnings. Informed and critical evaluation of computer-based technology. User-oriented perspective, rather than system-oriented, with two thrusts: human (cognitive, social) and technological (input/output, interactions styles, devices). Design guidelines, evaluation methods, participatory design, communication between users and system developers."
+        },
+        "GPA": 3.47,
+        "Numbers":{
+            "Enrolled": 998,
+            "Withdrawn": 14
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Hassan", "A. Kulak", "L. Gusukuma", "S. Harrison",
+                          "D. McCrickard"],
+        "Requirements":{
+            "Prerequisites": [["CS1114", "CS1044", "CS1054", "CS1064"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS3744",
+        "Course":{
+            "Title" : "CS3744 Intro GUI Programming/Graphics",
+            "Description": "Survey of human-computer interaction concepts, theory, and practice. Basic components of human-computer interaction. Interdisciplinary underpinnings. Informed and critical evaluation of computer-based technology. User-oriented perspective, rather than system-oriented, with two thrusts: human (cognitive, social) and technological (input/output, interactions styles, devices). Design guidelines, evaluation methods, participatory design, communication between users and system developers."
+        },
+        "GPA": 3.43,
+        "Numbers":{
+            "Enrolled": 673,
+            "Withdrawn": 49
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["K. Luther", "S. Lee", "L. Gusukuma", "D. Gracanin",
+                          "R. Tasooji"],
+        "Requirements":{
+            "Prerequisites": [["MATH1114", "MATH2114"], "MATH2204", "CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS3754",
+        "Course":{
+            "Title" : "CS3754 Cloud Software Development",
+            "Description": "Fundamentals of cloud software development, including design patterns, application programming interfaces, and underlying middleware technologies. Development of distributed multi-tiered enterprise software applications that run on a server computer and are accessed using a web browser over the Internet on a network-connected computer such as desktop, laptop, or handheld computer (tablet, smartphone, or mobile device."
+        },
+        "GPA": 3.31,
+        "Numbers":{
+            "Enrolled": 508,
+            "Withdrawn": 61
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["O. Balci", "A. Esakia", "G. Back"],
+        "Requirements":{
+            "Prerequisites": [["CS2114", "ECE3514"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS3824",
+        "Course":{
+            "Title" : "CS3824 Intro Comp Bio Bioinformatics",
+            "Description": "Introduction to computational biology and bioinformatics (CBB) through hands-on learning experiences. Emphasis on problem solving in CBB. Breadth of topics covering structural bioinformatics; modeling and simulation of biological networks; computational sequence analysis; algorithms for reconstructing phylogenies; computational systems biology; and data mining algorithms."
+        },
+        "GPA": 3.25,
+        "Numbers":{
+            "Enrolled": 122,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Murali", "L. Heath", "L. Zhang"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4104",
+        "Course":{
+            "Title" : "CS4104 Data and Algorithm Analysis",
+            "Description": "Data structures and algorithms from an analytical perspective. Theoretical analysis of algorithm efficiency. Comparing algorithms with respect to space and run-time requirements. Analytical methods for describing theoretical and practical bounds on performance. Constraints affecting problem solvability"
+        },
+        "GPA": 2.97,
+        "Numbers":{
+            "Enrolled": 1195,
+            "Withdrawn": 55
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Raghvendra", "T. Murali", "L. Heath", "T. Hoang",
+                          "B. Ji", "A. Sandu", "S. Hamouda"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "MATH3134"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4114",
+        "Course":{
+            "Title" : "CS4114 Formal Languages",
+            "Description": "The course presents a study of formal languages and the correspondence between language classes and the automata that recognize them. Formal definitions of grammars and acceptors, deterministic and nondeterministic systems, grammar ambiguity, finite state and push-down automata, and normal forms will be discussed."
+        },
+        "GPA": 3.2,
+        "Numbers":{
+            "Enrolled": 491,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Mohammed", "L. Zhang", "C. Shaffer"],
+        "Requirements":{
+            "Prerequisites": ["MATH3134"],
+            "Corequisites": "None"
+        }   
+    },
+    {
+        "id": "CS4124",
+        "Course":{
+            "Title" : "CS4124 Theory of Computation",
+            "Description": "Theoretical analysis of the computational process; fundamental concepts such as abstract programs, classes of computational machines and their equivalence, recursive function theory, unsolvable problems, Churchs thesis, Kleenes theorem, program equivalence, and generability, acceptability, decidability will be covered"
+        },
+        "GPA": 2.36,
+        "Numbers":{
+            "Enrolled": 108,
+            "Withdrawn": 15
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["L. Watson", "L.Heath"],
+        "Requirements":{
+            "Prerequisites": ["MATH3134"],
+            "Corequisites": "None"
+        }   
+    },
+    {
+        "id": "CS4134",
+        "Course":{
+            "Title" : "CS4134 Quantum Comp & Info Proc",
+            "Description": "Quantum states and quantum phenomena. Quantum communication concepts such as superdense coding, teleportation, and complexity. Classical and quantum circuits and gate sets for computation. Quantum algorithms and comparison to classical algorithms. Quantum computational complexity theory and complexity classes. Quantum information concepts such as density operators, measurements, and quantum channels. Error correction, the stabilizer formalism, and fault-tolerance. The adiabatic theorem and adiabatic quantum computation. Entanglement and entanglement measures."
+        },
+        "GPA": 3.05,
+        "Numbers":{
+            "Enrolled": 34,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["J. Sikora"],
+        "Requirements":{
+            "Prerequisites": ["MATH2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4144",
+        "Course":{
+            "Title" : "CS4144 Competitive Problem Solving II",
+            "Description": "Deeper treatment of advanced algorithms, data structures, and implementation techniques, taught in a setting that combines collaborative practice with competitive exercise. Students practice to solve problems using a computer, which are judged by automated evaluation software for correctness and efficiency. Practice with advanced searching and graph algorithms, advanced dynamic programming, linear programming techniques, computational geometry, and numerical algorithms. Problems are drawn from multiple areas in computer science. Macro- and micro optimization techniques to improve efficiency are emphasized."
+        },
+        "GPA": 3.67,
+        "Numbers":{
+            "Enrolled": 6,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Back"],
+        "Requirements":{
+            "Prerequisites": ["CS2114", "CS2144"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4164",
+        "Course":{
+            "Title" : "CS4164 Future of Security",
+            "Description": "Identification and analysis of complex, real-world security problems and threats to people, organizations, and nations across multiple domains, roles and future scenarios. Crisis communication, decision making tools, ethical principles and problem-solving methods to respond, assess options, plan, scope, and communicate before, during and after conflicts, disasters and attacks. Use of an experiential learning facility, and participation in a reality-based team simulation of cascading security and disaster events."
+        },
+        "GPA": 3.72,
+        "Numbers":{
+            "Enrolled": 33,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["H. Zhang", "A. Brantly", "A. Vance"],
+        "Requirements":{
+            "Prerequisites": ["CS2164"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4204",
+        "Course":{
+            "Title" : "CS4204 Computer Graphics",
+            "Description": "Hardware and software techniques for the display of graphical information. 2D and 3D geometry and transformations, clipping and windowing, software systems. Interactive graphics, shading, hidden surface elimination, perspective depth."
+        },
+        "GPA": 3.38,
+        "Numbers":{
+            "Enrolled": 20,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. Gracanin"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "CS3744"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4224",
+        "Course":{
+            "Title" : "CS4224 Linux Kernel Programming",
+            "Description": "Design and internal organization of the Linux operating system kernel. Kernel subsystems, boot process, memory management, process and thread model, scheduling, interrupt and exception handling, virtual file system and the concrete file system, block I/O and I/O scheduler, network stack, and device drivers. Modification of existing kernel code. Design, implementation, test and evaluation of new kernel modules. Kernel and full software stack debugging techniques, and virtualization as an aid for operating system development and debug. Software engineering techniques to analyze, modify and run a large, complex open-source code base."
+        },
+        "GPA": 3.21,
+        "Numbers":{
+            "Enrolled": 50,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Min"],
+        "Requirements":{
+            "Prerequisites": [["ECE3574", "CS3114"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4234",
+        "Course":{
+            "Title" : "CS4234 Parallel Computation",
+            "Description": "Survey of parallel computer architectures, models of parallel computation, and interconnection networks. Parallel algorithm development and analysis. Programming paradigms and languages for parallel computation. Example applications. Performance measurement and evaluation."
+        },
+        "GPA": 3.43,
+        "Numbers":{
+            "Enrolled": 63,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Sandu", "K. Cameron", "W.Feng"],
+        "Requirements":{
+            "Prerequisites": ["CS3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4254",
+        "Course":{
+            "Title" : "CS4254 Network Arch Programming",
+            "Description": "Introduction to computer network architecture, and methods for programming network services and applications (e.g. DNS, Email and MIME, http, SNMP, multimedia). Wired, wireless, and satellite network architectures. OSI protocol model, with an emphasis on upper layers. Congestion control, quality of service, routing. Internet protocol suite (e.g. IP, TCP, ARP, RARP). Server design (e.g. connectionless, concurrent). Network programming abstractions (e.g. XDR, remote procedure calls, sockets, DCOM). Case studies (e.g. TELNET)."
+        },
+        "GPA": 3.23,
+        "Numbers":{
+            "Enrolled": 151,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["B. Viswanath","S. Hasan"],
+        "Requirements":{
+            "Prerequisites": ["CS3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4264",
+        "Course":{
+            "Title" : "CS4264 Principles Computer Security",
+            "Description": "Survey of computer problems and fundamental computer security design principles and models for software systems. Cryptographic models and methods. Modern cyber security techniques for robust computer operating systems, software, web applications, large-scale networks and data protection. Privacy models and techniques. Contemporary computer and network security examples."
+        },
+        "GPA": 3.61,
+        "Numbers":{
+            "Enrolled": 662,
+            "Withdrawn": 7
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Rahaman", "M. Hicks", "D. Yao", "G. Wang", 
+                          "T. Chung", "P. Gao"],
+        "Requirements":{
+            "Prerequisites": ["CS3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4274",
+        "Course":{
+            "Title" : "CS4274 Secure Computing Capstone",
+            "Description": "Advanced topics in cybersecurity and secure computing. Threat modeling through identification and analysis of security threats. Reasoning about the efficacy, complexity, cost, and ethical tradeoffs of computer security systems. Team-based approach to solving open-ended computer security problems. Designing, implementing, documenting, and presenting advanced computer systems."
+        },
+        "GPA": 3.6,
+        "Numbers":{
+            "Enrolled": 44,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["B. Viswanath","T. Hasan"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "CS4264"],
+            "Corequisites": "None"
+        }
+
+    },
+    {
+        "id": "CS4284",
+        "Course":{
+            "Title" : "CS4284 Systems & Networking Capstone",
+            "Description": "Advanced topics in computer systems & networking, e.g. distributed and parallel processing, emerging architectures, novel systems management & networking design, fault- tolerance, and robust and secure data management. Team- based approach to solving open-ended computer systems & networking problems. Designing, implementing and documenting advanced computer/networking systems."
+        },
+        "GPA": 3.82,
+        "Numbers":{
+            "Enrolled": 225,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Back", "A. Butt", "K. Cameron", "D. Nikolopoulos"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "CS3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4304",
+        "Course":{
+            "Title" : "CS4304 Compiler Design",
+            "Description": "Advanced topics in computer systems & networking, e.g. distributed and parallel processing, emerging architectures, novel systems management & networking design, fault- tolerance, and robust and secure data management. Team- based approach to solving open-ended computer systems & networking problems. Designing, implementing and documenting advanced computer/networking systems."
+        },
+        "GPA": 3.52,
+        "Numbers":{
+            "Enrolled": 9,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Jung"],
+        "Requirements":{
+            "Prerequisites": ["CS3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4414",
+        "Course":{
+            "Title" : "CS4414 Issues in Scientific Computing",
+            "Description": "Theory and techniques of modern computational mathematics, computing environments, computational linear algebra, optimization, approximation, parameter identification, finite difference and finite element methods and symbolic computation. Project-oriented course; modeling and analysis of physical systems using state-of-the-art software and packaged subroutines."
+        },
+        "GPA": 3.9,
+        "Numbers":{
+            "Enrolled": 10,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Onufriev", "T.Lin"],
+        "Requirements":{
+            "Prerequisites": ["MATH2214", "MATH3214", "CS2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4504",
+        "Course":{
+            "Title" : "CS4504 Computer Organization",
+            "Description": "Information representation and transfer; instructions and data access methods; the control unit and microprogramming; memories; input/output and interrupts; secondary storage; the von Neumann SISD organization; high level language machines; the RISC concept; special purpose processors including operating system, file, text, floating point, communication, etc. Multicomputers; multiprocessors; concurrent processing support; Pipeline machines, processor arrays, database machines; the data flow/data directed approach; computer networks."
+        },
+        "GPA": 2.82,
+        "Numbers":{
+            "Enrolled": 30,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["H.Zeng", "W.Feng" , "X.Jian"],
+        "Requirements":{
+            "Prerequisites": ["CS3214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4604",
+        "Course":{
+            "Title" : "CS4604 Int Data Base Mgt Sys",
+            "Description": "Information representation and transfer; instructions and data access methods; the control unit and microprogramming; memories; input/output and interrupts; secondary storage; the von Neumann SISD organization; high level language machines; the RISC concept; special purpose processors including operating system, file, text, floating point, communication, etc. Multicomputers; multiprocessors; concurrent processing support; Pipeline machines, processor arrays, database machines; the data flow/data directed approach; computer networks."
+        },
+        "GPA": 3.48,
+        "Numbers":{
+            "Enrolled": 404,
+            "Withdrawn": 6
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["B.Prakash", "R.Quintin" , "S.Hamouda", "Y.Chen"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }   
+    },
+    {
+        "id": "CS4624",
+        "Course":{
+            "Title" : "CS4624 Multimedia/Hypertext",
+            "Description": "Introduces the architectures, concepts, data, hardware, methods, models, software, standards, structures, technologies, and issues involved with: networked multimedia (e.g., image, audio, video) information, access and systems; hypertext and hypermedia; electronic publishing; virtual reality. Coverage includes text processing, search, retrieval, browsing, time-based performance, synchronization, quality of service, video conferencing and authoring."
+        },
+        "GPA": 3.43,
+        "Numbers":{
+            "Enrolled": 463,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Farag", "E.Fox"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4634",
+        "Course":{
+            "Title" : "CS4634 Design of Information",
+            "Description": "Survey of the higher-order properties that allow data to become information, that is, to inform people.  The course focuses on the analysis of user needs, user comprehension and local semantics; the design of information organization; and the design of information display appropriate to use and setting."
+        },
+        "GPA": 3.37,
+        "Numbers":{
+            "Enrolled": 63,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S.Harrison"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "CS3724"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4644",
+        "Course":{
+            "Title" : "CS4644 Creative Computing Studio",
+            "Description": "Capstone computer science course at the intersection of arts and technology. Intensive immersion in different approaches to digital arts such as game design, interactive art, digital music, and immersive virtual reality. Students work in teams to conduct an end-to-end integrative design project."
+        },
+        "GPA": 3.71,
+        "Numbers":{
+            "Enrolled": 190,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A.Kelliher","S.Lee", "S.Harrison"],
+        "Requirements":{
+            "Prerequisites": ["CS3724"],
+            "Corequisites": "None"
+        }     
+    },
+    {
+        "id": "CS4654",
+        "Course":{
+            "Title" : "CS4654 Intermed Data Analytics & ML",
+            "Description": "A technical analytics course.  Covers supervised and unsupervised learning strategies, including regression, generalized linear models, regularization, dimension reduction methods, tree-based methods for classification, and clustering. Upper-level analytical methods shown in practice, e.g., advanced naive Bayes and neural networks."
+        },
+        "GPA": 3.53,
+        "Numbers":{
+            "Enrolled": 24,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Lucero", "R. Gramacy", "D. Datta"],
+        "Requirements":{
+            "Prerequisites": ["CS3654", ["STAT4705", "STAT4714"]],
+            "Corequisites": "None"
+        }       
+    },
+    {
+        "id": "CS4664",
+        "Course":{
+            "Title" : "CS4664 Data-Centric Computing Capstone",
+            "Description": "Advanced, project-based course on deriving valuable insights from real-world data collected from a variety of sources. Team-based end-to-end projects explore the entire data science workflow: problem statement, formulating the research questions, collecting preparing and cleaning data, alternating between analyzing data and interpreting results, and synthesizing results into a written report and an interactive executable codebase."
+        },
+        "GPA": 3.78,
+        "Numbers":{
+            "Enrolled": 61,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Karpatne", "M. Elhamod", "H. Eldardiry"],
+        "Requirements":{
+            "Prerequisites": ["CS3114", "CS3654"],
+            "Corequisites": "None"
+        } 
+    },
+    {
+        "id": "CS4704",
+        "Course":{
+            "Title" : "CS4704 Software Engineering Capstone",
+            "Description": "Senior project course integrating software engineering knowledge and skills acquired in previous courses. Team-based approach to problem formulation, requirements engineering, architecture, design, implementation, integration, documentation and delivery of a software system that solves a real-world problem."
+        },
+        "GPA": 3.81,
+        "Numbers":{
+            "Enrolled": 674,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Seyam", "F. Servant", "D. Noller", "M. Subhas", "R. Charles", "K.Edmison"],
+        "Requirements":{
+            "Prerequisites": [["CS3704", "CS3714", "CS3754"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4774",
+        "Course":{
+            "Title" : "CS4774 HCI Design Experience",
+            "Description": "Project-based design course in human-computer interaction. Team-based, end-to-end, integrative interface design project drawn from interdisciplinary areas of student expertise, e.g., virtual reality, augmented reality, embodied cognition, visualization, semiotic engineering, game design, personal information management, mobile computing, design tools, educational technology, and digital democracy."
+        },
+        "GPA": 4.0,
+        "Numbers":{
+            "Enrolled": 5,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. McCrickard"],
+        "Requirements":{
+            "Prerequisites": ["CS3724"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4784",
+        "Course":{
+            "Title" : "CS4784 Human-Computer Interact Capstone",
+            "Description": "Advanced, project-based course in Human-Computer Interaction. Team-based, end-to-end, integrative interface design project drawn from areas of expertise in the department, e.g., virtual reality, augmented reality, embodied cognition, visualization, semiotic engineering, game design, personal information management, mobile computing, design tools, educational technology, and digital democracy."
+        },
+        "GPA": 3.8,
+        "Numbers":{
+            "Enrolled": 193,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. McCrickard", "D. Tatar", "J. Ogle", "D. Bowman", "S. Harrison", "J. Wenskovitch", "N. Polys"],
+        "Requirements":{
+            "Prerequisites": ["CS3724", "CS3744"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4804",
+        "Course":{
+            "Title" : "CS4804 Introduction to AI",
+            "Description": "Overview of the areas of problem solving, game playing, and computer vision. Search trees and/or graphs, game trees, block world vision, syntactic pattern recognition, object matching, natural language, and robotics."
+        },
+        "GPA": 3.38,
+        "Numbers":{
+            "Enrolled": 265,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["Y. Chen", "B. Huang"],
+        "Requirements":{
+            "Prerequisites": ["CS3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4824",
+        "Course":{
+            "Title" : "CS4824 Machine Learning",
+            "Description": "Algorithms and principles involved in machine learning; focus on perception problems arising in computer vision, natural language processing and robotics; fundamentals of representing uncertainty, learning from data, supervised learning, ensemble methods, unsupervised learning, structured models, learning theory and reinforcement learning; design and analysis of machine perception systems; design and implementation of a technical project applied to real-world datasets (images, text, robotics)."
+        },
+        "GPA": 2.95,
+        "Numbers":{
+            "Enrolled": 446,
+            "Withdrawn": 52
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Wyatt", "A. Hilal", "A. Karpatne", "M. Jin", "D.Bhattacharya", "L. Huang"],
+        "Requirements":{
+            "Prerequisites": [["ECE3514","CS2114"], ["STAT3704", "STAT4605", "STAT4705", "STAT4714"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "id": "CS4884",
+        "Course":{
+            "Title" : "CS4884 Computer Bio & Bioinfo Capstone",
+            "Description": "Advanced topics in computational biology and bioinformatics (CBB). Team-based approach to solving open-ended problems in CBB. Projects drawn from areas of expertise in the department, e.g., algorithms for CBB, computational models for biological systems, analysis of structure-function relationships in biomolecules, genomic data analysis and data mining, computational genomics, systems biology. Design, implementation, documentation and presentation of solutions."
+        },
+        "GPA": 3.57,
+        "Numbers":{
+            "Enrolled": 57,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T.Murali"],
+        "Requirements":{
+            "Prerequisites": ["CS3824"],
+            "Corequisites": "None"
+        }
+    }
+]
