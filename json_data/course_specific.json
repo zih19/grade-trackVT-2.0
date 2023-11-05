@@ -2310,7 +2310,7 @@
       },
       {
           "course_id": "MATH1225",
-          "major_id": "MATH1225",
+          "major_id": "MATH",
           "Course": {
               "Title": "MATH1225 Calculus of a Single Variable",
               "Description": "Quantitative and computational thinking to address relevant intercultural and global issues. Unified calculus course covering techniques of differential and integral calculus for functions of one variable. Constitutes the standard first-year mathematics courses for science and engineering. 1225: limits, continuity, differentiation, transcendental functions, applications of differentiation, introduction to integration. Assumes 2 units of high school algebra, 1 unit of geometry, 1/2 unit each of trigonometry and precalculus, and placement by Math Dept."
@@ -2346,6 +2346,8 @@
           }
       },
       {
+          "course_id": "MATH1226",
+          "major_id": "MATH",
           "Course": {
               "Title": "MATH1226 Calculus of a Single Variable",
               "Description": "Quantitative and computational thinking to address relevant intercultural and global issues. Unified calculus course covering techniques of differential and integral calculus for functions of one variable. Constitutes the standard first-year mathematics courses for science and engineering. 1226: techniques and applications of integration, trapezoidal and Simpsonâ€™s rules, improper integrals, sequences and series, power series, parametric curves and polar coordinates, software-based techniques."
@@ -2375,6 +2377,8 @@
           }
       },
       {
+          "course_id": "MATH2114",
+          "major_id": "MATH",   
           "Course": {
               "Title": "MATH2114 Introduction to Linear Algebra",
               "Description": "Vector and matrix algebra systems of linear equations, linear equations, linear independence, bases, orthonormal bases, rank, linear transformations, diagonalization, implementation with contemporary software." 
@@ -2402,6 +2406,8 @@
           }
       },
       {
+          "course_id": "MATH2204",
+          "major_id": "MATH",   
           "Course": {
               "Title": "MATH2204 Intro Multivariable Calculus",
               "Description": "Calculus for functions for several variables. Planes and surfaces, continuity, differentiation, chain rule, extreme values, Lagrange multipliers, double and triple integrals and applications, software-based techniques"
@@ -2427,6 +2433,8 @@
           }
       },
       {
+          "course_id": "MATH2214",
+          "major_id": "MATH", 
           "Course": {
               "Title": "MATH2214 Intro Diff Equations",
               "Description": "Unified course in ordinary differential equations. First-order equations, second-and-higher-order constant coefficient linear equations, systems of first-order linear equations, and numerical methods. Mathematical models describing motion and cooling, predator-prey population models, SIR-models, mechanical vibrations, electric circuits, rates of chemical reactions, radioactive decay. Quantitative and computational thinking to address relevant intercultural and global issues"
@@ -2453,6 +2461,8 @@
           }
       },
       {
+          "course_id": "MATH2534",
+          "major_id": "MATH",
           "Course": {
               "Title": "MATH2534 Intro Discrete Math",
               "Description": "Emphasis on topics relevant to computer science. Topics include logic, propositional calculus, set theory, relations, functions, mathematical induction, elementary number theory and Boolean algebra. Does not carry credit for mathematics majors, but may be used as though it were a 3000-level elective course for the mathematics minor. Two units of high school algebra, one unit of geometry, one-half unit each of trigonometry and precalculus mathematics required."
@@ -2472,6 +2482,8 @@
           }
       },
       {
+          "course_id": "MATH3134",
+          "major_id": "MATH",
           "Course": {
               "Title": "MATH3134 Applied Combinatorics",
               "Description": "Emphasis on concepts related to computational theory and formal languages. Includes topics in graph theory such as paths, circuits, and trees. Topics from combinatorics such as permutations, generating functions, and recurrence relations."
@@ -2491,6 +2503,8 @@
           }
       },
       {
+          "course_id": "MATH3214",
+          "major_id": "MATH",
           "Course": {
               "Title": "MATH3214 Calculus of Several Variables",
               "Description": "Fundamental calculus of functions of two or more variables. Implicit function theorem, Taylor expansion, line integrals, Greens theorem, surface integrals."
@@ -2510,6 +2524,8 @@
           }
       },
       {
+          "course_id": "MATH4564",
+          "major_id": "MATH",
           "Course": {
               "Title": "MATH4564 Operational Method",
               "Description": "Laplace transformations, Fourier series, partial differential equations and separation of variables, boundary value problems, and Sturm-Liouville theory."
@@ -2528,6 +2544,8 @@
           }
       },
       {
+          "course_id": "MATH4574",
+          "major_id": "MATH",
           "Course": {
               "Title": "MATH4574 Vector/Complex Analysis",
               "Description": "Vector Analysis: Greens theorem, potential theory, divergence, and Stokes theorem. Complex Analysis: Analyticity, complex integration, Taylor series, residues, conformal mapping, applications."
@@ -2547,6 +2565,8 @@
           }
       },
       {
+          "course_id": "CHEM1035",
+          "major_id": "CHEM",
           "Course":{
              "Title": "CHEM1035 General Chemistry",
              "Description": "First chemistry course for students in science curricula. Applications of reasoning in the natural sciences using chemical laws in an applied context and in the student’s own discipline. Overview of the universal aspects of chemistry and of application of chemistry to address global challenges. 1035: Problem-solving, elements and periodic table, stoichiometry of chemical reactions, gas phase of matter, energy flow and chemical change, atomic structure, and theories of chemical bonding. "
@@ -2566,6 +2586,8 @@
           }
        },
        {
+         "course_id": "CHEM1036",
+         "major_id": "CHEM",
          "Course":{
              "Title": "CHEM1036 General Chemistry",
              "Description": "First chemistry course for students in science curricula. Applications of reasoning in the natural sciences using chemical laws in an applied context and in the student’s own discipline. Overview of the universal aspects of chemistry and of application of chemistry to address global challenges. 1036: Kinetics, equilibrium, thermodynamics, electrochemistry, transition elements, nuclear chemistry. "
@@ -2584,6 +2606,8 @@
           }
        },
        {
+         "course_id": "CHEM1045",
+         "major_id": "CHEM",
          "Course":{
              "Title": "CHEM1045 General Chemistry Laboratory",
              "Description": "Hands-on, real-world activities that illustrate and elaborate on concepts taught in general chemistry lecture (1035-1036), including acids and bases, heat capacity, ideal gases, states of matter, concentration, mixtures, energy flow and spontaneity in processes, equilibrium, kinetics, colligative properties, and electrochemistry. Use of instrumentation to analyze water and soil contaminants, biofuel mixtures, nanoparticles, and polymer properties. Laboratory safety, chemical hygiene, hazard mitigation, waste management, and the influence of procedure on experimental outcomes. Global challenges, including recycling and sustainable energy sources, water resource management, global warming, and environmentally friendly reagents in chemical contexts. Use of computers in data analysis, collaboration, and report-writing."
@@ -2601,6 +2625,8 @@
           }
        },
        {
+         "course_id": "CHEM1046",
+         "major_id": "CHEM",
          "Course":{
              "Title": "CHEM1046 General Chemistry Laboratory",
              "Description": "Hands-on, real-world activities that illustrate and elaborate on concepts taught in general chemistry lecture (1035-1036), including acids and bases, heat capacity, ideal gases, states of matter, concentration, mixtures, energy flow and spontaneity in processes, equilibrium, kinetics, colligative properties, and electrochemistry. Use of instrumentation to analyze water and soil contaminants, biofuel mixtures, nanoparticles, and polymer properties. Laboratory safety, chemical hygiene, hazard mitigation, waste management, and the influence of procedure on experimental outcomes. Global challenges, including recycling and sustainable energy sources, water resource management, global warming, and environmentally friendly reagents in chemical contexts. Use of computers in data analysis, collaboration, and report-writing."
@@ -2618,6 +2644,8 @@
           } 
        },
        {
+         "course_id": "CHEM1055",
+         "major_id": "CHEM",
          "Course":{
              "Title": "CHEM1055 General Chemistry for Majors",
              "Description": "In depth treatment of chemical bonding, thermodynamics, chemical equilibrium, reaction kinetics, descriptive chemistry of the elements, acid-base chemistry, chemistry of gases, liquids and solids, and other topics."
@@ -2635,6 +2663,8 @@
          }
        },
        {
+         "course_id": "CHEM1056",
+         "major_id": "CHEM",
          "Course":{
              "Title": "CHEM1056 General Chemistry for Majors",
              "Description": "In depth treatment of chemical bonding, thermodynamics, chemical equilibrium, reaction kinetics, descriptive chemistry of the elements, acid-base chemistry, chemistry of gases, liquids and solids, and other topics."
@@ -2652,6 +2682,8 @@
          }
        },
        {
+         "course_id": "CHEM1065",
+         "major_id": "CHEM",
          "Course":{
              "Title": "CHEM1065 General Chemistry Lab for Majors",
              "Description": "Accompanies 1055-1056. Selected experiments illustrate principles taught in lecture. This class is restricted to chemistry and biochemistry majors."
@@ -2669,6 +2701,8 @@
          }
        },
        {
+         "course_id": "CHEM1066",
+         "major_id": "CHEM",
          "Course":{
              "Title": "CHEM1066 General Chemistry Lab for Majors",
              "Description": "Accompanies 1055-1056. Selected experiments illustrate principles taught in lecture. This class is restricted to chemistry and biochemistry majors."
@@ -2686,6 +2720,8 @@
          }
        },
        {
+         "course_id": "CHEM2535",
+         "major_id": "CHEM",
          "Course":{
              "Title": "CHEM2535 Organic Chemistry",
              "Description": "Structure, stereochemistry, reactions, and synthesis of organic compounds."
@@ -2703,6 +2739,8 @@
          }
        },
        {
+         "course_id": "CHEM2536",
+         "major_id": "CHEM",
          "Course":{
              "Title": "CHEM2536 Organic Chemistry",
              "Description": "Structure, stereochemistry, reactions, and synthesis of organic compounds."
@@ -2720,6 +2758,8 @@
          }
        },
        {
+          "course_id": "CHEM2545",
+          "major_id": "CHEM",
           "Course": {
              "Title": "CHEM2545 Organic Chemistry Lab" ,
              "Description": "The laboratory accompanies lectures in organic chemistry 2535 and 2536."
@@ -2737,6 +2777,8 @@
           }
        },
        {
+         "course_id": "CHEM2546",
+         "major_id": "CHEM",
          "Course": {
              "Title": "CHEM2546 Organic Chemistry Lab" ,
              "Description": "The laboratory accompanies lectures in organic chemistry 2535 and 2536."
@@ -2754,6 +2796,8 @@
           }
        },
        {
+         "course_id": "CHEM2565",
+         "major_id": "CHEM",
          "Courses": {
              "Title": "CHEM2565",
              "Desciption": "Organic chemistry for chemistry majors. Structure and reactions of organic compounds, with emphasis on fundamental principles, theories, synthesis, and reaction mechanisms."
@@ -2771,6 +2815,8 @@
          }
        },
        {
+         "course_id": "CHEM2566",
+         "major_id": "CHEM",
          "Courses": {
              "Title": "CHEM2566",
              "Desciption": "Organic chemistry for chemistry majors. Structure and reactions of organic compounds, with emphasis on fundamental principles, theories, synthesis, and reaction mechanisms."
@@ -2788,6 +2834,8 @@
          }
        },
        {
+         "course_id": "CHEM3615",
+         "major_id": "CHEM",
          "Course":{
              "Title": "CHEM3615 Physical Chemistry",
              "Description": "Principles of thermodynamics, kinetics, and quantum mechanics applied to chemical equilibria, reactivity, and structure."
@@ -2805,6 +2853,8 @@
          }
        },
        {
+          "course_id": "PHYS2305",
+          "major_id": "PHYS",
           "Course": {
              "Title": "PHYS2305 Foundations of Physics",
              "Description": "Introductory sequence for students in physical sciences, mathematics, and engineering. Overview of intercultural contributions to physics and universal aspects of physics, and of human benefits of physics to address world-wide challenges. 2305: classical mechanics of translational and rotational motion, Newtonian gravitation, and thermal physics."
@@ -2824,6 +2874,8 @@
           }
      },
      {
+         "course_id": "PHYS2306",
+         "major_id": "PHYS",
          "Course": {
              "Title": "PHYS2306 Foundations of Physics",
              "Description": "Introductory sequence for students in physical sciences, mathematics, and engineering. Overview of intercultural contributions to physics and universal aspects of physics, and of human benefits of physics to address world-wide challenges. 2306: oscillations, waves, electricity, magnetism, and optics."
@@ -2844,6 +2896,8 @@
           }
      },
      {
+      "course_id": "BIOL1105",
+      "major_id": "BIOL",
       "Course": {
         "Title": "BIOL1105 Principles of Biology",
         "Description": "Introduction to the science of biology. 1105: living systems; biological molecules; cell structure, function, and reproduction; cellular energetics and metabolism; expression and inheritance of genetic information; evolution; ethical implications of research and discovery in these areas."
@@ -2862,6 +2916,8 @@
       }
    }, 
    {
+       "course_id": "BIOL1106",
+       "major_id": "BIOL",
        "Course": {
           "Title": "BIOL1106 Principles of Biology",
           "Description": "Introduction to the science of biology. 1106: animal and plant anatomy and physiology, ecology, and animal behavior; ethical implications of research and discovery in these areas."
@@ -2880,8 +2936,10 @@
        }
     },
     {
+        "course_id": "BIOL1105",
+        "major_id": "BIOL",
         "Course": {
-            "Title": "CHEM2604 General Microbiology",
+            "Title": "BIOL2604 General Microbiology",
             "Description": ""
         },
         "GPA": 3.08,
@@ -2899,7 +2957,7 @@
     },
     {
       "Course": {
-          "Title": "ENGL1215 First-Year Writing",
+          "Title": "ENGL1215 Foundation of Engineering",
           "Description": "data collection and analysis, engineering problem-solving, mathematical modeling, contemporary software tools, professional practices and expectations (e.g. effective communication, working in teams, ethics), and the diversity of fields and majors within engineering"
       },
       "GPA": 3.45,

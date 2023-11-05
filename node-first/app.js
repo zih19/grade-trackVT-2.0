@@ -24,8 +24,8 @@ app.use(cookieParser());
 app.use(cors());
 
 // Using routes
-const userRoutes = require('./routes/user');
-app.use('/api', userRoutes);
+//const userRoutes = require('./routes/user');
+//app.use('/api', userRoutes);
 
 const port = process.env.PORT || 8000; // The first item, which is called process.env.PORT, is to ensure 
                                        // the port is running on a local machine.
