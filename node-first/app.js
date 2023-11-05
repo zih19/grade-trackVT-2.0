@@ -43,9 +43,9 @@ app.get("/majors", async(req, res) => {
 
 app.get('/majors/:majorid', async(req, res) => {
     try{
-      const major_chosen = req.params.id;
+      const id_chosen = req.params.id;
       const majorCollection = req.db.collection("Majors");
-      const user_picked = await majorCollection.findOne({major: major_chosen});
+      const user_picked = await majorCollection.findOne({id: id_chosen});
       if (!user_picked){
         return res.status(404).json({message: "Not Found"});
       }
