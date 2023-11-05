@@ -2291,7 +2291,7 @@
       },
       {
          "course_id": "MATH1114",
-         "major_id": "ENGL",
+         "major_id": "MATH",
           "Course": {
               "Title": "MATH1114 Elementary Linear Algebra",
               "Description": "Euclidean vectors, complex numbers, and topics in linear algebra including linear systems, matrices, determinants, eigenvalues, and bases in Euclidean space. This course, along with 1205-1206 and 1224, constitutes the freshman science and engineering mathematics courses. 2 units of high school algebra, 1 unit of geometry, 1/2 unit each of trigonometry and pre-calculus required."
@@ -2309,6 +2309,8 @@
           }
       },
       {
+          "course_id": "MATH1225",
+          "major_id": "MATH1225",
           "Course": {
               "Title": "MATH1225 Calculus of a Single Variable",
               "Description": "Quantitative and computational thinking to address relevant intercultural and global issues. Unified calculus course covering techniques of differential and integral calculus for functions of one variable. Constitutes the standard first-year mathematics courses for science and engineering. 1225: limits, continuity, differentiation, transcendental functions, applications of differentiation, introduction to integration. Assumes 2 units of high school algebra, 1 unit of geometry, 1/2 unit each of trigonometry and precalculus, and placement by Math Dept."
