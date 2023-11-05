@@ -1,4 +1,5 @@
-const mongoose = require("mongoose");
+//const mongoose = require("mongoose");
+const { MongoClient } = require("mongodb");
 const express = require("express");
 const app = express();
 
@@ -8,14 +9,21 @@ const cors = require("cors");    // give errors if you run some sorts of setting
                                  // middleware
 require("dotenv").config();
 
-mongoose.connect(process.env.DATABASE, {
-    useNewUrlParser: true, 
-    useUnifiedTopology: true, 
-    useCreateIndex: true
-}).then(() => {
-    console.log("DB Connected");
-}).catch(()=> {
-    console.log("Unable to Connect to DB");
+url = 'mongodb+srv://CS3754:ylCTHhBItUFSZgij@gradetrackvt.kntubny.mongodb.net/'
+const dbName = 'GradeTrackVT'
+
+const client = new MongoClient(url, {useUnifiedTopology: true});
+
+app.use(async (req, res, next) => {
+    try{
+        await client.connect();
+    } catch(error) {
+        console.error("Error connecting to mongodb: ", error);
+        res.status(500).json("Internal Error Message!");
+        return;
+    }
+    req.db = client.db(dbName);
+    next();
 })
 
 // use Parsing Middleware
