@@ -6648,7 +6648,6 @@ node_modules/send/node_modules/debug/src/debug.js
 node_modules/send/node_modules/debug/src/index.js
 node_modules/send/node_modules/debug/src/inspector-log.js
 node_modules/send/node_modules/debug/src/node.js
-routes/user.js
 node_modules/wrappy/wrappy.js
 node_modules/wrappy/README.md
 node_modules/wrappy/package.json
