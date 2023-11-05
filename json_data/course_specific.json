@@ -2936,7 +2936,7 @@
        }
     },
     {
-        "course_id": "BIOL1105",
+        "course_id": "BIOL2604",
         "major_id": "BIOL",
         "Course": {
             "Title": "BIOL2604 General Microbiology",
@@ -2956,8 +2956,10 @@
         }
     },
     {
+      "course_id": "ENGE1215",
+      "major_id": "ENGE",
       "Course": {
-          "Title": "ENGL1215 Foundation of Engineering",
+          "Title": "ENGE1215 Foundation of Engineering",
           "Description": "data collection and analysis, engineering problem-solving, mathematical modeling, contemporary software tools, professional practices and expectations (e.g. effective communication, working in teams, ethics), and the diversity of fields and majors within engineering"
       },
       "GPA": 3.45,
@@ -2982,6 +2984,8 @@
       }
     },
     {
+      "course_id": "ENGE1216",
+      "major_id": "ENGE",
       "Course": {
           "Title": "ENGE1216 Foundations of Engineering",
           "Description": "data collection and analysis, engineering problem-solving, mathematical modeling, design, contemporary software tools, professional practices and expectations (e.g. communication, teamwork, ethics)."
@@ -3003,6 +3007,8 @@
       }
     },
     {
+      "course_id": "ENGE1414",
+      "major_id": "ENGE",
       "Course": {
           "Title": "ENGE1414 Foundations of Engr Practice",
           "Description": "Introduction to engineering profession for transfer General Engineering students including engineering problem solving and design, contemporary software tools, and professional practices and expectations (e.g., communication, teamwork, ethics)"},
@@ -3019,6 +3025,8 @@
       }
     },
     {
+      "course_id": "STAT3704",
+      "major_id": "STAT",
       "Course": {
           "Title": "STAT3704 Stat for Eng Apps",
           "Description": "Introduction to statistical methodology with emphasis on engineering experimentation: probability distributions, estimation, hypothesis testing, regression, and analysis of variance."
@@ -3037,6 +3045,8 @@
       }
     },
     {
+      "course_id": "STAT4604",
+      "major_id": "STAT",
       "Course": {
           "Title": "STAT4604 Stat Methods for Engr",
           "Description": "Introduction to statistical methodology with emphasis on engineering applications: probability distributions, estimation, hypothesis testing, regression, analysis of variance, quality control."
@@ -3054,6 +3064,8 @@
       }
     },
     {
+      "course_id": "STAT4705",
+      "major_id": "STAT",
       "Course": {
           "Title": "STAT4705 Statistics for Engr",
           "Description": "Basic concepts of probability and statistics with emphasis on engineering applications.Probability, random variables, sampling distributions, estimation, hypothesis testing, simple linear regression correlation, one-way analysis of variance."
@@ -3072,6 +3084,8 @@
       }
     },
     {
+      "course_id": "STAT4714",
+      "major_id": "STAT",
       "Course": {
           "Title": "STAT4714 Prob & Stat for EE",
           "Description": "Introduction to the concepts of probability, random variables, estimation, hypothesis testing, regression, and analysis of variance with emphasis on application in electrical engineering."
