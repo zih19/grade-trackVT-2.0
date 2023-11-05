@@ -2250,5 +2250,782 @@
             "Prerequisites": ["CS3824"],
             "Corequisites": "None"
         }
+    },
+    {
+        "course_id": "ENGL1105",
+        "major_id": "ENGL",
+        "Course": {
+            "Title": "ENGL1105 First-Year Writing",
+            "Description": "Introduction to rhetorical analysis, visual rhetoric, critical writing, and critical thinking; intensive reading of works in multiple genres; practice in writing and revision; fundamentals of oral presentations."
+        },
+        "GPA": 3.51,
+        "Numbers": {
+            "Enrolled": 11242,
+            "Withdrawn": 93
+        },
+        "Credit(s)": 2,
+        "Instructors": [],
+        "Requirements": {
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+      },
+      {
+        "course_id": "ENGL1106",
+        "major_id": "ENGL",
+        "Course": {
+            "Title": "ENGL1106 First-Year Writing",
+            "Description": "Continued study in rhetorical analysis and the conventions of various genres; intensive instruction in writing and revision of work that incorporates research; experience in oral presentations"
+        },
+        "GPA": 3.54,
+        "Numbers": {
+            "Enrolled": 17671,
+            "Withdrawn": 418
+        },
+        "Credit(s)": 3,
+        "Instructors": [],
+        "Requirements": {
+            "Prerequisites": ["ENGL1105"],
+            "Corequisites": "None"
+        }
+      },
+      {
+         "course_id": "MATH1114",
+         "major_id": "ENGL",
+          "Course": {
+              "Title": "MATH1114 Elementary Linear Algebra",
+              "Description": "Euclidean vectors, complex numbers, and topics in linear algebra including linear systems, matrices, determinants, eigenvalues, and bases in Euclidean space. This course, along with 1205-1206 and 1224, constitutes the freshman science and engineering mathematics courses. 2 units of high school algebra, 1 unit of geometry, 1/2 unit each of trigonometry and pre-calculus required."
+          },
+          "GPA": 2.6,
+          "Numbers": {
+              "Enrolled": 1657,
+              "Withdrawn": 91
+          },
+          "Credit(s)": 2,
+          "Instructor(s)": ["E. Jasso-Hernandez"],
+          "Requirements": {
+              "Prerequisites": "None",
+              "Corequisites": "None" 
+          }
+      },
+      {
+          "Course": {
+              "Title": "MATH1225 Calculus of a Single Variable",
+              "Description": "Quantitative and computational thinking to address relevant intercultural and global issues. Unified calculus course covering techniques of differential and integral calculus for functions of one variable. Constitutes the standard first-year mathematics courses for science and engineering. 1225: limits, continuity, differentiation, transcendental functions, applications of differentiation, introduction to integration. Assumes 2 units of high school algebra, 1 unit of geometry, 1/2 unit each of trigonometry and precalculus, and placement by Math Dept."
+          },
+          "GPA": 2.38,
+          "Numbers": {
+              "Enrolled": 7689,
+              "Withdrawn": 1812
+          },
+          "Credit(s)": 4,
+          "Instructor(s)": ["J. Krueger", "N. Heitzman-Breen", "O.Fakron", "A. Murphy", "T. Cho", 
+                          "B. Goodberry", "R. Kshirsagar", "C. Mou", "B. Zhu", "F. Elsrrawi", 
+                          "R. Shaplin", "K. Perera", "J. Romero Acosta", "J. Zhang", "W. Chen",
+                          "H. Meghaichi", "I. Quinlan", "S. Pidaparthi", "N. Garcia Hilares", "H. Pi",
+                          "B. Koc", "M. Tiraphatna", "Y. Li", "B. Nguyen", "P. Caruso",
+                          "F. Rabby", "W. Sun", "H. Ringer", "P. Dey", "J. Gaitan Montejo",
+                          "X. Yang", "Y, Yang", "T. Tarrh", "D. Oetjen", "T. Juste", "H. Abobaker",
+                          "D. Kim", "M. Mahmood", "A. McDonald", "S. Kerrigan", "K. Subedi",
+                          "P. Jones", "I. Moore", "M. Bouhafara", "H. Farhat", "J. Truman",
+                          "A. Chowdhury", "E. Sullivan", "K. Flanagan", "S. Aslan", "D. Calle",
+                          "J. Burleson", "G. Fowler", "M. Schultz", "M. Walker", "S. Silber",
+                          "K. Zachrich", "K. Summers", "N. Rojina", "J. Hasanyan", "N. Malik",
+                          "Z. Boone", "V. Scarlett", "K. Kasebian", "A. Welch", "L. Strube",
+                          "S. Jiang", "S. Reiter", "C. Lowden", "D. Park", "Y. Shen",
+                          "A. Carracedo Rodriguez", "J. Smucker", "Q. Zhuang", "J. Wells", "C. Lungstrum",
+                          "B. Rhodes", "D. Junker", "M. Schmidt", "K. Saniel", "S. Cvitanov",
+                          "P. Collins", "K. Watson", "N. Gildersleeve", "GM. Cerezo Menegay", "J. Thompson",
+                          "F. Adjei", "C. Nicolas", "V. Kokushkin", "D. Valvo", "M. Vishnubhotla",
+                          "J. Brooks", "S. Gamble", "K. Serbin"],
+          "Requirements": {
+              "Prerequisites": "None",
+              "Corequisites": "None" 
+          }
+      },
+      {
+          "Course": {
+              "Title": "MATH1226 Calculus of a Single Variable",
+              "Description": "Quantitative and computational thinking to address relevant intercultural and global issues. Unified calculus course covering techniques of differential and integral calculus for functions of one variable. Constitutes the standard first-year mathematics courses for science and engineering. 1226: techniques and applications of integration, trapezoidal and Simpsonâ€™s rules, improper integrals, sequences and series, power series, parametric curves and polar coordinates, software-based techniques."
+          },
+          "GPA": 2.54,
+          "Numbers": {
+              "Enrolled": 7106,
+              "Withdrawn": 1145
+          },
+          "Credit(s)": 4,
+          "Instructor(s)": ["S. Gamble", "H. Farhat", "N. Garcia Hilares", "S. Kerrigan", "J. Romero Acosta",
+                          "N. Malik", "K. Summers", "R. Shaplin", "E. Sullivan", "J. Burleson", 
+                          "Q. Zhuang", "F. Elsrrawi", "S. Cvitanov", "T. Juste", "S. Jiang",
+                          "Y. Bulka", "D. Oetjen", "S. Pidaparthi", "H. Meghaichi", "Y. Shen",
+                          "T. Balkew", "M. Ouliaei-Nia", "P. Collins", "M. Tiraphatna", "J. Truman",
+                          "M. Bouhafara", "D. Valvo", "D. Kim", "R. Kshirsagar", "J. Krueger",
+                          "C. Lungstrum", "S. Anderson", "D. Calle", "C. Mou", "J. Thompson",
+                          "F. Rabby", "H. Abobaker", "N. Rojina", "V. Kokushkin", "B. Cook", 
+                          "B. Nguyen", "S. Sovine", "G. Fowler", "P. Dey", "B. Goodberry",
+                          "S. Silber", "J. Brooks", "C. Nicolas", "E. Rappold", "K. Kasebian",
+                          "K. Perera", "X. Yang", "A. Carracedo Rodriguez", "B. Koc", "T. Cho",
+                          "S. Aslan", "GM. Cerezo Menegay", "N. Gildersleeve", "J. Wells", "D. Junker",
+                          "W. Winter", "A. Murphy", "R. Guo", "H. Hart"],
+          "Requirements": {
+              "Prerequisites": ["MATH1225"],
+              "Corequisites": "None" 
+          }
+      },
+      {
+          "Course": {
+              "Title": "MATH2114 Introduction to Linear Algebra",
+              "Description": "Vector and matrix algebra systems of linear equations, linear equations, linear independence, bases, orthonormal bases, rank, linear transformations, diagonalization, implementation with contemporary software." 
+          },
+          "GPA": 2.65,
+          "Numbers": {
+              "Enrolled": 8598,
+              "Withdrawn": 738
+          },
+          "Credit(s)": 3,
+          "Instructor(s)": ["N. Gildersleeve", "S. Pantic", "S. Barreto", "A. Hulko", "R. Singh",
+                          "J. Truman", "C. Letona Bolivar", "H. Hart", "C. Nicolas", "K. Kasebian",
+                          "K. Saglam", "W. Santos", "S. Hagen", "S. Adjerid", "B. Goodberry",
+                          "R. Steiner", "J. Wilson", "T. Asfaw", "M. Ouliaei-Nia", "L. Zietsman",
+                          "A. Elgart", "W. Sun", "T. Cho", "H. Abobaker", "S. Silber", "S. Aslan",
+                          "H. Meghaichi", "N. Malik", "F. Rabby", "P. Mlinaric", "A. Carracedo Rodriguez",
+                          "N. Robbins", "L. Strube", "D. Calle", "G. Cotardo", "EA. Saenz Maldonado",
+                          "J. Wells", "Y. Yang", "K. Flanagan", "M. Wawro", "W. Xu", "Y. Shen",
+                          "GM. Cerezo Menegay", "K. Sinani", "S. Gugercin", "A. Welch", "C. Lungstrum",
+                          "D. Kim", "R. Rupnow", "K. Serbin", "J. Stclair", "M. Chung", "C. Withrow", 
+                          "M. Bouhafara", "T. Balkew", "X. Cui", "K. Watson", "M. Mohebujjaman"],
+          "Requirements": {
+              "Prerequisites": ["MATH1226 or MATH1225(B)"],
+              "Corequisites": "None"
+          }
+      },
+      {
+          "Course": {
+              "Title": "MATH2204 Intro Multivariable Calculus",
+              "Description": "Calculus for functions for several variables. Planes and surfaces, continuity, differentiation, chain rule, extreme values, Lagrange multipliers, double and triple integrals and applications, software-based techniques"
+          },
+          "GPA": 2.46,
+          "Numbers": {
+              "Enrolled": 8398,
+              "Withdrawn": 1074
+          },
+          "Credit(s)": 3,
+          "Instructor(s)": ["P. Wapperom", "EA. Saenz Maldonado", "T. Topcu", "T. Asfaw", "K. Saglam",
+                          "A. Carracedo Rodriguez", "H. Liu", "S. Yasuda", "H. Abobaker", "S. Pantic",
+                          "C. Letona Bolivar", "S. Barreto", "E. Rappold", "J. Fillman", "K. Zachrich",
+                          "D. Agud", "K. Kasebian", "Y. Bulka", "E. Sullivan", "Y. Shen", "D. Calle",
+                          "N. Loehr", "M. Lugo", "M. Bouhafara", "F. Rabby", "W. Chen", "A. Elgart",
+                          "E. Jasso-Hernandez", "P. Hammer", "D. Kim", "M. Ouliaei-Nia", "C. Lungstrum",
+                          "C. Nicolas", "N. Gildersleeve", "G. Psaromiligkos", "J. Schmale", "G. Fowler",
+                          "M. Renardy", "B. Cook", "M. Hicks", "K. Sinani", "M. Robert", "W. Galinaitis", 
+                          "S. Farmer", "N. Malik", "H. Hart", "M. Klaus"],
+          "Requirements": {
+              "Prerequisites": ["MATH1226"],
+              "Corequisites": "None"
+          }
+      },
+      {
+          "Course": {
+              "Title": "MATH2214 Intro Diff Equations",
+              "Description": "Unified course in ordinary differential equations. First-order equations, second-and-higher-order constant coefficient linear equations, systems of first-order linear equations, and numerical methods. Mathematical models describing motion and cooling, predator-prey population models, SIR-models, mechanical vibrations, electric circuits, rates of chemical reactions, radioactive decay. Quantitative and computational thinking to address relevant intercultural and global issues"
+          },
+          "GPA": 2.67,
+          "Numbers": {
+              "Enrolled": 7394,
+              "Withdrawn": 585
+          },
+          "Credit(s)": 3,
+          "Instructor(s)": ["H. Abobaker", "T. Balkew", "S. Pantic", "M. Ciupe", "J. Romero Acosta",
+                            "M. Ouliaei-Nia", "P. Yue", "E. Rappold", "T. Asfaw", "M. Outrata", 
+                            "W. Chen", "J. Borggaard", "J. Clemons", "J. Stclair", "K. Zachrich",
+                            "A. Biswas", "S. Anderson", "T. Iliescu", "Y. Shen", "M. Klaus", 
+                            "M. Kadelka", "L. Zietsman", "M. Chung", "F. Yan", "O. Saucedo",
+                            "C. Beattie", "GM. Cerezo Menegay", "T. Juste", "N. Malik", "R. Guo",
+                            "S. Sun", "C. Letona Bolivar", "M. Schultz", "S. Kerrigan", "V. Kokushkin",
+                            "W. Galinaitis", "S. Hammer", "N. Abaid", "M. Renardy", "J. Brooks", "L. Childs",
+                            "A. Chowdhury", "EA. Saenz Maldonado", "C. Mihalcea", "S. Farmer",
+                            "N. Gildersleeve", "M. Fraas"],
+          "Requirements": {
+              "Prerequisites": ["MATH1114 or MATH2114", "MATH1226"],
+              "Corequisites": "None"
+          }
+      },
+      {
+          "Course": {
+              "Title": "MATH2534 Intro Discrete Math",
+              "Description": "Emphasis on topics relevant to computer science. Topics include logic, propositional calculus, set theory, relations, functions, mathematical induction, elementary number theory and Boolean algebra. Does not carry credit for mathematics majors, but may be used as though it were a 3000-level elective course for the mathematics minor. Two units of high school algebra, one unit of geometry, one-half unit each of trigonometry and precalculus mathematics required."
+          },
+          "GPA": 2.77,
+          "Numbers": {
+              "Enrolled": 4176,
+              "Withdrawn": 326
+          },
+          "Credit(s)": 3,
+          "Instructor(s)": ["J. Truman", "H. Abobaker", "M. Chung", "M. Ouliaei-Nia",
+                            "D. Valvo", "C. Withrow", "S. Aslan", "N. Malik", "J. Wells",
+                            "S. Hammer", "H. Hart", "B. Goodberry"],
+          "Requirements":{
+              "Prerequisites": ["CS1114 or ECE1574 or ECE1004 or CS2064"],
+              "Corequisites": "None"
+          }
+      },
+      {
+          "Course": {
+              "Title": "MATH3134 Applied Combinatorics",
+              "Description": "Emphasis on concepts related to computational theory and formal languages. Includes topics in graph theory such as paths, circuits, and trees. Topics from combinatorics such as permutations, generating functions, and recurrence relations."
+          },
+          "GPA": 3.03,
+          "Numbers": {
+              "Enrolled": 2640,
+              "Withdrawn": 125
+          },
+          "Credit(s)": 3,
+          "Instructor(s)": ["H. Hart", "S. Hammer", "M. Shimonzono", "R. Steiner",
+                            "C. Withrow", "K. Karcher", "C. Nicolas", "J. Hurdus",
+                            "J. Clemons", "E. Ufferman", "N. Malik", "D. Orr"],
+          "Requirements": {
+              "Prerequisites": ["MATH1226", "MATH2534"],
+              "Corequisites": "None"
+          }
+      },
+      {
+          "Course": {
+              "Title": "MATH3214 Calculus of Several Variables",
+              "Description": "Fundamental calculus of functions of two or more variables. Implicit function theorem, Taylor expansion, line integrals, Greens theorem, surface integrals."
+          },
+          "GPA": 2.7,
+          "Numbers": {
+              "Enrolled": 899,
+              "Withdrawn": 69
+          },
+          "Credit(s)": 3,
+          "Instructor(s)": ["E. Sullivan", "T. Topcu", "P. Wapperom", "N. Loehr", "S. Yasuda",
+                            "E. Palsson", "M. Klaus", "L. Childs", "J. Fillman", "D. Orr", 
+                            "J. Burns", "J. Rossi"],
+          "Requirements": {
+              "Prerequisites": ["MATH2204"],
+              "Corequisites": "None"
+          }
+      },
+      {
+          "Course": {
+              "Title": "MATH4564 Operational Method",
+              "Description": "Laplace transformations, Fourier series, partial differential equations and separation of variables, boundary value problems, and Sturm-Liouville theory."
+          },
+          "GPA": 2.73,
+          "Numbers": {
+              "Enrolled": 1633,
+              "Withdrawn": 124
+          },
+          "Credit(s)": 3,
+          "Instructor(s)": ["P. Wapperom", "M. Klaus", "J. Kim", "J. Turner",
+                            "T. Topcu", "J. Burleson", "H. Meghaichi"],
+          "Requirements": {
+              "Prerequisites": ["MATH2214"],
+              "Corequisites": "None"
+          }
+      },
+      {
+          "Course": {
+              "Title": "MATH4574 Vector/Complex Analysis",
+              "Description": "Vector Analysis: Greens theorem, potential theory, divergence, and Stokes theorem. Complex Analysis: Analyticity, complex integration, Taylor series, residues, conformal mapping, applications."
+          },
+          "GPA": 2.97,
+          "Numbers": {
+              "Enrolled": 461,
+              "Withdrawn": 41
+          },
+          "Credit(s)": 3,
+          "Instructor(s)": ["F. Rabby", "J. Kim", "T. Asfaw", "C. Lungstrum", 
+                            "M. Klaus", "EA. Saenz Maldonado", "N. Loehr", 
+                            "J. Wells"],
+          "Requirements": {
+              "Prerequisites": ["MATH2204"],
+              "Corequisites": "None"
+          }
+      },
+      {
+          "Course":{
+             "Title": "CHEM1035 General Chemistry",
+             "Description": "First chemistry course for students in science curricula. Applications of reasoning in the natural sciences using chemical laws in an applied context and in the student’s own discipline. Overview of the universal aspects of chemistry and of application of chemistry to address global challenges. 1035: Problem-solving, elements and periodic table, stoichiometry of chemical reactions, gas phase of matter, energy flow and chemical change, atomic structure, and theories of chemical bonding. "
+          },
+          "GPA": 2.54,
+          "Numbers": {
+             "Enrolled": 15395,
+             "Withdrawn": 1935
+          },
+          "Credit(s)": 3,
+          "Instructor(s)": ["J. Eddleton", "A. Wagner", "C. Wall", "S. Arachchige",
+                            "G.Yee", "K. Neidigh", "F. Lin", "P. Amateis", 
+                            "A. Esker", "G. Long", "J. Bowen"],
+          "Requirements": {
+             "Prerequisite(s)": "None",
+             "Corequisite(s)": ["CHEM1045"]
+          }
+       },
+       {
+         "Course":{
+             "Title": "CHEM1036 General Chemistry",
+             "Description": "First chemistry course for students in science curricula. Applications of reasoning in the natural sciences using chemical laws in an applied context and in the student’s own discipline. Overview of the universal aspects of chemistry and of application of chemistry to address global challenges. 1036: Kinetics, equilibrium, thermodynamics, electrochemistry, transition elements, nuclear chemistry. "
+          },
+          "GPA": 2.65,
+          "Numbers": {
+             "Enrolled": 4723,
+             "Withdrawn": 461
+          },
+          "Credit(s)": 3,
+          "Instructor(s)": ["K. Neidigh", "A. Wagner", "J. Bowen", "P. Amateis",
+                            "P. Deck", "C. Wall", "J.Merola", "S. Arachchige"],
+          "Requirements": {
+             "Prerequisite(s)": ["CHEM1035 or CHEM1055"],
+             "Corequisite(s)": ["MATH1225", "CHEM1046"]
+          }
+       },
+       {
+         "Course":{
+             "Title": "CHEM1045 General Chemistry Laboratory",
+             "Description": "Hands-on, real-world activities that illustrate and elaborate on concepts taught in general chemistry lecture (1035-1036), including acids and bases, heat capacity, ideal gases, states of matter, concentration, mixtures, energy flow and spontaneity in processes, equilibrium, kinetics, colligative properties, and electrochemistry. Use of instrumentation to analyze water and soil contaminants, biofuel mixtures, nanoparticles, and polymer properties. Laboratory safety, chemical hygiene, hazard mitigation, waste management, and the influence of procedure on experimental outcomes. Global challenges, including recycling and sustainable energy sources, water resource management, global warming, and environmentally friendly reagents in chemical contexts. Use of computers in data analysis, collaboration, and report-writing."
+          },
+          "GPA": 3.3,
+          "Numbers": {
+             "Enrolled": 13474,
+             "Withdrawn": 295
+          },
+          "Credit(s)": 1,
+          "Instructor(s)": ["V. Long"],
+          "Requirements": {
+             "Prerequisite(s)": "None",
+             "Corequisite(s)": ["CHEM1035"]
+          }
+       },
+       {
+         "Course":{
+             "Title": "CHEM1046 General Chemistry Laboratory",
+             "Description": "Hands-on, real-world activities that illustrate and elaborate on concepts taught in general chemistry lecture (1035-1036), including acids and bases, heat capacity, ideal gases, states of matter, concentration, mixtures, energy flow and spontaneity in processes, equilibrium, kinetics, colligative properties, and electrochemistry. Use of instrumentation to analyze water and soil contaminants, biofuel mixtures, nanoparticles, and polymer properties. Laboratory safety, chemical hygiene, hazard mitigation, waste management, and the influence of procedure on experimental outcomes. Global challenges, including recycling and sustainable energy sources, water resource management, global warming, and environmentally friendly reagents in chemical contexts. Use of computers in data analysis, collaboration, and report-writing."
+          },
+          "GPA": 3.46,
+          "Numbers": {
+             "Enrolled": 4147,
+             "Withdrawn": 39
+          },
+          "Credit(s)": 1,
+          "Instructor(s)": ["V. Long"],
+          "Requirements": {
+             "Prerequisite(s)": "None",
+             "Corequisite(s)": ["CHEM1036"]
+          } 
+       },
+       {
+         "Course":{
+             "Title": "CHEM1055 General Chemistry for Majors",
+             "Description": "In depth treatment of chemical bonding, thermodynamics, chemical equilibrium, reaction kinetics, descriptive chemistry of the elements, acid-base chemistry, chemistry of gases, liquids and solids, and other topics."
+         },
+         "GPA": 2.87,
+         "Numbers": {
+             "Enrolled": 353,
+             "Withdrawn": 30
+         },
+         "Credit(s)": 4,
+         "Instructor(s)": ["J. Merola", "D. Crawford", "J.Troya"],
+         "Requirements": {
+             "Prerequisite(s)": "None",
+             "Corequisite(s)": ["CHEM1065"]
+         }
+       },
+       {
+         "Course":{
+             "Title": "CHEM1056 General Chemistry for Majors",
+             "Description": "In depth treatment of chemical bonding, thermodynamics, chemical equilibrium, reaction kinetics, descriptive chemistry of the elements, acid-base chemistry, chemistry of gases, liquids and solids, and other topics."
+         },
+         "GPA": 2.99,
+         "Numbers": {
+             "Enrolled": 185,
+             "Withdrawn": 15
+         },
+         "Credit(s)": 4,
+         "Instructor(s)": ["A. Morris", "D. Troya"],
+         "Requirements": {
+             "Prerequisite(s)": ["CHEM1055"],
+             "Corequisite(s)": ["CHEM1066"]
+         }
+       },
+       {
+         "Course":{
+             "Title": "CHEM1065 General Chemistry Lab for Majors",
+             "Description": "Accompanies 1055-1056. Selected experiments illustrate principles taught in lecture. This class is restricted to chemistry and biochemistry majors."
+         },
+         "GPA": 3.24,
+         "Numbers": {
+             "Enrolled": 319,
+             "Withdrawn": 4
+         },
+         "Credit(s)": 1,
+         "Instructor(s)": ["P. Deck"],
+         "Requirements": {
+             "Prerequisite(s)": "None",
+             "Corequisite(s)": ["CHEM1055"]
+         }
+       },
+       {
+         "Course":{
+             "Title": "CHEM1066 General Chemistry Lab for Majors",
+             "Description": "Accompanies 1055-1056. Selected experiments illustrate principles taught in lecture. This class is restricted to chemistry and biochemistry majors."
+         },
+         "GPA": 3.47,
+         "Numbers": {
+             "Enrolled": 168,
+             "Withdrawn": 0
+         },
+         "Credit(s)": 1,
+         "Instructor(s)": ["S. Arachchige"],
+         "Requirements": {
+             "Prerequisite(s)": "None",
+             "Corequisite(s)": ["CHEM1056"]
+         }
+       },
+       {
+         "Course":{
+             "Title": "CHEM2535 Organic Chemistry",
+             "Description": "Structure, stereochemistry, reactions, and synthesis of organic compounds."
+         },
+         "GPA": 2.6,
+         "Numbers": {
+             "Enrolled": 4208,
+             "Withdrawn": 740
+         },
+         "Credit(s)": 3,
+         "Instructor(s)": ["J.Josan", "M. Bump", "M. Berg", "G. Yee"],
+         "Requirements": {
+             "Prerequisite(s)": ["CHEM1036 or CHEM1056"],
+             "Corequisite(s)": ["CHEM2545"]
+         }
+       },
+       {
+         "Course":{
+             "Title": "CHEM2536 Organic Chemistry",
+             "Description": "Structure, stereochemistry, reactions, and synthesis of organic compounds."
+         },
+         "GPA": 2.82,
+         "Numbers": {
+             "Enrolled": 3273,
+             "Withdrawn": 255
+         },
+         "Credit(s)": 3,
+         "Instructor(s)": ["J.Matson", "M. Bump", "M. Berg", "M. Schulz", "P. Carlier"],
+         "Requirements": {
+             "Prerequisite(s)": ["CHEM2535 or CHEM2565"],
+             "Corequisite(s)": ["CHEM2546"]
+         }
+       },
+       {
+          "Course": {
+             "Title": "CHEM2545 Organic Chemistry Lab" ,
+             "Description": "The laboratory accompanies lectures in organic chemistry 2535 and 2536."
+          },
+          "GPA": 3.11,
+          "Numbers": {
+             "Enrolled": 4209,
+             "Withdrawn": 48
+          },
+          "Credit(s)": 1,
+          "Instructor(s)": ["C. Santos"],
+          "Requirements": {
+             "Prerequisite(s)": "None",
+             "Corequisites(s)": ["CHEM2535"]
+          }
+       },
+       {
+         "Course": {
+             "Title": "CHEM2546 Organic Chemistry Lab" ,
+             "Description": "The laboratory accompanies lectures in organic chemistry 2535 and 2536."
+          },
+          "GPA": 3.38,
+          "Numbers": {
+             "Enrolled": 3406,
+             "Withdrawn": 21
+          },
+          "Credit(s)": 1,
+          "Instructor(s)": ["C. Santos"],
+          "Requirements": {
+             "Prerequisite(s)": "None",
+             "Corequisites(s)": ["CHEM2536"]
+          }
+       },
+       {
+         "Courses": {
+             "Title": "CHEM2565",
+             "Desciption": "Organic chemistry for chemistry majors. Structure and reactions of organic compounds, with emphasis on fundamental principles, theories, synthesis, and reaction mechanisms."
+         },
+         "GPA": 2.71,
+         "Numbers": {
+             "Enrolled": 339,
+             "Withdrawn": 18
+         },
+         "Credit(s)": 3,
+         "Instructor(s)": ["R. Gandour", "E.Mevers", "J.Tanko"],
+         "Requirements": {
+             "Prerequisite(s)": ["CHEM1035 or CHEM1055"],
+             "Corequisite(s)": "None"
+         }
+       },
+       {
+         "Courses": {
+             "Title": "CHEM2566",
+             "Desciption": "Organic chemistry for chemistry majors. Structure and reactions of organic compounds, with emphasis on fundamental principles, theories, synthesis, and reaction mechanisms."
+         },
+         "GPA": 2.85,
+         "Numbers": {
+             "Enrolled": 202,
+             "Withdrawn": 8
+         },
+         "Credit(s)": 3,
+         "Instructor(s)": ["W. Santos", "A. Lowell", "R. Gandour", "J. Matson"],
+         "Requirements": {
+             "Prerequisite(s)": ["CHEM2565"],
+             "Corequisite(s)": "None"
+         }
+       },
+       {
+         "Course":{
+             "Title": "CHEM3615 Physical Chemistry",
+             "Description": "Principles of thermodynamics, kinetics, and quantum mechanics applied to chemical equilibria, reactivity, and structure."
+         },
+         "GPA": 2.45,
+         "Numbers": {
+             "Enrolled": 552,
+             "Withdrawn": 41
+         },
+         "Credit(s)": 3,
+         "Instructor(s)": ["D. Troya", "E. Valeyev", "L.Madsen"],
+         "Requirements": {
+             "Prerequisite(s)":["CHEM1035 or CHEM1055", "CHEM1036 or CHEM1056", "PHYS2306", "MATH2204"],
+             "Corequisite(s)": "None"  
+         }
+       },
+       {
+          "Course": {
+             "Title": "PHYS2305 Foundations of Physics",
+             "Description": "Introductory sequence for students in physical sciences, mathematics, and engineering. Overview of intercultural contributions to physics and universal aspects of physics, and of human benefits of physics to address world-wide challenges. 2305: classical mechanics of translational and rotational motion, Newtonian gravitation, and thermal physics."
+          },
+          "GPA": 2.94,
+          "Numbers": {
+             "Enrolled": 8811,
+             "Withdrawn": 250
+          },
+          "Credit(s)": 4,
+          "Instructors(s)": ["K. Nelson", "F. Lin", "T. O'Donnell", "D.Osborone",
+                             "C. Mariani", "R. Ashkar" ,"V. Scarola", "J. Simonetti", 
+                             "A. Robinson", "T. Merritt", "D. Lucero", "L. Anderson"],
+          "Requirements": {
+             "Prerequisites": "None",
+             "Corequisites": ["MATH1226"]
+          }
+     },
+     {
+         "Course": {
+             "Title": "PHYS2306 Foundations of Physics",
+             "Description": "Introductory sequence for students in physical sciences, mathematics, and engineering. Overview of intercultural contributions to physics and universal aspects of physics, and of human benefits of physics to address world-wide challenges. 2306: oscillations, waves, electricity, magnetism, and optics."
+          },
+          "GPA": 2.87,
+          "Numbers": {
+             "Enrolled": 7899,
+             "Withdrawn": 199
+          },
+          "Credit(s)": 4,
+          "Instructors(s)": ["B. Magill", "C. Kaplan", "K. Nelson", "L. Chang", 
+                             "R. Vogelaar", "F. Lin", "A. Khan", "A. Robinson",
+                             "J. Simonetti", "D. Osborne", "S. Emori", "S.McMahon",
+                             "J. Link", "V. Pandey"],
+          "Requirements": {
+             "Prerequisites": ["MATH1226", "PHYS2305"],
+             "Corequisites": "None"
+          }
+     },
+     {
+      "Course": {
+        "Title": "BIOL1105 Principles of Biology",
+        "Description": "Introduction to the science of biology. 1105: living systems; biological molecules; cell structure, function, and reproduction; cellular energetics and metabolism; expression and inheritance of genetic information; evolution; ethical implications of research and discovery in these areas."
+      },
+      "GPA": 2.57,
+      "Numbers": {
+        "Enrolled": 8500,
+        "Withdrawn": 317
+      },
+      "Credit(s)": 3,
+      "Instructor(s)": ["M. Emori", "R. Walker", "J. Watkinson", "E. Hogan",
+                        "T. Fredericksen", "M. Lipscomb"],
+      "Requirements": {
+          "Prerequisites": "None",
+          "Corequisites": "None"
+      }
+   }, 
+   {
+       "Course": {
+          "Title": "BIOL1106 Principles of Biology",
+          "Description": "Introduction to the science of biology. 1106: animal and plant anatomy and physiology, ecology, and animal behavior; ethical implications of research and discovery in these areas."
+       },
+       "GPA": 2.91,
+       "Numbers": {
+          "Enrolled": 7456,
+          "Withdrawn": 140
+       },
+       "Credit(s)": 3,
+       "Instructor(s)": ["J. Evans", "E. Hogan", "M. Lipscomb", "M. Emori",
+                         "R. Walker", "M. Rosenzweig", "T. Fredericksen"],
+       "Requirements": {
+          "Prerequisites": [],
+          "Conrequisites": "None"
+       }
+    },
+    {
+        "Course": {
+            "Title": "CHEM2604 General Microbiology",
+            "Description": ""
+        },
+        "GPA": 3.08,
+        "Numbers": {
+            "Enrolled": 3467,
+            "Withdrawn": 184
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["Z. Yang", "D. Popham", "R. Seyler", "S. Melvile",
+                          "B. Hsu", "A. Stevens"],
+        "Requirements": {
+            "Prerequisites": ["BIOL1105", "BIOL1106", "CHEM1036 or CHEM1056"],
+            "Corequisites": "None"
+        }
+    },
+    {
+      "Course": {
+          "Title": "ENGL1215 First-Year Writing",
+          "Description": "data collection and analysis, engineering problem-solving, mathematical modeling, contemporary software tools, professional practices and expectations (e.g. effective communication, working in teams, ethics), and the diversity of fields and majors within engineering"
+      },
+      "GPA": 3.45,
+      "Numbers": {
+          "Enrolled": 11166,
+          "Withdrawn": 204
+      },
+      "Credit(s)": 2,
+      "Instructors": ["D. Maczka", "S. Das", "D. Ohanehi", "H. Murzi Escobar",
+                      "M. Kenny", "J. Lo", "D. Goldsmith", "B. Chambers",
+                      "P. Shin", "A. Chakraborty", "K. Hodges", "H. Matusovich",
+                      "T. Paradise", "D. Gray", "N. Tandiya", "A. Afonja",
+                      "R. Lewis", "M. James", "I. Hasbun", "M. Mikel-Stites",
+                      "T. Clarke Douglas", "K. Reid", "C. Twyman", "M. Paretti",
+                      "J. Ortega Alvarez", "A. Mohammadi", "J. Benning", "C. Wallwey",
+                      "J. Case", "N. Pitterson", "D. Bairaktarova", "S. Blackowski",
+                      "J. Grohs", "Q. Zhu", "M. Huerta", "M. Soledad",
+                      "E. Lee", "J. London", "D. Kim", "A. Katz", "B. Goldschneider"],
+      "Requirements": {
+          "Prerequisites": "None",
+          "Corequisites": "None"
+      }
+    },
+    {
+      "Course": {
+          "Title": "ENGE1216 Foundations of Engineering",
+          "Description": "data collection and analysis, engineering problem-solving, mathematical modeling, design, contemporary software tools, professional practices and expectations (e.g. communication, teamwork, ethics)."
+      },
+      "GPA": 3.64,
+      "Numbers": {
+          "Enrolled": 10797,
+          "Withdrawn": 37
+      },
+      "Credit(s)": 2,
+      "Instructors": ["NC. Van Type", "J. Ortega Alvarez", "M. Huerta", "E. Lee",
+                      "C. Twyman", "A. Mohammadi", "D. Bairaktarova", "K. Reid",
+                      "J. Benning", "B. Chambers", "D. Goldsmith", "J. Lo",
+                      "D. Gray", "T. Clarke Douglas", "M. Soledad", "C. Wallwey",
+                      "J. London", "N. Pitterson", "B. Goldschneider", "S. Blackowski"],
+      "Requirements": {
+          "Prerequisites": ["ENGE1215"],
+          "Corequisites": "None"
+      }
+    },
+    {
+      "Course": {
+          "Title": "ENGE1414 Foundations of Engr Practice",
+          "Description": "Introduction to engineering profession for transfer General Engineering students including engineering problem solving and design, contemporary software tools, and professional practices and expectations (e.g., communication, teamwork, ethics)"},
+      "GPA": 3.52,
+      "Numbers": {
+          "Enrolled": 575,
+          "Withdrawn": 3
+      },
+      "Credit(s)": 4,
+      "Instructors": ["R. Goff", "M. James", "NC. Van Tyne"],
+      "Requirements": {
+          "Prerequisites": "None",
+          "Corequisites": "None"
+      }
+    },
+    {
+      "Course": {
+          "Title": "STAT3704 Stat for Eng Apps",
+          "Description": "Introduction to statistical methodology with emphasis on engineering experimentation: probability distributions, estimation, hypothesis testing, regression, and analysis of variance."
+      },
+      "GPA": 3.35,
+      "Numbers": {
+          "Enrolled": 2041,
+          "Withdrawn": 27
+      },
+      "Credit(s)": 2,
+      "Instructor(s)": ["J. Russell", "M. Slifko", "Z. Zhang", "A. Cooper",
+                        "W. Gao", "J. Min"],
+      "Requirements": {
+          "Prerequisites": ["MATH2204"],
+          "Corequisites": "None"
+      }
+    },
+    {
+      "Course": {
+          "Title": "STAT4604 Stat Methods for Engr",
+          "Description": "Introduction to statistical methodology with emphasis on engineering applications: probability distributions, estimation, hypothesis testing, regression, analysis of variance, quality control."
+      },
+      "GPA": 3.33,
+      "Numbers": {
+          "Enrolled": 595,
+          "Withdrawn": 32
+      },
+      "Credit(s)": 3,
+      "Instructor(s)": ["G. Terrell", "C. Tavera"],
+      "Requirements": {
+          "Prerequisites": ["MATH1226"],
+          "Corequisites": "None"
+      }
+    },
+    {
+      "Course": {
+          "Title": "STAT4705 Statistics for Engr",
+          "Description": "Basic concepts of probability and statistics with emphasis on engineering applications.Probability, random variables, sampling distributions, estimation, hypothesis testing, simple linear regression correlation, one-way analysis of variance."
+      },
+      "GPA": 3.49,
+      "Numbers": {
+          "Enrolled": 2205,
+          "Withdrawn": 55
+      },
+      "Credit(s)": 3,
+      "Instructor(s)": ["B. Kim", "Chen", "Z. Zhang", "L. Xu",
+                        "P. Jin", "S. Merkes"],
+      "Requirements": {
+          "Prerequisites": ["MATH2204"],
+          "Corequisites": "None"
+      }
+    },
+    {
+      "Course": {
+          "Title": "STAT4714 Prob & Stat for EE",
+          "Description": "Introduction to the concepts of probability, random variables, estimation, hypothesis testing, regression, and analysis of variance with emphasis on application in electrical engineering."
+      },
+      "GPA": 2.85,
+      "Numbers": {
+          "Enrolled": 1759,
+          "Withdrawn": 74
+      },
+      "Credit(s)": 3,
+      "Instructor(s)": ["G. Terrell", "H. Chen", "S. Walsh"],
+      "Requirements": {
+          "Prerequisites": ["MATH2204"],
+          "Corequisites": "None"
+      }
     }
 ]
