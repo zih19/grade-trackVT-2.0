@@ -6,6 +6,7 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Faculty from './pages/Faculty.jsx'
 import Login from './pages/Login.jsx'
+import Majors from './pages/Majors.jsx';
 import TopbarGeneral from './pages/Components/TopbarGeneral';
 import { useState } from 'react';
 
@@ -23,6 +24,7 @@ const App = () => {
               <Route path="/About" element = {<About/>}/>
               <Route path="/Faculty" element = {<Faculty/>}/>
               <Route path="/Login" element = {<Login/>}/>
+              <Route path="/Majors" element = {<Majors/>}/>
           </Routes>
       
       </BrowserRouter>
