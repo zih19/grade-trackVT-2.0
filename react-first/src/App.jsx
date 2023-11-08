@@ -7,7 +7,7 @@ import About from './pages/About.jsx'
 import Faculty from './pages/Faculty.jsx'
 import Login from './pages/Login.jsx'
 import Majors from './pages/Majors.jsx';
-import TopbarGeneral from './pages/Components/TopbarGeneral';
+import TopbarSpec from './pages/Components/TopbarSpecific.jsx';
 import { useState } from 'react';
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
-          <TopbarGeneral signedIn={signedIn}/>
+          <TopbarSpec signedIn={signedIn}/>
           <Routes>
               <Route exact path="/" element = {<Home/>}/>
               <Route path="/About" element = {<About/>}/>

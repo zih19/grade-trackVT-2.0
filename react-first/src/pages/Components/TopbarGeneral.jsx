@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const TopbarGeneral = ({signedIn}) => {
     const[IsOpen, setOpen] = useState(false);
-    const toggle = () => setOpen(!IsOpen);
 
     //Note: Not actually needed anymore.
     const linkItems = [

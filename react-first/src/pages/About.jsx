@@ -43,20 +43,20 @@ const About = () => {
                 </div>
             </div>
             <div className='padding'></div>
+            <div className='fixed-bottom'>
                 <Row>
                     <Col>
-                        <Card style={{width: '14rem'}}>
-                            <Card.Img variant='top' src={Ben} />
+                        <Card style={{width: '14rem', height: '14rem'}}>
+                            <Card.Img variant='top' height={'230rem'} src={Ben} />
                             <Card.Body>
                                 <Card.Title>Ben Culverhouse</Card.Title>
                                 <Button variant="primary" onClick={handleShow1}>Contact Me</Button>
                             </Card.Body>
                         </Card>
                     </Col>
-
                     <Col>
-                    <Card style={{width: '14rem'}}>
-                        <Card.Img variant='top' src={Zi} />
+                    <Card style={{width: '14rem', height: '14rem'}}>
+                        <Card.Img variant='top' height={'230rem'} src={Zi} />
                         <Card.Body>
                             <Card.Title>Zi Huang</Card.Title>
                             <Button variant="primary" onClick={handleShow2}>Contact Me</Button>
@@ -94,7 +94,7 @@ const About = () => {
                     </Card>
                     </Col>
                 </Row>
-
+                </div>
             <Modal
                 show={show1}
                 onHide={handleClose1}

@@ -55,12 +55,6 @@
   align-items: center;
 }
 
-#bottom {
-  position: relative;
-  bottom: 0;
-  align-items: center;
-}
-
 .about_body {
   border-width: 3px;
   border-style: solid;

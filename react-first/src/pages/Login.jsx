@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { TextField, Button, IconButton, Paper, Grid, Container, Typography, Box, FormControlLabel, CheckBox } from '@mui/material'
-import login from '../Assets/VTlogin';
+import { TextField, Button, IconButton, Paper, Grid, Container, Typography, Box, FormControlLabel, Checkbox } from '@mui/material'
+import login from '../Assets/VTlogin.png';
 import { useNavigate, Link} from 'react-router-dom';
 
 const Login = () => {
@@ -30,7 +30,7 @@ const Login = () => {
                     sx={{mt: 1}}>
 
                     <TextField  id= 'form' 
-                                label='UserName'
+                                label='Username'
                                 variant='outlined'
                                 type='text'
                                 fullWidth
@@ -46,7 +46,7 @@ const Login = () => {
                                 value={currValue}
                                 onChange={handleChange}/>
                      
-                     <FormControlLabel control={<CheckBox />} 
+                     <FormControlLabel control={<Checkbox />} 
                                        label= 'Remember Me' />
                     
                      <Button type='submit'
@@ -62,7 +62,7 @@ const Login = () => {
                             <Link to='/Forget Your Password'> Forget Your Password?</Link>
                           </Grid>
                           <Grid Item>
-                             <Link to='/Register'> Don't you have an account? Sign Up?</Link>
+                             <Link to='/Register'> Don't have an account? Sign Up!</Link>
                           </Grid>
 
                      </Grid>
