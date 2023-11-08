@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { TextField, Button, IconButton, Paper, Grid, Container, Typography, Box, FormControlLabel, CheckBox } from '@mui/material'
-import login from '../Assets/VTlogin';
+import { TextField, Button, IconButton, Paper, Grid, Container, Typography, Box, FormControlLabel, Checkbox, Stack } from '@mui/material'
+import login from '../Assets/VTlogin.png';
 import { useNavigate, Link} from 'react-router-dom';
 
 const Login = () => {
@@ -22,15 +22,21 @@ const Login = () => {
                        display: 'flex',
                        flexDirection: 'column',
                        alignItems: 'center'}}>
-               <Typography variant='h2'>
-                         Sign In 
-               </Typography>
-               
+
+                <Stack spacing={2} direction='horizontal'>
+                    <IconButton aria-label='VT Login'                                                                                                                                                                                    > 
+                        <img src={login} alt="VT Login" style={{width: '24px', height: '24px'}} />
+                    </IconButton>
+                    <Typography variant='h2'>
+                                Sign In 
+                    </Typography>
+               </Stack>
+
                <Box component='form'
                     sx={{mt: 1}}>
 
                     <TextField  id= 'form' 
-                                label='UserName'
+                                label='UserName'                                                                                        
                                 variant='outlined'
                                 type='text'
                                 fullWidth
@@ -46,7 +52,7 @@ const Login = () => {
                                 value={currValue}
                                 onChange={handleChange}/>
                      
-                     <FormControlLabel control={<CheckBox />} 
+                     <FormControlLabel control={<Checkbox />} 
                                        label= 'Remember Me' />
                     
                      <Button type='submit'

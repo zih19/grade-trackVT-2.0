@@ -1,10 +1,11 @@
 import React from 'react';
-import { Container, Stack, AppBar, ToolBar, Typography, Button, IconButton, Link, Grid, Box} from '@mui/material';
-import VTlogo from '../Assets/VTlogo';
+import { Container, Stack, Typography, Link, Grid, Box} from '@mui/material';
+//import VTlogo from '../Assets/VTlogo';
 import { useNavigate } from 'react-router-dom';
-import COE from '../Assets/VT-COE';
-import place from '../Assets/Placeholder';
-import bulletin from '../Assets/VTBulletin';
+import TopbarGeneral from './Components/TopbarGeneral';
+import COE from '../Assets/VT-COE.jpg'
+import place from '../Assets/Placeholder.png';
+import bulletin from '../Assets/VTBulletin.jpg';
 
 const Home = () => {
     const navigate = useNavigate();
@@ -27,7 +28,7 @@ const Home = () => {
 
     return (
         <>
-            <AppBar position='static' color='transparent'>
+            {/* <AppBar position='static' color='transparent'>
                 <ToolBar>
                 
                     <IconButton aria-label='Virginia Tech-logo'>
@@ -46,8 +47,8 @@ const Home = () => {
                     </Stack>
 
                 </ToolBar>
-            </AppBar>
-            
+            </AppBar> */}
+            <TopbarGeneral />
             
             <Container maxwidth='lg' component='main' sx={{pb: 6}}>
                 <Typography variant = 'h2' 
