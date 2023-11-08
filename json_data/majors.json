@@ -61,34 +61,33 @@
    {
       "id": "nonenge1",
       "major": "BIOL"
- },
- {
-      "id": "nonenge2",
-      "major": "CHEM"
- },
- {
-      "id": "nonenge3",
-      "major": "ENGE"
- },
- {
-      "id": "nonenge4",
-      "major": "ENGL"
- },
- {
-      "id": "nonenge5",
-      "major": "GEOS"
- },
- {
-      "id": "nonenge6",
-      "major": "MATH"
- },
- {
-      "id": "nonenge7",
-      "major": "PHYS"
- },
- {
-      "id": "nonenge8",
-      "major": "STAT"
- }
-   
+   },
+   {
+         "id": "nonenge2",
+         "major": "CHEM"
+   },
+   {
+         "id": "nonenge3",
+         "major": "ENGE"
+   },
+   {
+         "id": "nonenge4",
+         "major": "ENGL"
+   },
+   {
+         "id": "nonenge5",
+         "major": "GEOS"
+   },
+   {
+         "id": "nonenge6",
+         "major": "MATH"
+   },
+   {
+         "id": "nonenge7",
+         "major": "PHYS"
+   },
+   {
+         "id": "nonenge8",
+         "major": "STAT"
+   }
 ]

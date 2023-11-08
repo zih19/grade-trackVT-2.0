@@ -4,7 +4,8 @@ import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Modal from 'react-bootstrap/Modal';
-import Ben from '../Assets/BenCulverhouse.jpg'
+import Ben from '../Assets/Authors/BenCulverhouse.jpg';
+import Zi from '../Assets/Authors/ZiHuang.jpg';
 
 const About = () => {
     const[show1, setShow1] = useState(false);
@@ -55,9 +56,9 @@ const About = () => {
 
                     <Col>
                     <Card style={{width: '14rem'}}>
-                        <Card.Img variant='top' src='holder.js/100px180' />
+                        <Card.Img variant='top' src={Zi} />
                         <Card.Body>
-                            <Card.Title>Team Member</Card.Title>
+                            <Card.Title>Zi Huang</Card.Title>
                             <Button variant="primary" onClick={handleShow2}>Contact Me</Button>
                         </Card.Body>
                     </Card>
@@ -124,14 +125,14 @@ const About = () => {
                 keyboard={false}
             >
                 <Modal.Header closeButton>
-                    <Modal.Title>Memeber Name</Modal.Title>
+                    <Modal.Title>Zi Huang</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    LinkedIn:
+                    <a href='https://www.linkedin.com/in/zi-huang-b612051a2/'> LinkedIn </a> 
                     <br></br>
-                    Personal Link:
+                    <a href='https://github.com/zih19'> Personal Link </a>
                     <br></br>
-                    Email:
+                    <a href='mailto: zih19@vt.edu'> Email </a> 
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleClose2}>

@@ -2264,7 +2264,14 @@
             "Withdrawn": 93
         },
         "Credit(s)": 2,
-        "Instructors": [],
+        "Instructors": ["J. Lawrence", ". Cohen", "A. Corradi", ". Saunders", ". Palacio Ornelas",
+                        "J. Drapeau", ". Portela", "L. Neilan", ". Inthajak", "I. Johnson",
+                        ". Payne", "N. Dragon", ". Ewing", ". Karangulle", "H. Baker", ". Jernegan",
+                        "C. Taylor", ". Reynolds", ". Farrou", ". Massey", "T. Becker", ". Shafer",
+                        ". Wilson", "L. King", ". Austin", "T. Passwater", ". Wallace", "K. Morse",
+                        ". Garreston", ". Glasson-Darling", ". Williams", ". Dresch", ". Garvoille", 
+                        "E. Smith", ". O Kane", "A. Jones", ". Elhauge", ". Hargrave", ". Raab", 
+                        "C. Correll", "B. Flores Zaldivar", "", "", "", ""],
         "Requirements": {
             "Prerequisites": "None",
             "Corequisites": "None"
