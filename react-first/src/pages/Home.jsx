@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Typography, Link, Grid, Box} from '@mui/material';
 import COE from '../Assets/VT-COE.jpg';
 import place from '../Assets/Placeholder.png';
-import bulletin from '../Assets/VTBulletin.jpeg';
+import bulletin from '../Assets/VTBulletin.jpg';
 
 const Home = () => {
     return (

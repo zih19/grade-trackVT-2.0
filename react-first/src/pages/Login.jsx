@@ -23,14 +23,14 @@ const Login = () => {
                        flexDirection: 'column',
                        alignItems: 'center'}}>
 
-                <Stack spacing={2} direction='horizontal'>
+                <stack spacing={2} direction='horizontal'>
                     <IconButton aria-label='VT Login'                                                                                                                                                                                    > 
                         <img src={login} alt="VT Login" style={{width: '24px', height: '24px'}} />
                     </IconButton>
                     <Typography variant='h2'>
                                 Sign In 
                     </Typography>
-               </Stack>
+               </stack>
 
                <Box component='form'
                     sx={{mt: 1}}>
