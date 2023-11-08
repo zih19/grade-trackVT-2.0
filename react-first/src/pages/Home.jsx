@@ -1,30 +1,30 @@
 import React from 'react';
-import { Container, Stack, Typography, Link, Grid, Box} from '@mui/material';
+import { Container, Typography, Grid, Box} from '@mui/material';
 //import VTlogo from '../Assets/VTlogo';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import TopbarGeneral from './Components/TopbarGeneral';
 import COE from '../Assets/VT-COE.jpg'
 import place from '../Assets/Placeholder.png';
 import bulletin from '../Assets/VTBulletin.jpg';
 
 const Home = () => {
-    const navigate = useNavigate();
+    
 
-    const handleHomeClick = () => {
-         navigate('/');
-    } 
+    // const handleHomeClick = () => {
+    //      navigate('/');
+    // } 
 
-    const handleAboutClick = () => {
-         navigate('/About');
-    }
+    // const handleAboutClick = () => {
+    //      navigate('/About');
+    // }
 
-    const handleFacultyClick = () => {
-         navigate('/Faculty')     
-    }
+    // const handleFacultyClick = () => {
+    //      navigate('/Faculty')     
+    // }
 
-    const handleLoginRegisterClick = () => {
-         navigate('/Login')
-    }
+    // const handleLoginRegisterClick = () => {
+    //      navigate('/Login')
+    // }
 
     return (
         <>
@@ -102,7 +102,7 @@ const Home = () => {
                     We are delighted to help thousands of students at Virginia Tech to be successful 
                     in their fields of study, no matter what grades they are currently in. To learn 
                     more about our current grade distributions, please login in to our system 
-                    <Link href={navigate('/login')}> here </Link>  
+                    <Link to='/login'> here </Link>  
                 </Typography>
             </Container>
         </>
