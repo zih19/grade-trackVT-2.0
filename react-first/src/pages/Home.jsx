@@ -86,7 +86,7 @@ const Home = () => {
                     </Grid>
 
                     <Typography fontFamily='Arial' sx={{
-                                                     fontSize: '0.5rem',
+                                                     fontSize: '0.8rem',
                                                      fontStyle: 'italic' }}>
                         We are delighted to help thousands of students at Virginia Tech to be successful 
                         in their fields of study, no matter where they are in achieving their goals. To learn 

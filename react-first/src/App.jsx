@@ -8,7 +8,6 @@ import Faculty from './pages/Faculty.jsx'
 import Login from './pages/Login.jsx'
 import MajorDescription from './pages/MajorDescription.jsx';
 import TopbarSpec from './pages/Components/TopbarSpecific.jsx';
-import majorChoices from './pages/DataNoMongo/courseIntroduction.jsx'
 
 const App = () => {
   
@@ -24,7 +23,7 @@ const App = () => {
               <Route path="/About" element = {<About/>}/>
               <Route path="/Faculty" element = {<Faculty/>}/>
               <Route path="/Login" element = {<Login/>}/>
-              <Route path="/MajorsDescription/:majorid" element={<MajorDescription majorData={majorChoices} />}/>
+              <Route path="/majordescription/:majorId" element={<MajorDescription />}/>
           </Routes>
       
       </BrowserRouter>

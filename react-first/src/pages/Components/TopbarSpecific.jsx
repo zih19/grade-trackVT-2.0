@@ -1,32 +1,33 @@
-import {Stack, AppBar, Toolbar, Typography, Button, IconButton, Menu, MenuItem} from '@mui/material';
+import {Stack, AppBar, Toolbar, Typography, Button, Menu, MenuItem} from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import VTlogo from '../../Assets/VTLogo.png';
-import { useState } from 'react'
+import { useState } from 'react';
 // import Dropdown from 'react-bootstrap/Dropdown';
+// import {majorChoices} from '../DataNoMongo/courseIntroduction';
 
 const TopBarSpec = ({signedIn}) => {
 
     const majorsData = [
-        { id: "AOE", title: "Aerospace Engineering", courseURL: "/majordescription:AOE"},
-        { id: "BSE", title: "Biological Systems Engineering", courseURL: "/majordescription:BSE"},
-        { id: "BME", title: "Biomedical Engineering", courseURL: "/majordescription:BME"},
-        { id: "BC",  title: "Building Construction", courseURL: "/majordescription:BC"},
-        { id: "CHE", title: "Chemical Engineering", courseURL: "/majordescription:CHE"},
-        { id: "CEE", title: "Civil Engineering", courseURL: "/majordescription:CEE"},
-        { id: "ECE", title: "Electric/Computer Engineering", courseURL: "/majordescription:ECE"},
-        { id: "CS", title: "Computer Science", courseURL: "/majordescription:CS"},
-        { id: "CEM", title: "Construction Engineering and Management", courseURL: "/majordescription:CEM"},
-        { id: "ISE", title: "Industrial and Systems Engineering", courseURL: "/majordescription:ISE"},
-        { id: "MSE", title: "Materials Science Engineering", courseURL: "/majordescription:MSE"},
-        { id: "ME", title: "Mechanical Engineering", courseURL: "/majordescription:ME"},
-        { id: 'MINE', title: 'Mining Engineering', courseURL: '/majordescription:MINE'}
-    ]
+        { id: "AOE", title: "Aerospace Engineering", courseURL: "/majordescription/AOE"},
+        { id: "BSE", title: "Biological Systems Engineering", courseURL: "/majordescription/BSE"},
+        { id: "BME", title: "Biomedical Engineering", courseURL: "/majordescription/BME"},
+        { id: "BC",  title: "Building Construction", courseURL: "/majordescription/BC"},
+        { id: "CHE", title: "Chemical Engineering", courseURL: "/majordescription/CHE"},
+        { id: "CEE", title: "Civil Engineering", courseURL: "/majordescription/CEE"},
+        { id: "ECE", title: "Electric/Computer Engineering", courseURL: "/majordescription/ECE"},
+        { id: "CS", title: "Computer Science", courseURL: "/majordescription/CS"},
+        { id: "CEM", title: "Construction Engineering and Management", courseURL: "/majordescription/CEM"},
+        { id: "ISE", title: "Industrial and Systems Engineering", courseURL: "/majordescription/ISE"},
+        { id: "MSE", title: "Materials Science Engineering", courseURL: "/majordescription/MSE"},
+        { id: "ME", title: "Mechanical Engineering", courseURL: "/majordescription/ME"},
+        { id: 'MINE', title: 'Mining Engineering', courseURL: '/majordescription/MINE'}
+    ];
     
 
     const navigate = useNavigate();
 
     const handleHomeClick = () => {
-         navigate('./');
+         navigate('/');
     } 
 
     const handleAboutClick = () => {
@@ -40,8 +41,8 @@ const TopBarSpec = ({signedIn}) => {
         setAnchorEl(event.currentTarget) 
     }
     
-    const handleMajorMenuClick = (courseURL) => {
-        navigate(courseURL);
+    const handleMajorMenuClick = (majorId) => {
+        navigate(`/majordescription/${majorId}`);
         setAnchorEl(null);
     }
     
@@ -56,13 +57,11 @@ const TopBarSpec = ({signedIn}) => {
             <AppBar position='static'>
                 <Toolbar>
                 
-                    <IconButton aria-label='Virginia Tech-logo' href='/'>
+                    {/* <IconButton aria-label='Virginia Tech-logo'> */}
                         <img src={VTlogo} alt='Virginia Tech' style={{width: 50, height: 35}} />
-                    </IconButton>
+                    {/* </IconButton> */}
 
                     <Typography variant='h6' component='div' color='text.inherit' sx={{ flexGrow: 1 }} >
-                        {//You can put this here if you want ig Virginia Tech
-                        }
                         Welcome to Virginia Tech GradeTrack System!
                     </Typography>
 
@@ -76,12 +75,10 @@ const TopBarSpec = ({signedIn}) => {
                            anchorEl={anchorEl}
                            open={open}
                            onClose={()=> setAnchorEl(null)}
-                           MenuListProps={{
-                              'aria-labelledby': 'major-button',
-                           }}>
+                           >
                             {majorsData.map((major) => (
                                 <MenuItem key={major.id} 
-                                          onClick={()=> handleMajorMenuClick(major.courseURL.replace(':', ''))}>
+                                          onClick={()=> handleMajorMenuClick(major.id)}>
                                     {major.title}
                                 </MenuItem>
                             ))}
