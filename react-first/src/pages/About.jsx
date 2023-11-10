@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 import Modal from 'react-bootstrap/Modal';
 import Ben from '../Assets/Authors/BenCulverhouse.jpg';
 import Zi from '../Assets/Authors/ZiHuang.jpg';
+import {Typography} from '@mui/material';
 
 const About = () => {
     const[show1, setShow1] = useState(false);
@@ -29,21 +31,26 @@ const About = () => {
 
     return (
         <>
-            <h1>About Us</h1>
+            <Typography 
+                variant = 'h2' 
+                textAlign='center' 
+                fontFamily='Arial' 
+                fontstyle= 'italic'
+                gutterBottom> 
+                About Us 
+            </Typography>
+            <Container>
+                <Card bg='light' text='black' style={{fontSize:'20px'}}>
+                    <Card.Body style={{fontFamily:'Arial'}}>
+                        As current students at Virginia Tech, we have found the grade distribution website an extremely valuable tool to use while looking at the course offerings for each semester. 
+                        Although we found this tool to be useful for students to research the classes that they were going to take, we felt that the concept could be elevated to allow for a better user experience in general.
+                        With this goal in mind, we set out to create a website that allows users to easily inspect grade distributions of various majors, with visualizations included, such as multiple graphs that allow for an
+                        easier understanding of a particular data set. Feel free to contact the development team through the components below.
+                    </Card.Body>
+                </Card>
+            </Container>
             <div className='padding'></div>
-            <div className='about_container'>
-                <div className='about_body'>
-                    Who We Are: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </div>
-                
-                <div className='padding'></div>
-
-                <div className='about_body'>
-                    Purpose Of Website : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </div>
-            </div>
-            <div className='padding'></div>
-            <div className='fixed-bottom'>
+            <Container>
                 <Row>
                     <Col>
                         <Card style={{width: '14rem', height: '14rem'}}>
@@ -94,7 +101,7 @@ const About = () => {
                     </Card>
                     </Col>
                 </Row>
-                </div>
+            </Container>
             <Modal
                 show={show1}
                 onHide={handleClose1}
@@ -132,7 +139,7 @@ const About = () => {
                     <br></br>
                     <a href='https://github.com/zih19'> Personal Link </a>
                     <br></br>
-                    <a href='mailto: zih19@vt.edu'> Email </a> 
+                    Email: <a href='mailto: zih19@vt.edu'>zih19@vt.edu </a> 
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleClose2}>
