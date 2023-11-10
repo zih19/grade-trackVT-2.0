@@ -1,25 +1,27 @@
-import {Stack, AppBar, Toolbar, Typography, Button, IconButton} from '@mui/material';
+import {Stack, AppBar, Toolbar, Typography, Button, IconButton, Menu, MenuItem} from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import VTlogo from '../../Assets/VTLogo.png';
-import Dropdown from 'react-bootstrap/Dropdown';
+import { useState } from 'react'
+// import Dropdown from 'react-bootstrap/Dropdown';
 
 const TopBarSpec = ({signedIn}) => {
 
     const majorsData = [
-        { id: 1, title: 'Aerospace Engineering', content: 'Click to learn more about the courses offered in the aerospace program.', coursesURL: '/Courses' },
-        { id: 2, title: 'Biological Systems Engineering', content: 'Click to learn more about the courses offered in the biological systems program.', coursesURL: '/Courses'  },
-        { id: 3, title: 'Biomedical Engineering', content: 'Click to learn more about the courses offered in the biomedical program.', coursesURL: '/Courses'  },
-        { id: 4, title: 'Building Construction', content: 'Click to learn more about the courses offered in the building construction program.', coursesURL: '/Courses'  },
-        { id: 5, title: 'Chemical Engineering', content: 'Click to learn more about the courses offered in the chemical engineering program.', coursesURL: '/Courses'  },
-        { id: 6, title: 'Civil Engineering', content: 'Click to learn more about the courses offered in the civil engineering program.', coursesURL: '/Courses'  },
-        { id: 7, title: 'Computer Engineering', content: 'Click to learn more about the courses offered in the computer engineering program.', coursesURL: '/Courses'  },
-        { id: 8, title: 'Computer Science', content: 'Click to learn more about the courses offered in the computer science program.', coursesURL: '/Courses'  },
-        { id: 9, title: 'Construction Engineering and Management', content: 'Click to learn more about the courses offered in the construction and engineering management program.', coursesURL: '/Courses'  },
-        { id: 10, title: 'Electrical Engineering', content: 'Click to learn more about the courses offered in the electrical engineering program.', coursesURL: '/Courses'  },
-        { id: 11, title: 'Industrial and Systems Engineering', content: 'Click to learn more about the courses offered in the industrial and systems engineering program.', coursesURL: '/Courses'  },
-        { id: 12, title: 'Materials Science Engineering', content: 'Click to learn more about the courses offered in the materials science program.', coursesURL: '/Courses'  },
-        { id: 13, title: 'Mechanical Engineering', content: 'Click to learn more about the courses offered in the mechanical engineering program.', coursesURL: '/Courses'  },
-        { id: 14, title: 'Mining Engineering', content: 'Click to learn more about the courses offered in the mining engineering program.', coursesURL: '/Courses'  }]
+        { id: "AOE", title: "Aerospace Engineering", courseURL: "/majordescription:AOE"},
+        { id: "BSE", title: "Biological Systems Engineering", courseURL: "/majordescription:BSE"},
+        { id: "BME", title: "Biomedical Engineering", courseURL: "/majordescription:BME"},
+        { id: "BC",  title: "Building Construction", courseURL: "/majordescription:BC"},
+        { id: "CHE", title: "Chemical Engineering", courseURL: "/majordescription:CHE"},
+        { id: "CEE", title: "Civil Engineering", courseURL: "/majordescription:CEE"},
+        { id: "ECE", title: "Electric/Computer Engineering", courseURL: "/majordescription:ECE"},
+        { id: "CS", title: "Computer Science", courseURL: "/majordescription:CS"},
+        { id: "CEM", title: "Construction Engineering and Management", courseURL: "/majordescription:CEM"},
+        { id: "ISE", title: "Industrial and Systems Engineering", courseURL: "/majordescription:ISE"},
+        { id: "MSE", title: "Materials Science Engineering", courseURL: "/majordescription:MSE"},
+        { id: "ME", title: "Mechanical Engineering", courseURL: "/majordescription:ME"},
+        { id: 'MINE', title: 'Mining Engineering', courseURL: '/majordescription:MINE'}
+    ]
+    
 
     const navigate = useNavigate();
 
@@ -31,9 +33,18 @@ const TopBarSpec = ({signedIn}) => {
          navigate('/About');
     }
 
-    const handleMajorClick = () => {
-         navigate('/Majors')     
+    const[anchorEl, setAnchorEl] = useState(null);
+    const open = Boolean(anchorEl); 
+
+    const handleMajorButtonClick = (event) => {
+        setAnchorEl(event.currentTarget) 
     }
+    
+    const handleMajorMenuClick = (courseURL) => {
+        navigate(courseURL);
+        setAnchorEl(null);
+    }
+    
 
     const handleLoginRegisterClick = () => {
          navigate('/Login')
@@ -42,31 +53,40 @@ const TopBarSpec = ({signedIn}) => {
     //<Button color='inherit' onClick={handleMajorClick}> MajorsPage </Button>
     return (
         <>
-            <AppBar position='static' color='transparent'>
+            <AppBar position='static'>
                 <Toolbar>
                 
                     <IconButton aria-label='Virginia Tech-logo' href='/'>
-                        <img src={VTlogo} alt='Virginia Tech' style={{width: 24, height: 24}} />
+                        <img src={VTlogo} alt='Virginia Tech' style={{width: 50, height: 35}} />
                     </IconButton>
 
-                    <Typography variant='h6' component='div' sx={{ flexGrow: 1 }} >
+                    <Typography variant='h6' component='div' color='text.inherit' sx={{ flexGrow: 1 }} >
                         {//You can put this here if you want ig Virginia Tech
                         }
+                        Welcome to Virginia Tech GradeTrack System!
                     </Typography>
 
                     <Stack spacing={2} direction='horizontal'>
                         <Button color='inherit' onClick={handleHomeClick}> Home </Button>
                         <Button color='inherit' onClick={handleAboutClick}> About </Button>
-                        <Dropdown>
-                            <Dropdown.Toggle color='inherit' variant='inherit' id='dropdown-basic'>
-                                Majors
-                            </Dropdown.Toggle>
-                            <Dropdown.Menu>
-                                {majorsData.map((major) => (
-                                    <Dropdown.Item href={major.coursesURL}>{major.title}</Dropdown.Item>
-                                ))}
-                            </Dropdown.Menu>
-                        </Dropdown>
+                        
+                        <Button color="inherit" onClick={handleMajorButtonClick}> Majors </Button>
+                        <Menu
+                           id="major-menu"
+                           anchorEl={anchorEl}
+                           open={open}
+                           onClose={()=> setAnchorEl(null)}
+                           MenuListProps={{
+                              'aria-labelledby': 'major-button',
+                           }}>
+                            {majorsData.map((major) => (
+                                <MenuItem key={major.id} 
+                                          onClick={()=> handleMajorMenuClick(major.courseURL.replace(':', ''))}>
+                                    {major.title}
+                                </MenuItem>
+                            ))}
+                        </Menu>
+
                         {!signedIn ? 
                         <Button color='inherit' onClick={handleLoginRegisterClick}> Login/Register </Button>
                         :null}

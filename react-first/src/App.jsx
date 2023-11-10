@@ -1,19 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react'
+import React, { useState } from 'react'
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Faculty from './pages/Faculty.jsx'
 import Login from './pages/Login.jsx'
-import Majors from './pages/Majors.jsx';
+import MajorDescription from './pages/MajorDescription.jsx';
 import TopbarSpec from './pages/Components/TopbarSpecific.jsx';
-import { useState } from 'react';
+import majorChoices from './pages/DataNoMongo/courseIntroduction.jsx'
 
 const App = () => {
   
   // Step 1: I will create reusable components
-  const [signedIn, signIn] = useState(false)
+  const [signedIn, setSignIn] = useState(false)
 
   return (
     <div className="App">
@@ -24,7 +24,7 @@ const App = () => {
               <Route path="/About" element = {<About/>}/>
               <Route path="/Faculty" element = {<Faculty/>}/>
               <Route path="/Login" element = {<Login/>}/>
-              <Route path="/Majors" element = {<Majors/>}/>
+              <Route path="/MajorsDescription/:majorid" element={<MajorDescription majorData={majorChoices} />}/>
           </Routes>
       
       </BrowserRouter>
