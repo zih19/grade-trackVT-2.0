@@ -52,10 +52,9 @@ const About = () => {
                 </Card>
             </Container>
             <div className='padding'></div>
-            <Container>
-                <Row>
+                <Row xs={1} md={4} lg={5} className='g-5'>
                     <Col>
-                        <Card style={{width: '14rem', height: '14rem'}}>
+                        <Card style={{width: '14rem', height: '20rem'}}>
                             <Card.Img variant='top' height={'230rem'} src={Ben} />
                             <Card.Body>
                                 <Card.Title>Ben Culverhouse</Card.Title>
@@ -64,8 +63,8 @@ const About = () => {
                         </Card>
                     </Col>
                     <Col>
-                    <Card style={{width: '14rem', height: '14rem'}}>
-                        <Card.Img variant='top' height={'230rem'} src={Zi} />
+                    <Card style={{width: '14rem', height: '20rem'}}>
+                        <Card.Img variant='top' height={'223rem'} src={Zi} />
                         <Card.Body>
                             <Card.Title>Zi Huang</Card.Title>
                             <Button variant="primary" onClick={handleShow2}>Contact Me</Button>
@@ -74,8 +73,8 @@ const About = () => {
                     </Col>
 
                     <Col>
-                    <Card style={{width: '14rem', height: '14rem'}}>
-                        <Card.Img variant='top' height={'230rem'} src={Sachi} />
+                    <Card style={{width: '14rem', height: '20rem'}}>
+                        <Card.Img variant='top' height={'223rem'} src={Sachi} />
                         <Card.Body>
                             <Card.Title>Sachi Chitre</Card.Title>
                             <Button variant="primary" onClick={handleShow3}>Contact Me</Button>
@@ -84,7 +83,7 @@ const About = () => {
                     </Col>
 
                     <Col>
-                    <Card style={{width: '14rem', height: '14rem'}}>
+                    <Card style={{width: '14rem', height: '20rem'}}>
                         <Card.Img variant='top' height={'230rem'} src={Pri} />
                         <Card.Body>
                             <Card.Title>Priuyankaa Balaji</Card.Title>
@@ -94,7 +93,7 @@ const About = () => {
                     </Col>
 
                     <Col>
-                    <Card style={{width: '14rem'}}>
+                    <Card style={{width: '14rem', height: '20rem'}}>
                         <Card.Img variant='top' src='holder.js/100px180' />
                         <Card.Body>
                             <Card.Title>Team Member</Card.Title>
@@ -103,7 +102,6 @@ const About = () => {
                     </Card>
                     </Col>
                 </Row>
-            </Container>
             <Modal
                 show={show1}
                 onHide={handleClose1}
