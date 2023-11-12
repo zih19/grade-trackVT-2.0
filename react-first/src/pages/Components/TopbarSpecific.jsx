@@ -1,8 +1,9 @@
-import {Stack, AppBar, Toolbar, Typography, Button, Menu, MenuItem} from '@mui/material';
+import {Stack, AppBar, Toolbar, Typography, Button, Menu, MenuItem, IconButton} from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import VTlogo from '../../Assets/VTLogo.png';
 import { useState } from 'react';
 import {Link} from 'react-router-dom';
+// import PersonIcon from '@mui/icons-material/Person';
 // import Dropdown from 'react-bootstrap/Dropdown';
 // import {majorChoices} from '../DataNoMongo/courseIntroduction';
 
@@ -52,6 +53,10 @@ const TopBarSpec = ({signedIn}) => {
          navigate('/Login')
     }
 
+    const handleMajorClick = () => {
+        navigate('/Major')
+    }
+
     //<Button color='inherit' onClick={handleMajorClick}> MajorsPage </Button>
     return (
         <>
@@ -70,7 +75,15 @@ const TopBarSpec = ({signedIn}) => {
 
                     <Stack spacing={2} direction='horizontal'>
                         <Button color='inherit' onClick={handleHomeClick}> Home </Button>
+
+
                         <Button color='inherit' onClick={handleAboutClick}> About </Button>
+
+                        {
+                            signedIn? 
+                            <Button color='inherit' onClick={handleMajorClick}> Major List </Button>
+                            :null
+                        }
                         
                         <Button color="inherit" onClick={handleMajorButtonClick}> Major Info </Button>
                         <Menu
@@ -89,7 +102,12 @@ const TopBarSpec = ({signedIn}) => {
 
                         {!signedIn ? 
                         <Button color='inherit' onClick={handleLoginRegisterClick}> Login/Register </Button>
-                        :null}
+                        :(
+                            <IconButton>
+                                {/* <PersonIcon /> */}
+                                <Typography> ABC </Typography>
+                            </IconButton>
+                        )}
                     </Stack>
 
                 </Toolbar>

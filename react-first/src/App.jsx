@@ -4,12 +4,14 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
-import Faculty from './pages/Faculty.jsx'
 import Login from './pages/Login.jsx'
 import MajorDescription from './pages/MajorDescription.jsx';
 import TopbarSpec from './pages/Components/TopbarSpecific.jsx';
 import Forgot_Password from './pages/Forgot-Password.jsx';
 import Success from './pages/Success.jsx';
+import Major from './pages/Majors.jsx';
+import Courses from './pages/Courses.jsx';
+import Dashboard from './pages/DashboardGeneral.jsx'
 
 const App = () => {
   
@@ -23,14 +25,17 @@ const App = () => {
           <Routes>
               <Route exact path="/" element = {<Home/>}/>
               <Route path="/About" element = {<About/>}/>
-              <Route path="/Faculty" element = {<Faculty/>}/>
-              <Route path="/Login" element = {<Login/>}/>
               <Route path="/majordescription/:majorId" element={<MajorDescription />}/>
+              <Route path="/Login" element = {<Login setSignIn={setSignIn}/>}/>
+              
               <Route path="/Forgot-Password" element={<Forgot_Password/>}/>
               <Route path="/Success" element={<Success/>}/>
+              <Route path="/Major" element={<Major/>} />
+              <Route path="/Major/:majorId" element={<Courses/>} />
+              <Route path="/Major/:majorId/:courseId" element={<Dashboard/>} /> 
+
           </Routes>
-      
-      </BrowserRouter>
+        </BrowserRouter>
     </div>
   );
 };

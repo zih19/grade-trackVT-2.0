@@ -4,7 +4,7 @@ import hokie from '../Assets/VTHokie.png';
 import { useNavigate, Link} from 'react-router-dom';
 import VTBackground from '../Assets/VTBackground.jpg'
 
-const Login = () => {
+const Login = ({setSignIn}) => {
     const [check, setCheck] = useState(false);
     const [currUsernameValue, setCurrUsernameValue] = useState('');
     const [currPasswordValue, setCurrPasswordValue] = useState('');
@@ -22,9 +22,15 @@ const Login = () => {
     }
 
     const navigate = useNavigate();
-
     const navigateMajorPage = () => {
-         navigate('/Major');
+        if (currUsernameValue === 'admin' && currPasswordValue === '123456') {
+            setSignIn(true);
+            navigate('/');
+        } else {
+           console.error("Incorrect Useranme or Password")
+        }
+
+        
     }
 
     return (
