@@ -290,7 +290,7 @@ const MajorDescription = () => {
                         return (
                           
                            <Typography key={index} 
-                                        variant='body1' 
+                                        variant='h5' 
                                         sx={{pb: '50px'}}
                                         textAlign='left'> 
                                 {paragraph} 
@@ -301,9 +301,9 @@ const MajorDescription = () => {
                     else if (index === major.content.length - 1) {
                       return (
                         <>
-                          <Typography variant='h4' textAlign='left'> Specialization/Subject </Typography>
+                          <Typography variant='h3' textAlign='left'> Specialization/Subject </Typography>
                           <Typography key={index} 
-                                      variant='body1' 
+                                      variant='h5' 
                                       sx={{pb: '8px'}}
                                       textAlign='left'> 
                               {paragraph} 
@@ -314,8 +314,8 @@ const MajorDescription = () => {
                     else {
                       return (
                         <Typography key={index} 
-                                    variant='body1' 
-                                    sx={{pb: '10px'}}
+                                    variant='h5' 
+                                    sx={{pb: '15px'}}
                                     textAlign='left'> 
                               {paragraph} 
                         </Typography>

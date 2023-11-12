@@ -69,7 +69,7 @@ const TopBarSpec = ({signedIn}) => {
                         <Button color='inherit' onClick={handleHomeClick}> Home </Button>
                         <Button color='inherit' onClick={handleAboutClick}> About </Button>
                         
-                        <Button color="inherit" onClick={handleMajorButtonClick}> Majors </Button>
+                        <Button color="inherit" onClick={handleMajorButtonClick}> Major Info </Button>
                         <Menu
                            id="major-menu"
                            anchorEl={anchorEl}
