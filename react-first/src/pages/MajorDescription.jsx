@@ -15,39 +15,48 @@ const MajorDescription = () => {
       ],
       imageURLs: [
         {
-            label: "Aero/hydrodynamics",
-            imagelink: "https://www.aoe.vt.edu/content/aoe_vt_edu/en/undergraduate/concentrations/aero-hydrodynamics.transform/m-medium/image.jpg"
+          label: "Aero/hydrodynamics",
+          labelLink: "https://www.aoe.vt.edu/undergraduate/concentrations/aero-hydrodynamics.html",
+          imagelink: "https://www.aoe.vt.edu/content/aoe_vt_edu/en/undergraduate/concentrations/aero-hydrodynamics.transform/m-medium/image.jpg"
         },
         {
             label: "Dynamics, control and estimation",
+            labelLink: "https://www.aoe.vt.edu/undergraduate/concentrations/dynamics-control-estimation.html",
             imagelink: "https://www.aoe.vt.edu/content/aoe_vt_edu/en/undergraduate/concentrations/dynamics-control-estimation.transform/m-medium/image.jpg"
         },
         {
             label: "Energy and the environment",
+            labelLink: "https://www.aoe.vt.edu/undergraduate/concentrations/energy-and-environment.html",
             imagelink: "https://www.aoe.vt.edu/content/aoe_vt_edu/en/undergraduate/concentrations/energy-and-environment.transform/m-medium/image.jpg" 
         },
         {
             label: "Naval engineering",
+            labelLink: "https://www.aoe.vt.edu/undergraduate/concentrations/naval-engineering.html",
             imagelink: "https://www.aoe.vt.edu/content/aoe_vt_edu/en/undergraduate/concentrations/naval-engineering.transform/m-medium/image.jpg"
         },
         {
             label:  "Foundational Option",
+            labelLink: "https://www.aoe.vt.edu/undergraduate/concentrations/foundational-option.html",
             imagelink: "https://www.aoe.vt.edu/content/aoe_vt_edu/en/undergraduate/concentrations/foundational-option.transform/m-medium/image.png"
         },
         {
-            label: "propulsion",
+            label: "Propulsion",
+            labelLink: "https://www.aoe.vt.edu/undergraduate/concentrations/propulsion.html",
             imagelink: "https://www.aoe.vt.edu/content/aoe_vt_edu/en/undergraduate/concentrations/propulsion.transform/m-medium/image.jpg" 
         },
         {
             label: "Space engineering",
+            labelLink: "https://www.aoe.vt.edu/undergraduate/concentrations/space.html",
             imagelink: "https://www.aoe.vt.edu/content/aoe_vt_edu/en/undergraduate/concentrations/space.transform/m-medium/image.png"
         },
         {
             label: "Structures and materials",
+            labelLink: "https://www.aoe.vt.edu/undergraduate/concentrations/structures-and-materials.html",
             imagelink: "https://www.aoe.vt.edu/content/aoe_vt_edu/en/undergraduate/concentrations/structures-and-materials.transform/m-medium/image.png"
         },
         {
             label: "Vehicle and system design",
+            labelLink: "https://www.aoe.vt.edu/undergraduate/concentrations/vehicle-and-system-design.html",
             imagelink: "https://www.aoe.vt.edu/content/aoe_vt_edu/en/undergraduate/concentrations/vehicle-and-system-design.transform/m-medium/image.jpg"
         }
         ],
@@ -327,7 +336,8 @@ const MajorDescription = () => {
              {
                 major.imageURLs.map((imageContent, index) => (
                       <Grid item xs={12} md={4} key={index}>
-                            <Paper elevation={3} sx={{padding: 2}}>  
+                            <Paper elevation={3} sx={{padding: 2}}>
+                            <a href={imageContent.labelLink} target="_blank" rel="noopener noreferrer">  
                                 <Box component='img'
                                         sx={{height: '200px',
                                             width: '100%',
@@ -335,6 +345,7 @@ const MajorDescription = () => {
                                             mb: '15px'}}
                                         src={imageContent.imagelink}
                                         alt={imageContent.label} />  
+                              </a>
                                 <Typography variant='body2' >
                                     {imageContent.label}
                                 </Typography>
