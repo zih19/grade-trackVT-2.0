@@ -7,6 +7,8 @@ import Container from 'react-bootstrap/Container';
 import Modal from 'react-bootstrap/Modal';
 import Ben from '../Assets/Authors/BenCulverhouse.jpg';
 import Zi from '../Assets/Authors/ZiHuang.jpg';
+import Sachi from '../Assets/Authors/SachiChitre.jpg';
+import Pri from '../Assets/Authors/PriBalaji.jpg';
 import {Typography} from '@mui/material';
 
 const About = () => {
@@ -72,20 +74,20 @@ const About = () => {
                     </Col>
 
                     <Col>
-                    <Card style={{width: '14rem'}}>
-                        <Card.Img variant='top' src='holder.js/100px180' />
+                    <Card style={{width: '14rem', height: '14rem'}}>
+                        <Card.Img variant='top' height={'230rem'} src={Sachi} />
                         <Card.Body>
-                            <Card.Title>Team Member</Card.Title>
+                            <Card.Title>Sachi Chitre</Card.Title>
                             <Button variant="primary" onClick={handleShow3}>Contact Me</Button>
                         </Card.Body>
                     </Card>
                     </Col>
 
                     <Col>
-                    <Card style={{width: '14rem'}}>
-                        <Card.Img variant='top' src='holder.js/100px180' />
+                    <Card style={{width: '14rem', height: '14rem'}}>
+                        <Card.Img variant='top' height={'230rem'} src={Pri} />
                         <Card.Body>
-                            <Card.Title>Team Member</Card.Title>
+                            <Card.Title>Priuyankaa Balaji</Card.Title>
                             <Button variant="primary" onClick={handleShow4}>Contact Me</Button>
                         </Card.Body>
                     </Card>
@@ -155,14 +157,14 @@ const About = () => {
                 keyboard={false}
             >
                 <Modal.Header closeButton>
-                    <Modal.Title>Memeber Name</Modal.Title>
+                    <Modal.Title>Sachi Chitre</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    LinkedIn:
+                    <a href='https://linkedin.com/in/sachi-chitre'> LinkedIn </a> 
                     <br></br>
-                    Personal Link:
+                    <a href='https://github.com/sachichitre'> Personal Link </a>
                     <br></br>
-                    Email:
+                    Email: <a href='mailto: sachic@vt.edu'>sachic@vt.edu </a>
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleClose3}>
@@ -178,14 +180,14 @@ const About = () => {
                 keyboard={false}
             >
                 <Modal.Header closeButton>
-                    <Modal.Title>Memeber Name</Modal.Title>
+                    <Modal.Title>Priuyankaa Balaji</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    LinkedIn:
+                    <a href='https://www.linkedin.com/in/priuyankaa-balaji/'> LinkedIn </a> 
                     <br></br>
-                    Personal Link:
+                    <a href='https://github.com/pribalaji'> Personal Link </a>
                     <br></br>
-                    Email:
+                    Email: <a href='mailto: pribalaji@vt.edu'>pribalaji@vt.edu </a>
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleClose4}>

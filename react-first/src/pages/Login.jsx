@@ -1,16 +1,21 @@
 import React, { useState } from 'react'
-import { TextField, Button, Paper, Grid, Stack, Container, Typography, Box, FormControlLabel, Checkbox } from '@mui/material'
+import { TextField, Button, Grid, Container, Typography, Box, FormControlLabel, Checkbox } from '@mui/material'
 import hokie from '../Assets/VTHokie.png';
 import { useNavigate, Link} from 'react-router-dom';
 import VTBackground from '../Assets/VTBackground.jpg'
 
 const Login = () => {
     const [check, setCheck] = useState(false);
-    const [currValue, setCurrValue] = useState('');
+    const [currUsernameValue, setCurrUsernameValue] = useState('');
+    const [currPasswordValue, setCurrPasswordValue] = useState('');
 
-    const handleChange = (event) => {
-         setCurrValue(event.target.value);
+    const handleUsernameChange = (event) => {
+         setCurrUsernameValue(event.target.value);
     }
+
+    const handlePasswordChange = (event) => {
+        setCurrPasswordValue(event.target.value);
+   }
 
     const handleCheck = (event) => {
         setCheck(event.target.checked)
@@ -56,8 +61,8 @@ const Login = () => {
                                 type='text'
                                 fullWidth
                                 required 
-                                value={currValue}
-                                onChange={handleChange}
+                                value={currUsernameValue}
+                                onChange={handleUsernameChange}
                                 sx={{mb: '10px'}}/>
                     <TextField  id='form' 
                                 label='Password'
@@ -65,15 +70,15 @@ const Login = () => {
                                 type='password'
                                 fullWidth
                                 required 
-                                value={currValue}
-                                onChange={handleChange}
+                                value={currPasswordValue}
+                                onChange={handlePasswordChange}
                                 sx={{mb: '10px' }}/>
                 
                     <FormControlLabel control={<Checkbox checked={check}
                                                         onChange={handleCheck}/>} 
                                     label= 'Remember Me' 
                                     sx={{justifyContent: 'flex-start',
-                                            width: "100%", color: 'orange'}}/>
+                                            width: "100%"}}/>
                     
                     <Button type='submit'
                             fullWidth
@@ -91,12 +96,12 @@ const Login = () => {
                             Forget
                             <Link to='/Forget-Username'> UserName </Link>
                             or
-                            <Link to='/Forget-Password'> Password </Link>
+                            <Link to='/Forgot-Password'> Password </Link>
                         </Grid>
 
                         <Grid Item xs={12}>
-                            Don't have an account? 
-                            <Link to='/Register'> Sign Up!</Link>
+                            Don't have an account?
+                            <Link to='/register'> Sign Up</Link>
                         </Grid>
 
                     </Grid>

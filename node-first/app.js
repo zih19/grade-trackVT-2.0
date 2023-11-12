@@ -11,7 +11,7 @@ require("dotenv").config();
 url = 'mongodb+srv://CS3754:ylCTHhBItUFSZgij@gradetrackvt.kntubny.mongodb.net/';
 dbName = 'GradeTrackVT';
 
-const client = MongoClient(url, {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true});
+const client = new MongoClient(url, {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true});
 
 app.use(async(req, res, next) => {
     try{
