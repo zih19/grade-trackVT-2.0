@@ -8,6 +8,8 @@ import Faculty from './pages/Faculty.jsx'
 import Login from './pages/Login.jsx'
 import MajorDescription from './pages/MajorDescription.jsx';
 import TopbarSpec from './pages/Components/TopbarSpecific.jsx';
+import Forgot_Password from './pages/Forgot-Password.jsx';
+import Success from './pages/Success.jsx';
 
 const App = () => {
   
@@ -24,6 +26,8 @@ const App = () => {
               <Route path="/Faculty" element = {<Faculty/>}/>
               <Route path="/Login" element = {<Login/>}/>
               <Route path="/majordescription/:majorId" element={<MajorDescription />}/>
+              <Route path="/Forgot-Password" element={<Forgot_Password/>}/>
+              <Route path="/Success" element={<Success/>}/>
           </Routes>
       
       </BrowserRouter>

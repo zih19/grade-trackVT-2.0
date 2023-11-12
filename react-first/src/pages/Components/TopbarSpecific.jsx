@@ -2,6 +2,7 @@ import {Stack, AppBar, Toolbar, Typography, Button, Menu, MenuItem} from '@mui/m
 import { useNavigate } from 'react-router-dom';
 import VTlogo from '../../Assets/VTLogo.png';
 import { useState } from 'react';
+import {Link} from 'react-router-dom';
 // import Dropdown from 'react-bootstrap/Dropdown';
 // import {majorChoices} from '../DataNoMongo/courseIntroduction';
 
@@ -58,7 +59,9 @@ const TopBarSpec = ({signedIn}) => {
                 <Toolbar>
                 
                     {/* <IconButton aria-label='Virginia Tech-logo'> */}
-                        <img src={VTlogo} alt='Virginia Tech' style={{width: 50, height: 35}} />
+                        <Link to='/'>
+                            <img src={VTlogo} alt='Virginia Tech' style={{width: 50, height: 35}} />
+                        </Link>
                     {/* </IconButton> */}
 
                     <Typography variant='h6' component='div' color='text.inherit' sx={{ flexGrow: 1 }} >

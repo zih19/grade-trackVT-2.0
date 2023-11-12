@@ -99,7 +99,7 @@ const Login = () => {
                                         Forget
                                         <Link to='/Forget-Username'> UserName </Link>
                                         or
-                                        <Link to='/Forget-Password'> Password </Link>
+                                        <Link to='/Forgot-Password'> Password </Link>
                                     </Grid>
 
                                     <Grid Item xs={12}>
