@@ -6,11 +6,16 @@ import VTBackground from '../Assets/VTBackground.jpg'
 
 const Login = () => {
     const [check, setCheck] = useState(false);
-    const [currValue, setCurrValue] = useState('');
+    const [currUsernameValue, setCurrUsernameValue] = useState('');
+    const [currPasswordValue, setCurrPasswordValue] = useState('');
 
-    const handleChange = (event) => {
-         setCurrValue(event.target.value);
+    const handleUsernameChange = (event) => {
+         setCurrUsernameValue(event.target.value);
     }
+
+    const handlePasswordChange = (event) => {
+        setCurrPasswordValue(event.target.value);
+   }
 
     const handleCheck = (event) => {
         setCheck(event.target.checked)
@@ -59,8 +64,8 @@ const Login = () => {
                                             type='text'
                                             fullWidth
                                             required 
-                                            value={currValue}
-                                            onChange={handleChange}
+                                            value={currUsernameValue}
+                                            onChange={handleUsernameChange}
                                             sx={{mb: '10px'}}/>
                                 <TextField  id='form' 
                                             label='Password'
@@ -68,8 +73,8 @@ const Login = () => {
                                             type='password'
                                             fullWidth
                                             required 
-                                            value={currValue}
-                                            onChange={handleChange}
+                                            value={currPasswordValue}
+                                            onChange={handlePasswordChange}
                                             sx={{mb: '10px'}}/>
                                 
                                 <FormControlLabel control={<Checkbox checked={check}
