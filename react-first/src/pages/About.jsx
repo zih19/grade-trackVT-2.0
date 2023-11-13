@@ -52,6 +52,8 @@ const About = () => {
                 </Card>
             </Container>
             <div className='padding'></div>
+
+            <Container>
                 <Row xs={1} md={4} lg={5} className='g-5'>
                     <Col>
                         <Card style={{width: '14rem', height: '20rem'}}>
@@ -102,6 +104,7 @@ const About = () => {
                     </Card>
                     </Col>
                 </Row>
+            </Container>
             <Modal
                 show={show1}
                 onHide={handleClose1}
