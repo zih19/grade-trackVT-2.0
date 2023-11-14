@@ -9,6 +9,7 @@ import Ben from '../Assets/Authors/BenCulverhouse.jpg';
 import Zi from '../Assets/Authors/ZiHuang.jpg';
 import Sachi from '../Assets/Authors/SachiChitre.jpg';
 import Pri from '../Assets/Authors/PriBalaji.jpg';
+import Tanisi from '../Assets/Authors/TanisiTripathi.jpg';
 import {Typography} from '@mui/material';
 
 const About = () => {
@@ -96,9 +97,9 @@ const About = () => {
 
                     <Col>
                     <Card style={{width: '14rem', height: '20rem'}}>
-                        <Card.Img variant='top' src='holder.js/100px180' />
+                        <Card.Img variant='top' height={'230rem'} src={Tanisi} />
                         <Card.Body>
-                            <Card.Title>Team Member</Card.Title>
+                            <Card.Title>Tanisi Tripathi</Card.Title>
                             <Button variant="primary" onClick={handleShow5}>Contact Me</Button>
                         </Card.Body>
                     </Card>
@@ -184,7 +185,7 @@ const About = () => {
                     <Modal.Title>Priuyankaa Balaji</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <a href='https://www.linkedin.com/in/priuyankaa-balaji/'> LinkedIn </a> 
+                <a href='https://www.linkedin.com/in/priuyankaa-balaji/'> LinkedIn </a> 
                     <br></br>
                     <a href='https://github.com/pribalaji'> Personal Link </a>
                     <br></br>
@@ -204,14 +205,14 @@ const About = () => {
                 keyboard={false}
             >
                 <Modal.Header closeButton>
-                    <Modal.Title>Memeber Name</Modal.Title>
+                    <Modal.Title>Tanisi Tripathi</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    LinkedIn:
+                <a href='https://www.linkedin.com/in/tanisi-tripathi/'> LinkedIn </a> 
                     <br></br>
-                    Personal Link:
+                    <a href='https://github.com/tanisitripathi'> Personal Link </a>
                     <br></br>
-                    Email:
+                    Email: <a href='mailto: tanisi@vt.edu'>tanisi@vt.edu </a>
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleClose5}>
