@@ -57,6 +57,14 @@ const TopBarSpec = ({signedIn}) => {
         navigate('/Major')
     }
 
+    const [anchorElLogout, setAnchorElLogout] = useState(null);
+    const openLogOut = Boolean(anchorElLogout);
+
+    const handleLogoutClick = (event) => {
+        setAnchorElLogout(event.currentTarget);
+    }
+
+
     //<Button color='inherit' onClick={handleMajorClick}> MajorsPage </Button>
     return (
         <>
@@ -103,10 +111,23 @@ const TopBarSpec = ({signedIn}) => {
                         {!signedIn ? 
                         <Button color='inherit' onClick={handleLoginRegisterClick}> Login/Register </Button>
                         :(
-                            <IconButton>
-                                {/* <PersonIcon /> */}
-                                <Typography> ABC </Typography>
-                            </IconButton>
+                            <>
+                            
+                                <Button color="inherit" onClick={handleLogoutClick}>
+                                     Log Out  
+                                </Button>
+
+                                <Menu id='log out'
+                                      anchorEl={anchorElLogout}
+                                      open={openLogOut}
+                                      onClose={()=> setAnchorElLogout(null)}>
+                                     <MenuItem>
+                                           Log Out                                     
+                                     </MenuItem>
+                                </Menu>
+          
+                            </>    
+                            
                         )}
                     </Stack>
 

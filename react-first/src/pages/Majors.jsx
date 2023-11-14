@@ -14,8 +14,7 @@
 // import Col from 'react-bootstrap/Col'; 
 // import Container from 'react-bootstrap/Container';
 
-import {Grid, Box, Paper, Typography, CardActionArea} from '@mui/material';
-import { useState } from 'react'; 
+import {Grid, Card, CardContent, CardMedia, CardActionArea, Typography, Paper} from '@mui/material';
 import {useNavigate} from 'react-router-dom';
 
 
@@ -72,7 +71,7 @@ const Majors = () => {
         image: 'https://eng.vt.edu/content/eng_vt_edu/en/academics/undergraduate-students/explore-engineering/construction-engineering-and-management/jcr:content/content/adaptiveimage.transform/xl-medium/image.jpg'  
       },
       { id: 'ECE', 
-        title: 'Electrical Engineering(ECE)', 
+        title: 'Electrical/Computer Engineering(ECE)', 
         content: 'Click to learn more about the courses offered in the electrical engineering program.', 
         coursesURL: '/Major/ECE',
         image: 'https://eng.vt.edu/content/eng_vt_edu/en/academics/undergraduate-students/explore-engineering/computer-engineering/jcr:content/content/adaptiveimage.transform/xl-medium/image.jpg'  
@@ -115,30 +114,41 @@ const Majors = () => {
         {
           majorsList.map((major) => (
             <Grid Item xs={12} md={4} sx={{pb: "35px"}} key={major.id} >
-              <CardActionArea onClick={()=> handleClick(major.id)}>
-                <Paper elevation={3} sx={{padding: "2px"}}>
-                   <Box
-                      component="img"
-                      sx={{
-                          height: '300px',
-                          width: '100%',
-                          objectFit: 'cover',
-                          mb: '15px'
-                      }}
-                      src={major.image}
-                      alt={major.id}
-                    />
-                
-                    <Typography variant="h4"
-                                sx={{fontFamily: 'Arial',
-                                    fontWeight: 'bold',
-                                    color: 'pink'}}>{major.title}</Typography>
-                </Paper>
-                <Typography>{major.content}</Typography> 
-              </CardActionArea>   
+              <Card sx={{maxWidth: '345px'}}>
+                  <CardActionArea onClick={()=> handleClick(major.id)}>
+                       <Paper elevation={2}>
+                            <CardMedia
+                              component="img"
+                              sx={{
+                                  height: '300px',
+                                  width: '100%',
+                                  objectFit: 'cover',
+                                  mb: '15px'
+                              }}
+                              src={major.image}
+                              alt={major.id}
+                            />
+                            
+                            <CardContent>
+                              <Typography variant="h4"
+                                          sx={{fontFamily: 'Arial',
+                                          fontWeight: 'bold',
+                                          color: 'pink'}}>
+                                  {major.title}
+                              </Typography>
+                              
+                              <Typography>
+                                  {major.content}
+                              </Typography>
+
+                            </CardContent>
+                        </Paper>
+                        
+                  </CardActionArea>
+              </Card>   
             </Grid>
           ))
-        }
+        } 
 
        </Grid>
     );
