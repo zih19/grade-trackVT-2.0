@@ -203,7 +203,8 @@ const Courses = () => {
     const navigate = useNavigate();
 
     const {majorId} = useParams();
-    const course = coursesData.find((course)=>course.major = majorId);
+    let course = coursesData.find((course)=>course.major === majorId);
+    console.log(course)
     if (!course) {
         return <Typography variant='h6'> The course was not found!</Typography>
     }

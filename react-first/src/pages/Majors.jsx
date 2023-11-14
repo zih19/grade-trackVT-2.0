@@ -113,7 +113,7 @@ const Majors = () => {
        <Grid container sx={{pt: '10px'}}>
         {
           majorsList.map((major) => (
-            <Grid Item xs={12} md={4} sx={{pb: "35px"}} key={major.id} >
+            <Grid Item xs={12} md={3} sx={{pb: "35px"}} key={major.id} >
               <Card sx={{maxWidth: '345px'}}>
                   <CardActionArea onClick={()=> handleClick(major.id)}>
                        <Paper elevation={2}>
