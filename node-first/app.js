@@ -30,49 +30,35 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors());
 
-app.get("/majors", async(req, res) => {
+app.get("api/majors", async(req, res) => {
     try {
-        const majorCollection = req.db.collection("Majors");
+        const majorCollection = req.db.collection("Majors_Eng");
         const majors =await majorCollection.find({}).toArray();
-        return res.json(majors);
+        res.json(majors);
     }catch(error){
         console.error("Error Finding Majors: ", error)
         res.status(500).json({ message: "Error fetching majors" })
     }
 });
 
-app.get('/majors/:majorid', async(req, res) => {
+app.get('api/majors/:major_id', async(req, res) => {
+    const major_chosen = req.params.major_id;
     try{
-      const id_chosen = req.params.id;
-      const majorCollection = req.db.collection("Majors");
-      const user_picked = await majorCollection.findOne({id: id_chosen});
-      if (!user_picked){
-        return res.status(404).json({message: "Not Found"});
-      }
-      return res.json(user_picked);
+      //const id_chosen = req.params.id;
+      const majorCollection = req.db.collection("Courses_Eng");
+      const courses = await majorCollection.find({major: major_chosen }).toArray();
+      res.json(courses);
     }catch(error){
         console.error("Error Selecting the Major: ", error);
         res.status(500).json({message: "Internal Server Error"});
     }
 });
 
-// app.get('/major/:majorid/course', async(req, res) => {
-//     try{
-//        const courseCollection = req.db.collection("Courses");
-//        const courses = courseCollection.find({}).toArray();
-//        res.json(courses); 
-
-//     }catch(error){
-//         console.error("Error connecting to the course page: ", error);
-//         res.status(500).json({message: "Internal Server Error"});
-//     }
-// })
-
-app.get('/major/:majorid/:courseid', async(req, res) => {
+app.get('api/majors/:major_id/:course_id', async(req, res) => {
     try{
        const course_id_chosen = req.params.course_id;
        const major_id_chosen = req.params.major_id;
-       const courseCollection = req.db.collection("CoursesSpecific");
+       const courseCollection = req.db.collection("Courses_Description");
        const course_selected = await courseCollection.findOne({course_id: course_id_chosen, major_id: major_id_chosen});
        if (!course_selected){
           return res.status(404).json({message: "Not Found"});
