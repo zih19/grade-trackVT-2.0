@@ -34,7 +34,7 @@ const Majors = () => {
         coursesURL: '/Major/BSE',
         image: 'https://eng.vt.edu/content/eng_vt_edu/en/academics/undergraduate-students/explore-engineering/biological-systems-engineering/jcr:content/content/adaptiveimage.transform/xl-medium/image.jpg'
       },
-      { id: 'BE', 
+      { id: 'BMES', 
         title: 'Biomedical Engineering(BE)', 
         content: 'Click to learn more about the courses offered in the biomedical program.', 
         coursesURL: '/Major/BE',

@@ -1,0 +1,27 @@
+[
+    {
+        "major": "MATH",
+        "courses":["MATH1225", "MATH1226", "MATH2114", "MATH2204",
+                   "MATH2214", "MATH2534", "MATH3134", "MATH3214", 
+                   "MATH4564", "MATH4574"]
+      },
+      {
+          "major": "PHYS",
+          "courses":["PHYS2305", "PHYS2306"]
+      },
+      {
+          "major": "CHEM",
+          "courses":["CHEM1035", "CHEM1036", "CHEM1045", "CHEM1046",
+                    "CHEM1055", "CHEM1056", "CHEM1065", "CHEM1066",
+                    "CHEM2535", "CHEM2536", "CHEM2545", "CHEM2546",
+                    "CHEM2565", "CHEM2566", "CHEM3615"]
+      },
+      {
+          "major": "BIOL",
+          "courses":["BIOL1105", "BIOL1106", "BIOL2604"]
+      },
+      {
+          "major": "STAT",
+          "courses":["STAT3704", "STAT4604", "STAT4705", "STAT4714"]
+      }
+]
