@@ -1,27 +1,436 @@
 [
     {
+        "major": "ENGL",
+        "courses": [
+             {
+                 "number": "ENGL1105",
+                 "title": "First-Year Writing"
+             },
+             {
+                 "number": "ENGL1106",
+                 "title": "First-Year Writing"
+             }
+      ]
+    },
+    {
         "major": "MATH",
-        "courses":["MATH1225", "MATH1226", "MATH2114", "MATH2204",
-                   "MATH2214", "MATH2534", "MATH3134", "MATH3214", 
-                   "MATH4564", "MATH4574"]
-      },
-      {
+        "courses": [
+              {
+                 "number": "MATH1114",
+                 "title": "Elementary Linear Algebra"
+              },
+              {
+                 "number": "MATH1225",
+                 "title": "Calculus of a Single Variable"
+              },
+              {
+                 "number": "MATH1226",
+                 "title": "Calculus of a Single Variable"
+              },
+              {
+                 "number": "MATH2114",
+                 "title": "Introduction to Linear Algebra"
+              },
+              {
+                 "number": "MATH2204",
+                 "title": "Intro Multivariable Calculus"
+              },
+              {
+                 "number": "MATH2214",
+                 "title": "Intro Diff Equations"
+              },
+              {
+                 "number": "MATH2405",
+                 "title": "Math in Computational Context"
+              },
+              {
+                 "number": "MATH2406",
+                 "title": "Math in Computational Context"
+              },
+              {
+                 "number": "MATH2534",
+                 "title": "Intro Discrete Math"
+              },
+              {
+                 "number": "MATH3034",
+                 "title": "Introduction to Proofs" 
+              },
+              {
+                 "number": "MATH3134",
+                 "title": "Applied Combinatorics"
+              },
+              {
+                 "number": "MATH3144",
+                 "title": "Linear Algebra I"
+              },
+              {
+                 "number": "MATH3214",
+                 "title": "Calculus of Several Variables"
+              },
+              {
+                 "number": "MATH3224",
+                 "title": "Advanced Calculus"
+              },
+              {
+                 "number": "MATH4144",
+                 "title": "Linear Algebra II"
+              },
+              {
+                 "number": "MATH4175",
+                 "title": "Cryptography"
+              },
+              {
+                 "number": "MATH4176",
+                 "title": "Cryptography"
+              },
+              {
+                 "number": "MATH4225",
+                 "title": "Elementary Real Analysis"
+              },
+              {
+                 "number": "MATH4226",
+                 "title": "Elemental Real Analysis"
+              },
+              {
+                 "number": "MATH4245",
+                 "title": "Intermediate Differential Equation"
+              },
+              {
+                 "number": "MATH4425",
+                 "title": "Fourier Series and PDE"
+              },
+              {
+                 "number": "MATH4426",
+                 "title": "Fourier Series and PDE"
+              },
+              {
+                 "number": "MATH4445",
+                 "title": "Intro Numerical Analysis"
+              },
+              {
+                 "number": "MATH4446",
+                 "title": "Intro Numerical Analysis"
+              },
+              {
+                 "number": "MATH4564",
+                 "title": "Operational Methods"
+              },
+              {
+                 "number": "MATH4574",
+                 "title": "Vector/Complex Analysis"
+              }
+        ]
+    },
+    {
           "major": "PHYS",
-          "courses":["PHYS2305", "PHYS2306"]
-      },
-      {
+          "courses": [
+             {
+                 "number": "PHYS2305",
+                 "title": "Foundation of Physics"
+             },
+             {
+                 "number": "PHYS2306",
+                 "title": "Foundation of Physics"
+             },
+             {
+                 "number": "PHYS2504",
+                 "title": "Math Methods in Physics"
+             },
+             {
+                 "number": "PHYS3324",
+                 "title": "Modern Physics"
+             },
+             {
+                 "number": "PHYS3405",
+                 "title": "Intermed Elec & Mag"
+             },
+             {
+                 "number": "PHYS3406",
+                 "title": "Intermed Elec & Mag"
+             },
+             {
+                 "number": "PHYS3655",
+                 "title": "Introduction to Astrophysics"
+             },
+             {
+                 "number": "PHYS3656",
+                 "title": "Introduction to Astrophysics"
+             },
+             {
+                 "number": "PHYS4455",
+                 "title": "Intro Quantum Mech"
+             },
+             {
+                 "number": "PHYS4456",
+                 "title": "Intro Quantum Mech"
+             },
+             {
+                 "number": "PHYS4504",
+                 "title": "Intro Nuc Part Phys"
+             },
+             {
+                 "number": "PHYS4514",
+                 "title": "Intro Nuclear Physics"
+             },
+             {
+                 "number": "PHYS4554",
+                 "title": "Intro Solid State Phy"
+             },
+             {
+                 "number": "PHYS4614",
+                 "title": "Optics"
+             }
+        ]
+    },
+    {
           "major": "CHEM",
-          "courses":["CHEM1035", "CHEM1036", "CHEM1045", "CHEM1046",
-                    "CHEM1055", "CHEM1056", "CHEM1065", "CHEM1066",
-                    "CHEM2535", "CHEM2536", "CHEM2545", "CHEM2546",
-                    "CHEM2565", "CHEM2566", "CHEM3615"]
-      },
-      {
+          "courses": [
+             {
+                "number": "CHEM1035",
+                "title": "General Chemistry"
+             },
+             {
+                "number": "CHEM1036",
+                "title": "General Chemistry"
+             },
+             {
+                "number": "CHEM1045",
+                "title": "General Chemistry Laboratory"
+             },
+             {
+                "number": "CHEM1046",
+                "title": "General Chemistry Laboratory"
+             },
+             {
+                "number": "CHEM1055",
+                "title": "General Chemistry for Majors"
+             },
+             {
+                "number": "CHEM1056",
+                "title": "General Chemistry for Majors"
+             },
+             {
+                "number": "CHEM1065",
+                "title": "Gen Chemistry Lab for Majors"
+             },
+             {
+                "number": "CHEM1066",
+                "title": "Gen Chemistry Lab for Majors"
+             },
+             {
+                "number": "CHEM2114",
+                "title": "Analytical Chemistry"
+             },
+             {
+                "number": "CHEM2124",
+                "title": "Analytical Chemistry Lab"
+             },
+             {
+                "number": "CHEM2154",
+                "title": "Majors Analytical Chemistry"
+             },
+             {
+                "number": "CHEM2164",
+                "title": "Majors Analytical Chemistry Lab"
+             },
+             {
+                "number": "CHEM2514",
+                "title": "Survey of Organic Chemistry"
+             },
+             {
+                "number": "CHEM2535",
+                "title": "Organic Chemistry"
+             },
+             {
+                "number": "CHEM2536",
+                "title": "Organic Chemistry"
+             },
+             {
+                "number": "CHEM2545",
+                "title": "Organic Chemistry Laboratory"
+             },
+             {
+                "number": "CHEM2546",
+                "title": "Organic Chemistry Laboratory"
+             },
+             {
+                "number": "CHEM2565",
+                "title": "Principles Org Chem"
+             },
+             {
+                "number": "CHEM2566",
+                "title": "Principles Org Chem"
+             },
+             {
+                "number": "CHEM3615",
+                "title": "Physical Chemistry"
+             },
+             {
+                "number": "CHEM4615",
+                "title": "Phys Chem Life Sci"
+             },
+             {
+                "number": "CHEM4616",
+                "title": "Phys Chem Life Sci"
+             }
+        ]
+    },
+    {
+          "major": "BCHM",
+          "courses": [
+            {
+                "number": "BCHM2024",
+                "major": "Concepts of Biochemistry"
+            },
+            {
+               "number": "BCHM3114",
+               "major": "Biochem for Biotech"
+            },
+            {
+               "number": "BCHM4115",
+               "major": "General Biochemistry"
+            },
+            {
+               "number": "BCHM4116",
+               "major": "General Biochemistry"
+            }
+          ]
+    },
+    {
           "major": "BIOL",
-          "courses":["BIOL1105", "BIOL1106", "BIOL2604"]
-      },
-      {
+          "courses": [
+            {
+               "number": "BIOL1105",
+               "title": "Principles of Biology"
+            },
+            {
+               "number": "BIOL1106",
+               "title": "Principles of Biology"
+            },
+            {
+               "number": "BIOL2604",
+               "title": "General Microbiology"
+            },
+            {
+               "number": "BIOL4164",
+               "title": "Environmental Microbiology"
+            }
+      ]
+    },
+    {
+         "major": "ENSC",
+         "courses": [
+            {
+               "number": "ENSC3604",
+               "title": "Fund Environ Science"
+            },
+            {
+               "number": "ENSC3634",
+               "title": "Physics of Pollution"
+            },
+            {
+               "number": "ENSC3644",
+               "title": "Plant for Envir Rest"
+            },
+            {
+               "number": "ENSC4314",
+               "title": "Water Quality"
+            },
+            {
+               "number": "ENSC4414",
+               "title": "Monitoring & Analysis Environ"
+            },
+            {
+               "number": "ENSC4734",
+               "title": "Environmental Soil Chemistry"
+            }
+         ]
+    },
+    {
+         "major": "ENGE",
+         "courses": [
+            { 
+               "number": "ENGE1215",
+               "title": "Foundations of Engineering"
+            },
+            {
+               "number": "ENGE1216",
+               "title": "Foundations of Engineering"
+            },
+            {
+               "number": "ENGE1414",
+               "title": "Foundations of Engr Practice"
+            }
+         ]
+    },
+    {
           "major": "STAT",
-          "courses":["STAT3704", "STAT4604", "STAT4705", "STAT4714"]
-      }
+          "courses": [
+            {
+               "number": "STAT3704",
+               "title": "Stat for Eng Apps"
+            },
+            {
+               "number": "STAT4105",
+               "title": "Theoretical Statistics"
+            },
+            {
+               "number": "STAT4106",
+               "title": "Theoretical Statistics"
+            },
+            {
+               "number": "STAT4604",
+               "title": "Stat Methods for Engr"
+            },
+            {
+               "number": "STAT4705",
+               "title": "Statistics for Engr"
+            },
+            {
+               "number": "STAT4706",
+               "title": "Statistics for Engr"
+            },
+            {
+               "number": "STAT4714",
+               "title": "Prob & STAT for EE"
+            }
+      ]
+    },
+    {
+         "major": "GEOS",
+         "course": [
+            {  
+                "number": "GEOS2104",
+                "title": "Elements of Geology"
+            },
+            {
+                "number": "GEOS3014",
+                "title": "Environmental Geosciences"
+            },
+            {
+                "number": "GEOS3034",
+                "title": "Oceanography"
+            },
+            {
+                "number": "GEOS3044",
+                "title": "Geosciences Outreach"
+            },
+            {
+                "number": "GEOS3304",
+                "title": "Geomorphology"
+            },
+            {
+                "number": "GEOS3614",
+                "title": "Soils"
+            },
+            {
+                "number": "GEOS4634",
+                "title": "ENvironmental Geochemistry"
+            },
+            {
+                "number": "GEOS4804",
+                "title": "Groundwater Hydrology"
+            }
+      ]
+    }
 ]
