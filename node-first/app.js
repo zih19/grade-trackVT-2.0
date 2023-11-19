@@ -8,10 +8,10 @@ const cors = require("cors");    // give errors if you run some sorts of setting
                                  // middleware
 require("dotenv").config();
 
-url = 'mongodb+srv://CS3754:ylCTHhBItUFSZgij@gradetrackvt.kntubny.mongodb.net/';
-dbName = 'GradeTrackVT';
+url = "mongodb+srv://CS3754:ylCTHhBItUFSZgij@gradetrackvt.kntubny.mongodb.net/";
+dbName = "GradeTrackVT";
 
-const client = new MongoClient(url, {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true});
+const client = new MongoClient(url);
 
 app.use(async(req, res, next) => {
     try{
@@ -30,10 +30,11 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors());
 
-app.get("api/majors", async(req, res) => {
+app.get("/api/majors", async(req, res) => {
     try {
         const majorCollection = req.db.collection("Majors_Eng");
         const majors =await majorCollection.find({}).toArray();
+        console.log(majors);
         res.json(majors);
     }catch(error){
         console.error("Error Finding Majors: ", error)
@@ -41,7 +42,7 @@ app.get("api/majors", async(req, res) => {
     }
 });
 
-app.get('api/majors/:major_id', async(req, res) => {
+app.get('/api/majors/:major_id', async(req, res) => {
     const major_chosen = req.params.major_id;
     try{
       //const id_chosen = req.params.id;
@@ -54,7 +55,7 @@ app.get('api/majors/:major_id', async(req, res) => {
     }
 });
 
-app.get('api/majors/:major_id/:course_id', async(req, res) => {
+app.get('/api/majors/:major_id/:course_id', async(req, res) => {
     try{
        const course_id_chosen = req.params.course_id;
        const major_id_chosen = req.params.major_id;

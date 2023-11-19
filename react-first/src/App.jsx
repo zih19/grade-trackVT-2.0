@@ -11,7 +11,7 @@ import Forgot_Password from './pages/Forgot-Password.jsx';
 import Success from './pages/Success.jsx';
 import Major from './pages/Majors.jsx';
 import Courses from './pages/Courses.jsx';
-import Dashboard from './pages/DashboardGeneral.jsx'
+import Dashboard from './pages/DashboardGeneral.jsx';
 
 const App = () => {
   
