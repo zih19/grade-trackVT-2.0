@@ -58,63 +58,23 @@ app.get("/api/:department_id", async(req, res) => {
     }
 });
 
-// app.get("/api/enge_majors", async(req, res) => {
-//     try {
-//         const majorCollection = req.db.collection("Majors_enge");
-//         const majors =await majorCollection.find({}).toArray();
-//         //console.log(majors);
-//         res.json(majors);
-//     }catch(error){
-//         console.error("Error Finding Majors: ", error)
-//         res.status(500).json({ message: "Error fetching majors" })
-//     }
-// });
+app.get("/api/:department_id/:major_id", async(req, res) => {
+    const department_id = req.params.department_id;
+    const major_specified = req.params.major_id;
+    try{
+        const coursesCollection = req.db.collection("Courses");
+        const major = await coursesCollection.findOne({major: major_specified, department: department_id});
+        if (!major){
+            return res.status(404).json({message: "Not Found"});
+        }
+        return res.json(major.courses);
+    }catch(error) {
+        console.error("Error finding a specific major", error);
+        res.status(500).json({message: "Error fetching courses from a specific department"});
+    }
+});
 
-// app.get("/api/pre_majors", async(req, res) => {
-//     try {
-//         const majorCollection = req.db.collection("Majors_science");
-//         const majors = await majorCollection.find({}).toArray();
-//         res.json(majors)
-//     }catch(error) {
-//         console.error("Error finding prerequisite majors");
-//         res.status(500).json({message: "Error fetching majors from prerequisite" });
-//     }
-    
-// })
 
-// app.get('/api/enge_majors/:major_id', async(req, res) => {
-//     const major_chosen = req.params.major_id;
-//     try{
-//       //const id_chosen = req.params.id;
-//       const majorCollection = req.db.collection("Courses_engineer");
-//       const courses = await majorCollection.find({major: major_chosen }).toArray();
-//       res.json(courses);
-//     }catch(error){
-//         console.error("Error Selecting the Major: ", error);
-//         res.status(500).json({message: "Internal Server Error"});
-//     }
-// });
-
-// app.get('/api/pre_majors/:major_id', async(req, res) => {
-
-// });
-
-// app.get('/api/enge_majors/:major_id/:course_id', async(req, res) => {
-//     try{
-//        const course_id_chosen = req.params.course_id;
-//        const major_id_chosen = req.params.major_id;
-//        const courseCollection = req.db.collection("Courses_Description");
-//        const course_selected = await courseCollection.findOne({course_id: course_id_chosen, major_id: major_id_chosen});
-//        if (!course_selected){
-//           return res.status(404).json({message: "Not Found"});
-//        }
-//        return res.json(course_selected);
-
-//     }catch(error){
-//         console.error("Error Selecting the course: ", error);
-//         res.status(500).json({message: "Internal Server Error"});
-//     }
-// });
 
 
 
