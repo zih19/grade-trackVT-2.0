@@ -6,14 +6,14 @@ import { useEffect, useState } from 'react';
 const Courses = () => {
     
     const[coursesData, setCourses] = useState([]);
-    const {majorId} = useParams();
+    const {department, majorId} = useParams();
     
     useEffect(() => {
-        fetch(`http://localhost:8000/api/majors/${majorId}`)
+        fetch(`http://localhost:8000/api/${department}/${majorId}`)
         .then(response => response.json())
         .then(courses => setCourses(courses))
         .catch(err => console.error(err))
-    }, [majorId]);
+    }, [department, majorId]);
 
 
     const navigate = useNavigate();
@@ -73,11 +73,8 @@ const Courses = () => {
         break;
     }
 
-    
-
-
     const handleCourse = (course) => {
-           navigate(`/Major/${majorId}/${course}`);
+           navigate(`/Major_Enge/${majorId}/${course}`);
     }
 
     return(
@@ -102,7 +99,7 @@ const Courses = () => {
                                             gutterBottom
                                             component='div'
                                             sx={{
-                                                fontFamily: 'Arial',
+                                                fontFamily: 'Lato',
                                                 fontWeight: 'bold',
                                                 minHeight: '64px'
                                             }}>
@@ -111,8 +108,10 @@ const Courses = () => {
 
                                 <Typography variant='h5' 
                                             sx={{
-                                                fontFamily: 'Arial',
-                                                fontWeight: 'bold'}}>
+                                                fontFamily: 'Lato',
+                                                fontWeight: 'bold',
+                                                fontStyle: 'italic',
+                                                color: 'inherited'}}>
                                         {course.title}
                                 </Typography>
                             </CardContent>

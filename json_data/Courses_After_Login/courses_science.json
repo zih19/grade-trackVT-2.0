@@ -1,18 +1,5 @@
 [
     {
-        "major": "ENGL",
-        "courses": [
-             {
-                 "number": "ENGL1105",
-                 "title": "First-Year Writing"
-             },
-             {
-                 "number": "ENGL1106",
-                 "title": "First-Year Writing"
-             }
-      ]
-    },
-    {
         "major": "MATH",
         "courses": [
               {
@@ -343,23 +330,6 @@
             {
                "number": "ENSC4734",
                "title": "Environmental Soil Chemistry"
-            }
-         ]
-    },
-    {
-         "major": "ENGE",
-         "courses": [
-            { 
-               "number": "ENGE1215",
-               "title": "Foundations of Engineering"
-            },
-            {
-               "number": "ENGE1216",
-               "title": "Foundations of Engineering"
-            },
-            {
-               "number": "ENGE1414",
-               "title": "Foundations of Engr Practice"
             }
          ]
     },

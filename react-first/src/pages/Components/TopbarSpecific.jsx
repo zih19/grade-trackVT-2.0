@@ -1,12 +1,9 @@
 import {Stack, AppBar, Toolbar, Typography, Button, Menu, MenuItem, IconButton} from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import VTlogo from '../../Assets/VTLogo.png';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
 // import PersonIcon from '@mui/icons-material/Person';
-// import Dropdown from 'react-bootstrap/Dropdown';
-// import {majorChoices} from '../DataNoMongo/courseIntroduction';
-
 const TopBarSpec = ({signedIn}) => {
 
     const majorsData = [
@@ -24,9 +21,32 @@ const TopBarSpec = ({signedIn}) => {
         { id: "ME", title: "Mechanical Engineering", courseURL: "/majordescription/ME"},
         { id: 'MINE', title: 'Mining Engineering', courseURL: '/majordescription/MINE'}
     ];
-    
+
+    const [departmentsList, setDepartment] = useState([]);
+
+    useEffect(()=> {
+        fetch("http://localhost:8000/api/departments")
+        .then(response => response.json())
+        .then(data => setDepartment(data))
+        .catch(err => console.error(err));
+    }, []);
 
     const navigate = useNavigate();
+
+
+    const[anchorElDepartments, setAnchorElDepartment] = useState(null);
+    const openDepartment = Boolean(anchorElDepartments);
+
+    const handleDepartmentClick = (event) => {
+        setAnchorElDepartment(event.currentTarget);
+    }
+
+    const handleDepartmentMenuClick = (department) => {
+        navigate(`/${department}`);
+        setAnchorElDepartment(null);
+    }  
+
+    
 
     const handleHomeClick = () => {
          navigate('/');
@@ -47,15 +67,16 @@ const TopBarSpec = ({signedIn}) => {
         navigate(`/majordescription/${majorId}`);
         setAnchorEl(null);
     }
+
+    
+
     
 
     const handleLoginRegisterClick = () => {
          navigate('/Login')
     }
 
-    const handleMajorClick = () => {
-        navigate('/Major')
-    }
+  
 
     const [anchorElLogout, setAnchorElLogout] = useState(null);
     const openLogOut = Boolean(anchorElLogout);
@@ -88,9 +109,27 @@ const TopBarSpec = ({signedIn}) => {
                         <Button color='inherit' onClick={handleAboutClick}> About </Button>
 
                         {
-                            signedIn? 
-                            <Button color='inherit' onClick={handleMajorClick}> Major List </Button>
-                            :null
+                            signedIn?
+                              <>
+                                <Button color='inherit' onClick={handleDepartmentClick}> Major List </Button>
+                                <Menu
+                                   id = "department-menu"
+                                   anchorEl={anchorElDepartments}
+                                   open={openDepartment}
+                                   onClose={()=>setAnchorElDepartment(null)}
+                                >
+                                    {
+                                        departmentsList.map((department) => (
+                                            <MenuItem key={department.id}
+                                                       onClick={() => handleDepartmentMenuClick(department.id)}>
+                                                {department.name}                                             
+                                            </MenuItem>
+                                        ))
+                                    }                                 
+                                </Menu>
+                              </>
+                              :null
+                           
                         }
                         
                         <Button color="inherit" onClick={handleMajorButtonClick}> Major Info </Button>

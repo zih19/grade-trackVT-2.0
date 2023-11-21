@@ -1,0 +1,34 @@
+[
+  {
+     "id": "CALS",
+     "name": "College of Agriculture and Life Science(CALS)"
+  },
+  {
+     "id": "CAAD",
+     "name": "College of Architecture, Art, and Design(CAAD)"
+  },
+  {
+     "id": "PCOB",
+     "name": "Pamplin College of Business"
+  },
+  {
+     "id": "COE",
+     "name": "College of Engineering"
+  },
+  {
+     "id": "CLAHS",
+     "name": "College of Liberal Arts and Human Sciences"
+  },
+  {
+     "id": "COS",
+     "name": "College of Science"
+  },
+  {
+     "id": "CVM",
+     "name": "College of Veterinary Medicine"
+  },
+  {
+     "id": "CNRE",
+     "name": "College of Natural Resources and Environment" 
+  }
+]

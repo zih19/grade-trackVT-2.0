@@ -1529,6 +1529,23 @@
     ]
   },
   {
+      "major": "ENGE",
+      "courses": [
+         { 
+            "number": "ENGE1215",
+            "title": "Foundations of Engineering"
+         },
+         {
+            "number": "ENGE1216",
+            "title": "Foundations of Engineering"
+         },
+         {
+            "number": "ENGE1414",
+            "title": "Foundations of Engr Practice"
+         }
+      ]
+  },
+  {
     "major": "ESM",
     "courses": [
          {

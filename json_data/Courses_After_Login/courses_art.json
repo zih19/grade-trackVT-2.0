@@ -1,0 +1,15 @@
+[
+    {
+        "major": "ENGL",
+        "courses": [
+             {
+                 "number": "ENGL1105",
+                 "title": "First-Year Writing"
+             },
+             {
+                 "number": "ENGL1106",
+                 "title": "First-Year Writing"
+             }
+      ]
+    }
+]

@@ -15,38 +15,52 @@
 // import Container from 'react-bootstrap/Container';
 
 import {Grid, Card, CardContent, CardMedia, CardActionArea, Typography} from '@mui/material';
-import {useNavigate} from 'react-router-dom';
+import {useNavigate, useParams} from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 
 const Majors = () => {
-  const [majorsList, setMajor] = useState([]);
+  const { department } = useParams();
+  const [majorsData, setMajors] = useState([]);
   
   useEffect(()=> {
-      fetch("http://localhost:8000/api/majors")
-      .then(response => response.json())
-      .then(majors => setMajor(majors))
-      .catch(err => console.error(err))
-  }, []);
+      fetch(`http://localhost:8000/api/${department}`)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Department not found');
+        }
+        return response.json();
+      })
+      .then(data => setMajors(data))
+      .catch(err => {
+        console.error(err);
+        setMajors([]);
+      });
+  }, [department]);
+
+  
+  if (majorsData.length === 0) {
+    <Typography variant='h5'> The department does not have any majors currently </Typography>
+  }
   
   const navigate = useNavigate();
 
   const handleClick = (majorId) => {
-    navigate(`/Major/${majorId}`);
+    navigate(`/${department}/${majorId}`);
   }
 
     return (
        <Grid container sx={{pt: '10px'}}>
         {
-          majorsList.map((major) => (
+          majorsData.map(major => (
             <Grid Item xs={12} 
                        sm={6} 
-                       md={4} 
+                       md={5} 
                        lg={3} 
                        sx={{pb: "35px"}} key={major.id} >
               <Card sx={{maxWidth: '345px', 
                          height: '100%',
-                         backgroundcolor: 'gray',
+                         backgroundcolor: '#263238',
                          display: 'flex',
                          flexDirection: 'column'}}>
                   <CardActionArea onClick={()=> handleClick(major.id)}>
@@ -86,8 +100,8 @@ const Majors = () => {
             </Grid>
           ))
         } 
-       </Grid>
-    );
+      </Grid>
+  );
 }
 
 export default Majors;

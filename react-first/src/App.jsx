@@ -9,7 +9,7 @@ import MajorDescription from './pages/MajorDescription.jsx';
 import TopbarSpec from './pages/Components/TopbarSpecific.jsx';
 import Forgot_Password from './pages/Forgot-Password.jsx';
 import Success from './pages/Success.jsx';
-import Major from './pages/Majors.jsx';
+import Majors from './pages/Majors.jsx';
 import Courses from './pages/Courses.jsx';
 import Dashboard from './pages/DashboardGeneral.jsx';
 
@@ -30,9 +30,9 @@ const App = () => {
               
               <Route path="/Forgot-Password" element={<Forgot_Password/>}/>
               <Route path="/Success" element={<Success/>}/>
-              <Route path="/Major" element={<Major/>} />
-              <Route path="/Major/:majorId" element={<Courses/>} />
-              <Route path="/Major/:majorId/:courseId" element={<Dashboard/>} /> 
+              <Route path="/:department" element={<Majors/>} />
+              <Route path="/:department/:majorId" element={<Courses/>} />
+              <Route path="/:department:/:majorId/:courseId" element={<Dashboard/>} />
 
           </Routes>
         </BrowserRouter>
