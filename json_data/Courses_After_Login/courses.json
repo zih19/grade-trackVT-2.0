@@ -1,5 +1,29 @@
 [
     {
+      "major": "AAEC",
+      "department": "CALS",
+      "courses": [
+          {
+            "number": "AAEC3314",
+            "title": "Environmental Law"
+          }
+      ]
+    },
+    {
+      "major": "ALS",
+      "department": "CALS",
+      "courses": [
+          {
+            "number": "ALS3404",
+            "title": "Ecological Agriculture"
+          },
+          {
+            "number": "ALS4614",
+            "title": "Watershed Assess Mgt Policy"
+          }
+      ]
+    },
+    {
       "major": "AOE",
       "department": "COE",
       "courses": [
@@ -263,7 +287,7 @@
     },
     {
       "major": "BC",
-      "deparment": "COE",
+      "department": "COE",
       "courses": [
           {
             "number": "BC1014",
@@ -598,6 +622,20 @@
             "title": "Food Process Enginerring"
           }
       ]
+    },
+    {
+      "major": "BMSV",
+      "department": "CVM",
+      "courses": [
+        {
+           "number": "BMVS4024",
+           "title": "Diseases of Poultry"
+        },
+        {
+           "number": "BMVS4064",
+           "title": "Intro Medical Physiology"
+        }
+      ] 
     },
     {
       "major": "CEE",
@@ -1676,9 +1714,47 @@
       ]
     },
     {
+       "major": "ENGR",
+       "department": "COE",
+       "courses": [
+          {
+             "number": "ENGR3124",
+             "title": "Green Engineering"
+          },
+          {
+             "number": "ENGR4134",
+             "title": "Env Life Cycle Assessment"
+          }
+       ]
+    },
+    {
         "major": "ENSC",
         "department": "CALS",
         "courses": [
+           {
+              "number": "ENSC1015",
+              "title": "Found Environmetal Sci"
+           },
+           {
+              "number": "ENSC1016",
+              "title": "Found Environmental Sci"
+           },
+           {
+              "number": "ENSC3114",
+              "title": "Soils"
+           },
+           {
+              "number": "ENSC3124",
+              "title": "Soils Laboratory"
+           },
+           {
+              "number": "ENSC3134",
+              "title": "Soils in the Landscape"
+           },
+           {
+              "number": "ENSC3244",
+              "title": "Ecological Restoration"
+           },
            {
               "number": "ENSC3604",
               "title": "Fund Environ Science"
@@ -1692,6 +1768,18 @@
               "title": "Plant for Envir Rest"
            },
            {
+              "number": "ENSC4134",
+              "title": "Soil Genesis & Class"
+           },
+           {
+              "number": "ENSC4164",
+              "title": "Environmental Microbiology"
+           },
+           {
+              "number": "ENSC4244",
+              "title": "Environmental Restoratio"
+           },
+           {
               "number": "ENSC4314",
               "title": "Water Quality"
            },
@@ -1700,8 +1788,20 @@
               "title": "Monitoring & Analysis Environ"
            },
            {
+              "number": "ENSC4444",
+              "title": "Managed Ecosystems Serv & Sust"
+           },
+           {
               "number": "ENSC4734",
               "title": "Environmental Soil Chemistry"
+           },
+           {
+              "number": "ENSC4764",
+              "title": "Bioremediation"
+           },
+           {
+              "number": "ENSC4854",
+              "title": "Wetland Soils and Mitigation"
            }
         ]
     },
@@ -1879,9 +1979,65 @@
         "major": "GEOS",
         "department": "COS",
         "course": [
+           {
+               "number": "GEOS1004",
+               "title": "Introduction to Earth Science"
+           },
+           {
+               "number": "GEOS1014",
+               "title": "Evolution of Earth-Life System"
+           },
+           {
+               "number": "GEOS1024",
+               "title": "Earth Resources, Soc, & Env"
+           },
+           {
+               "number": "GEOS1034",
+               "title": "Earth's Natural Hazards"
+           },
+           {
+               "number": "GEOS1054",
+               "title": "Age of Dinosaur"
+           },
+           {
+               "number": "GEOS1064",
+               "title": "Climate History"
+           },
+           {
+               "number": "GEOS1104",
+               "title": "Intro to Earth Sciences Lab"
+           },
+           {
+               "number": "GEOS1104",
+               "title": "Physical Geology Laboratory"
+           },
+           {
+               "number": "GEOS1124",
+               "title": "Resources Geol Lab"
+           },
+           {
+               "number": "GEOS1124",
+               "title": "Earth Res, Society & Env Lab"
+           },
+           {
+               "number": "GEOS2004",
+               "title": "Geoscience Fundamentals"
+           },
+           {
+               "number": "GEOS2014",
+               "title": "Mission to the Planets"
+           },
+           {
+               "number": "GEOS2024",
+               "title": "Earth's Dyamic Systems"
+           },
            {  
                "number": "GEOS2104",
                "title": "Elements of Geology"
+           },
+           {
+              "number": "GEOS2444",
+              "title": "Geoscience Field Observations"
            },
            {
                "number": "GEOS3014",
@@ -1896,20 +2052,108 @@
                "title": "Geosciences Outreach"
            },
            {
+               "number": "GEOS3104",
+               "title": "Elementary Geophysics"
+           },
+           {
+               "number": "GEOS3204",
+               "title": "Semimentology-Stratigraphy"
+           },
+           {
                "number": "GEOS3304",
                "title": "Geomorphology"
+           },
+           {
+               "number": "GEOS3404",
+               "title": "Elements of Structural Geology"
+           },
+           {
+               "number": "GEOS3504",
+               "title": "Mineralogy"
+           },
+           {
+               "number": "GEOS3604",
+               "title": "Paleontology"
            },
            {
                "number": "GEOS3614",
                "title": "Soils"
            },
            {
+               "number": "GEOS3634",
+               "title": "Natural History Collections"
+           },
+           {
+               "number": "GEOS3704",
+               "title": "Igneous and Metamorphic Rocks"
+           },
+           {
+               "number": "GEOS4024",
+               "title": "Senior Seminar"
+           },
+           {
+               "number": "GEOS4084",
+               "title": "Modeling with GIS"
+           },
+           {
+               "number": "GEOS4154",
+               "title": "Earthquake Seismology"
+           },
+           {
+               "number": "GEOS4164",
+               "title": "Potential Field Geoph"
+           },
+           {
+               "number": "GEOS4174",
+               "title": "Exploration Seismology"
+           },
+           {
+               "number": "GEOS4234",
+               "title": "Vertebrate Evolution"
+           },
+           {
+               "number": "GEOS4244",
+               "title": "Morphology of the Vertebrates"
+           },
+           {
+               "number": "GEOS4254",
+               "title": "Earth System History"
+           },
+           {
+               "number": "GEOS4314",
+               "title": "Coastal Hazards"
+           },
+           {
+               "number": "GEOS4354",
+               "title": "Introduction to Remote Sensing"
+           },
+           {
+               "number": "GEOS4404",
+               "title": "Advanced Structural Geology"
+           },
+           {
+               "number": "GEOS4624",
+               "title": "Mineral Deposits"
+           },
+           {
                "number": "GEOS4634",
                "title": "ENvironmental Geochemistry"
            },
            {
+               "number": "GEOS4714",
+               "title": "Volcanic Processes"
+           },
+           {
                "number": "GEOS4804",
                "title": "Groundwater Hydrology"
+           },
+           {
+               "number": "GEOS4824",
+               "title": "Engineering Geology"
+           },
+           {
+               "number": "GEOS4924",
+               "title": "Tectonics"
            }
        ]
     },
@@ -2775,6 +3019,7 @@
     },
     {
         "major": "STAT",
+        "department": "COS",
         "courses": [
           {
              "number": "STAT3704",
@@ -2805,5 +3050,31 @@
              "title": "Prob & STAT for EE"
           }
        ]
+    },
+    {
+      "major": "WATR",
+      "department": "CNRE",
+      "courses": [
+          {
+             "number": "WATR2004",
+             "title": "Water, Environment & Society"
+          },
+          {
+             "number": "WATR3104",
+             "title": "Prin of Watershed Hydrology"
+          },
+          {
+             "number": "WATR3754",
+             "title": "Watersheds and Water Quality"
+          },
+          {
+             "number": "WATR4464",
+             "title": "Water Resources Policy & Econ"
+          },
+          {
+             "number": "WATR4614",
+             "title": "Watershed Assess Mgt Policy"
+          }
+      ]
     }
   ]

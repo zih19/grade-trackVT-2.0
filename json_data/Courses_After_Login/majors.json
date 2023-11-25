@@ -72,6 +72,12 @@
             "title": "Engineering Education(ENGE)",
             "content": "Click to Learn More About The Courses Offered in Engineering Education Program",
             "image": "https://enge.vt.edu/content/enge_vt_edu/en/undergraduate/generalengineering/jcr:content/content/vtcontainer_48854200_563422125/vtcontainer-content/vtmulticolumn/vt-items_1/adaptiveimage.transform/l-medium/image.jpg"
+        },
+        {
+            "id": "ENGR",
+            "title": "Engineering (ENGR)",
+            "content": "Click to Learn More About The Courses Offered in Engineering Program",
+            "image": "https://eng.vt.edu/content/eng_vt_edu/en/admissions/visit/engineering-open-house/jcr:content/article-image.transform/l-medium/image.jpg"
         }
     ]
   },
@@ -131,9 +137,21 @@
        "department": "CALS",
        "majors": [
           {
+            "id": "AAEC",
+            "title": "Agriculture and Applied Economy(AAEC)",
+            "content": "Click to Learn More About The Courses Offered in Agriculture and Applied Economy Program",
+            "image": "https://aaec.vt.edu/content/aaec_vt_edu/en/contact-us/jcr:content/content/adaptiveimage_145246.transform/m-medium/image.jpg"
+          },
+          {
+            "id": "ALS",
+            "title": "Agriculture and Life Science(ALS)",
+            "content": "CLick to Learn More About The Courses Offered in Agriculture and Life Science Program",
+            "image": "https://www.undergradcatalog.registrar.vt.edu/0910/als/images/076060.jpg"
+          },
+          {
             "id": "BCHM",
             "title": "Biochemistry(BCHM)",
-            "content": "Click to Learn More About The Courses Offered in Biochemistry Program.",
+            "content": "Click to Learn More About The Courses Offered in Biochemistry Program",
             "image": "https://www.undergradcatalog.registrar.vt.edu/0910/als/images/bchm.jpg"
           },
           {
@@ -141,6 +159,17 @@
             "title": "Environmental Science(ENSC)",
             "content": "Click to Learn More About The Courses Offered in Environmental Science Program",
             "image": "https://spes.vt.edu/content/spes_vt_edu/en/index/jcr:content/cta/adaptiveimage.transform/xl-medium/image.png"
+          }
+       ]
+  },
+  {
+       "department": "CVM",
+       "majors": [
+          {
+             "id": "BMVS",
+             "title": "Biomed & Veterinary Sciences(BMVS)",
+             "content": "Click to Learn More About The Courses Offered in Biomed & Veterinary Science Program",
+             "image": "https://bmvs.vetmed.vt.edu/content/bmvs_vetmed_vt_edu/en/contacts/jcr:content/content/vtcontainer_1532460171/vtcontainer-content/adaptiveimage.transform/l-medium/image.JPG"
           }
        ]
   }
