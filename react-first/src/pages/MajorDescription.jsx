@@ -1,17 +1,18 @@
 import React from 'react';
 import { Typography, Container, Grid, Paper, Box } from '@mui/material';
 import { useParams } from 'react-router-dom';
+import Card from 'react-bootstrap/Card';
 
 const MajorDescription = () => {
   const majorChoices = [
     { id: "AOE", 
       title: "Aerospace Engineering", 
       content: [
-        "- The Kevin T. Crofton Department of Aerospace and Ocean Engineering offers a bachelor of science degree in aerospace and ocean engineering.",
-        "- Students in the department may major in either aerospace engineering or ocean engineering. These degrees share many course requirements because the two curricula cover a broad range of common interests and offer a wide range of technical electives.",
-        "- Students with an interest in both majors may enroll in a double major program—aerospace with ocean engineering or ocean with aerospace engineering.",
-        "- The Department of Aerospace and Ocean Engineering also offers a multidisciplinary minor in naval engineering, which is open to non-AOE students.",
-        "There are 9 tracks available to be chosen, and students who are majoring in AOE can select any one of them to take into consideration: " 
+              "- The Kevin T. Crofton Department of Aerospace and Ocean Engineering offers a bachelor of science degree in aerospace and ocean engineering.",<br/>,
+              "- Students in the department may major in either aerospace engineering or ocean engineering. These degrees share many course requirements because the two curricula cover a broad range of common interests and offer a wide range of technical electives.",<br/>,
+              "- Students with an interest in both majors may enroll in a double major program: aerospace with ocean engineering or ocean with aerospace engineering.",<br/>,
+              "- The Department of Aerospace and Ocean Engineering also offers a multidisciplinary minor in naval engineering, which is open to non-AOE students.",<br/>,
+              "- There are 9 tracks available to be chosen, and students who are majoring in AOE can select any one of them to take into consideration:",<br/>
       ],
       imageURLs: [
         {
@@ -65,10 +66,11 @@ const MajorDescription = () => {
     { id: "BSE", 
       title: "Biological Systems Engineering",
       content: [
-        "BSE graduates develop engineering solutions that safeguard land and water resources, detect and prevent human diseases, and produce food, pharmaceuticals, and polymers. We are invested in your success and prepare you to make a difference in the career you desire through dedicated advising, supportive faculty, and a community atmosphere. Our ABET-accredited Bachelor of Science program prepares our graduates to excel as STEM professionals in the global workforce.",
-        "BSE students are provided with a common foundation of biology and chemistry to expand core skills in math, physics, and engineering design principles. Our flexible curriculum, specialized technical elective courses, and career-enhancing extracurricular opportunities equip our graduates to make a meaningful impact on natural resources, food, and biotechnology. Over 90% of BSE students participate in research, internships, and/or co-op experiences during their degree program.",
-        "BSE’s graduates are equipped with the technical abilities and skill sets desirable to employers. Our students are employed in the biotechnology, pharmaceutical, energy, and food industries as well as government agencies, environmental consulting firms, and non-profit organizations. BSE students also succeed in professional schools such as medicine, dentistry, and veterinary medicine, and as graduate students in a variety of disciplines, including biomedical engineering. 90% of BSE graduates have job or graduate school placements within 6 months after graduation within their respective fields. Median starting salary for recent BSE graduates is $68,500.",
-        "To determine whether BSE is a good major for students to pursue, students with a strong tendency over the following areas of expertise can take into account as carefully: "],
+        "BSE graduates develop engineering solutions that safeguard land and water resources, detect and prevent human diseases, and produce food, pharmaceuticals, and polymers. We are invested in your success and prepare you to make a difference in the career you desire through dedicated advising, supportive faculty, and a community atmosphere. Our ABET-accredited Bachelor of Science program prepares our graduates to excel as STEM professionals in the global workforce.",<br/>,<br/>,
+        "BSE students are provided with a common foundation of biology and chemistry to expand core skills in math, physics, and engineering design principles. Our flexible curriculum, specialized technical elective courses, and career-enhancing extracurricular opportunities equip our graduates to make a meaningful impact on natural resources, food, and biotechnology. Over 90% of BSE students participate in research, internships, and/or co-op experiences during their degree program.",<br/>,<br/>,
+        "BSE’s graduates are equipped with the technical abilities and skill sets desirable to employers. Our students are employed in the biotechnology, pharmaceutical, energy, and food industries as well as government agencies, environmental consulting firms, and non-profit organizations. BSE students also succeed in professional schools such as medicine, dentistry, and veterinary medicine, and as graduate students in a variety of disciplines, including biomedical engineering. 90% of BSE graduates have job or graduate school placements within 6 months after graduation within their respective fields. Median starting salary for recent BSE graduates is $68,500.",<br/>,<br/>,
+        "To determine whether BSE is a good major for students to pursue, students with a strong tendency over the following areas of expertise can take into account as carefully:",<br/>
+      ],
       imageURLs: [
         {
             label: "Biochemistry and Chemistry",
@@ -293,45 +295,10 @@ const MajorDescription = () => {
     return(
         <Container maxWidth='xl' sx={{pb: '12px'}}>
              <Typography variant='h2' component='div' gutterBottom>{major.title}</Typography>
-             {
-                major.content.map((paragraph, index) => {
-                    if(index === major.content.length - 2) {
-                        return (
-                          
-                           <Typography key={index} 
-                                        variant='h5' 
-                                        sx={{pb: '50px'}}
-                                        textAlign='left'> 
-                                {paragraph} 
-                            </Typography>
-                          
-                        );
-                    } 
-                    else if (index === major.content.length - 1) {
-                      return (
-                        <>
-                          <Typography variant='h3' textAlign='left'> Specialization/Subject </Typography>
-                          <Typography key={index} 
-                                      variant='h5' 
-                                      sx={{pb: '8px'}}
-                                      textAlign='left'> 
-                              {paragraph} 
-                          </Typography>
-                        </>
-                      );
-                    }
-                    else {
-                      return (
-                        <Typography key={index} 
-                                    variant='h5' 
-                                    sx={{pb: '15px'}}
-                                    textAlign='left'> 
-                              {paragraph} 
-                        </Typography>
-                      );
-                    }
-                })
-             }
+             <Card bg='light' border='primary' text='black' style={{fontSize:'19px', marginBottom:'30px'}}>
+              <Card.Title style={{textDecoration: 'bold', fontSize:'25px', textAlign:'left'}}>Specialization/Subject</Card.Title>
+              <Card.Body style={{textAlign:'left', fontFamily:'Arial'}}>{major.content}</Card.Body>
+             </Card>
              <Grid container spacing={2}>
              {
                 major.imageURLs.map((imageContent, index) => (
