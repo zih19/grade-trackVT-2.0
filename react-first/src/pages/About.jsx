@@ -43,7 +43,7 @@ const About = () => {
                 About Us 
             </Typography>
             <Container>
-                <Card bg='light' text='black' style={{fontSize:'20px'}}>
+                <Card bg='light' border='primary' text='black' style={{fontSize:'20px'}}>
                     <Card.Body style={{fontFamily:'Arial'}}>
                         As current students at Virginia Tech, we have found the grade distribution website an extremely valuable tool to use while looking at the course offerings for each semester. 
                         Although we found this tool to be useful for students to research the classes that they were going to take, we felt that the concept could be elevated to allow for a better user experience in general.
