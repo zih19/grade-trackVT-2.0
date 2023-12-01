@@ -78,7 +78,7 @@ const Login = ({setSignIn}) => {
                                 required 
                                 value={currPasswordValue}
                                 onChange={handlePasswordChange}
-                                sx={{mb: '10px' }}/>
+                                sx={{mb: '10px'}}/>
                 
                     <FormControlLabel control={<Checkbox checked={check}
                                                         onChange={handleCheck}/>} 

@@ -4,7 +4,7 @@ import login from '../Assets/VTlogin.png';
 import { useNavigate, Link} from 'react-router-dom';
 import VTBackground from '../Assets/VTBackground.jpg'
 
-const Forgot_Password = () => {
+const ForgotPassword = () => {
     const [currEmailValue, setCurrEmailValue] = useState('');
 
     const handleEmailChange = (event) => {
@@ -74,4 +74,4 @@ const Forgot_Password = () => {
     );
 }
 
-export default Forgot_Password
+export default ForgotPassword
