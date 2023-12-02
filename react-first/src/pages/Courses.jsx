@@ -1,5 +1,5 @@
 //Courses (params)
-import {Grid, Typography, CardActionArea, Card, CardContent} from '@mui/material';
+import {Grid, Typography, CardActionArea, Card, CardContent, Button} from '@mui/material';
 import {useParams, useNavigate} from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
@@ -52,7 +52,7 @@ const Courses = () => {
                                backgroundColor: "grey",
                                display: 'flex',
                                flexDirection: 'column'}}>
-                        <CardActionArea onClick={() => handleCourse(course.number)}>
+                        <CardActionArea sx={{height: '100%'}} onClick={() => handleCourse(course.number)}>
                        
                             <CardContent sx={{minHeight: '100%'}}>
 

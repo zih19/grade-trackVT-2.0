@@ -166,9 +166,9 @@ const Register = () => {
                           onChange = {handleLastNameChange}           
                           sx = {{mb: '10px'}} />
 
-               <Grid container spacing = {2}>
+               <Grid container spacing = {3}>
                   <Grid item>
-                     <FormControl fullWidth>
+                     <FormControl fullWidth sx={{width: '85px'}}>
                          <InputLabel>Year</InputLabel>
                          <Select name = "year" 
                                  required
@@ -187,7 +187,7 @@ const Register = () => {
                   </Grid>
 
                   <Grid item>
-                     <FormControl fullWidth>
+                     <FormControl fullWidth sx={{width: '85px'}}>
                         <InputLabel fullWidth> Month </InputLabel>
                         <Select name = "month"
                                 required
@@ -206,7 +206,7 @@ const Register = () => {
                   </Grid>
 
                   <Grid item>
-                     <FormControl fullWidth>
+                     <FormControl fullWidth sx={{width: '85px'}}>
                         <InputLabel fullWidth> Day </InputLabel>
                         <Select name = "day"
                                 value = {birthDate.day}

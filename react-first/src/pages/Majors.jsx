@@ -63,7 +63,7 @@ const Majors = () => {
                          backgroundcolor: '#263238',
                          display: 'flex',
                          flexDirection: 'column'}}>
-                  <CardActionArea onClick={()=> handleClick(major.id)}>
+                  <CardActionArea sx={{height: '100%'}} onClick={()=> handleClick(major.id)}>
                        
                             <CardMedia
                               component="img"

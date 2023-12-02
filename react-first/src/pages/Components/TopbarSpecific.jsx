@@ -4,8 +4,9 @@ import VTlogo from '../../Assets/VTLogo.png';
 import { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
 // import PersonIcon from '@mui/icons-material/Person';
-const TopBarSpec = ({signedIn}) => {
+const TopBarSpec = ({setSignIn, signedIn}) => {
 
+    //All of the major data that will be displayed in the different Topbar's dropdown menus.
     const majorsData = [
         { id: "AOE", title: "Aerospace Engineering", courseURL: "/majordescription/AOE"},
         { id: "BSE", title: "Biological Systems Engineering", courseURL: "/majordescription/BSE"},
@@ -46,12 +47,12 @@ const TopBarSpec = ({signedIn}) => {
         setAnchorElDepartment(null);
     }  
 
-    
-
+    //This handles the event in which the user clicks the home button. It navigates them to the home page.
     const handleHomeClick = () => {
          navigate('/');
     } 
 
+    //This handles the event in which the user clicks the about button. It navigates them to the about page.
     const handleAboutClick = () => {
          navigate('/About');
     }
@@ -68,25 +69,17 @@ const TopBarSpec = ({signedIn}) => {
         setAnchorEl(null);
     }
 
-    
-
-    
-
+    //This handles the event in which the user clicks the login button. It navigates them to the login page.
     const handleLoginRegisterClick = () => {
          navigate('/Login')
     }
 
-  
 
-    const [anchorElLogout, setAnchorElLogout] = useState(null);
-    const openLogOut = Boolean(anchorElLogout);
-
-    const handleLogoutClick = (event) => {
-        setAnchorElLogout(event.currentTarget);
+    //Handles the logout click by setting the signIn bool to false.
+    const handleLogoutClick = () => {
+        setSignIn(false);
     }
-
-
-    //<Button color='inherit' onClick={handleMajorClick}> MajorsPage </Button>
+    
     return (
         <>
             <AppBar position='static'>
@@ -153,13 +146,11 @@ const TopBarSpec = ({signedIn}) => {
                             <>
                             
                                 <Button color="inherit" onClick={handleLogoutClick}>
-                                     Log Out  
+                                     Log Out
                                 </Button>
 
                                 <Menu id='log out'
-                                      anchorEl={anchorElLogout}
-                                      open={openLogOut}
-                                      onClose={()=> setAnchorElLogout(null)}>
+                                      onClick={handleLogoutClick}>
                                      <MenuItem>
                                            Log Out                                     
                                      </MenuItem>

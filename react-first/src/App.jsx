@@ -24,7 +24,7 @@ const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
-          <TopbarSpec signedIn={signedIn}/>
+          <TopbarSpec setSignIn={setSignIn} signedIn={signedIn}/>
           <Routes>
               <Route exact path="/" element = {<Home/>}/>
               <Route path="/About" element = {<About/>}/>
