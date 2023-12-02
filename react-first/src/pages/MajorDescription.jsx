@@ -313,6 +313,7 @@ const MajorDescription = () => {
     if (!major) {
          return <Typography variant='h6'> Major was not found!</Typography>
     }
+
     return(
         <Container maxWidth='xl' sx={{pb: '12px'}}>
              <Typography variant='h2' component='div' gutterBottom>{major.title}</Typography>
@@ -345,6 +346,5 @@ const MajorDescription = () => {
              </Grid>
         </Container>
     )
-
 }
 export default MajorDescription;

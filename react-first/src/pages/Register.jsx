@@ -1,8 +1,8 @@
 import {Box, Button, Container, FormControl, FormLabel, FormControlLabel, Grid, InputLabel, 
         ListItemIcon, MenuItem, Paper, Radio, RadioGroup, Select, Typography, TextField} from '@mui/material';       
-import Man2OutlinedIcon from '@mui/icons-material/Man2Outlined';
-import Woman2OutlinedIcon from '@mui/icons-material/Woman2Outlined';
-import QuestionMarkOutlinedIcon from '@mui/icons-material/QuestionMarkOutlined';
+//import Man2OutlinedIcon from '@mui/icons-material/Man2Outlined';
+//import Woman2OutlinedIcon from '@mui/icons-material/Woman2Outlined';
+//import QuestionMarkOutlinedIcon from '@mui/icons-material/QuestionMarkOutlined';
 import {useNavigate, Link} from 'react-router-dom';
 import React, {useState, useEffect} from 'react';
 import hokie from '../Assets/VTHokie.png';
@@ -272,7 +272,8 @@ const Register = () => {
                                        {
                                           <>
                                              <ListItemIcon>
-                                                <Woman2OutlinedIcon />
+                                                {//<Woman2OutlinedIcon />
+                                                }
                                              </ListItemIcon>
                                              "female"
                                           </>
@@ -283,7 +284,8 @@ const Register = () => {
                                        { 
                                          <>
                                              <ListItemIcon>
-                                                   <Man2OutlinedIcon />
+                                                   {//<Man2OutlinedIcon />
+                                                   }
                                              </ListItemIcon>
                                              "male"
                                          </>
@@ -294,7 +296,8 @@ const Register = () => {
                                        {
                                           <>
                                              <ListItemIcon>
-                                                <QuestionMarkOutlinedIcon />
+                                                {//<QuestionMarkOutlinedIcon />
+                                                }
                                              </ListItemIcon>
                                              "others"
                                           </>
