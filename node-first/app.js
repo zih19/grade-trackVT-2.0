@@ -6,12 +6,13 @@ const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");    // give errors if you run some sorts of setting
                                  // middleware
-require("dotenv").config();
+const dotenv = require("dotenv").config();
 
 url = "mongodb+srv://CS3754:ylCTHhBItUFSZgij@gradetrackvt.kntubny.mongodb.net/";
 dbName = "GradeTrackVT";
 
 const client = new MongoClient(url);
+
 
 app.use(async(req, res, next) => {
     try{
@@ -46,8 +47,15 @@ app.post("/api/departments", async(req, res) => {
     try{
         const departmentsCollection = req.db.collection("Departments");
         const newDepartment = req.body;
+        if(!newDepartment.department) {
+            return res.status(404).json({message: "Department Not Found"});
+        }
+        const existing_department = await departmentsCollection.findOne({department: newDepartment.department});
+        if(existing_department) {
+            return res.status(409).json({message: "Department Already Existed"});
+        }
         await departmentsCollection.insertOne(newDepartment);
-        res.status(201).json({message: "The new department is added successfully."});
+        return res.status(201).json({message: "The new department is added successfully."});
     }catch(error) {
         console.error('Error inserting a new department', error);
         res.status(500).json({message: "Internal Server Error"});
@@ -122,6 +130,30 @@ app.put("/api/:department_id", async(req, res) => {
     }
 });
 
+app.delete("/api/:department_id", async(req, res)=> {
+   const department_id = req.params.department_id;
+   const major_abbreviation = req.body.id;
+   try{
+    const departmentsCollection = req.db.collection("Majors");
+    const department = await departmentsCollection.findOne({department: department_id});
+    if(!department){
+        return res.status(404).json({message: "Not Found"});
+    }
+    const deleted_major = await departmentsCollection.updateOne(
+        {department: department_id},
+        {$pull: {majors: {id: major_abbreviation}}}
+    )
+
+    if (deleted_major.modifiedCount === 0) {
+        return res.status(404).json({message: "Major Not Found or Already Deleted"});
+    }
+    return res.status(204).json({message: "The course" + deleted_major + "is successfully deleted."});
+   }catch(error) {
+     console.error("Error deleting a specific major", error);
+     res.status(500).json({message: "Internal Server Error"});
+   }
+});
+
 
 app.get("/api/:department_id/:major_id", async(req, res) => {
     const department_id = req.params.department_id;
@@ -143,6 +175,9 @@ app.post("/api/:department_id/:major_id", async(req, res) => {
     const department_id = req.params.department_id;
     const major_id = req.params.major_id;
     const course_added = req.body;
+    if (!course_added || !course_added.number || !course_added.title) {
+        return res.status(400).json({message: "The course number to be added is not provided."});
+    }
     try{
         const coursesCollection = req.db.collection("Courses");
         const major_selected = await coursesCollection.findOne({major: major_id, department: department_id});
@@ -152,9 +187,10 @@ app.post("/api/:department_id/:major_id", async(req, res) => {
                 {$push: {courses: course_added}}
             );
             if (result.modifiedCount === 0) {
-                return res.status(404).json({message: "The new major is not added."});
+                return res.status(404).json({message: "The new course" + course_id + "is not added."});
             }
-            return res.status(201).json({message: "The new course is added successfully", course_added});
+            return res.status(201).json({message: "The new course with course number" + major_id + "is added successfully", 
+                                         course_added});
         }
         else{
            const result = await coursesCollection.insertOne({
@@ -177,15 +213,11 @@ app.put("/api/:department_id/:major_id", async(req, res) => {
     const edited_course = req.body;
     try{
        const coursesCollection = req.db.collection("Courses");
-    //    const major_selected = await coursesCollection.findOne({"courses.number": edited_course.number, department: department_id, major: major_id});
-    //    if (!major_selected) {
-    //       return res.status(404).json({message: "Not Found"});
-    //    }
-       const result = await coursesCollection.updateOne(
+       const course_selected = await coursesCollection.updateOne(
           {"courses.number": edited_course.number, major: major_id, department: department_id},
           {$set:{"courses.$": edited_course}}
        );
-       if (result.modifiedCount === 0) {
+       if (course_selected.modifiedCount === 0) {
           return res.status(404).json({message: "The course is updated unsuccessfully."});
        }
        return res.status(200).json({message: "The course is updated successfully", 
@@ -196,15 +228,44 @@ app.put("/api/:department_id/:major_id", async(req, res) => {
     }
 });
 
+app.delete("/api/:department_id/:major_id", async(req, res)=> {
+    const department_id = req.params.department_id;
+    const major_id = req.params.major_id;
+    const course_deleted = req.body.number;
+
+    if (!course_deleted) {
+        return res.status(400).json({message: "The course number to delete is not provided."});
+    }
+
+    try{
+        const coursesCollection = req.db.collection("Courses");
+        const course = await coursesCollection.findOne({department: department_id, major: major_id});
+        if (!course){
+            return res.status(404).json({message: "Course Not Found"});
+        }
+        const result = await coursesCollection.updateOne(
+            {department: department_id, major: major_id},
+            {$pull: {courses:{number: course_deleted}}}
+        )
+        if (result.modifiedCount === 0) {
+           return res.status(404).json({message: "The course with the number" + course_deleted + "is deleted unsuccessfully."});
+        }
+        return res.status(204).end();
+    }catch(error){
+        console.error("Error In Deleting a Course From a Major");
+        res.status(500).json({message: "Internal Server Error"});
+    }
+});
+
 
 app.get("/api/:department_id/:major_id/:course_id", async(req, res) => {
-    const{department, major, course} = req.params;
+    const{department_id, major_id, course_id} = req.params;
     try{
         const courseSpecificCollection = await req.db.collection("Courses_Description");
         const course_content = courseSpecificCollection.findOne({
-            course_id: course, 
-            major_id: major, 
-            department_id: department
+            course_id: course_id, 
+            major_id: major_id, 
+            department_id: department_id
         });
         if (!course_content) {
             return res.status(404).json({message: "Not Found"});
@@ -226,9 +287,8 @@ app.post("/api/:department_id/:major_id/:course_id", async(req, res) => {
             return res.status(409).json({message: "The course content already exists in the database."});
         }
         await courseContentCollection.insertOne({course_id, major_id, department_id, course_content});
-        res.status(201).json({message: "The course content of a specific course is added successfully", 
-                              course_id, major_id, department_id, course_content})
-       
+        return res.status(201).json({message: "The course content of a specific course is added successfully", 
+                                     course_id, major_id, department_id, ...course_content});
     }catch(error){
         console.error("Error fetching the course content based on a specific course", error);
         res.status(500).json({message: "Internal Server Error"});
@@ -248,7 +308,7 @@ app.put("/api/:department_id/:major_id/:course_id", async(req, res) => {
 
     const result = await courseContentCollection.updateOne(
         {course_id, major_id, department_id},
-        {$set: {...edited_course_content}}
+        {$set: {edited_course_content}}
     )
 
     if (result.modifiedCount === 0) {
@@ -264,10 +324,32 @@ app.put("/api/:department_id/:major_id/:course_id", async(req, res) => {
    }
 });
 
+app.delete("api/:department_id/:major_id/:course_id", async(req, res) => {
+   const {department_id, major_id, course_id} = req.params;
+
+   try{
+    const courseContentCollection = req.db.collection("Courses_Description");
+    const course_selected = await courseContentCollection.deleteOne({course_id, major_id, department_id});
+
+    if (course_selected.modifiedCount === 0){
+        return res.status(404).json({message: "The course content of the course" + major_id + "is not found/already deleted."});
+    }
+    return res.status(204).end();
+
+   }catch(error){
+     console.error("Error deleting the content of the course description");
+     res.status(500).json({message: "Internal Server Error"});
+   }
+});
+
+
+//middleware
+//app.use(express.json())
 
 // Using routes
 //const userRoutes = require('./routes/user');
 //app.use('/api', userRoutes);
+//app.use('/', require('./routes/authRouter'));
 
 
 

@@ -126,6 +126,72 @@
       "department": "CLAHS",
       "majors": [
          {
+            "id": "ADV",
+            "title": "Advertising(ADV)",
+            "content": "Click to learn more about the courses offered in Advertising Program",
+            "image": "https://liberalarts.vt.edu/content/liberalarts_vt_edu/en/academics/majors-and-minors/advertising-major/jcr:content/content/vtcta_copy/adaptiveimage.transform/xl-medium/image.jpg"
+         },
+         {
+            "id": "AFST",
+            "title": "African Studies(AFST)",
+            "content": "Click to learn more about the courses offered in African Studies Program",
+            "image": "https://liberalarts.vt.edu/content/liberalarts_vt_edu/en/academics/majors-and-minors/africana-studies-minor/jcr:content/content/vtcta_copy/adaptiveimage.transform/xl-medium/image.png"
+         },
+         {
+            "id": "AHRM",
+            "title": "Apparel, Housing & Resour Mgt(AHRM)",
+            "content": "Click to learn more about the courses offered in Apparel, Housing & Resour Mgt Program",
+            "image": "https://liberalarts.vt.edu/content/liberalarts_vt_edu/en/departments-and-schools/apparel-housing-and-resource-management/jcr:content/cta/adaptiveimage.transform/xl-medium/image.jpg"
+         },
+         {
+            "id": "AINS",
+            "title": "American Indian Studies(AINS)",
+            "content": "Click to learn more anout the courses offered in American Indian Studies(AINS) Program",
+            "image": "https://liberalarts.vt.edu/content/liberalarts_vt_edu/en/academics/majors-and-minors/american-indian-studies-minor/jcr:content/content/vtcta_copy/adaptiveimage.transform/xl-medium/image.jpg"
+         },
+         {
+            "id": "APS",
+            "title": "Appalachian Studies(APS)",
+            "content": "Click to learn more about the courses offered in Appalachian Studies(APS) Program",
+            "image": "https://liberalarts.vt.edu/content/liberalarts_vt_edu/en/academics/majors-and-minors/appalachian-studies-minor/jcr:content/content/vtcta_copy/adaptiveimage.transform/xl-medium/image.jpg"
+         },
+         {
+            "id": "ARBC",
+            "title": "Arabic(ARBC)",
+            "content": "Click to learn more about the courses offered in Arabic(ARBC) Program",
+            "image": "https://liberalarts.vt.edu/content/liberalarts_vt_edu/en/academics/majors-and-minors/arabic-major/jcr:content/content/vtcta_copy/adaptiveimage.transform/xl-medium/image.jpg"
+         },
+         {
+            "id": "AS",
+            "title": "Military, Aerospace Studies(AS)",
+            "content": "Click to learn more about the courses offered in Military, Aerospace Studies(AS) Program",
+            "image": "https://news.vt.edu/content/news_vt_edu/en/articles/2018/07/07012018-aoe-durip-awards/jcr:content/article-image.transform/l-medium/image.jpg"
+         },
+         {
+            "id": "CHN",
+            "title": "Chinese(CHN)", 
+            "content": "Click to learn more about the courses offered in Chinese(CHN) Program",
+            "image": "https://liberalarts.vt.edu/content/liberalarts_vt_edu/en/academics/majors-and-minors/chinese-studies-minor/jcr:content/content/vtcta_copy/adaptiveimage.transform/xl-medium/image.jpg"
+         },
+         {
+            "id": "CINE",
+            "title": "Cinema(CINE)",
+            "content": "Click to learn more about the courses offered in Cinema(CINE) Program",
+            "image": "https://sopa.vt.edu/content/sopa_vt_edu/en/future-students/undergraduate-programs/cinema/jcr:content/article-image.transform/xl-medium/image.png"
+         },
+         {
+            "id": "CLA",
+            "title": "Classics",
+            "content": "Click to learn more about the courses offered in Classics(CLA) Program",
+            "image": ""
+         },
+         {
+            "id": "CMST",
+            "title": "Communication Studies(CMST)",
+            "content": "Click to learn more about the courses offered in Communication Studes(CMST) Program",
+            "image": "https://www.undergradcatalog.registrar.vt.edu/2021/img/comm.jpg"
+         },
+         {
             "id": "ENGL",
             "title": "English(ENGL)",
             "content": "Click to learn more about the courses offered in English program.",

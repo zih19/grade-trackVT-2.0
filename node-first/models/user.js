@@ -1,61 +1,28 @@
-// One of the files called user.js in the model folder tells you how the 
-// user should behave in terms of email, password, and description.
-
 const mongoose = require("mongoose");
-const crypto = require("crypto");
-const {v1: uuidv1} = require("uuid");
+const {schema} = mongoose;
 
-const user = new mongoose.Schema({
-    firstname:{
-        type: String,
-        required: true,
-        maxlength: 32,
-        trim: true
-    },
-    lastName:{
-        type: String,
-        required: true,
-        maxlength: 32,
-        trim: true
-    },
-    email:{
-        type: String,
-        required: true,
-        trim: true,
+const userSchema = new Schema({
+    FirstName: String,
+    MiddleName: String,
+    LastNamae: String,
+    BirthDate: String,
+    Email: {
+        String,
         unique: true
     },
-    encrypted_password: {
-        type: String,
-        required: true
+    Phone: {
+        String,
+        unique: true
     },
-    salt: String,    // assist the implementation of the password encrypted
-                     // which stands for the username
-    
-}, {timestamps: true}) // determine when the account is created 
-
-user.virtual("password")
-  .set(function(password){
-    this._password = password;
-    this.salt = uuidv1;
-    this.encrypted_password = this.securePassword(password);
-  })
-  .get(function(){
-     return this._password;
-  })
-
-user.methods = {
-    authenticate: function(plainpassword){
-       return this.securePassword(plainpassword) === this.encrypted_password;
+    Gender: String,
+    GraduationDate: String,
+    Username: {
+        String,
+        unique: true
     },
-    securePassword: function(plainpassword){
-        if(!plainpassword) return "";
+    Password: String,
+    ConfirmedPassword: String,
+})
 
-        try{
-           return crypto.createHmac("sha256", this.salt).update(plainpassword).digest("hex");
-        }catch(err){
-           return "";
-        }
-    }
-}
-
-module.exports = mongoose.model("User", user);
+const userModel = mongoose.model('User', userSchema);
+module.exports = userModel; 
