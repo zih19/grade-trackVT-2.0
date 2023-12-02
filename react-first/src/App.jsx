@@ -12,6 +12,7 @@ import Success from './pages/Success.jsx';
 import Majors from './pages/Majors.jsx';
 import Courses from './pages/Courses.jsx';
 import Dashboard from './pages/DashboardGeneral.jsx';
+import Testing from './pages/Testing.jsx';
 
 const App = () => {
   
@@ -33,6 +34,7 @@ const App = () => {
               <Route path="/:department" element={<Majors/>} />
               <Route path="/:department/:majorId" element={<Courses/>} />
               <Route path="/:department:/:majorId/:courseId" element={<Dashboard/>} />
+              <Route path='/Testing' element={<Testing/>}/>
 
           </Routes>
         </BrowserRouter>
