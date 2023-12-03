@@ -65,8 +65,40 @@ const TopBarSpec = ({setSignIn, signedIn}) => {
     }
     
     const handleMajorMenuClick = (majorId) => {
-        navigate(`/majordescription/${majorId}`);
-        setAnchorEl(null);
+        switch(majorId) {
+            case "BSE": {
+                window.open("https://www.bse.vt.edu/");
+                break;
+            }
+            case "BME": {
+                window.open("https://beam.vt.edu");
+                break;
+            }
+            case "ECE": {
+                window.open("https://ece.vt.edu/");
+                break;
+            }
+            case "CEM": {
+                window.open("https://cem.cee.vt.edu/");
+                break;
+            }
+            case "ISE": {
+                window.open("https://www.ise.vt.edu/");
+                break;
+            }
+            case "MSE": {
+                window.open("https://mse.vt.edu/");
+                break;
+            }
+            case "MINE": {
+                window.open("https://www.mining.vt.edu/");
+                break;
+            }
+            default: {
+                navigate(`/majordescription/${majorId}`);
+                setAnchorEl(null);
+            }
+        }
     }
 
     //This handles the event in which the user clicks the login button. It navigates them to the login page.
