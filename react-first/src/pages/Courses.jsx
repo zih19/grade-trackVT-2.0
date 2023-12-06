@@ -20,7 +20,7 @@ const Courses = () => {
         })
         .then(data => setCourses(data))
         .catch(err => { 
-          console.error(err)
+          console.error(err);
           setCourses([]);
         })
     }, [department, majorId]);

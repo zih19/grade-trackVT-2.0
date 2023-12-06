@@ -37,8 +37,8 @@ const Majors = () => {
         setMajors([]);
       });
   }, [department]);
-
   
+
   if (majorsData.length === 0) {
     <Typography variant='h5'> The department does not have any majors currently </Typography>
   }

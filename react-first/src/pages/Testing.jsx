@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container';
 import Modal from 'react-bootstrap/Modal';
-import { BarChart } from '@mui/x-charts/BarChart';
+//import { BarChart } from '@mui/x-charts/BarChart';
 
 const Testing = () => {
 
@@ -35,7 +35,7 @@ const Testing = () => {
                     <Modal.Title>Bar Chart</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                <BarChart
+                {/* <BarChart
                     xAxis={[
                       {
                         id: 'barCategories',
@@ -50,7 +50,7 @@ const Testing = () => {
                     ]}
                     width={500}
                     height={300}
-                />
+                /> */}
                 </Modal.Body>
                 <Modal.Footer>
                   <Button variant="secondary" onClick={handleClose1}>
