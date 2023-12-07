@@ -23,29 +23,91 @@ const Dashboard = () => {
 
     if (courseDetails.length === 0) {
         <Typography variant='h5'> Course Not Found</Typography>
+        return;
     }
 
+    console.log(courseDetails)
 
   return (
     <Box>
-      <Typography variant='h2'> Title </Typography>
+      <Typography variant='h1'> {courseDetails.Course.Title} </Typography>
       
       <Grid container spacing={2} sx={{pt: '8px'}}>
     
             <Grid item xs={4} sx={{pb: '5px'}}>
-                <Paper sx={{height: '300px'}}>Box 1</Paper>
+                <Paper sx={{height: '300px'}}>
+                <Typography variant='h5' sx={{fontFamily: 'Lato', fontWeight: 'bold'}}> Description </Typography>
+                    <Typography variant='b5' 
+                        gutterBottom
+                        component='div'
+                        sx={{
+                            fontFamily: 'Lato',
+                            minHeight: '64px'
+                        }}>
+                    {courseDetails.Course.Description}
+                    </Typography>
+                </Paper>
             </Grid>
 
             <Grid item xs={4} sx={{pb: '5px'}}>
-                <Paper sx={{height: '300px'}}>Box 2</Paper>
+                <Paper sx={{height: '300px'}}>
+                <Typography variant='h5' sx={{ paddingBottom: '55px', fontFamily: 'Lato', fontWeight: 'bold'}}> Average GPA </Typography>
+                <Typography variant='h1' 
+                        gutterBottom
+                        component='div'
+                        sx={{
+                            top: "10px",
+                            fontFamily: 'Lato',
+                            minHeight: '64px',
+                            textAlign: 'center'
+                        }}>
+                    {courseDetails.GPA}
+                    </Typography>
+                </Paper>
             </Grid>
 
             <Grid item xs={4} sx={{pt: '5px'}}>
-                <Paper sx={{height: '300px'}}>Box 3</Paper>
+                <Paper sx={{height: '300px'}}>
+                <Typography variant='h5' sx={{paddingBottom: '55px', fontFamily: 'Lato', fontWeight: 'bold'}}> Total Attendance </Typography>  
+                <Typography variant='h4' 
+                        gutterBottom
+                        component='div'
+                        sx={{
+                            top: "10px",
+                            fontFamily: 'Lato',
+                            minHeight: '64px',
+                            textAlign: 'center'
+                        }}>
+                    Enrollment at the beginning of the semester: {courseDetails.Numbers.Enrolled}
+                </Typography>
+                <Typography variant='h4' 
+                        gutterBottom
+                        component='div'
+                        sx={{
+                            top: "10px",
+                            fontFamily: 'Lato',
+                            minHeight: '64px',
+                            textAlign: 'center'
+                        }}>
+                    Number of students that withdrew the course: {courseDetails.Numbers.Withdrawn}
+                </Typography>
+                </Paper>
             </Grid>
 
             <Grid item xs={4}>
-                <Paper sx={{height: '300px'}}>Box 4</Paper>
+                <Paper sx={{height: '300px'}}>
+                <Typography variant='h5' sx={{paddingBottom: '55px', fontFamily: 'Lato', fontWeight: 'bold'}}> Credits </Typography>
+                    <Typography variant='h1' 
+                        gutterBottom
+                        component='div'
+                        sx={{
+                            top: "10px",
+                            fontFamily: 'Lato',
+                            minHeight: '64px',
+                            textAlign: 'center'
+                        }}>
+                    </Typography>
+                </Paper>
             </Grid>
 
             <Grid item xs={4}>
