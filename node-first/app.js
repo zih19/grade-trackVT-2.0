@@ -261,8 +261,8 @@ app.delete("/api/:department_id/:major_id", async(req, res)=> {
 app.get("/api/:department_id/:major_id/:course_id", async(req, res) => {
     const{department_id, major_id, course_id} = req.params;
     try{
-        const courseSpecificCollection = await req.db.collection("Courses_Description");
-        const course_content = courseSpecificCollection.findOne({
+        const courseSpecificCollection = req.db.collection("Courses_Description");
+        const course_content = await courseSpecificCollection.findOne({
             course_id: course_id, 
             major_id: major_id, 
             department_id: department_id

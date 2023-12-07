@@ -1646,6 +1646,1066 @@
         }
     },
     {
+        "course_id": "BC4124",
+        "major_id": "BC",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BC4064 Digital Const & Manufacturing",
+            "Description": "Explore working principles, design projects, & experiment with construction digital information modeling, computer numerical control (CNC), and computer aided manufacturing (CAM) processes. Fundamentals of digital prototyping. Analysis of the industry tools such as 3D scanners, 3D printers, CNC manufacturing techniques, and others, used to provide familiarity with technologies & provide understanding of their benefits & limitations."
+        },
+        "GPA": 3.65,
+        "Numbers": {
+            "Enrolled": 12,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["F. Bell", "L. Lally"],
+        "Requirements":{
+            "Prerequisites": ["BC2114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BC4164",
+        "major_id": "BC",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BC4164 Process Planning and Design",
+            "Description": "The course deals with the planning and design of construction processes. Course topics include production systems, behavior of construction systems and workers, the relationships between subsystems in the construction process, queuing systems, process modeling and simulation. The major emphasis is on production and productivity. Production problems that typically occur in construction systems are discussed. The course also explores recent innovations in construction system design such as lean construction and agile construction."
+        },
+        "GPA": 2.5,
+        "Numbers": {
+            "Enrolled": 110,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Mills"],
+        "Requirements":{
+            "Prerequisites": ["BC3064"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BC4314",
+        "major_id": "BC",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BC4314 Bldg Performance & Energy Mgt",
+            "Description": "Fundamentals of building performance mandates for the built environment. Practical means and methods for evaluating building performance metrics within integrated design including acoustic performance, visual performance, and indoor air quality and management. Specific focus on energy resources consumed by thermal, hygrothermal, lighting, and other environmental building systems. Assessment of building energy consumption and analysis of retrofit scenarios through performance evaluation over the entire building life cycle."
+        },
+        "GPA": 3.41,
+        "Numbers": {
+            "Enrolled": 21,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Reichard"],
+        "Requirements":{
+            "Prerequisites": ["BC3014", "BC3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BC4324",
+        "major_id": "BC",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BC4324 Innovation in Residential Cnst",
+            "Description": "Mechanisms of historical and current innovations in the residential construction industry. Theory and application within the realms of innovation, diffusion, technology, adoption, new product development, housing innovation literature, supply chain management, sustainability, information technology, commercialization, and housing policy. Innovation theories and applications to residential construction through the analysis and utilization of data-driven hypotheses typical to the industry."
+        },
+        "GPA": 3.57,
+        "Numbers": {
+            "Enrolled": 64,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. McCoy"],
+        "Requirements":{
+            "Prerequisites": ["BC2354", "BC3064"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BC4334",
+        "major_id": "BC",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BC4334 Sustainable Bldg Perf Mgt",
+            "Description": "Introduction to means and methods for managing the sustainability of buildings and their performance over the life cycle. Best practices for sustainable projects in the areas of planning/development, site design, project management, energy and water conservation and green building assessment tools and methods; Leadership in Energy and Environmental Design (LEED) rating system; economic analysis of green building alternatives; and implementation planning."
+        },
+        "GPA": 3.83,
+        "Numbers": {
+            "Enrolled": 20,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Pearce"],
+        "Requirements":{
+            "Prerequisites": ["BC3064", "BC3014"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BC4364",
+        "major_id": "BC",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BC4364 BIM For Facility Management",
+            "Description": "BIM (Building Information Modeling) concepts and tools that are critical for facility operation and maintenance. Identifying, capturing, analyzing, exporting and exchanging facility lifecycle data. Spreadsheet-based and BIM based facility management platforms. Case studies and real-life application for understanding mechanical, electrical, and plumbing systems from an owner or facility manager perspective. Workflow processes for data exchange."
+        },
+        "GPA": 3.63,
+        "Numbers": {
+            "Enrolled": 6,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["W. Thabet"],
+        "Requirements":{
+            "Prerequisites": ["BC2114", "BC3114"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BC4374",
+        "major_id": "BC",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BC4374 Residential Housing & Land Dev",
+            "Description": "Application of means, methods, and strategies for delivering single and multi-family residential housing in urban and suburban contexts. Project planning, including market analysis to determine highest and best use of an identified property, marketing and sales strategies, site and product design and procurement, infrastructure requirements, zoning and government agency regulations, financial analysis and feasibility study, financing strategies, and delivery control systems. Roles of developer and project team in preparing formal proposals for a housing development to be submitted for financing. Identification and application of interfaces with project stakeholders. Overview of contemporary topics such as green development and affordable housing."
+        },
+        "GPA": 3.61,
+        "Numbers": {
+            "Enrolled": 63,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["J. Tucker"],
+        "Requirements":{
+            "Prerequisites": ["BC3064", "BC4324"],
+            "Corequisites": ["BC4064"]
+        }
+    },
+    {
+        "course_id": "BC4434",
+        "major_id": "BC",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BC4434 Construction Practice I",
+            "Description": "Explores advanced business and management practices and applications to vertical construction projects. Topics include scope, planning and scheduling, assemblies estimating, cash flow controls. Creation of work breakdown structure, application of concepts of assemblies estimating and general conditions to interpret insurance and contract requires along with digital construction practices."
+        },
+        "GPA": 3.3,
+        "Numbers": {
+            "Enrolled": 112,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Shojaei", "W.Thabet"],
+        "Requirements":{
+            "Prerequisites": ["BC3064", "BC3114", "BC3134"],
+            "Corequisites": ["BC4064"]
+        }
+    },
+    {
+        "course_id": "BC4444",
+        "major_id": "BC",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BC4444 Construction Practice II",
+            "Description": "This course explores and applies the business and construction practices related to operation of a construction company to a capstone experience. Construction operation is examined as it relates to construction, financial and personnel management. Project management topics studied in this course are applied in the corequisite lab. This course is formally designated as a writing intensive course. Formal written and edited and oral presentations are presented and critiqued by the BC faculty team, the writing resource center, students and industry professionals"        
+        },
+        "GPA": 3.68,
+        "Numbers": {
+            "Enrolled": 118,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 4,
+        "Instructor(s)": ["A. Shojaei", "W.Thabet"],
+        "Requirements":{
+            "Prerequisites": ["BC4434"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES2004",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES2004 Concussion Perspectives",
+            "Description": "Broad, multidisciplinary description of concussion as it relates to variety of fields including: medicine, psychology, biomedical research, technology, equipment design, ethics, and law. Concussion modeling, diagnosis and treatment. Testing and instrumentation. Research efforts, credibility and conflicts of interest. Ethical considerations in sports, medicine, and science. Legal implications."        
+        },
+        "GPA": 3.91,
+        "Numbers": {
+            "Enrolled": 2421,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Duma"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }  
+    },
+    {
+        "course_id": "BMES2014",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES2014 Professional Practice",
+            "Description": "Topics selected to foster professional development of the Biomedical Engineering (BME) student, including training for experiential learning opportunities, such as research, internships, co-ops, and design. Overview of BME specialization and research areas, career pathways, and preparation for interactions with industry, including the regulatory approval process associated with medical device development. Emphasis on teamwork, communication, employment opportunities, the development of a professional portfolio, ethical considerations, additive manufacturing, and engineering documentation using real-world examples and a design sprint/challenges."        
+        },
+        "GPA": 3.9,
+        "Numbers": {
+            "Enrolled": 45,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["C. Arena"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }  
+    },
+    {
+        "course_id": "BMES",
+        "major_id": "BMES2104",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES2104 Intro Biomedical Engineering",
+            "Description": "Identification, exploration, and evaluation of real-world, complex biomedical engineering problems including safety and ethical considerations. Emphasis on critical thinking, problem solving, group skills, and communication related to the field of biomedical engineering. Literature review and experimental design in biomedical engineering research."        
+        },
+        "GPA": 3.86,
+        "Numbers": {
+            "Enrolled": 476,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Arena, Y. Lee"],
+        "Requirements":{
+            "Prerequisites": [["ENGE1216", "ENGE1414"], ["MATH2214"]],
+            "Corequisites": "None"
+        }  
+    },
+    {
+        "course_id": "BMES3024",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES3024 BME Cell Engineering Lab",
+            "Description": "Principles of cell engineering, experiment design, quantitative alyses. Laboratory notebook keeping, report writing and oral presentation in a team setting. Measurement of biological molecules such as DNA, RNA, and proteins. Assessment of animal cell viability, migration, mechanics and interactions with biomaterials."        
+        },
+        "GPA": 3.98,
+        "Numbers": {
+            "Enrolled": 189,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 2,
+        "Instructor(s)": ["Y. Lee", "K. Tate", "P. VandeVord"],
+        "Requirements":{
+            "Prerequisites": ["BIOL1105", "BMES2104"],
+            "Corequisites": "None"
+        }  
+    },
+    {
+        "course_id": "BMES3024",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES3024 BME Cell Engineering Lab",
+            "Description": "Principles of cell engineering, experiment design, quantitative alyses. Laboratory notebook keeping, report writing and oral presentation in a team setting. Measurement of biological molecules such as DNA, RNA, and proteins. Assessment of animal cell viability, migration, mechanics and interactions with biomaterials."        
+        },
+        "GPA": 3.98,
+        "Numbers": {
+            "Enrolled": 189,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 2,
+        "Instructor(s)": ["Y. Lee", "K. Tate", "P. VandeVord"],
+        "Requirements":{
+            "Prerequisites": ["BIOL1105", "BMES2104"],
+            "Corequisites": "None"
+        }  
+    },
+    {
+        "course_id": "BMES3034",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES3034 Bioinstrumentation Lab",
+            "Description": "Principles of biomedical sensors and their usage for experimental design. Collection of biological signals using analog signal amplifiication and filters, biopotentials, digital acquisition, digital filtering and processing. Analysis of physiological signals on living systems with focus on neural, cadiovascular, respiratory, and muscular systems using a group problem solving approach. Instrumental regulation and safety considerations."        
+        },
+        "GPA": 3.59,
+        "Numbers": {
+            "Enrolled": 175,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 2,
+        "Instructor(s)": ["N. Johnson"],
+        "Requirements":{
+            "Prerequisites": ["BMES2104", "ECE3054"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES3124",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES3124 Bioinstrumentation Lab",
+            "Description": "Basic principles of biomechanics. Basic musculoskeletal anatomy. Application of classical mechanics to biological systems. Emphasis placed on mechanical behavior (stress and strain), structural behavior, motion, and injury tolerance of the human body. Biomechanics of medical devices and implants. Advances in safety equipment used in automotive, military, and sports applications."
+        },
+        "GPA": 3.5,
+        "Numbers": {
+            "Enrolled": 138,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Kemper"],
+        "Requirements":{
+            "Prerequisites": ["BMES2104", "ESM2204", "ESM2304"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES3134",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES3134 Intro to Biomedical Imaging",
+            "Description": "Introduction to major biomedical imaging modalities. Emphasis on X-rays, computerized tomography (CT), magnetic resonance imaging (MRI), positron emission tomography (PET), ultrasound, and optical imaging. Essential physics and imaging equations of the imaging system. Sources of noise and primary artifacts. Patient safety and clinical application."
+        },
+        "GPA": 3.74,
+        "Numbers": {
+            "Enrolled": 123,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["G. Cao", "E. Vlaisavljevich"],
+        "Requirements":{
+            "Prerequisites": ["BMES2104", "MATH2204", "PHYS2306"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES3144",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES3144 Biomedical Devices",
+            "Description": "Design and uses of biomedical devices for diagnosis and therapy of human and animal diseases. Disease eiologies, progression, risk factors, and epidemiology. Tissue, organ, and systems dysfunction and failure and relevance to life stages (pediatric, adolescent, adult, aged). Useful characteristics of engineered materials for device fabrication, including biocompatibility. Gaps between medical needs and current medical devices."
+        },
+        "GPA": 3.95,
+        "Numbers": {
+            "Enrolled": 192,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["J. Robertson", "A. Muelnaer"],
+        "Requirements":{
+            "Prerequisites": ["BMES2104"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES3154",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES3154 Bioinstrumentation & Analysis",
+            "Description": "Concepts of bioinstrumentation, including: circuits, op amps, signals and noise, filters, sampling theory, origin of biopotentials, electrodes, biopotential amplifiers, the heart and the electrocardiogram (ECG), the brain and the electroencephalogram (EEG), muscle and electromyography (EMG), pulse oximetry, blood pressure, interpreting physiologic measurements, mechanical sensors used in biomechanics research, strain gages, wheatstone bridge, piezoelectric and piezoresistive sensors, accelerometers, load cells, wearable activity sensors, heart rate monitors, consumer grade medical sensors."
+        },
+        "GPA": 3.8,
+        "Numbers": {
+            "Enrolled": 29,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Rowson"],
+        "Requirements":{
+            "Prerequisites": ["BMES2104", ["CS1044", "CS1054", "CS1064", "CS1114", "ME2004", "AOE2074", "ESM2074", "BSE3144"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES3184",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES3184 Problem Solving in BME",
+            "Description": "Computational and analytical approaches to analyzing biological systems and solving biomedical engineering problems. Problem formulation and exploration of problem-solving techniques to validate computational solutions. Self-directed inquiry and team-based approaches that use reverse engineering, user-in-mind design, and engineering software tools."
+        },
+        "GPA": 3.75,
+        "Numbers": {
+            "Enrolled": 175,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["V. Wang"],
+        "Requirements":{
+            "Prerequisites": ["BMES2104", "ESM2074"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES3184",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES3184 Problem Solving in BME",
+            "Description": "Computational and analytical approaches to analyzing biological systems and solving biomedical engineering problems. Problem formulation and exploration of problem-solving techniques to validate computational solutions. Self-directed inquiry and team-based approaches that use reverse engineering, user-in-mind design, and engineering software tools."
+        },
+        "GPA": 3.75,
+        "Numbers": {
+            "Enrolled": 175,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["V. Wang"],
+        "Requirements":{
+            "Prerequisites": ["BMES2104", "ESM2074"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES4015",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES4105 BME Senior Design and Project",
+            "Description": "Apply biomedical engineering principles to the design of an approved project using the team approach. Develop design and communication skills. Integrate ethical, global and social issues in engineering."
+        },
+        "GPA": 3.96,
+        "Numbers": {
+            "Enrolled": 103,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Arena"],
+        "Requirements":{
+            "Prerequisites": ["BMES3034", "BMES3184"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES4016",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES4106 BME Senior Design and Project",
+            "Description": "Apply biomedical engineering principles to develop solutions for an approved design project using a team approach. Complete a project resulting in prototype medical device, circuit, or system. Refine design and communication. Integrate ethical, global, environmental and social issues in engineering."
+        },
+        "GPA": 3.84,
+        "Numbers": {
+            "Enrolled": 103,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Arena"],
+        "Requirements":{
+            "Prerequisites": ["BMES4105"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES4064",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES4064 Intro Medical Physiology",
+            "Description": "An introductory to the principles of medical physiology. Designed primarily for (but not limited to), undergraduate students minoring in biomedical engineering, and other related engineering and physical sciences majors with little or no formal background in biological sciences. Basic principles and concepts of human physiology. Special emphasis on the interactions of human systems biology in their entirety rather than individual genes and pathways."
+        },
+        "GPA": 3.33,
+        "Numbers": {
+            "Enrolled": 464,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["W. Huckle"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES4134",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES4134 BME Global Societal Ethics",
+            "Description": "Overview of contemporary technological advances to improving human health. Comparison of healthcare systems, problems, and existing solutions throughout the developed and developing world. Consideration of legal and ethical issues associated with developing and implementing new medical technologies. Recognition and definition of gaps between medical needs and current methods and therapies between developed and developing countries. Conceptually design a novel technology."
+        },
+        "GPA": 3.97,
+        "Numbers": {
+            "Enrolled": 216,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["A. Muelnaer"],
+        "Requirements":{
+            "Prerequisites": ["BMES2104"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BMES4154",
+        "major_id": "BMES",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BMES4154 Commercialization of BME Res",
+            "Description": "Commercialization process applied to translational research. Regulatory aspects of biomedical engineering products and technologies (e.g. devices, diagnostics, drugs, biologics). Intellectual property, technology transfer processes, clinical trial design, commercialization of university research, modeling of development costs (e.g. cash flow and revenue projections). Small business startup approaches."
+        },
+        "GPA": 3.88,
+        "Numbers": {
+            "Enrolled": 25,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["M. Van Dyke", "A. Hyler"],
+        "Requirements":{
+            "Prerequisites": ["BMES2104"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE1004",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE1004 Biol Sys Eng Global Good",
+            "Description": "Survey of global societal and technological issues that engage biological systems engineers in the areas of health, environment, food and energy. Application of systems-level approaches to meet engineering challenges that intersect with crucial societal issues, including sustainability and equity. Evaluation of key factors that affect the design, communication, and public acceptance of engineered solutions. Analysis of cultural intelligence, with a specific focus on personality and problem solving styles amongst individuals and teams and productive conflict resolution."
+        },
+        "GPA": 3.46,
+        "Numbers": {
+            "Enrolled": 18,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["L. Krometis"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE2004",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE2004 Intro Biological Systems Eng",
+            "Description": "Introduction to the fundamental concepts of Biological Systems Engineering, including statistics and material and energy balances, through applications in protein separation, hydrology, sediment/nutrient transport, and microbial metabolism. Engineering design process. Engineering problem-solving tools and techniques. Resolving ethical dilemmas. Development of oral and written communication skills; introduction to job searching resources; strategies for career development, and the importance of teamwork and ethics in Biological Systems Engineering."
+        },
+        "GPA": 3.38,
+        "Numbers": {
+            "Enrolled": 281,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["J. Czuba", "L. Hanzly", "L. Krometis"],
+        "Requirements":{
+            "Prerequisites": [["ENGE1215", "ENGE1414"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE2094",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE2094 Intro Metal Lab",
+            "Description": "Introduction to metal working tools, equipment, and processes. Fundamentals of gas and arc welding."
+        },
+        "GPA": 3.94,
+        "Numbers": {
+            "Enrolled": 47,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["S. Mariger"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE2294",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE2294 Animal Sturct and Env",
+            "Description": "Functional considerations in facilities development for production agriculture. Concepts of farmstead planning and system development emphasized. Techniques for providing production animal environment, especially for confinement facilities."
+        },
+        "GPA": 3.76,
+        "Numbers": {
+            "Enrolled": 21,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Mariger"],
+        "Requirements":{
+            "Prerequisites": [["MATH1016", "MATH1025"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE2304",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE2304 Landscape Meas & Modeling",
+            "Description": "Introduction to land surveying, computer-aided design, and drafting for land and water resources engineering. Representation of features in two and three dimensions for documentation and visualization of watershed engineering projects. Create plans, cross sections, detail drawings, and three dimensional visualizations using computer-aided design and drafting tools."
+        },
+        "GPA": 3.45,
+        "Numbers": {
+            "Enrolled": 94,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. Yoder"],
+        "Requirements":{
+            "Prerequisites": [["MATH1206", "MATH1226"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE2484",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE2484 Engines Power Trains",
+            "Description": "Fundamentals of the construction and operation of current internal combustion power units. Control of power utilizing clutches, transmissions, drive shafts, and differentials."
+        },
+        "GPA": 3.59,
+        "Numbers": {
+            "Enrolled": 434,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["S. Mariger"],
+        "Requirements":{
+            "Prerequisites": [["MATH1016", "MATH1025"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE3134",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE3134 BSE Seminar",
+            "Description": "Critical review of technical and professional articles on current topics in Biological Systems Engineering. Development of oral presentation and technical writing skills. Contemporary ethical, professional, and global issues in Biological Systems Engineering."
+        },
+        "GPA": 3.45,
+        "Numbers": {
+            "Enrolled": 218,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["M. Wolfe"],
+        "Requirements":{
+            "Prerequisites": ["BSE2004"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE3144",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE3144 Engr Analysis for Biol Systems",
+            "Description": "Solving engineering problems related to biological systems using numerical analysis including root finding, numerical integration, differentiation, interpolation and numerical solution of ordinary differential equations. Error analysis and programming with engineering software. Course requirements may be satisfied by taking MATH 2214 prior to or concurrent with course."
+        },
+        "GPA": 3.64,
+        "Numbers": {
+            "Enrolled": 253,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 2,
+        "Instructor(s)": ["D. Scott", "R. Wright", "J. Czuba"],
+        "Requirements":{
+            "Prerequisites": ["MATH2214"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE3154",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE3154 Thermo Biol Systems",
+            "Description": "Fundamental concepts, first and second laws, psychrometrics applied to plant and animal environments, introduction to Gibbs energy, and application of calorimetry to gain basic understanding of energy flow in a biological system."
+        },
+        "GPA": 3.44,
+        "Numbers": {
+            "Enrolled": 333,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["R. Senger", "J. Barone"],
+        "Requirements":{
+            "Prerequisites": ["CHEM1036", "PHYS2305", "MATH2204"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE3324",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE3324 Small Watershed Hydrology",
+            "Description": "Precipitation, soil physics, infiltration, evapotranspiration, groundwater hydrology, overland flow, open channel flow, flow routing, hydraulic analysis."
+        },
+        "GPA": 3.22,
+        "Numbers": {
+            "Enrolled": 124,
+            "Withdrawn": 5
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Thompson", "V. Sridhar", "J. Czuba"],
+        "Requirements":{
+            "Prerequisites": ["PHSY2305"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE3334",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE3334 NPS Assessment & Control",
+            "Description": "Erosion prediction and control; transport and fate of sediment, nutrients, and microorganisms; design of nutrient management plans, wetlands, detention facilities and other management practices for rural and urban nonpoint source pollution control."
+        },
+        "GPA": 3.3,
+        "Numbers": {
+            "Enrolled": 91,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["L. Krometis"],
+        "Requirements":{
+            "Prerequisites": ["BSE3324"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE3494",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE3494 Advanced Welding Technology",
+            "Description": "Techniques in welding that include gas, submerged metal arc, metal inert gas, pulsed arc, and tungsten inert gas welding. Design of welding structures, fundamentals of heat treatment, and plasma arc cutting. Consent required."
+        },
+        "GPA": 3.95,
+        "Numbers": {
+            "Enrolled": 164,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["S. Mariger"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE3504",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE3504 Trans Proc Biol Syst",
+            "Description": "Introduction to material and energy balances in biological systems. Fundamentals of heat and mass transfer in biological systems. One and two dimensional conduction, convection, and diffusion of thermal energy and mass. Heat and mass transfer rates, steady and unsteady state conduction, convection, diffusion; design of simple heat exchangers. Application of these topics and fluid mechanics to fluid handling, bacterial growth, plant nutrient uptake, enzymatic reactions."
+        },
+        "GPA": 3.43,
+        "Numbers": {
+            "Enrolled": 238,
+            "Withdrawn": 3
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["J. Barone", "T. Thompson"],
+        "Requirements":{
+            "Prerequisites": ["BSE3154", "ESM3024"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE3524",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE3524 Unit Operations in BSE",
+            "Description": "Unit operations for processing biological materials including heat exchangers, evaporation, drying, mixing, homogenization, extrusion, phase and multi-phase separation, and size reduction. Laboratory hands-on experience in various unit operations. Course requirements may be satisfied by taking BSE 3504 prior to or concurrent with course."
+        },
+        "GPA": 3.32,
+        "Numbers": {
+            "Enrolled": 165,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Zhang", "J. Barone"],
+        "Requirements":{
+            "Prerequisites": ["BSE3504", "BSE3534"],
+            "Corequisites": "None"
+        }  
+    },
+    {
+        "course_id": "BSE3534",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE3534 Bioprocess Engineering",
+            "Description": "Engineering concepts for biological conversion of raw materials to food, pharmaceuticals, fuels, and chemicals. Metabolic pathways leading to products, enzyme kinetics, cell growth kinetics, and analysis of bioreactors and fermenters."
+        },
+        "GPA": 3.53,
+        "Numbers": {
+            "Enrolled": 148,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["W. Sun", "R. Wright"],
+        "Requirements":{
+            "Prerequisites": ["BSE3154"],
+            "Corequisites": ["BSE3504", "BIOL2604"]
+        }  
+    },
+    {
+        "course_id": "BSE4125",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4125 Comprehensive Design Project",
+            "Description": "Identify and develop an engineering design project using the team approach; use of literature resources to define project objectives and approach; present project proposal in a professional written and oral manner; engineering ethics, professionalism and contemporary issues. Pre: Completion of 96 hours, overall GPA of 2.0 or better."
+        },
+        "GPA": 3.91,
+        "Numbers": {
+            "Enrolled": 279,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 2,
+        "Instructor(s)": ["W. Hession", "R. Grisso"],
+        "Requirements":{
+            "Prerequisites": [["BSE3334", "BSE3524"]],
+            "Corequisites": "None"
+        }  
+    },
+    {
+        "course_id": "BSE4126",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4126 Comprehensive Design Project",
+            "Description": "Complete a comprehensive design project using the team approach, test prototype, and prepare and present a professional engineering design report"
+        },
+        "GPA": 3.84,
+        "Numbers": {
+            "Enrolled": 277,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["R. Grisso", "W. Hession"],
+        "Requirements":{
+            "Prerequisites": ["BSE4125"],
+            "Corequisites": "None"
+        }  
+    },
+    {
+        "course_id": "BSE4224",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4224 Field Methods in Hydrology",
+            "Description": "Site characterization: surveying, channel and floodplain mapping, land use, electronic data acquisition. Techniques for measuring surface and subsurface hydrologic processes: water flow, hydrologic conductivity, precipitation, evaporation. Sampling techniques: surface water, groundwater, and soil pore water sampling. In-situ monitoring: automatic samplers, dataloggers, water quality sondes. Laboratory analyses: good laboratory practices, selection of analytical method, calibration, quality assurance/quality control."
+        },
+        "GPA": 3.93,
+        "Numbers": {
+            "Enrolled": 66,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["D. Scott", "W. Hession"],
+        "Requirements":{
+            "Prerequisites": "None",
+            "Corequisites": [["BSE3324", "CEE3314", "FREC3104", "WATR3104"]]
+        } 
+    },
+    {
+        "course_id": "BSE4304",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4304 Intro to Watershed Modeling",
+            "Description": "Fundamental modeling principles used to quantify watershed hydrology, energy budgets,and associated ecosystem functions, such as plant dynamics and biogeochemical processes, at scales ranging from soil poresto watersheds. Code development and model integration to simulate watershed hydrology and nutrient and sediment transport. Model calibration and performance assessment. Data discovery, acquisition, and processing of data relevant to hydrologic/watershed modeling."
+        },
+        "GPA": 3.69,
+        "Numbers": {
+            "Enrolled": 34,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["Z. Easton"],
+        "Requirements":{
+            "Prerequisites": ["BSE3334"],
+            "Corequisites": "None"
+        } 
+    },
+    {
+        "course_id": "BSE4324",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4324 Appiled Fluvial Geomorphology",
+            "Description": "Introduction to landscape evolution. Influence of geology and climate on stream form and processes. Fundamental river mechanics and sediment transport. Stream surveying and classification. River system response to changes in hydrology and sediment supply. Interactions between ecosystems and fluvial systems. Human impacts on stream systems."
+        },
+        "GPA": 3.66,
+        "Numbers": {
+            "Enrolled": 5,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T.Thompson"],
+        "Requirements":{
+            "Prerequisites": [["BSE3324", "CEE3314", "FREC3104", "WATR3104"]],
+            "Corequisites": "None"
+        } 
+    },
+    {
+        "course_id": "BSE4344",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4344 GIS for Engineers",
+            "Description": "Conceptual, technical, and operational aspects of geographic information systems as a tool for storage, analysis, and presentation of spatial information. Focus on engineering applications in resource management, site selection, and network analysis. Laboratory work and senior standing required."
+        },
+        "GPA": 3.95,
+        "Numbers": {
+            "Enrolled": 82,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["V. Sridhar", "J. Czuba"],
+        "Requirements":{
+            "Prerequisites": [["BSE3324", "CEE3314", "FREC3104", "WATR3104"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE4524",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4524 Biol Proc Plant Des",
+            "Description": "Engineering principles for design of systems for processing biological materials into primary and secondary products. Delivery, scheduling, storage requirements, economic analysis. Process control and instrumentation of bioprocessing plants."
+        },
+        "GPA": 3.72,
+        "Numbers": {
+            "Enrolled": 136,
+            "Withdrawn": 1
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Zhang", "J. Barone", "R. Senger"],
+        "Requirements":{
+            "Prerequisites": ["BSE3524"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE4534",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4534 Bioprocess Engineering Lab",
+            "Description": "Unit operations commonly used in processing biological materials, including filtration, heat transfer, ultrafiltration, crystallization, and protein expression by fermentation, purification by chromatography, and characterization by gel electrophoresis."
+        },
+        "GPA": 3.93,
+        "Numbers": {
+            "Enrolled": 34,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 1,
+        "Instructor(s)": ["C. Zhang", "J. Chen"],
+        "Requirements":{
+            "Prerequisites": ["BSE3524", "BSE3534"],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE4544",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4544 Protein Separation Engineering",
+            "Description": "Concepts, principles and applications of various unit operations used in protein separations. Properties of biological materials, such as cells and proteins, and their influences on process design. Design of processes for protein purification based on the impurities to be eliminated. Concepts and principles of scale-up of unit operations. Case studies in practical protein recovery and purification issues, with a focus on enhanced protein purification by genetic engineering. Protein purification process simulation and optimization using process simulation software."
+        },
+        "GPA": 3.07,
+        "Numbers": {
+            "Enrolled": 132,
+            "Withdrawn": 4
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["C. Zhang"],
+        "Requirements":{
+            "Prerequisites": [["BSE3504", "CHE3144"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE4554",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4554 Creating the Ecological City",
+            "Description": "Multidisciplinary, team oriented, problem-solving approaches to creating cities that foster healthy interconnections between human and ecological systems. Analysis of problems from practical and ethical perspectives in the context of the diverse knowledge bases and values of decision-makers. Formation and utilization of integrated design teams to solve complex urban design and planning problems at a variety of scales. Senior standing."
+        },
+        "GPA": 3.69,
+        "Numbers": {
+            "Enrolled": 16,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["T. Clement", "E. Nuckols"],
+        "Requirements":{
+            "Prerequisites": [["HORT2134", "FREC2134"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE4564",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4564 Metabolic Engineering",
+            "Description": "Engineering concepts for analyzing, designing, and modifying metabolic pathways to convert raw materials to food, pharmaceuticals, fuels and chemicals. Cell metabolism, pathway design, bioenergetics, regulatory mechanisms, metabolic modeling, and genetic tools."
+        },
+        "GPA": 3.5,
+        "Numbers": {
+            "Enrolled": 123,
+            "Withdrawn": 2
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["R. Senger"],
+        "Requirements":{
+            "Prerequisites": [["BSE3534", "BCHM4115", "BIOL3774"]],
+            "Corequisites": "None"
+        }
+    },
+    {
+        "course_id": "BSE4604",
+        "major_id": "BSE",
+        "department_id": "COE",
+        "Course": {
+            "Title": "BSE4604 Food Process Engineering",
+            "Description": "Analysis and design of food processing operations including thermal pasteurization and sterilization, freezing, extrusion, texturization, and mechanical separation."
+        },
+        "GPA": 3.56,
+        "Numbers": {
+            "Enrolled": 86,
+            "Withdrawn": 0
+        },
+        "Credit(s)": 3,
+        "Instructor(s)": ["J. Chen", "J. Barone"],
+        "Requirements":{
+            "Prerequisites": ["BSE3504", "BSE3524"],
+            "Corequisites": "None"
+        }
+    },
+    {
         "course_id": "CS1044",
         "major_id": "CS",
         "department_id": "COE",
