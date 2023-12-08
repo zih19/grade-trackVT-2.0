@@ -6,7 +6,7 @@ const Dashboard = () => {
     const {department, majorId, courseId} = useParams();
     const [courseDetails, setCourseDetails] = useState([]);
 
-    useEffect(()=>{
+    useEffect(()=> {
         fetch(`http://localhost:8000/api/${department}/${majorId}/${courseId}`)
         .then(response=> {
               if (!response.ok) {
@@ -30,7 +30,7 @@ const Dashboard = () => {
     <Box>
       <Typography variant='h1'> {courseDetails.Course.Title} </Typography>
       
-      <Grid container spacing={2} sx={{pt: '50px'}}>
+      <Grid container spacing={2} sx={{pt: '8px'}}>
     
             <Grid item xs={4} sx={{pb: '5px'}}>
                 <Paper sx={{height: '300px'}}>
