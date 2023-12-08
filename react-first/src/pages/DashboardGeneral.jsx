@@ -26,8 +26,6 @@ const Dashboard = () => {
         return;
     }
 
-    console.log(courseDetails)
-
   return (
     <Box>
       <Typography variant='h1'> {courseDetails.Course.Title} </Typography>
@@ -106,12 +104,30 @@ const Dashboard = () => {
                             minHeight: '64px',
                             textAlign: 'center'
                         }}>
+                        {courseDetails["Credit(s)"]}
                     </Typography>
                 </Paper>
             </Grid>
 
             <Grid item xs={4}>
-                <Paper sx={{height: '300px'}}>Box 5</Paper>
+                <Paper sx={{height: '300px', overflow: 'auto'}}>
+                    <Typography variant='h5' sx={{paddingBottom: '25px', fontFamily: 'Lato', fontWeight: 'bold'}}> Instructors </Typography>
+
+                    {
+                        courseDetails["Instructor(s)"].map((instructor) => (
+                            <Typography variant='b1' 
+                            gutterBottom
+                            component='div'
+                            sx={{
+                                top: "10px",
+                                fontFamily: 'Lato',
+                                minHeight: '32px',
+                                textAlign: 'center'
+                            }}>
+                    {instructor}
+                </Typography>
+                    ))}
+                </Paper>
             </Grid>
 
             <Grid item xs={4}>
