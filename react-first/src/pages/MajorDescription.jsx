@@ -9,10 +9,10 @@ const MajorDescription = () => {
       title: "Aerospace Engineering", 
       //https://www.aoe.vt.edu/undergraduate/undergraduate-curriculum.html
       content: [
-              "The aerospace and ocean engineering department provides an enriching program to help adequately prepare students for the working world in their field. ",
-              "Students can choose to enroll either in the aerospace or ocean engineering tracks within this department, with the ability to double major in both if desired. ",
-              "A minor in naval engineering is also provided by this department, and is open to students outside of the department.",
-              "Students will also have the ability to choose a path in the major that helps add a more central focus to their degree, the choices of which are listed below."
+              "The Aerospace and Ocean Engineering department provides an enriching program to help adequately prepare students for the working world in their field. ",
+              "Students can choose to enroll either in the Aerospace or Ocean Engineering tracks and have the option to double major in both. ",
+              "A minor in Naval Engineering falls within this department and is also open to students outside of the department. ",
+              "Students will also have the ability to choose a path in the major, listed below, that helps add a more central focus to their degree."
       ],
       imageURLs: [
         {
@@ -139,8 +139,8 @@ const MajorDescription = () => {
       title: "Building Construction",
       //https://www.vt.edu/academics/majors/building-construction.html https://mlsoc.vt.edu/programs/undergraduate/bachelor-of-science-in-building-construction.html
       content: [
-        "The building construction department focuses on teaching its students the engineering behind construction projects from the constructing, managing, and performance of buildings to their sustainability. ",
-        "This focus on the different parts of this field allows for the students to gain a very diverse skill set that will be useful when working in future construction, no matter what role they may take. ",
+        "The Building Construction department focuses on teaching its students the engineering behind construction projects from the constructing, managing, and performance of buildings. ",
+        "This focus on the different attributes allows students to gain a very diverse skill set no matter what role they may take. ",
         "Students may also choose a degree track which allows them to attain a more specialized degree in this field."
       ],
 
@@ -170,9 +170,9 @@ const MajorDescription = () => {
       title: "Chemical Engineering",
       //https://eng.vt.edu/academics/undergraduate-students/explore-engineering/chemical-engineering.html
       content: [
-        "Students within the chemical engineering program will take a variety of courses that help to teach them how to apply a range of skills to numerous fields in everyday life. ",
-        "Students take courses with a focus on chemistry, math, physics, and biochemistry. Additionally, students will be introduced to challenging but rewarding labs that help them get practical hands-on knowledge of their field. ",
-        "There are three tracks in this major that a student can choose to focus on. When chosen, the tracks restrict the courses a student will take to allow them a more focused overall degree goal."
+        "Students within the Chemical Engineering degree will take a variety of courses that will teach them a way to apply a range of skills to numerous fields in everyday life. ",
+        "Students take courses with a focus in chemistry, math, physics, and biochemistry. Additionally, students will be introduced to challenging, yet rewarding labs that help them achieve practical hands-on knowledge of their field. ",
+        "There are three tracks in this major that a student can choose to focus on, listed below. A chosen track allows for courses focused towards that niche."
       ],
       //https://www.c2es.org/2022/07/the-time-for-climate-action-is-now/
       //https://www.world-today-news.com/definition-data-science-futura-tech/
@@ -199,8 +199,8 @@ const MajorDescription = () => {
       title: "Civil/Environmental Engineering",
       //https://cee.vt.edu/AboutUs-menu/fast_facts.html
       content: [
-        "The civil/environmental engineering department strives to provide its students with a wide array of skills that are expected of an engineer in this field. Covering a broad area of instruction, skills developed include critical thinking, problem solving, communication, and leadership. ",
-        "Civil engineering students will have a coursework that will focus on mathematics and mechanics in the first two years, while moving to more specialized and specific courses in the third and fourth years of coursework. ",
+        "The Civil/Environmental Engineering department strives to provide its students with a wide array of skills. Covering a broad area of instruction, skills developed include: critical thinking, problem solving, communication, and leadership. ",
+        "Civil engineering students will have a coursework that will focus on mathematics and mechanics in the first two years, while moving to more specialized and course-specific in the third and fourth years of coursework. ",
         "There are also specializations that students can choose to give their degree a central focus."
       ],
       //https://www.handle.com/construction-project-management/
@@ -277,8 +277,8 @@ const MajorDescription = () => {
     { id: 'CS', 
       title: "Computer Science",
       content: [
-        "The computer science department strives to teach students a wide range of skills that allow for a better understanding of the profession as a whole as well as allowing the students to pick an area of computer science that is particularly interesting to them.",
-        "The computer science department has three tracks that students can choose from, which are listed below."
+        "The Computer Science Department strives to teach students a wide range of skills that allow for a better understanding of the profession as a whole as well as allowing the students to pick an area of computer science that is particularly interesting to them. ",
+        "The Computer Science Department has three tracks that students can choose from, which are listed below."
       ],
       //https://www.pixelstalk.net/hd-computer-science-backgrounds/
       //https://betanews.com/2015/02/02/how-the-cloud-boosts-business-security/

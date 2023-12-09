@@ -37,12 +37,10 @@ const Home = () => {
                             sx={{pb: '12px',
                                  fontSize: '1.15rem',
                                  fontWeight: 'bold'}}>
-                     Virginia Tech is one of public univerisities as a land-grant institution. 
-                     Its academic programs are administered by 9 programs, where the most renowned
-                     one is college of Engineering. Once counted the majors in College of Engineering,
-                     the total number to be recorded to take into account is 15, where each of them has 
-                     its own advisor and checksheet to help students' succeed towards their own journey 
-                     of pursuing bachelor degrees. If you want to learn more, it can be found at both websites 
+                     Virginia Tech was founded in 1872 and is a public university. 
+                     Located in the New River Valley Region, in Blacksburg, VA, Virginia Tech has
+                     nine colleges to offer. With 110+ undergraduate degrees, there are a lot of
+                     programs for students to discover. If you want to learn more, it can be found at both websites 
                      <Link href='https://eng.vt.edu/academics/undergraduate-students.html'> Undergraduate Programs</Link> and 
                      <Link href='https://www.registrar.vt.edu/graduation-multi-brief/checksheets.html'> CheckSheet </Link>. 
                 </Typography>

@@ -47,10 +47,12 @@ const About = () => {
             <Container>
                 <Card bg='light' border='primary' text='black' style={{fontSize:'20px'}}>
                     <Card.Body style={{fontFamily:'Arial'}}>
-                        As current students at Virginia Tech, we have found the grade distribution website an extremely valuable tool to use while looking at the course offerings for each semester. 
-                        Although we found this tool to be useful for students to research the classes that they were going to take, we felt that the concept could be elevated to allow for a better user experience in general.
-                        With this goal in mind, we set out to create a website that allows users to easily inspect grade distributions of various majors, with visualizations included, such as multiple graphs that allow for an
-                        easier understanding of a particular data set. Feel free to contact the development team through the components below.
+                    As VT students the grade distribution website is an extremely valuable 
+                    tool to view course offerings for the semester. We wanted to elevate the 
+                    user experience for this tool and make it easier to understand the data. 
+                    With this goal in mind, we set out to create a website that allows users 
+                    to easily inspect grade distributions of various majors with graph visualizations. 
+                    Feel free to contact the development team below.
                     </Card.Body>
                 </Card>
             </Container>
