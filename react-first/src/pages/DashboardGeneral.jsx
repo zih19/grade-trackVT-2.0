@@ -86,7 +86,7 @@ const Dashboard = () => {
             </Grid>
 
             <Grid item xs={4} sx={{pb: '5px'}}>
-                <Paper sx={{height: '300px'}}>
+                <Paper sx={{height: '300px', overflow: 'auto'}}>
                     <Stack direction='horizontal' justifyContent='center'>
                         <Typography variant='h5' 
                                     sx={{ paddingBottom: '55px', 
@@ -112,7 +112,7 @@ const Dashboard = () => {
             </Grid>
 
             <Grid item xs={4} sx={{pt: '5px'}}>
-                <Paper sx={{height: '300px'}}>
+                <Paper sx={{height: '300px', overflow: 'auto'}}>
                 <Stack direction= 'horizontal' justifyContent='center'>
                    <Typography variant='h5' 
                                sx={{paddingBottom: '55px', fontFamily: 'Lato', fontWeight: 'bold'
@@ -157,7 +157,7 @@ const Dashboard = () => {
             </Grid>
 
             <Grid item xs={4}>
-                <Paper sx={{height: '300px'}}>
+                <Paper sx={{height: '300px', overflow: 'auto'}}>
                 <Stack direction='horizontal' justifyContent='center'>
                     <Typography variant='h5' 
                                sx={{paddingBottom: '55px', 
@@ -213,7 +213,7 @@ const Dashboard = () => {
             </Grid>
 
             <Grid item xs={4}>
-                <Paper sx={{height: '300px'}}>
+                <Paper sx={{height: '300px', overflow: 'auto'}}>
                     <Stack direction='horizontal' justifyContent='center'>
                         <Typography variant='h5' sx={{pb: '55px',
                                                       fontFamily: 'Lato',
