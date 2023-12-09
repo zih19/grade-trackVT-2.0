@@ -33,7 +33,7 @@ const Home = () => {
 
                 <Typography 
                             textAlign='left'
-                            fontFamily='Arial' 
+                            fontFamily='Lato' 
                             sx={{pb: '12px',
                                  fontSize: '1.15rem',
                                  fontWeight: 'bold'}}>
@@ -85,11 +85,11 @@ const Home = () => {
                         />
                     </Grid>
 
-                    <Typography fontFamily='Arial' sx={{
-                                                     fontSize: '0.8rem',
-                                                     fontStyle: 'italic' }}>
+                    <Typography fontFamily='Lato' 
+                                variant = 'caption'
+                                sx={{fontStyle: 'italic' }}>
                         We are delighted to help thousands of students at Virginia Tech to be successful 
-                        in their fields of study, no matter where they are in achieving their goals. To learn 
+                        in their respective fields of study, no matter where they are in achieving their goals. To learn 
                         more about our current grade distributions, please login in to our system 
                         <Link href='/login'> here.</Link>  
                     </Typography>

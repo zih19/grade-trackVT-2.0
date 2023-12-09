@@ -1,12 +1,12 @@
 import {Box, Button, Container, FormControl, FormLabel, FormControlLabel, Grid, InputLabel, 
-        ListItemIcon, MenuItem, Paper, Radio, RadioGroup, Select, Typography, TextField} from '@mui/material';       
-//import Man2OutlinedIcon from '@mui/icons-material/Man2Outlined';
-//import Woman2OutlinedIcon from '@mui/icons-material/Woman2Outlined';
-//import QuestionMarkOutlinedIcon from '@mui/icons-material/QuestionMarkOutlined';
-import {useNavigate, Link} from 'react-router-dom';
+        ListItemIcon, MenuItem, Paper, Radio, RadioGroup, Select, Stack, Typography, TextField} from '@mui/material';       
+import Man2OutlinedIcon from '@mui/icons-material/Man2Outlined';
+import Woman2OutlinedIcon from '@mui/icons-material/Woman2Outlined';
+import QuestionMarkOutlinedIcon from '@mui/icons-material/QuestionMarkOutlined';
+import {useNavigate} from 'react-router-dom';
 import React, {useState, useEffect} from 'react';
 import hokie from '../Assets/VTHokie.png';
-import VTBackgroud from '../Assets/VTBackground.jpg'
+import VTBackgroud2 from '../Assets/VTBackground.jpg'
 
 const Register = () => {
    const[firstName, setFirstName] = useState('');
@@ -104,14 +104,19 @@ const Register = () => {
    }
 
    const navigate = useNavigate();
+
    const handleSignupChange = (event) => {
       navigate('/RegisterSuccess')
+   }
+
+   const handleBackChange = (event) => {
+      navigate('/Login')
    }
 
    return(
       <Container sx={{mt: '300px'}}>
          <Box sx={{
-                backgroundImage: `url(${VTBackgroud})`,
+                backgroundImage: `url(${VTBackgroud2})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'repeat',
@@ -122,110 +127,113 @@ const Register = () => {
                 alignItems: 'center',
          }}>
 
-         <Paper elevation={20} sx={{padding: '50px 40px', 
-                                    width:'750px', 
-                                    margin:'150px'}}>
-            
-            <Grid align='center'>
-               <img src={hokie} alt="VT Hokie" style={{width: '120px', height: '120px'}}/>
-               <Typography variant='h2' sx={{margin: '0px'}}>Sign Up</Typography>
-               <Typography variant='h5'> please fill this form to create an account</Typography>
-            </Grid>
+            <Paper elevation={20} sx={{padding: '0px 100px', 
+                                       width:'750px', 
+                                      }}>
+               
+               <Grid align='center'>
+                  <img src={hokie} alt="VT Hokie" style={{width: '120px', height: '120px'}}/>
+                  <Typography variant='h2' sx={{margin: '0px'}}>Sign Up</Typography>
+                  <Typography variant='h5'> Please Fill This Form Out To Create An Account</Typography>
+               </Grid>
 
-            <Box component="form" sx={{mt: '2px'}}>
+               <Box component="form" sx={{mt: '15px'}}>
 
-               <TextField  id = 'firstName'
-                           label = 'First Name' 
+                  <TextField  id = 'firstName'
+                              label = 'First Name' 
+                              fullWidth
+                              type = 'text'
+                              variant = 'outlined'
+                              required
+                              placeholder = 'Enter Your First Name'
+                              value = {firstName}
+                              onChange = {handleFirstNameChange}
+                              sx = {{mb: '15px'}} />
+
+                  <TextField id = 'middleName'
+                           label = 'Middle Name'
+                           fullWidth
+                           variant = 'outlined'
+                           type = 'text'
+                           placeholder = 'Enter Your Middle Name'
+                           value = {middleName}
+                           onChange = {handleMiddleNameChange}
+                           sx = {{mb: '15px'}} />
+                  
+                  <TextField id = 'lastName'
+                           label = "Last Name"
                            fullWidth
                            type = 'text'
                            variant = 'outlined'
                            required
-                           placeholder = 'Enter Your First Name'
-                           value = {firstName}
-                           onChange = {handleFirstNameChange}
-                           sx = {{mb: '10px'}} />
+                           placeholder = 'Enter Your Last Name'
+                           value = {lastName}
+                           onChange = {handleLastNameChange}           
+                           sx = {{mb: '20px'}} />
+                  
+                  <FormControl sx={{mb: '15px'}}>
+                     <FormLabel required> Date of Birth</FormLabel>
+                     <Grid container spacing = {8}>
+                        <Grid item>
+                           <FormControl fullWidth sx={{width: '85px'}}>
+                              <InputLabel>Year</InputLabel>
+                              <Select name = "year" 
+                                       required
+                                       value = {birthDate.year} 
+                                       onChange = {handleBirthDateChange}>
+                                 {
+                                    years.map((year) => (
+                                       <MenuItem key = {year}
+                                                value = {year}>
+                                          {year}
+                                       </MenuItem>
+                                    ))
+                                 }
+                              </Select>   
+                           </FormControl>          
+                        </Grid>
 
-               <TextField id = 'middleName'
-                          label = 'Middle Name'
-                          fullWidth
-                          variant = 'outlined'
-                          type = 'text'
-                          placeholder = 'Enter Your Middle Name'
-                          value = {middleName}
-                          onChange = {handleMiddleNameChange}
-                          sx = {{mb: '10px'}} />
-               
-               <TextField id = 'lastName'
-                          label = "Last Name"
-                          fullWidth
-                          type = 'text'
-                          variant = 'outlined'
-                          required
-                          placeholder = 'Enter Your Last Name'
-                          value = {lastName}
-                          onChange = {handleLastNameChange}           
-                          sx = {{mb: '10px'}} />
+                        <Grid item>
+                           <FormControl fullWidth sx={{width: '85px'}}>
+                              <InputLabel> Month </InputLabel>
+                              <Select name = "month"
+                                    required
+                                    value = {birthDate.month}
+                                    onChange = {handleBirthDateChange}>
+                              { 
+                                 months.map((month) => (
+                                    <MenuItem key = {month} 
+                                             month = {month}>
+                                       {month}
+                                    </MenuItem>
+                                 ))
+                              }                             
+                              </Select>
+                           </FormControl>
+                        </Grid>
 
-               <Grid container spacing = {3}>
-                  <Grid item>
-                     <FormControl fullWidth sx={{width: '85px'}}>
-                         <InputLabel>Year</InputLabel>
-                         <Select name = "year" 
-                                 required
-                                 value = {birthDate.year} 
-                                 onChange = {handleBirthDateChange}>
-                           {
-                              years.map((year) => (
-                                 <MenuItem key = {year}
-                                           value = {year}>
-                                    {year}
-                                 </MenuItem>
-                              ))
-                           }
-                        </Select>   
-                     </FormControl>          
-                  </Grid>
-
-                  <Grid item>
-                     <FormControl fullWidth sx={{width: '85px'}}>
-                        <InputLabel fullWidth> Month </InputLabel>
-                        <Select name = "month"
-                                required
-                                value = {birthDate.month}
-                                onChange = {handleBirthDateChange}>
-                        { 
-                           months.map((month) => (
-                              <MenuItem key = {month} 
-                                        month = {month}>
-                                  {month}
-                              </MenuItem>
-                           ))
-                        }                             
-                        </Select>
-                     </FormControl>
-                  </Grid>
-
-                  <Grid item>
-                     <FormControl fullWidth sx={{width: '85px'}}>
-                        <InputLabel fullWidth> Day </InputLabel>
-                        <Select name = "day"
-                                value = {birthDate.day}
-                                required
-                                onChange = {handleBirthDateChange}>
-                        {
-                           days.map((day) => (
-                              <MenuItem key = {day}
-                                        value = {day}>
-                                 {day}      
-                              </MenuItem>
-                           ))
-                        }    
-                        </Select>
-                     </FormControl>
-                  </Grid>
-               </Grid>
-               
-               <Box sx={{mt: '10px'}}>
+                        <Grid item>
+                           <FormControl fullWidth sx={{width: '85px'}}>
+                              <InputLabel> Day </InputLabel>
+                              <Select name = "day"
+                                    value = {birthDate.day}
+                                    required
+                                    onChange = {handleBirthDateChange}>
+                              {
+                                 days.map((day) => (
+                                    <MenuItem key = {day}
+                                             value = {day}>
+                                       {day}      
+                                    </MenuItem>
+                                 ))
+                              }    
+                              </Select>
+                           </FormControl>
+                        </Grid>
+                     </Grid>
+                  </FormControl>
+                  
+                  
                   <TextField id = 'age'
                              label = 'Age'
                              fullWidth
@@ -233,182 +241,193 @@ const Register = () => {
                              value = {age}
                              InputProps={{
                                readOnly: true
-                             }} 
-                             />
-               </Box>
-
-               <TextField id = 'email'
-                          label = 'Email'
-                          fullWidth
-                          variant = 'outlined'
-                          type = 'email'
-                          required
-                          placeholder = 'Enter Your Email Address'
-                          value = {email}
-                          onChange = {handleEmailChange}
-                          sx = {{mb: '10px'}} />
+                             }}
+                             sx={{mb: '15px'}} 
+                  />
                
-               <TextField id = 'phone'
-                          label = 'Phone'
-                          fullWidth
-                          variant = 'outlined'
-                          type= 'tel'
-                          required
-                          placeholder = 'Enter Your Phone Number'
-                          value = {phone}
-                          onChange = {handlePhoneChange}
-                          sx = {{mb: '10px'}} />
 
-               <FormControl>
-                  <FormLabel id="gender-list" required> Gender </FormLabel>
-                  <RadioGroup aria-labelledby = "gender-list"
-                              row
-                              name = "gender-buttons-group"
-                              value = {gender} 
-                              onChange = {handleGender}>
-                     <FormControlLabel value = "female" 
-                                       control = {<Radio/>} 
-                                       label = 
-                                       {
-                                          <>
-                                             <ListItemIcon>
-                                                {//<Woman2OutlinedIcon />
-                                                }
-                                             </ListItemIcon>
-                                             "female"
-                                          </>
-                                       } />
-                     <FormControlLabel value = "male" 
-                                       control = {<Radio />} 
-                                       label = 
-                                       { 
-                                         <>
-                                             <ListItemIcon>
-                                                   {//<Man2OutlinedIcon />
-                                                   }
-                                             </ListItemIcon>
-                                             "male"
-                                         </>
-                                       }/>
-                     <FormControlLabel value = "others" 
-                                       control = {<Radio />} 
-                                       label = 
-                                       {
-                                          <>
-                                             <ListItemIcon>
-                                                {//<QuestionMarkOutlinedIcon />
-                                                }
-                                             </ListItemIcon>
-                                             "others"
-                                          </>
-                                       } />
-                  </RadioGroup>
-               </FormControl>
-
-               <Grid container spacing={2}>
-                  <Grid item>
-                     <FormControl>
-                        <InputLabel> Year </InputLabel>
-                        <Select name ='year'
-                                placeholder = "Enter a year (yyyy)"
-                                value = {graduationDate.year} 
-                                onChange = {handleGraduationDateChange}>
-                        {
-                           years.map((year) => (
-                              <MenuItem key = {year}
-                                        value = {year}>
-                                 {year}
-                              </MenuItem>
-                           ))
-                        }
-                        </Select>
-                     </FormControl>
-                  </Grid>
-
-                  <Grid item>
-                     <FormControl>
-                        <InputLabel> Month </InputLabel>
-                        <Select name = "month"
-                                placeholder = "Enter a month (mm)"
-                                value = {graduationDate.month}
-                                onChange = {handleGraduationDateChange}>
-                        {
-                           months.map((month) => (
-                              <MenuItem key = {month}
-                                        value = {month}>
-                                 {month}
-                              </MenuItem>
-                           ))
-                        }
-                        </Select>
-                     </FormControl>
-                  </Grid>                  
+                  <TextField id = 'email'
+                           label = 'Email'
+                           fullWidth
+                           variant = 'outlined'
+                           type = 'email'
+                           required
+                           placeholder = 'Enter Your Email Address'
+                           value = {email}
+                           onChange = {handleEmailChange}
+                           sx = {{mb: '15px'}} />
                   
-                  <Grid item>
-                     <FormControl>
-                        <InputLabel> Day </InputLabel>
-                        <Select name = "day"
-                                placeholder = "Enter a day (dd)"
-                                fullWidth
-                                value = {graduationDate.day}
-                                onChange = {handleGraduationDateChange}>
-                        {
-                           days.map((day) => (
-                              <MenuItem key = {day}
-                                        value = {day}>
-                                    {day}
-                              </MenuItem>
-                           ))
-                        }
-                        </Select>
-                     </FormControl>
-                  </Grid>
-               </Grid>
+                  <TextField id = 'phone'
+                           label = 'Phone'
+                           fullWidth
+                           variant = 'outlined'
+                           type= 'tel'
+                           required
+                           placeholder = 'Enter Your Phone Number'
+                           value = {phone}
+                           onChange = {handlePhoneChange}
+                           sx = {{mb: '15px'}} />
 
-               <TextField id = 'username'
-                          label = "Username"
-                          fullWidth
-                          variant = 'outlined'
-                          type = 'text'
-                          required
-                          placeholder = 'Enter Your UserName'
-                          value = {userName}
-                          onChange = {handleUserNameChange}
-                          sx = {{mb: '10px'}} />
-               
-               <TextField id = 'password'
-                          label = 'Password'
-                          fullWidth
-                          variant = 'outlined'
-                          type= 'password' 
-                          required
-                          placeholder = 'Enter Your Password'
-                          value = {password}
-                          onChange = {handlePasswordChange}
-                          sx = {{mb: '10px'}} />
-               
-               <TextField id = 'confirmedPassword'
-                          label = 'Confirmed Password'
-                          fullWidth
-                          variant = 'outlined'
-                          type = 'password'
-                          required
-                          placeholder = 'Enter Your Confirmed Password'
-                          value = {confirmedPassword}
-                          onChange = {handleConfirmedPasswordChange}
-                          sx = {{mb: '20px'}} />
+                  <FormControl sx ={{mb: '15px'}}>
+                     <FormLabel id="gender-list" required> Gender </FormLabel>
+                     <RadioGroup aria-labelledby = "gender-list"
+                                 row
+                                 name = "gender-buttons-group"
+                                 value = {gender} 
+                                 onChange = {handleGender}>
+                        <FormControlLabel value = "female" 
+                                          control = {<Radio/>} 
+                                          label = 
+                                          {
+                                             <ListItemIcon>
+                                                <Woman2OutlinedIcon />
+                                                female
+                                             </ListItemIcon>
+                                          } />
+                        <FormControlLabel value = "male" 
+                                          control = {<Radio />} 
+                                          label = 
+                                          { 
+                                             <ListItemIcon>
+                                                <Man2OutlinedIcon />
+                                                male
+                                             </ListItemIcon>
+                                          }/>
+                        <FormControlLabel value = "others" 
+                                          control = {<Radio />} 
+                                          label = 
+                                          {
+                                             <ListItemIcon>
+                                                <QuestionMarkOutlinedIcon />
+                                                other
+                                             </ListItemIcon>
+                                          } />
+                     </RadioGroup>
 
-               <Button type='submit' variant='contained' 
-                       color='primary' onClick={handleSignupChange} > 
-                       Sign Up
-               </Button>
+                  </FormControl>
+                     
 
-            </Box>
-            
-            <Grid align='left'>
-               <Link to="/Login">Back to Login Page</Link>
-            </Grid>
-         </Paper>
+                  <FormControl sx={{mb: '15px'}}> 
+                     <FormLabel required> Graduation Date </FormLabel>
+                     <Grid container justifyContent='center' spacing={8}>
+                        <Grid item>
+                           <FormControl sx={{width: '100px', height: 'auto'}}>
+                              <InputLabel> Year </InputLabel>
+                              <Select name ='year'
+                                       placeholder = "Enter a year (yyyy)"
+                                       value = {graduationDate.year} 
+                                       onChange = {handleGraduationDateChange}>
+                              {
+                                 years.map((year, index) => (
+                                    <MenuItem key = {index}
+                                             value = {year}>
+                                       {year}
+                                    </MenuItem>
+                                 ))
+                              }
+                              </Select>
+                           </FormControl>
+                        </Grid>
+
+
+                        <Grid item>
+                           <FormControl fullWidth sx={{width: '100px', height: 'auto'}}>
+                              <InputLabel> Month </InputLabel>
+                              <Select name = "month"
+                                       placeholder = "Enter a month (mm)"
+                                       value = {graduationDate.month}
+                                       onChange = {handleGraduationDateChange}>
+                              {
+                                 months.map((month) => (
+                                    <MenuItem key = {month}
+                                             value = {month}>
+                                       {month}
+                                    </MenuItem>
+                                 ))
+                              }
+                              </Select>
+                           </FormControl>
+                        </Grid>                  
+                        
+                        <Grid item>
+                           <FormControl fullWidth sx={{width: '100px', height: 'auto'}}>
+                              <InputLabel> Day </InputLabel>
+                              <Select name = "day"
+                                       placeholder = "Enter a day (dd)"
+                                       value = {graduationDate.day}
+                                       onChange = {handleGraduationDateChange}>
+                              {
+                                 days.map((day) => (
+                                    <MenuItem key = {day}
+                                             value = {day}>
+                                          {day}
+                                    </MenuItem>
+                                 ))
+                              }
+                              </Select>
+                           </FormControl>
+                        </Grid>
+                     </Grid>
+                  </FormControl>  
+                  
+
+                  <TextField id = 'username'
+                           label = "Username"
+                           fullWidth
+                           variant = 'outlined'
+                           type = 'text'
+                           required
+                           placeholder = 'Enter Your UserName'
+                           value = {userName}
+                           onChange = {handleUserNameChange}
+                           sx = {{mb: '15px'}} />
+                  
+                  <TextField id = 'password'
+                           label = 'Password'
+                           fullWidth
+                           variant = 'outlined'
+                           type= 'password' 
+                           required
+                           placeholder = 'Enter Your Password'
+                           value = {password}
+                           onChange = {handlePasswordChange}
+                           sx = {{mb: '15px'}} />
+                  
+                  <TextField id = 'confirmedPassword'
+                           label = 'Confirmed Password'
+                           fullWidth
+                           variant = 'outlined'
+                           type = 'password'
+                           required
+                           placeholder = 'Enter Your Confirmed Password'
+                           value = {confirmedPassword}
+                           onChange = {handleConfirmedPasswordChange}
+                           sx = {{mb: '15px'}} />
+                  
+
+                  <Stack direction = 'horizontal' 
+                         justifyContent = 'center'>
+                     <Box mr = {10}>
+                        <Button type='back' 
+                              variant='contained'
+                              color='primary' 
+                              onClick={handleBackChange}
+                              sx={{height: '50px', width: '100px'}}>
+                              Back      
+                        </Button>
+                     </Box>
+
+                     <Button type='submit' 
+                             variant='contained' 
+                             color='primary' 
+                             onClick={handleSignupChange}
+                             sx={{height: '50px', width: '100px'}}> 
+                           Sign Up
+                     </Button>
+                     
+                  </Stack>
+               </Box>
+            </Paper>
          </Box>
       </Container>
    )
