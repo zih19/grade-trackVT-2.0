@@ -17,7 +17,7 @@ const Dashboard = () => {
         fetch(`http://localhost:8000/api/${department}/${majorId}/${courseId}`)
         .then(response=> {
               if (!response.ok) {
-                 throw new Error("This course does not have a description yet!");
+                throw new Error("This course does not have a description yet!");
               }
               return response.json();
         })
@@ -35,7 +35,6 @@ const Dashboard = () => {
 
     const formatList = (list, depth = 0) => {
        const joiner = depth === 1 ? ' or ' :', ' 
-       console.log("The current list is: ", list);
  
         return list.map(item => {
            if (Array.isArray(item)) {
@@ -51,6 +50,11 @@ const Dashboard = () => {
            }
         }).join(joiner);
     };
+
+    let lenCourseNum = courseDetails.course_id.length
+    let courseNum = courseDetails.course_id.substring(lenCourseNum - 4)
+
+    console.log(courseNum)
 
   return (
     <Box>
@@ -72,16 +76,32 @@ const Dashboard = () => {
                         </Typography>
                         <DescriptionOutlinedIcon />
                     </Stack>
+
+                    <Stack>
                     <Typography variant='subtitle1' 
                         component='div'
                         sx={{
                             fontFamily: 'Lato',
                             fontWeight: 'bold',
                             fontStyle: 'italic',
-                            minHeight: '64px'
+                            minHeight: '64px',
+                            mb: '15px'
                         }}>
                         {courseDetails.Course.Description}
                     </Typography>
+
+                    <Typography
+                        variant='subtitle1' 
+                        component='div'
+                        sx={{
+                            fontFamily: 'Lato',
+                            fontWeight: 'bold',
+                            fontStyle: 'italic',
+                            minHeight: '64px',
+                        }}>
+                        Source: https://www.coursicle.com/vt/courses/{courseDetails.major_id}/{courseNum}
+                    </Typography>
+                    </Stack>
                 </Paper>
             </Grid>
 
