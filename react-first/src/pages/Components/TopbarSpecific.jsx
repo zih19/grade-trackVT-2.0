@@ -94,6 +94,10 @@ const TopBarSpec = ({setSignIn, signedIn}) => {
                 window.open("https://www.mining.vt.edu/");
                 break;
             }
+            case "ME": {
+                window.open("https://me.vt.edu/");
+                break;
+            }
             default: {
                 navigate(`/majordescription/${majorId}`);
                 setAnchorEl(null);

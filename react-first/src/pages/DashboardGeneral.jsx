@@ -87,11 +87,11 @@ const Dashboard = () => {
                             minHeight: '64px',
                             mb: '15px'
                         }}>
-                        {courseDetails.Course.Description}
+                        "{courseDetails.Course.Description}"
                     </Typography>
 
                     <Typography
-                        variant='subtitle1' 
+                        variant='subtitle3' 
                         component='div'
                         sx={{
                             fontFamily: 'Lato',
