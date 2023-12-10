@@ -11,7 +11,7 @@ const Home = () => {
             sx={{
                 backgroundImage: `url(${backImage})`,
                 backgroundSize: 'cover',
-                bckgroundAttachment: 'fixed',
+                backgroundAttachment: 'fixed',
                 width: '100%',
                 minHeight: '100%',
                 position: 'absolute',
