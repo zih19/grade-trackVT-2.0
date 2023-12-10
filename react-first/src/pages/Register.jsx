@@ -29,7 +29,7 @@ const Register = () => {
    const getDaysInMonth = (year, month) => new Date(year, month, 0).getDate();
    const days = generateArray(1, getDaysInMonth(birthDate.year, birthDate.month));
 
-   const[age, setAge] = useState(0);
+   const[age, setAge] = useState('');
 
    const[email, setEmail] = useState('');
    const[phone, setPhone] = useState('');
@@ -151,59 +151,75 @@ const Register = () => {
                               sx = {{mb: '15px'}} />
 
                   <TextField id = 'middleName'
-                           label = 'Middle Name'
-                           fullWidth
-                           variant = 'outlined'
-                           type = 'text'
-                           placeholder = 'Enter Your Middle Name'
-                           value = {middleName}
-                           onChange = {handleMiddleNameChange}
-                           sx = {{mb: '15px'}} />
+                             label = 'Middle Name'
+                             fullWidth
+                             variant = 'outlined'
+                             type = 'text'
+                             placeholder = 'Enter Your Middle Name'
+                             value = {middleName}
+                             onChange = {handleMiddleNameChange}
+                             sx = {{mb: '15px'}} />
                   
                   <TextField id = 'lastName'
-                           label = "Last Name"
-                           fullWidth
-                           type = 'text'
-                           variant = 'outlined'
-                           required
-                           placeholder = 'Enter Your Last Name'
-                           value = {lastName}
-                           onChange = {handleLastNameChange}           
-                           sx = {{mb: '20px'}} />
+                             label = "Last Name"
+                             fullWidth
+                             type = 'text'
+                             variant = 'outlined'
+                             required
+                             placeholder = 'Enter Your Last Name'
+                             value = {lastName}
+                             onChange = {handleLastNameChange}           
+                             sx = {{mb: '20px'}} />
                   
                   <FormControl sx={{mb: '15px'}}>
-                     <FormLabel required> Date of Birth</FormLabel>
+                     <FormLabel required sx={{pb: '10px'}}> Date of Birth</FormLabel>
                      <Grid container spacing = {8}>
                         <Grid item>
                            <FormControl fullWidth sx={{width: '85px'}}>
-                              <InputLabel>Year</InputLabel>
-                              <Select name = "year" 
-                                       required
-                                       value = {birthDate.year} 
-                                       onChange = {handleBirthDateChange}>
-                                 {
-                                    years.map((year) => (
-                                       <MenuItem key = {year}
-                                                value = {year}>
-                                          {year}
-                                       </MenuItem>
-                                    ))
-                                 }
-                              </Select>   
+                                 <InputLabel id = 'birthYear'
+                                             sx = {{fontSize: '0.75rem'}}>
+                                                Year
+                                 </InputLabel>
+                                 <Select  
+                                          labelId = 'birthYear'
+                                          label = "Year" 
+                                          required
+                                          value = {birthDate.year} 
+                                          onChange = {handleBirthDateChange}
+                                          sx={{width: '100px', height: '20px'}}>
+                                    {
+                                       years.map((year) => (
+                                          <MenuItem key = {year}
+                                                   value = {year}>
+                                             {year}
+                                          </MenuItem>
+                                       ))
+                                    }
+                                 </Select>
                            </FormControl>          
                         </Grid>
 
                         <Grid item>
+                            <Typography variant='subtitle' component = 'span'> / </Typography>      
+                        </Grid>
+
+
+                        <Grid item>
                            <FormControl fullWidth sx={{width: '85px'}}>
-                              <InputLabel> Month </InputLabel>
-                              <Select name = "month"
-                                    required
-                                    value = {birthDate.month}
-                                    onChange = {handleBirthDateChange}>
-                              { 
-                                 months.map((month) => (
-                                    <MenuItem key = {month} 
-                                             month = {month}>
+                              <InputLabel id = 'birthMonth'
+                                          sx = {{fontSize: '0.75rem'}}> 
+                                          Month 
+                              </InputLabel>
+                              <Select labelId = 'birthMonth'
+                                      label = "Month"
+                                      required
+                                      value = {birthDate.month}
+                                      onChange = {handleBirthDateChange}
+                                      sx={{width: '100px', height: '20px'}}>
+                                { 
+                                   months.map((month) => (
+                                      <MenuItem key = {month} 
+                                                value = {month}>
                                        {month}
                                     </MenuItem>
                                  ))
@@ -213,16 +229,25 @@ const Register = () => {
                         </Grid>
 
                         <Grid item>
+                            <Typography variant='subtitle' component = 'span'> / </Typography>      
+                        </Grid>
+
+                        <Grid item>
                            <FormControl fullWidth sx={{width: '85px'}}>
-                              <InputLabel> Day </InputLabel>
-                              <Select name = "day"
-                                    value = {birthDate.day}
-                                    required
-                                    onChange = {handleBirthDateChange}>
+                              <InputLabel id = 'birthDay'
+                                          sx = {{fontSize: '0.75rem'}}> 
+                                          Day 
+                              </InputLabel>
+                              <Select labelId = "birthDay"
+                                      label = 'Day'
+                                      value = {birthDate.day}
+                                      required
+                                      onChange = {handleBirthDateChange}
+                                      sx={{width: '100px', height: '20px'}}>
                               {
                                  days.map((day) => (
                                     <MenuItem key = {day}
-                                             value = {day}>
+                                              value = {day}>
                                        {day}      
                                     </MenuItem>
                                  ))
@@ -232,8 +257,7 @@ const Register = () => {
                         </Grid>
                      </Grid>
                   </FormControl>
-                  
-                  
+
                   <TextField id = 'age'
                              label = 'Age'
                              fullWidth
@@ -245,17 +269,16 @@ const Register = () => {
                              sx={{mb: '15px'}} 
                   />
                
-
                   <TextField id = 'email'
-                           label = 'Email'
-                           fullWidth
-                           variant = 'outlined'
-                           type = 'email'
-                           required
-                           placeholder = 'Enter Your Email Address'
-                           value = {email}
-                           onChange = {handleEmailChange}
-                           sx = {{mb: '15px'}} />
+                             label = 'Email'
+                             fullWidth
+                             variant = 'outlined'
+                             type = 'email'
+                             required
+                             placeholder = 'Enter Your Email Address'
+                             value = {email}
+                             onChange = {handleEmailChange}
+                             sx = {{mb: '15px'}} />
                   
                   <TextField id = 'phone'
                            label = 'Phone'
@@ -308,15 +331,19 @@ const Register = () => {
                      
 
                   <FormControl sx={{mb: '15px'}}> 
-                     <FormLabel required> Graduation Date </FormLabel>
+                     <FormLabel required sx={{pb: '10px'}}> Graduation Date </FormLabel>
                      <Grid container justifyContent='center' spacing={8}>
                         <Grid item>
-                           <FormControl sx={{width: '100px', height: 'auto'}}>
-                              <InputLabel> Year </InputLabel>
-                              <Select name ='year'
-                                       placeholder = "Enter a year (yyyy)"
+                           <FormControl sx={{width: '85px'}}>
+                              <InputLabel id='graduationYear'
+                                          sx={{fontSize: '0.75rem'}}> 
+                                          Year 
+                              </InputLabel>
+                              <Select  labelId = 'graduationYear'
+                                       label ='Year'
                                        value = {graduationDate.year} 
-                                       onChange = {handleGraduationDateChange}>
+                                       onChange = {handleGraduationDateChange}
+                                       sx={{width: '100px', height: '20px'}}>
                               {
                                  years.map((year, index) => (
                                     <MenuItem key = {index}
@@ -329,14 +356,21 @@ const Register = () => {
                            </FormControl>
                         </Grid>
 
+                        <Grid item>
+                            <Typography variant='subtitle' component='span'> / </Typography>
+                        </Grid>
 
                         <Grid item>
-                           <FormControl fullWidth sx={{width: '100px', height: 'auto'}}>
-                              <InputLabel> Month </InputLabel>
-                              <Select name = "month"
-                                       placeholder = "Enter a month (mm)"
+                           <FormControl fullWidth sx={{width: '85px'}}>
+                              <InputLabel id = 'graduationMonth'
+                                          sx = {{fontSize: '0.75rem'}}> 
+                                          Month 
+                              </InputLabel>
+                              <Select  labelId = 'graduationMonth'
+                                       label = 'Month'
                                        value = {graduationDate.month}
-                                       onChange = {handleGraduationDateChange}>
+                                       onChange = {handleGraduationDateChange}
+                                       sx = {{width: '100px', height: '20px'}}>
                               {
                                  months.map((month) => (
                                     <MenuItem key = {month}
@@ -347,15 +381,23 @@ const Register = () => {
                               }
                               </Select>
                            </FormControl>
+                        </Grid>
+
+                        <Grid item>
+                            <Typography variant='subtitle' component='span'> / </Typography>
                         </Grid>                  
                         
                         <Grid item>
-                           <FormControl fullWidth sx={{width: '100px', height: 'auto'}}>
-                              <InputLabel> Day </InputLabel>
-                              <Select name = "day"
-                                       placeholder = "Enter a day (dd)"
+                           <FormControl fullWidth sx={{width: '85px'}}>
+                              <InputLabel id = 'graduationDay'
+                                          sx = {{fontSize: '0.75rem'}}> 
+                                          Day 
+                              </InputLabel>
+                              <Select  labelId = 'graduationDay'
+                                       label  = 'Day'
                                        value = {graduationDate.day}
-                                       onChange = {handleGraduationDateChange}>
+                                       onChange = {handleGraduationDateChange}
+                                       sx = {{width: '100px', height: '20px'}}>
                               {
                                  days.map((day) => (
                                     <MenuItem key = {day}
