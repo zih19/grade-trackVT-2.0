@@ -73,6 +73,7 @@ const Majors = () => {
                                   objectFit: 'cover',
                                   mb: '15px'
                               }}
+                              // Image source located in major.image.
                               src={major.image}
                               alt={major.id}
                             />

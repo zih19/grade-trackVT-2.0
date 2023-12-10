@@ -51,7 +51,7 @@ const About = () => {
                     tool to view course offerings for the semester. We wanted to elevate the 
                     user experience for this tool and make it easier to understand the data. 
                     With this goal in mind, we set out to create a website that allows users 
-                    to easily inspect grade distributions of various majors with graph visualizations. 
+                    to easily inspect grade distributions of various courses in a visually pleasing way. 
                     Feel free to contact the development team below.
                     </Card.Body>
                 </Card>

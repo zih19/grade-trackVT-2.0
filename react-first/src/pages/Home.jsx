@@ -45,6 +45,9 @@ const Home = () => {
                      <Link href='https://www.registrar.vt.edu/graduation-multi-brief/checksheets.html'> CheckSheet </Link>. 
                 </Typography>
                 
+                {// Image Source: Thumbnail of this video: https://www.youtube.com/watch?v=LGmmpa1FYNA
+                }
+
                  <Grid container spacing={2} sx={{mt: 4}}>
                     <Grid Item md={4}>
                          <Box 
@@ -58,6 +61,8 @@ const Home = () => {
                             alt='VTCOE' />
                     </Grid>
 
+                    {// Image Source: https://www.glassdoor.co.in/Photos/Virginia-Tech-Office-Photos-IMG4848075_P3.htm
+                    }
                     <Grid Item md={4}>
                         <Box 
                           component='img'
@@ -70,6 +75,8 @@ const Home = () => {
                           alt='VT campus' />
                     </Grid>
 
+                    {// Image Source: https://eng.vt.edu/about.html
+                    }
                     <Grid Item md={4}>
                         <Box
                         component='img'
