@@ -176,13 +176,8 @@ const Register = () => {
                      <Grid container spacing = {8}>
                         <Grid item>
                            <FormControl fullWidth sx={{width: '85px'}}>
-                                 <InputLabel id = 'birthYear'
-                                             sx = {{fontSize: '0.75rem'}}>
-                                                Year
-                                 </InputLabel>
-                                 <Select  
-                                          labelId = 'birthYear'
-                                          label = "Year" 
+                                 <InputLabel sx = {{fontSize: '0.75rem'}}> Year </InputLabel>
+                                 <Select  name = 'year'
                                           required
                                           value = {birthDate.year} 
                                           onChange = {handleBirthDateChange}
@@ -206,12 +201,8 @@ const Register = () => {
 
                         <Grid item>
                            <FormControl fullWidth sx={{width: '85px'}}>
-                              <InputLabel id = 'birthMonth'
-                                          sx = {{fontSize: '0.75rem'}}> 
-                                          Month 
-                              </InputLabel>
-                              <Select labelId = 'birthMonth'
-                                      label = "Month"
+                              <InputLabel sx = {{fontSize: '0.75rem'}}> Month </InputLabel>
+                              <Select name = 'month'
                                       required
                                       value = {birthDate.month}
                                       onChange = {handleBirthDateChange}
@@ -234,12 +225,8 @@ const Register = () => {
 
                         <Grid item>
                            <FormControl fullWidth sx={{width: '85px'}}>
-                              <InputLabel id = 'birthDay'
-                                          sx = {{fontSize: '0.75rem'}}> 
-                                          Day 
-                              </InputLabel>
-                              <Select labelId = "birthDay"
-                                      label = 'Day'
+                              <InputLabel sx = {{fontSize: '0.75rem'}}> Day </InputLabel>
+                              <Select name = 'day'
                                       value = {birthDate.day}
                                       required
                                       onChange = {handleBirthDateChange}
@@ -335,12 +322,8 @@ const Register = () => {
                      <Grid container justifyContent='center' spacing={8}>
                         <Grid item>
                            <FormControl sx={{width: '85px'}}>
-                              <InputLabel id='graduationYear'
-                                          sx={{fontSize: '0.75rem'}}> 
-                                          Year 
-                              </InputLabel>
-                              <Select  labelId = 'graduationYear'
-                                       label ='Year'
+                              <InputLabel sx={{fontSize: '0.75rem'}}> Year </InputLabel>
+                              <Select  name = 'year'
                                        value = {graduationDate.year} 
                                        onChange = {handleGraduationDateChange}
                                        sx={{width: '100px', height: '20px'}}>
@@ -362,12 +345,8 @@ const Register = () => {
 
                         <Grid item>
                            <FormControl fullWidth sx={{width: '85px'}}>
-                              <InputLabel id = 'graduationMonth'
-                                          sx = {{fontSize: '0.75rem'}}> 
-                                          Month 
-                              </InputLabel>
-                              <Select  labelId = 'graduationMonth'
-                                       label = 'Month'
+                              <InputLabel sx = {{fontSize: '0.75rem'}}> Month </InputLabel>
+                              <Select  name = 'month'
                                        value = {graduationDate.month}
                                        onChange = {handleGraduationDateChange}
                                        sx = {{width: '100px', height: '20px'}}>
@@ -389,12 +368,8 @@ const Register = () => {
                         
                         <Grid item>
                            <FormControl fullWidth sx={{width: '85px'}}>
-                              <InputLabel id = 'graduationDay'
-                                          sx = {{fontSize: '0.75rem'}}> 
-                                          Day 
-                              </InputLabel>
-                              <Select  labelId = 'graduationDay'
-                                       label  = 'Day'
+                              <InputLabel sx = {{fontSize: '0.75rem'}}> Day </InputLabel>
+                              <Select  name = 'day'
                                        value = {graduationDate.day}
                                        onChange = {handleGraduationDateChange}
                                        sx = {{width: '100px', height: '20px'}}>
