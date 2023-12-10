@@ -140,7 +140,7 @@ const TopBarSpec = ({setSignIn, signedIn}) => {
                         {
                             signedIn?
                               <>
-                                <Button color='inherit' onClick={handleDepartmentClick}> Major List </Button>
+                                <Button color='inherit' onClick={handleDepartmentClick}> Department List </Button>
                                 <Menu
                                    id = "department-menu"
                                    anchorEl={anchorElDepartments}
