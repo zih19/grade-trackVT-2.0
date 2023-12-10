@@ -29,8 +29,7 @@ const Dashboard = () => {
     }, [department, majorId, courseId]);
 
     if (courseDetails.length === 0) {
-        <Typography variant='h5'> Course Not Found</Typography>
-        return;
+        return <Typography variant='h5'>Data collection is still ongoing for this course</Typography>
     }
 
     const formatList = (list, depth = 0) => {

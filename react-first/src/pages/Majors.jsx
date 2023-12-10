@@ -21,16 +21,15 @@ const Majors = () => {
         setMajors([]);
       });
   }, [department]);
-  
 
-  if (majorsData.length === 0) {
-    <Typography variant='h5'> The department does not have any majors currently </Typography>
-  }
-  
   const navigate = useNavigate();
 
   const handleClick = (majorId) => {
     navigate(`/${department}/${majorId}`);
+  }
+
+  if (majorsData.length === 0) {
+      return <Typography variant='h5'> Data collection is still ongoing for this department </Typography>
   }
 
     return (
