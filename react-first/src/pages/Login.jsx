@@ -100,8 +100,8 @@ const Login = ({setSignIn}) => {
                         
                         <Grid Item xs={12}>
                             Forget
-                            <Link to='/Forget-Username'> UserName </Link>
-                            or
+                            {//<Link to='/Forget-Username'> UserName </Link>
+                            }
                             <Link to='/Forgot-Password'> Password </Link>
                         </Grid>
 
