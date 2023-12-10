@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { TextField, Button, Paper, Grid, Container, Typography, Box, FormControlLabel, Checkbox } from '@mui/material'
 import login from '../Assets/VTlogin.png';
 import VTBackground from '../Assets/VTBackground.jpg'
+import { useNavigate, Link} from 'react-router-dom';
 
 const Success = () => {
     const [currRecoveryValue, setCurrRecoveryValue] = useState('');
@@ -9,6 +10,12 @@ const Success = () => {
     const handleRecoveryChange = (event) => {
         setCurrRecoveryValue(event.target.value);
     }
+
+    const navigate = useNavigate();
+    
+    const handleSubmit = () => {
+        navigate('/');
+   }
 
     return (
         <Box sx={{
@@ -59,6 +66,7 @@ const Success = () => {
                                         fullWidth
                                         variant='contained'
                                         color='primary'
+                                        onClick={handleSubmit}
                                         >
                                         Submit
                                 </Button>

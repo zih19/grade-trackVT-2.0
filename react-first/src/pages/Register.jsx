@@ -106,7 +106,7 @@ const Register = () => {
    const navigate = useNavigate();
 
    const handleSignupChange = (event) => {
-      navigate('/RegisterSuccess')
+      navigate('/')
    }
 
    const handleBackChange = (event) => {
