@@ -34,11 +34,6 @@ const Login = ({setSignIn}) => {
     }
 
     return (
-        // <Paper elevation={10} 
-        //        sx={{display: 'flex',
-        //             flexDirection: 'column',
-        //             alignItems: 'center'}}
-        //         maxWidth="md">
         <Container maxWidth='md' spacing={2}>
             <Box sx={{
                 backgroundImage: `url(${VTBackground})`,

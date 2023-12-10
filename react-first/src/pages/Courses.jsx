@@ -1,4 +1,3 @@
-//Courses (params)
 import {Grid, Typography, CardActionArea, Card, CardContent, Button} from '@mui/material';
 import {useParams, useNavigate} from 'react-router-dom';
 import { useEffect, useState } from 'react';

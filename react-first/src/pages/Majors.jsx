@@ -1,19 +1,3 @@
-//Majors (params) (1) id (2) name
-//We have a database for all majors[courses]
-//One server API function that returns information of a particular major thorugh its id | fetch it with useeffect(){, []}
-//major id, major name, list of courses
-//heading: major name
-//map function to display all the courses cards inside the major
-//courses.map(<card courseId: ____, courseName: ______, courseURL: _____>)
-//inside card you have a navigate that takes you the course component, when you navigate to course component send the course_id to the reusable course component
-
-// import Button from 'react-bootstrap/Button';
-// import Card from 'react-bootstrap/Card';
-// import React from 'react'
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col'; 
-// import Container from 'react-bootstrap/Container';
-
 import {Grid, Card, CardContent, CardMedia, CardActionArea, Typography} from '@mui/material';
 import {useNavigate, useParams} from 'react-router-dom';
 import { useState, useEffect } from 'react';
